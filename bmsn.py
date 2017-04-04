@@ -1,6 +1,5 @@
 """Implement agent-based social network model of Bayesian learning of morph."""
 
-import itertools
 import random
 import sys
 
@@ -8,6 +7,36 @@ from mesa import Agent
 from mesa.datacollection import DataCollector as DC
 from mesa import Model
 from mesa.time import RandomActivation
+import networkx as nx
+
+SE = sys.stderr
+
+
+def connect(gen_size, gen_count, nx_generator=nx.fast_gnp_random_graph,
+            **kwargs):
+    """Generate connections between agents."""
+    er_networks = [[]] * gen_size
+    for i in range(gen_count-1):
+        # if i == 0:
+        #     er_networks.extend([[]]*gen_size)
+        #     continue
+        er = nx_generator(**kwargs)
+        # try:
+        #     assert len(er) == gen_size * 2
+        # except AssertionError:
+        #     raise AssertionError('Network size does not match model'
+        #                          'parameters\n'
+        #                          '\texpected size:\t{}\n'
+        #                          '\tactual size:\t{}\n'
+        #                          '{}\n'
+        #                          '{}'.format(gen_size * 2, len(er),
+        #                                      er.adjacency_list(),
+        #                                      len(er.adjacency_list())))
+        relabel_dict = {j: j + (i * gen_size) for j in er}
+        er = nx.relabel_nodes(er, relabel_dict)
+        er_networks.extend(er.adjacency_list()[:gen_size])
+    # TODO(RJR) ensure that all nodes have at least one connection?
+    return er_networks
 
 
 def homogen(model):
@@ -16,7 +45,6 @@ def homogen(model):
                     if a.RIP is False]
     a_count = len([m for m in agent_morphs if m == 'a'])
     b_count = len([m for m in agent_morphs if m == 'b'])
-    # N = model.num_agents
     try:
         return a_count/b_count
     except ZeroDivisionError:
@@ -36,16 +64,16 @@ def gen_morphs(N, proportionA):
 class MorphAgent(Agent):
     """An agent to teach/learn a morphological grammar."""
 
-    def __init__(self, unique_id, model):
+    def __init__(self, unique_id, model, gen_id):
         """Initialize MorphAgent object."""
-        print(',', unique_id, end="", file=sys.stderr)
+        print(',', unique_id, end="", file=SE)
         super().__init__(unique_id, model)
+        self.gen_id = gen_id
         self.is_adult = False  # False=child, True=adult
         self.RIP = False  # agent has moved on to the great model in the sky
         self.morphology = ''
-        self.adult_connections = []  # Adult agents from whom input is obtained
+        self.connections = set(model.network[self.unique_id])
         self.input = []   # Input obtained from adult agents
-        self.output = []  # Output produced for child agents
 
     def __hash__(self):
         """Define MorphAgent's __hash__."""
@@ -53,20 +81,36 @@ class MorphAgent(Agent):
 
     def step(self):
         """Take this action when called upon by the model's schedule."""
-        print('Agent {:>5} is stepping...'.format(self.unique_id), end='',
-              file=sys.stderr)
+        print('Agent {:>5} is stepping...(gen_id:{:>2})'.format(self.unique_id,
+                                                                self.gen_id),
+              end='', file=SE)
         if self.is_adult and not self.RIP:
+            print('  retiring...', file=SE)
             self.RIP = True
-            print(' retired...', file=sys.stderr)
-        elif not self.is_adult:
-            print(' processing input...({})'.format(self.input),
-                  file=sys.stderr)
+        elif not self.is_adult and self.model.schedule.steps == self.gen_id-1:
+            print(' retrieving input...', end='', file=SE)
+            # NB(RJR) Takes input from 'older' children of the same generation
+            # Add conditional to match gen_id to remove intra-gen input
+            print(' connections: {}'.format(self.connections), end='',
+                  file=SE)
+            self.input = [a.morphology for a in self.model.schedule.agents[:]
+                          if a.is_adult and a.unique_id in self.connections]
+            # print('self.input: {}'.format(self.input), file=SE)
+            # inputs = []
+            # for a in self.model.schedule.agents[:]:
+            #     if a.is_adult:
+            #         if a.unique_id in self.connections:
+            #             inputs.append(a.morphology)
+            print(' processing input...({})'.format(self.input), end='',
+                  file=SE)
             self.process_input()  # Process input and generate output
             self.is_adult = True
+        elif not self.is_adult and self.model.schedule.steps != self.gen_id-1:
+            print('  still unborn.', file=SE)
         elif self.RIP:
             # raise RuntimeError('Agent {:>5} is already '
             #                    'retired.'.format(self.unique_id))
-            print( 'Agent {:>5} is already retired.'.format(self.unique_id))
+            print('  already retired.'.format(self.unique_id), file=SE)
         else:
             raise RuntimeError('Something strange with agent '
                                '{:>5}.'.format(self.unique_id))
@@ -75,72 +119,63 @@ class MorphAgent(Agent):
         """Do something interesting, but Bayesian."""
         # adopt most frequent 'morphology' from input
         self.morphology = max(set(self.input), key=self.input.count)
-        self.output = self.morphology
+        print('  ...done!', file=SE)
 
 
 class MorphLearnModel(Model):
-    """A model with some number of agents."""
+    """A multi-generation model with some number of agents."""
 
-    def __init__(self, N, proportionA=0.5, network='poisson', p=0.5):
+    def __init__(self, *, gen_size=25, gen_count=10, proportionA=0.5,
+                 nw_adjacency_list=None,
+                 nw_func=nx.fast_gnp_random_graph, nw_kwargs={'n': 50,
+                                                              'p': 0.5}):
         """Initialize object."""
-        print('Initializing model...', file=sys.stderr)
-        self.num_agents = N
-        self.num_children = round(N/2)
+        print('Initializing model...', file=SE)
+        nw_kwargs['n'] = gen_size*2  # override input value for network size
+        self.num_agents = gen_size * gen_count
+        print('  gen_size:', gen_size, file=SE)
+        self.gen_size = gen_size
+        print('  gen_count:', gen_count, file=SE)
+        self.gen_count = gen_count
         self.proportionA = proportionA
-        self.network = network
-        self.p = p
-        self.seed_morphs = gen_morphs(N, proportionA)
-        self.id_generator = itertools.count(0)
+        try:
+            assert not nw_adjacency_list and nw_func
+        except AssertionError:
+            raise AssertionError('Model must initialize with either a network '
+                                 'adjacency list or a generator function, not '
+                                 'both.')
+        if nw_adjacency_list:
+            self.network = nw_adjacency_list
+        else:
+            print('Building networks with {}...'.format(nw_func.__name__),
+                  file=SE)
+            print('  kwargs:', nw_kwargs, file=SE)
+            self.network = connect(gen_size, gen_count, nw_func, **nw_kwargs)
+        print('='*79 + '\nNetwork adjacency list:\n', file=SE)
+        for i, j in enumerate(self.network):
+            print('{:>4} => {}'.format(i, j), file=SE)
+        assert self.num_agents == len(self.network)
         self.schedule = RandomActivation(self)
 
         # Create agents
-        print('Generating agents...', end='', file=sys.stderr)
+        print('Generating agents...', end='', file=SE)
+        gen_counter = 0
         for i in range(self.num_agents):
-            a = MorphAgent(self.id_generator.__next__(), self)
-            if i < self.num_children:  # The 1st half are adults
+            if i % self.gen_size == 0 and i > 0:
+                gen_counter += 1
+            a = MorphAgent(i, self, gen_counter)
+            if i < self.gen_size:  # The 1st generation are adults
                 a.is_adult = True
                 a.morphology = random.choice(['a', 'b'])
-                print(a.morphology, end='', file=sys.stderr)
+                print(a.morphology, end='', file=SE)
             self.schedule.add(a)
-        print('agents type: {}'.format(type(self.schedule.agents)))
-        print(file=sys.stderr)
-        self.connect()
+        print(file=SE)
 
         self.dc = DC(model_reporters={'Homogen': homogen},
                      agent_reporters={'Morph': lambda a: a.morphology})
 
     def step(self):
         """Advance the model by one step."""
-        print('Model is stepping...', file=sys.stderr)
-        self.dc.collect(self)
+        print('Model is stepping...', file=SE)
+        self.dc.collect(self)  # collect data
         self.schedule.step()
-        # Generate new child agents
-        print('Generating next generation of agents...', file=sys.stderr)
-        for i in range(self.num_children):
-            a = MorphAgent(self.id_generator.__next__(), self)
-            self.schedule.add(a)
-        print(file=sys.stderr)
-        print(type(self.schedule.agents), self.schedule.agents,
-              dir(self.schedule.agents))
-        assert all([not agent.is_adult
-                    for agent in self.schedule.agents[-1*self.num_children:]])
-        self.connect()
-
-    def connect(self, network='E-R', p=0.1):
-        """Generate connections between agents and transfer input to child."""
-        if network == 'E-R':  # 'Erdos-Renyi' aka 'poisson'
-            print('Building Erdos-Renyi network...', file=sys.stderr)
-            # p = p/float(self.num_agents)
-            # 'k' (kappa) is from options.avgNbrs
-            for c in self.schedule.agents[(-1*self.num_children):]:
-                # Make sure that every child has at least one connection
-                parent = random.choice(self.schedule.agents[(-1*self.num_agents):(-1*self.num_children)])
-                c.adult_connections.append(parent.unique_id)
-                c.input.append(parent.morphology)
-                for a in self.schedule.agents[(-1*self.num_agents):(-1*self.num_children)]:
-                    if random.random() <= p:
-                        c.adult_connections.append(a.unique_id)
-                        c.input.append(a.morphology)
-                        print('Making connection between agents {:>5}   and '
-                              '{:>5}...'.format(c.unique_id, a.unique_id),
-                              file=sys.stderr)

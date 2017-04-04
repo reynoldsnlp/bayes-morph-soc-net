@@ -1,19 +1,26 @@
 """Test out bmsn."""
 
-import matplotlib.pyplot as plt
-#import numpy as np
+import sys
+
+# import matplotlib.pyplot as plt
+# import numpy as np
 
 import bmsn
 
 
-model = bmsn.MorphLearnModel(50)
+GEN_SIZE = 10
+GEN_COUNT = 10
+SE = sys.stderr
+
+model = bmsn.MorphLearnModel(gen_size=GEN_SIZE, gen_count=GEN_COUNT)
 for i in range(10):
-    print('Model step {}.'.format(i+1))
+    print('='*79, file=SE)
+    print('Model step {}.'.format(i+1), file=SE)
     model.step()
 
 aCount = 0
 bCount = 0
-for a in model.schedule.agents[-25:]:
+for a in model.schedule.agents[-GEN_SIZE:]:
     a.process_input()
     if a.morphology == 'a':
         aCount += 1
