@@ -37,9 +37,6 @@ for a in model.schedule.agents[-GEN_SIZE:]:
     else:
         print('WARN morphology is neither a nor b: {}'.format(a.morphology))
 
-
-
-
 print('='*79)
 print('FINAL MORPHOLOGIES:')
 print('a: {}     b: {}'.format(aCount, bCount))
