@@ -51,6 +51,11 @@ def homogen(model):
         return 0
 
 
+def get_morph(agent):
+    """Return agent's morphology."""
+    return agent.morphology
+
+
 def gen_morphs(N, proportionA):
     """Generate a random artificial morphology based on input parameters."""
     N = N*0.5
@@ -172,7 +177,7 @@ class MorphLearnModel(Model):
         print(file=SE)
 
         self.dc = DC(model_reporters={'Homogen': homogen},
-                     agent_reporters={'Morph': lambda a: a.morphology})
+                     agent_reporters={'Morph': get_morph})
 
     def step(self):
         """Advance the model by one step."""
