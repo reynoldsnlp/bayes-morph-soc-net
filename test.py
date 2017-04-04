@@ -13,15 +13,15 @@ GEN_COUNT = 10
 SE = sys.stderr
 
 model = bmsn.MorphLearnModel(gen_size=GEN_SIZE, gen_count=GEN_COUNT)
-for i in range(10):
+for i in range(GEN_COUNT):
     print('='*79, file=SE)
-    print('Model step {}.'.format(i+1), file=SE)
+    print('Model step {}.'.format(i), file=SE)
     model.step()
 
 aCount = 0
 bCount = 0
 for a in model.schedule.agents[-GEN_SIZE:]:
-    a.process_input()
+    # a.process_input()
     if a.morphology == 'a':
         aCount += 1
     elif a.morphology == 'b':
@@ -29,4 +29,6 @@ for a in model.schedule.agents[-GEN_SIZE:]:
     else:
         print('WARN morphology is neither a nor b: {}'.format(a.morphology))
 
-print('{}\t{}'.format(aCount, bCount))
+print('='*79)
+print('FINAL MORPHOLOGIES:')
+print('a: {}     b: {}'.format(aCount, bCount))
