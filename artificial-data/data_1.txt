@@ -1,0 +1,6 @@
+typeFreq	MPS_A	MPS_B	MPS_C	MPS_D	MPS_E
+1	a	f	k	p	u
+1	b	g	l	q	v
+1	c	h	m	r	w
+1	d	i	n	s	x
+1	e	j	o	t	y
