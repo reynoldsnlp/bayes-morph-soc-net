@@ -2,7 +2,7 @@
 
 from collections import OrderedDict  # TODO(RJR) costly, is it necessary?
 
-from scipy.stats import entropy as KL_divergence
+from scipy.stats import entropy as KL_div
 
 from morphology import Morphology
 
@@ -20,6 +20,7 @@ class Hypothesis:
             h_space = self.generate_hyp_space(list_of_endings, 5)
             # print('h_space\t{}'.format(h_space))
             self.h_spaces[h_set] = h_space
+        # TODO(RJR) Add KL divergence!
 
     def stars_and_bars(self, n, k, the_list=[]):
         """Distribute n probability tokens among k endings.
