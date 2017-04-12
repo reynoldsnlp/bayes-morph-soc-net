@@ -1,4 +1,5 @@
 """Implement agent-based social network model of Bayesian learning of morph."""
+# TODO(RJR) memory_profiler
 
 import random
 import sys

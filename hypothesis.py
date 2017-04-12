@@ -10,26 +10,27 @@ from morphology import Morphology
 class Hypothesis:
     """Hypothesis space for Bayesian learning."""
 
-    def __init__(self, morphology):
+    def __init__(self, morphology, hyp_increment=3):  # TODO(RJR) 3 -> None
         """Build hypthesis space given a morphology object."""
         self.h_spaces = OrderedDict()  # dict of dicts
         for h_set in morphology.mnb:
-            print('h_set:\t{}'.format(h_set))
+            # print('h_set:\t{}'.format(h_set))
             list_of_endings = [i for i in morphology.msps_dict[h_set[0]]]
-            print('list_of_endings\t{}'.format(list_of_endings))
-            h_space = self.generate_hyp_space(list_of_endings, 5)
+            # print('list_of_endings\t{}'.format(list_of_endings))
+            h_space = self.generate_hyp_space(list_of_endings, hyp_increment)
             # print('h_space\t{}'.format(h_space))
             self.h_spaces[h_set] = h_space
         # TODO(RJR) Add KL divergence!
 
-    def stars_and_bars(self, n, k, the_list=[]):
+    def stars_and_bins(self, n, k, the_list=[]):
         """Distribute n probability tokens among k endings.
 
         Generator implementation of the stars-and-bars algorithm.
+        I use 'bins' instead of dividing 'bars': bins=bars+1
 
         Arguments:
-        n   --  number of probability tokens to divide among bins (stars)
-        k   --  number of endings/bins
+        n   --  number of probability tokens (stars)
+        k   --  number of endings (bins)
         """
         if n == 0:
             yield the_list + [0]*k
@@ -37,7 +38,7 @@ class Hypothesis:
             yield the_list + [n]
         else:
             for i in range(n+1):
-                yield from self.stars_and_bars(n-i, k-1, the_list+[i])
+                yield from self.stars_and_bins(n-i, k-1, the_list+[i])
 
     def generate_hyp_space(self, list_of_items, increment_divisor=None):
         """Generate list of OrderedDicts filling the hypothesis space.
@@ -58,10 +59,11 @@ class Hypothesis:
             # print('WARN: increment_divisor smaller than len(list_of_items).')
         # TODO(RJR) Q: what if only one ending is possible? (as in InstPl)
         h_space = []
-        for perm in self.stars_and_bars(increment_divisor, _LEN):
+        for perm in self.stars_and_bins(increment_divisor, _LEN):
             perm = [s/increment_divisor for s in perm]
             h_space.append(OrderedDict([(list_of_items[i], perm[i])
                                         for i in range(_LEN)]))
+        # print('len(h_space): {}'.format(len(h_space)))
         return h_space
 
 
@@ -81,5 +83,5 @@ if __name__ == '__main__':
 
     rus_morph = morphologies[6]
     rus_h = Hypothesis(rus_morph)
-    print(len(rus_h.h_spaces))
-    print(sum([len(i) for i in rus_h.h_spaces]))
+    # print(len(rus_h.h_spaces))
+    # print(sum([len(i) for i in rus_h.h_spaces]))
