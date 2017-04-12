@@ -1,0 +1,9 @@
+(0.465586) Input lexicon read
+Traceback (most recent call last):
+  File "runme.py", line 67, in <module>
+    output = [seeder.talk(options.nUtts) for i in xrange(options.nAgents)]
+  File "/Users/andrea/Documents/networks/code_may2011/agent.py", line 94, in talk
+    iFunc = bisect_left(numpy.add.accumulate(grammar[:,jConcept]), random.random())
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/matrixlib/defmatrix.py", line 281, in __array_finalize__
+    if (isinstance(obj, matrix) and obj._getitem): return
+KeyboardInterrupt

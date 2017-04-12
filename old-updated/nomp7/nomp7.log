@@ -1,0 +1,8 @@
+(0.181432) Input lexicon read
+(1613.208558) Initial generation's input sampled
+(1613.897126) Seed recorded
+(1613.898396) Initial generation birthed and connected
+Traceback (most recent call last):
+  File "runme.py", line 93, in <module>
+    print('({}) Generation {} died off'.format((str(clock()), iGen-1)), file=sys.stderr)
+IndexError: tuple index out of range

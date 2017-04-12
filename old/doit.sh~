@@ -1,0 +1,12 @@
+mkdir mp7
+python runme.py --mpsim -o mp7 -b 31.25 -v russkii.lex 2> mp7/mp7.log
+#-m = override default mpSim (set to T)
+#-b = beta value
+#-v = verbose
+#2> = send standard error to log file (not general output)
+python gaps.py mp7/mp7.txt mp7/russkii.lex mp7/seed_output.lex mp7/gen0_output.lex mp7/gen1_output.lex mp7/gen2_output.lex mp7/gen3_output.lex mp7/gen4_output.lex mp7/gen5_output.lex mp7/gen6_output.lex mp7/gen7_output.lex mp7/gen8_output.lex mp7/gen9_output.lex
+
+mkdir nomp7
+python runme.py -o nomp7 -b 31.25 -v russkii.lex 2> nomp7/nomp7.log
+python gaps.py nomp7/nomp7.txt nomp7/russkii.lex nomp7/seed_output.lex nomp7/gen0_output.lex nomp7/gen1_output.lex nomp7/gen2_output.lex nomp7/gen3_output.lex nomp7/gen4_output.lex nomp7/gen5_output.lex nomp7/gen6_output.lex nomp7/gen7_output.lex nomp7/gen8_output.lex nomp7/gen9_output.lex
+
