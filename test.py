@@ -12,9 +12,11 @@ import bmsn
 OUT_FILENAME = 'test'
 GEN_SIZE = 10
 GEN_COUNT = 10
+MORPH_FILENAME = 'artificial-data/data_1.txt'
 SE = sys.stderr
 
-model = bmsn.MorphLearnModel(gen_size=GEN_SIZE, gen_count=GEN_COUNT)
+model = bmsn.MorphLearnModel(gen_size=GEN_SIZE, gen_count=GEN_COUNT,
+                             morph_filename=MORPH_FILENAME)
 for i in range(GEN_COUNT):
     print('='*79, file=SE)
     print('Model step {}.'.format(i), file=SE)

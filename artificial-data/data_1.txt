@@ -1,6 +1,6 @@
-typeFreq	MPS_A	MPS_B	MPS_C	MPS_D	MPS_E
-1	a	f	k	p	u
-1	b	g	l	q	v
-1	c	h	m	r	w
+typeFreq	A	B	C	D	E
+10	a	f	k	p	u
+6	b	g	l	q	v
+3	c	h	m	r	w
 1	d	i	n	s	x
 1	e	j	o	t	y

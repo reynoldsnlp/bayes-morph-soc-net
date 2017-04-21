@@ -4,10 +4,14 @@
 class Morphology:
     """Represent natural and artificial morphological paradigms."""
 
-    def __init__(self, input_file):
+    def __init__(self, input_filename):
         """Parse input file into Morphology object.
 
-        Input is file object, tab-separated in the follow format.
+        Arguments:
+        input_filename can be a...
+        ...Morphology object (this becomes a pointer to that object)
+        ...list of words
+        ...path/filename string, tab-separated in the follow format.
 
         The first row contains headers, 'typeFreq' followed by MSPSs:
         typeFreq    MSPS1   MSPS2   MSPS3   etc.    ...
@@ -18,19 +22,22 @@ class Morphology:
         ...
         ...
         """
-        self.name = input_file.name
-        file_lines = input_file.readlines()
-        self.cols = [i.rstrip() for i in file_lines[0].split('\t')]
-        self.MSPSs = self.cols[1:]
-        self.infl_classes = []  # list of dicts
-        for line in file_lines[1:]:
-            infl_class = {}
-            for i, datum in enumerate(line.split('\t')):
-                try:
-                    infl_class[self.cols[i]] = int(datum)
-                except ValueError:
-                    infl_class[self.cols[i]] = datum.rstrip()
-            self.infl_classes.append(infl_class)
+        if isinstance(input_filename, Morphology):
+            self = input_filename
+            return
+        self.filename = input_filename
+        with open(input_filename) as in_file:
+            self.cols = [c for c in in_file.readline().rstrip().split('\t')]
+            self.MSPSs = self.cols[1:]
+            self.infl_classes = []  # list of dicts
+            for line in in_file:
+                infl_class = {}
+                for i, datum in enumerate(line.rstrip().split('\t')):
+                    try:
+                        infl_class[self.cols[i]] = int(datum)
+                    except ValueError:
+                        infl_class[self.cols[i]] = datum
+                self.infl_classes.append(infl_class)
         self.msps_dict = {}
         for msps in self.MSPSs:
             self.msps_dict[msps] = {}
@@ -66,4 +73,14 @@ class Morphology:
                 except KeyError:
                     out_dict[i[target_msps]] = i['typeFreq']
                 cum_type_freq += i['typeFreq']
-        return {k: v/cum_type_freq for k, v in out_dict.items()}
+        return {k: v / cum_type_freq for k, v in out_dict.items()}
+
+    # TODO(RJR) How do we produce output from a Morphology and convert output
+    #           to a new Morphology?
+    def parse_input(input_list):
+        """Parse list of words to construct an inflection class table.
+
+        Arguments:
+        input_list -- list of tuples produced by an adult agent.
+        """
+        for i in

@@ -80,10 +80,10 @@ for iLex, lex in enumerate(lexes):
         function = key[iFunction]
         count = lex[key]
         if function in infl_1sg:
-            k1sg_Dic[(iLex, concept)] = k1sg_Dic.get((iLex, concept), 0)+count
+            k1sg_Dic[(iLex, concept)] = k1sg_Dic.get((iLex, concept), 0) + count
         if function in infl_3sg3pl:
-            k3sg3pl_Dic[(iLex, concept)] = k3sg3pl_Dic.get((iLex, concept), 0)+count
-        NDic[(iLex, concept)] = NDic.get((iLex, concept), 0)+count
+            k3sg3pl_Dic[(iLex, concept)] = k3sg3pl_Dic.get((iLex, concept), 0) + count
+        NDic[(iLex, concept)] = NDic.get((iLex, concept), 0) + count
 
 # GET ROWS
 biglex = Lexicon()
@@ -91,7 +91,7 @@ for lex in lexes:
     biglex.update(lex)
 concepts = sorted(biglex.project('CONCEPT'))
 
-# # # # TODO(RJR) need to rewrite so it does filenames # # # #
+# # # # need to rewrite so it does filenames # # # #
 fout = open(outfile, 'wt', encoding='utf-8')
 header = ['lexeme']                        # lexeme name
 header += ['1sg_{}'.format(lexfile) for lexfile in lexfiles]    # freq's of 1sg
@@ -99,23 +99,25 @@ header += ['3sg3pl_{}'.format(lexfile) for lexfile in lexfiles]  # freq's of 3sg
 header += ['freq_{}'.format(lexfile) for lexfile in lexfiles]   # lexeme freq's
 header += ['gappy_{}'.format(lexfile) for lexfile in lexfiles]  # confidences that p[1s]<.02 ^ p[3]< .98
 print('\t'.join(header), file=fout)
+
+
 def fancy(k, N, alpha, beta, thresh):
     if N == 0:
-        return(0.0)
-    return(betainc(k+alpha, N-k+beta, thresh))
+        return 0.0
+    return betainc(k + alpha, N - k + beta, thresh)
+
 
 for concept in concepts:
     k1sg_List = [k1sg_Dic.get((iLex, concept), 0) for iLex in range(nLexes)]
     k3sg3pl_List = [k3sg3pl_Dic.get((iLex, concept), 0) for iLex in range(nLexes)]
-    NList = [NDic.get((iLex,concept),0) for iLex in range(nLexes)]
+    NList = [NDic.get((iLex, concept), 0) for iLex in range(nLexes)]
     gapList = []
     for iLex in range(nLexes):
         gappy = fancy(k1sg_List[iLex], NList[iLex], alpha_1sg, beta_1sg, thresh_1sg)
         personal = fancy(k3sg3pl_List[iLex], NList[iLex], alpha_3sg3pl, beta_3sg3pl, thresh_3sg3pl)
-        gapList.append(gappy*personal)
-    print(concept
-          + '\t'
-          + '\t'.join([str(x) for x in k1sg_List+k3sg3pl_List+NList+gapList]),
+        gapList.append(gappy * personal)
+    print(concept + '\t' +
+          '\t'.join([str(x) for x in k1sg_List + k3sg3pl_List + NList + gapList]),
           file=fout)
 fout.close()
 

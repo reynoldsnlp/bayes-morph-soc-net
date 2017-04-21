@@ -72,16 +72,17 @@ if __name__ == '__main__':
     from os.path import isfile
     from os.path import join
 
-    DATA_DIR = 'language-data'
+    DATA_DIR = 'artificial-data'
 
-    filenames = [f for f in listdir(DATA_DIR) if isfile(join(DATA_DIR, f))]
+    filenames = [f for f in listdir(DATA_DIR)
+                 if isfile(join(DATA_DIR, f)) and f.endswith('.txt')]
     morphologies = []
     for filename in filenames:
         print('Importing {}...'.format(filename))
         with open(DATA_DIR+'/'+filename) as morph_file:
             morphologies.append(Morphology(morph_file))
 
-    rus_morph = morphologies[6]
-    rus_h = Hypothesis(rus_morph)
-    # print(len(rus_h.h_spaces))
-    # print(sum([len(i) for i in rus_h.h_spaces]))
+    morph1 = morphologies[0]
+    h1 = Hypothesis(morph1)
+    print(len(h1.h_spaces))
+    print(sum([len(i) for i in h1.h_spaces]))

@@ -1,8 +1,12 @@
+"""Define Lexicon object."""
+
 from bisect import bisect
 from random import random
 
 
 class Lexicon(dict):
+    """Lexicon object."""
+
     def __init__(self, fileName=None, fields=None, name='lexicon', data=None):
         """Initialize a Lexicon object."""
         self.name = name            # give lexicon a name
@@ -14,8 +18,7 @@ class Lexicon(dict):
             self.update(data)         # merge new data
 
     def select(self, subset={}):
-        """Return the keys to the subset of the lexicon that matches the
-        structural description of the query (dictionary) object.
+        """Return the list of keys matching the subset query.
 
         lex.query({'AGENT': 'Ivan'}) returns all the keys of lex whose
         AGENT field has the value Ivan.
@@ -29,7 +32,7 @@ class Lexicon(dict):
                 if key[fieldIndex] in keepVals:
                     keepKeys.append(key)
             subsetKeys = keepKeys[:]
-        return(subsetKeys)
+        return subsetKeys
 
     def fromKeys(self, subset):
         """Return the sublexicon whose keys are selected by subset."""
@@ -38,7 +41,7 @@ class Lexicon(dict):
         destLex = Lexicon(fields=self.fields)
         for key in subsetKeys:
             destLex[key] = self[key]
-        return(destLex)
+        return destLex
 
     def aggregate(self, aggrFields=[], subset={}):
         """Aggregate subset over aggrFields.
@@ -53,8 +56,8 @@ class Lexicon(dict):
         aggrLex = Lexicon(fields=aggrFields)
         keepIndices = [self.fields.index(field) for field in self.fields
                        if field in aggrFields]
-        sumIndices = [self.fields.index(field) for field in self.fields
-                      if field not in aggrFields]
+        # sumIndices = [self.fields.index(field) for field in self.fields
+        #               if field not in aggrFields]
         subsetKeys = self.select(subset)
         for key in subsetKeys:
             if len(keepIndices) > 1:
@@ -65,32 +68,34 @@ class Lexicon(dict):
                 aggrLex[aggrKey] += self[key]
             else:
                 aggrLex[aggrKey] = self[key]
-        return(aggrLex)
+        return aggrLex
 
     def sample(self, nSamps=1, subset={}):
+        """Return a dictionary of sample data from a Lexicon."""
         sample = Lexicon(fields=self.fields)
         keys = self.select(subset)
         if len(keys) == 0:
-            return(sample)
+            return sample
 
         # set up cumulative distribution function
         cumPdf = [0]
         for key in keys:
-            cumPdf.append(cumPdf[-1]+self[key])
+            cumPdf.append(cumPdf[-1] + self[key])
 
         # map random numbers to sample
         for iSamp in range(nSamps):
-            key = keys[bisect(cumPdf, cumPdf[-1]*random())-1]
+            key = keys[bisect(cumPdf, cumPdf[-1] * random()) - 1]
             if key in sample:
                 sample[key] += 1
             else:
                 sample[key] = 1
 
-        return(sample)
+        return sample
 
-    def bind(self, sourceLex, bindings, merge = True):
+    def bind(self, sourceLex, bindings, merge=True):
+        """TODO(RJR) I don't know what this does."""
         for field in self.fields:
-            if field not in sourceLex.fields and not bindings.has_key(field):
+            if field not in sourceLex.fields and field not in bindings:
                 raise TypeError('Lexicon missing key field %s\n' % field)
         for sourceKey in sourceLex:
             lKey = []
@@ -105,54 +110,56 @@ class Lexicon(dict):
             else:
                 self[key] = self[key] + sourceLex[sourceKey]
 
-    def project(self, projField, subset = {}):
+    def project(self, projField, subset={}):
+        """TODO(RJR) I don't know what this is for yet."""
         keys = self.select(subset)
         index = self.fields.index(projField)
         projection = {}
         for key in keys:
             projection[key[index]] = 1
-        return(projection.keys())
+        return projection.keys()
 
     def read(self, fileName, encoding='utf-8', merge=True):
-        fLex = open(fileName, 'rt', encoding=encoding)
-        fields = fLex.readline().split()
-        if fields[0][0] == '\ufeff':           # strip effin BOM
-            fields[0] = fields[0][1:]
+        """Read input file and add to self."""
+        with open(fileName, 'rt', encoding=encoding) as fLex:
+            fields = fLex.readline().split()
+            if fields[0][0] == '\ufeff':           # strip effin BOM
+                fields[0] = fields[0][1:]
 
-        if not self.fields:
-            self.fields = fields
-            self.nFields = len(fields)
-        elif fields != self.fields:
-            raise TypeError('Field mismatch between existing lexicon {} and'
-                            'update file {}\n'.format(self.name, fileName))
+            if not self.fields:
+                self.fields = fields
+                self.nFields = len(fields)
+            elif fields != self.fields:
+                raise TypeError('Field mismatch between existing lexicon {} & '
+                                'update file {}\n'.format(self.name, fileName))
 
-        for line in fLex:
-            fields = line.split()
-            key = tuple(fields[:self.nFields])
-            value = int(fields[-1])
-            if merge:
-                self[key] = self.get(key, 0)+value
-            else:
-                self[key] = value
-        fLex.close()
+            for line in fLex:
+                fields = line.split()
+                key = tuple(fields[:self.nFields])
+                value = int(fields[-1])
+                if merge:
+                    self[key] = self.get(key, 0) + value
+                else:
+                    self[key] = value
 
     def update(self, lex):
+        """Update self with fields and keys from another Lexicon."""
         if not self.fields:
             self.fields = lex.fields
         assert self.fields == lex.fields
         for key in lex:
-            self[key] = self.get(key, 0)+lex[key]
+            self[key] = self.get(key, 0) + lex[key]
 
     def write(self, fileName='', encoding='utf-8'):
+        """Write self to output file."""
         if not fileName:
             fileName = self.name + '.lex'
-        fLex = open(fileName, 'wt', encoding=encoding)
-        for field in self.fields:
-            fLex.write('{}\t'.format(field))
-        fLex.write('\n')
-
-        for entry in self:
-            for field in entry:
+        with open(fileName, 'wt', encoding=encoding) as fLex:
+            for field in self.fields:
                 fLex.write('{}\t'.format(field))
-            fLex.write('{}\n'.format(self[entry]))
-        fLex.close()
+            fLex.write('\n')
+
+            for entry in self:
+                for field in entry:
+                    fLex.write('{}\t'.format(field))
+                fLex.write('{}\n'.format(self[entry]))

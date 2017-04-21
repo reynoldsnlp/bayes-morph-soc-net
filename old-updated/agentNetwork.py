@@ -1,7 +1,10 @@
+"""Provide bare minimum functionality of multi-gen social network."""
+
 import random
 
+
 class AgentNetwork:
-    """Provide bare minimum functionality of multi-gen social network.
+    """Define AgentNetwork object.
 
     Each agent is equipped with an index and a rank.
     'rank' corresponds to an age grade, e.g. 0 = children; 1 = adults.
@@ -18,26 +21,27 @@ class AgentNetwork:
 
     def __init__(self):
         """Initialize agent network object."""
-        self.adjList = {}   # adjList[agentID] = [IDs, of, incoming, links] (defined by connect())
+        self.adjList = {}   # adjList[agentID] = [IDs, of, incoming, links]
         self.agentDirectory = {}
 
     def birth(self, n, agentType, agentParams):
+        """TODO(RJR) I don't know what this does yet."""
         nextIndex = 0
-        for agentKey in self.agentDirectory:
-            rank, iAgent = agentKey[0], agentKey[1]
+        for rank, iAgent in self.agentDirectory:
             if rank == 0:
                 nextIndex = max(iAgent+1, nextIndex)
-
         for iAgent in range(nextIndex, nextIndex+n):
             self.agentDirectory[(0, iAgent)] = agentType(attributes=agentParams)
 
     def killRank(self, killrank=1):
+        """Kill agents of a particular rank (default=1)."""
         for agentKey in self.agentDirectory:
-            rank, iAgent = agentKey[0], agentKey[1]
+            rank = agentKey[0]
             if rank == killrank:
                 del self.agentDirectory[agentKey]
 
     def getRank(self, targrank=0):
+        """TODO(RJR) I don't know what this does yet."""
         outorder = []
         for agentKey in self.agentDirectory:
             rank, iAgent = agentKey[0], agentKey[1]
@@ -47,6 +51,7 @@ class AgentNetwork:
         return [index_agent[1] for index_agent in outorder]
 
     def promote(self):
+        """Move agents up 1 rank."""
         maxRank = max([agentKey[0] for agentKey in self.agentDirectory])
         while maxRank >= 0:
             agentList = self.getRank(maxRank)
@@ -54,6 +59,7 @@ class AgentNetwork:
                 del self.agentDirectory[(maxRank, iAgent)]
                 self.agentDirectory[(maxRank+1, iAgent)] = agent
             maxRank -= 1
+
 
 def connect(n, method='poisson', type=list, connectParams=None):
     """Return some representation of a social network/graph.
@@ -84,5 +90,4 @@ def connect(n, method='poisson', type=list, connectParams=None):
                     elif type == dict:
                         retval[(i, j)] = 1
         return retval
-
     return None

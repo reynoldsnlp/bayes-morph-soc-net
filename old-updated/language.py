@@ -63,11 +63,11 @@ def stemConsonant(infinitive):
 
 
 def mpSim(lStr, rStr, consList=CONSONANTS, featDist=fdMatrix):
-    """TODO: document this function."""
+    # TODO(RJR) document this function.
     lStemC, rStemC = stemConsonant(lStr), stemConsonant(rStr)
     try:
         dist = float(featDist[consList.index(lStemC), consList.index(rStemC)])
     except ValueError:
         print('mpSim exception for ', lStr, rStr, file=sys.stderr)
-        return(0.0)
+        return 0.0
     return max(1-dist/3.0, 0.0)

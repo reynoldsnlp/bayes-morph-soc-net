@@ -22,9 +22,10 @@ class Agent:
         try:
             self.lexicon.read(fileName)
         except IOError:
-            print('Couldn't open file {}'.format(fileName), file=sys.stderr)
+            print("Couldn't open file {}".format(fileName), file=sys.stderr)
 
     def listen(self, lex):
+        """Update lexicon based on input lexicon."""
         self.lexicon.update(lex)
 
     def learn(self):
@@ -86,23 +87,27 @@ class Agent:
         # calculating summation matrix
         sims = numpy.zeros((nConcepts, nConcepts), float)
         for jTarg in range(nConcepts):
-            # prior is sample from other forms (from raw others), weighted by beta
+            # prior is sample from other raw forms, weighted by beta
             sampleIndices = random.sample(range(nConcepts), kappa)
             for iSource in sampleIndices:
-                sims[iSource, jTarg] = beta*self.attributes['simFunction'](concepts[jTarg], concepts[iSource])
-            # mix prior with observed data (from raw self), weight = own frequency
+                sims[iSource, jTarg] = (beta
+                                        * self.attributes['simFunction'](concepts[jTarg],
+                                                                         concepts[iSource]))
+            # mix prior with observed data (from raw self), weight = own freq
             sims[jTarg, jTarg] = freq[jTarg]
 
         # normalize summation matrix (automatic linear interpolation!)
         numpy.divide(sims, numpy.add.reduce(sims), sims)
 
-        # calculating posterior by postmultiplication with summation matrix, store to self.attributes
+        # calculate posterior by postmultiplication with summation matrix
+        # store to self.attributes
         self.attributes['grammar'] = numpy.matrix(dist) * sims
 
     def talk(self, nUtts):
+        """Generate output strings."""
         # if no grammar, produce by random sampling from input lexicon
         if 'grammar' not in self.attributes:
-            return(self.lexicon.sample(nUtts))
+            return self.lexicon.sample(nUtts)
 
         sample = Lexicon(fields=self.lexicon.fields)
         grammar = self.attributes['grammar']       # object created by learn()
@@ -123,7 +128,7 @@ class Agent:
             else:
                 sample[key] = 1
 
-        return(sample)
+        return sample
 
     def store(self, fileName='grammar.txt', encoding='utf-8'):
         """Save agent's grammar."""
