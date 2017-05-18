@@ -2,10 +2,11 @@ from bisect import bisect_left
 import numpy
 import random
 import sys
-random.seed()
 
 import language
 from lexicon import Lexicon
+
+random.seed()
 
 
 class Agent:
@@ -65,7 +66,7 @@ class Agent:
         # kappa = sample size for computing prior
         kappa = min(nConcepts, self.attributes['kappa'])
         # beta = learning parameter
-        beta = float(self.attributes['beta'])/kappa
+        beta = float(self.attributes['beta']) / kappa
 
         # the phattie data structures
         dist = numpy.zeros((nFuncs, nConcepts), float)
@@ -90,9 +91,9 @@ class Agent:
             # prior is sample from other raw forms, weighted by beta
             sampleIndices = random.sample(range(nConcepts), kappa)
             for iSource in sampleIndices:
-                sims[iSource, jTarg] = (beta
-                                        * self.attributes['simFunction'](concepts[jTarg],
-                                                                         concepts[iSource]))
+                sims[iSource, jTarg] = (beta *
+                                        self.attributes['simFunction'](concepts[jTarg],
+                                                                       concepts[iSource]))
             # mix prior with observed data (from raw self), weight = own freq
             sims[jTarg, jTarg] = freq[jTarg]
 
@@ -118,11 +119,11 @@ class Agent:
         functions = self.attributes['functionList']  # list of functions
 
         for iUtt in range(int(nUtts)):
-            jConcept = bisect_left(cumFreq, freqMass*random.random())
+            jConcept = bisect_left(cumFreq, freqMass * random.random())
             iFunc = bisect_left(numpy.add.accumulate(grammar[:, jConcept]),
                                 random.random())
             key = (concepts[jConcept], functions[iFunc],
-                   concepts[jConcept]+language.infl[functions[iFunc]])
+                   concepts[jConcept] + language.infl[functions[iFunc]])
             if key in sample:
                 sample[key] += 1
             else:
