@@ -3,22 +3,30 @@
 # from collections import OrderedDict  # TODO(RJR) probably unnecessary
 from collections import Counter
 import logging as lg
+from math import e
 from math import factorial
 from math import floor
+from math import gamma
+from math import lgamma
 from math import log
+from math import log1p
 import random
 from statistics import mean
+import time
 
+import entropy as malouf
 import mesa
 import mesa.datacollection
 import mesa.time
+import numpy as np
+import pandas as pd
 from scipy.stats import entropy as KL_div  # KL_div(real_dist, estim_dist)
 
 
 def connect(gen_size, gen_count, nx_gen, **kwargs):
     """Generate connections between agents."""
+    import networkx as nx
     if nx_gen is None:
-        import networkx as nx
         nx_gen = nx.fast_gnp_random_graph
     if kwargs == {}:
         kwargs = {'p': 0.5}
@@ -51,6 +59,8 @@ def dicts2dict(list_of_dicts):
     """Enforce coherence of lexeme by averaging probs across conditions."""
     if list_of_dicts == []:
         return {}
+    if len(list_of_dicts) == 1:
+        return list_of_dicts[0]
     key_set = set()
     for d in list_of_dicts:
         for k in d:
@@ -80,18 +90,42 @@ def product(iterable):
     return p
 
 
-def multinom_prob(prob_dict, data_dict):
-    """Return probability of observing data_dict assuming prob_dict."""
-    N = sum(data_dict.values())
-    try:
-        return ((factorial(N) /
-                 (product([factorial(i) for i in data_dict.values()]))) *
-                (product([prob_dict[e] ** data_dict.get(e, 0) for e in prob_dict])))  # noqa
-    except OverflowError:  # perform same operations in log space
-        return ((log(factorial(N)) -
-                (sum([log(factorial(i)) for i in data_dict.values()]))) +
-               (sum([log(prob_dict[e]) * data_dict.get(e, 0) for e in prob_dict])))  # noqa
+def factorial_log(in_int, log_func=log):  # deprecated in favor of lgamma(n+1)
+    """Compute factorial in log-space."""
+    return sum([log_func(i) for i in range(1, in_int+1)])
 
+
+def mlt_prob(p_dict, d_dict):  # multinomial distribution
+    """Return probability of observing d_dict assuming p_dict."""
+    try:
+        return ((factorial(sum(d_dict.values())) /
+                 (product([factorial(i) for i in d_dict.values()]))) *
+                (product([p_dict[e] ** d_dict.get(e, 0) for e in p_dict])))
+    except OverflowError:
+        lg.warn('    mlt_prob had OverflowError! '
+                'Backing off to mlt_prob_log...')
+        return mlt_prob_log(p_dict, d_dict)
+
+
+def mlt_prob_log(p_dict, d_dict):  # multinomial distribution
+    """Probability of observing d_dict (data) assuming p_dict (prob dist)."""
+    # try:
+    return ((lgamma(sum(d_dict.values()) + 1) -
+             (sum([lgamma(i + 1) for i in d_dict.values()]))) +
+            (sum([log(p) * d_dict.get(e, 0) for e, p in p_dict.items()])))
+           # NB(RJR) This returns log(p)!! For p, e**log(p)
+    # except ValueError:
+    #     lg.warn('    mlt_prob_log threw ValueError! '
+    #             'Backing off to mlt_prob_log1p...')
+    #     return mlt_prob_log1p(p_dict, d_dict)
+
+
+def mlt_prob_log1p(p_dict, d_dict):  # multinomial distribution
+    """Return probability of observing d_dict assuming p_dict."""
+    return ((lgamma(sum(d_dict.values()) + 1) -
+             (sum([lgamma(i + 1) for i in d_dict.values()]))) +
+            (sum([log1p(p) * d_dict.get(e, 0) for e, p in p_dict.items()])))
+           # NB(RJR) This returns log(p)!! For p, e**log(p)
 
 def homogen(model):
     """Return a model's homogeneity."""
@@ -145,10 +179,12 @@ def gen_hyp_space(list_of_items, increment_divisor=None):
                          4 yields (0.0, 0.25, 0.5, 0.75, 1.0).
     """
     _LEN = len(list_of_items)
+    multiplier = 10000  # used to minimize effect of plus-one smoothing
     if increment_divisor is None:
         increment_divisor = _LEN
+    new_divisor = increment_divisor * multiplier + _LEN
     for perm in stars_and_bins(increment_divisor, _LEN):
-        perm = [s / increment_divisor for s in perm]
+        perm = [(s * multiplier + 1) / new_divisor for s in perm]
         yield dict([(list_of_items[i], perm[i]) for i in range(_LEN)])
 
 
@@ -194,6 +230,8 @@ class MorphAgent(mesa.Agent):
             #     if a.is_adult:
             #         if a.unique_id in self.connections:
             #             inputs.append(a.morphology)
+            if self.input == []:
+                lg.warn('Input is empty!!!')
             lg.info('    processing input...')
             self.process_input()  # Process input and generate output
             self.is_adult = True
@@ -233,22 +271,52 @@ class MorphAgent(mesa.Agent):
                 except KeyError:
                     self.ddist[(l, t_ms, g_ms, g_e)] = {t_e: 1}
         # Perform Bayesian learning
+        lg.info('    learning Bayesian posteriors...')
         self.learn()
         # transform counts to probabilities
-        # ddist = {k: Ndict2pdict(v) for k, v in ddist.items()}
         # lexical dictionary
         # lex_dict[(l, t_ms)] = {e1: p1, e2: p2, ...}
         lg.info('    compiling lex_dict...')
         # l_list = sorted(list(set([(l, t_ms) for l, t_ms, g_ms, g_e in ddist])))  # noqa
+        lg.info('        compiling list of unique lexemes...')
         l_list = sorted(list(set([k[0] for k in self.post_dist])))
-        lex_dict = {}
-        for l in l_list:
-            lex_dict[l] = {}
-            for t_ms in self.model.seed_MSPSs:
-                t_p_dict = dicts2dict([v for k, v in self.post_dist.items()
-                                       if k[:2] == (l, t_ms)])
-                lex_dict[l][t_ms] = t_p_dict
+        lg.info('        compiling the dictionary...')
+        lex_dict = {l:{} for l in l_list}
+        for (l, t_ms, g_ms, g_e), e_dist in self.post_dist.items():
+            try:
+                lex_dict[l][t_ms].append(e_dist)
+            except KeyError:
+                lex_dict[l][t_ms] = [e_dist]
+        for l in lex_dict:
+            for t_ms in lex_dict[l]:
+                lex_dict[l][t_ms] = dicts2dict(lex_dict[l][t_ms])
+        # for l in l_list:
+        #     lex_dict[l] = {}
+        #     for t_ms in self.model.seed_MSPSs:
+        #         t_p_dict = dicts2dict([v for k, v in self.post_dist.items()
+        #                                if k[:2] == (l, t_ms)])
+        #         lex_dict[l][t_ms] = t_p_dict
+        lg.info('        lexeme count: {}'.format(len(lex_dict)))
         self.in_lex_dict = lex_dict
+        lg.info('    (not) generating table from lex_dict...')  # TODO(RJR)!!!!
+        # table_dict = {}
+        # for lex, l_dict in self.in_lex_dict.items():
+        #     lg.debug('      {}, {}'.format(lex, l_dict))
+        #     e_list = tuple([self.model.out_func(l_dict[m])
+        #                     for m in self.model.seed_MSPSs])
+        #     try:
+        #         table_dict[e_list] += 1
+        #     except KeyError:
+        #         table_dict[e_list] = 1
+        # d = {m: pd.Series([each[0][i] for each in sorted(table_dict.items(),
+        #                                                  key=lambda x: x[1],
+        #                                                  reverse=True)],
+        #                   index=[each[1] for each in sorted(table_dict.items(),
+        #                                                     key=lambda x: x[1],
+        #                                                     reverse=True)])
+        #      for i, m in enumerate(self.model.seed_MSPSs)}
+        # self.morph_table = pd.DataFrame(d)
+        # lg.info('    table is...{}'.format(self.morph_table))
         lg.info('    ...done!')
 
     def prior(self, MNBs, t_ms, g_ms, g_e, h_dist):
@@ -265,39 +333,66 @@ class MorphAgent(mesa.Agent):
 
     def learn(self):
         """Determine hypothesis/hypotheses with highest posterior prob."""
-        # compute mean neighbor behaviors
+        lg.info('        compiling mean neighbor behaviors...')
+        # lg.info('            compiling sets of possible flections for each MSPS...')
+        # flections = {}
+        # for f_ms in self.ms_dist:
+        #     for (l, t_ms, g_ms, g_e), e_dist in self.ddist.items():
+        #         try:
+        #             flections[g_ms].add(g_e)
+        #         except AttributeError:
+        #             flection[g_ms] = set([g_e])
+        lg.info('            compiling MNBs')
         MNBs = {}
-        for mnb_t_ms in self.ms_dist:
-            for mnb_g_ms in self.ms_dist:
-                if mnb_t_ms != mnb_g_ms:
-                    flections = [g_e for (l, t_ms, g_ms, g_e), e_dist
-                                 in self.ddist.items() if g_ms == mnb_g_ms]
-                    for f in flections:
-                        MNBs[(mnb_t_ms, mnb_g_ms, f)] = dict(Counter(
-                            [t_e for l, t_ms, t_e, g_ms, g_e in self.input
-                             if t_ms == mnb_t_ms and g_ms == mnb_g_ms and
-                             g_e == f]))
+        for l, t_ms, t_e, g_ms, g_e in self.input:
+            try:
+                MNBs[(t_ms, g_ms, g_e)].update([t_e])
+            except KeyError:
+                MNBs[(t_ms, g_ms, g_e)] = Counter([t_e])
+        for k in MNBs:
+            MNBs[k] = dict(MNBs[k])
+        # for mnb_t_ms in self.ms_dist:
+        #     for mnb_g_ms in self.ms_dist:
+        #         if mnb_t_ms != mnb_g_ms:
+        #             # flections = [g_e for (l, t_ms, g_ms, g_e), e_dist
+        #             #              in self.ddist.items() if g_ms == mnb_g_ms]
+        #             lg.info('            compiling list MNBs')
+        #             for f in flections[mnb_g_ms]:
+        #                 MNBs[(mnb_t_ms, mnb_g_ms, f)] = dict(Counter(
+        #                     [t_e for l, t_ms, t_e, g_ms, g_e in self.input
+        #                      if t_ms == mnb_t_ms and g_ms == mnb_g_ms and
+        #                      g_e == f]))
+        lg.info('        compiling posteriors dictionary...')
         self.post_dist = {}
         for (l, t_ms, g_ms, g_e), ddist_e_dist in self.ddist.items():
             mnb_e_dist = MNBs.get((t_ms, g_ms, g_e), {})
-            max_h = [({}, 0.0)]
+            max_h = []
             for h in gen_hyp_space(sorted(list(mnb_e_dist)),
                                    increment_divisor=self.model.h_space_incr):
-                if mnb_e_dist is not None:
-                    prior = multinom_prob(h, mnb_e_dist)
+                if mnb_e_dist != {}:
+                    prior = mlt_prob_log(h, mnb_e_dist)
                 else:
-                    prior = 1.0  # TODO(RJR) bad logic?
-                likelihood = multinom_prob(h, ddist_e_dist)
-                post = prior * likelihood
-                if post < max_h[0][1]:
+                    prior = 0.0  # log(1)  # TODO(RJR) bad logic?
+                if ddist_e_dist != {}:
+                    likelihood = mlt_prob_log(h, ddist_e_dist)
+                else:
+                    likelihood = 0.0  # log(1)  # TODO(RJR) logic?
+                posterior = prior + likelihood  # TODO(RJR) add weights?
+                if max_h != [] and posterior < max_h[0][1]:
                     continue
-                elif post > max_h[0][1]:
-                    max_h = [(h, post)]
-                elif post == max_h[0][1]:
-                    max_h.append((h, post))
+                elif max_h == [] or posterior > max_h[0][1]:
+                    max_h = [(h, posterior)]
+                elif posterior == max_h[0][1]:
+                    max_h.append((h, posterior))
             if len(max_h) > 1:
-                lg.warn('    multiple hypotheses have the same probability!')
-                max_h = dicts2dict([i[0] for i in max_h])  # average dicts
+                lg.warn('        {} hypotheses have the '
+                        'same (max) posterior!: {} {}'.format(len(max_h),
+                                                              mnb_e_dist,
+                                                              ddist_e_dist))
+                for t in max_h:
+                    lg.warn('        {}'.format(t))
+                # average hypotheses with same probability
+                max_h = dicts2dict([i[0] for i in max_h])
             else:
                 max_h = max_h[0][0]
             self.post_dist[(l, t_ms, g_ms, g_e)] = max_h
@@ -311,7 +406,7 @@ class MorphAgent(mesa.Agent):
         Return a list of tuples.
         """
         out = []
-        if self.input == []:
+        if self.input == [] and self.gen_id == 0:  # 1st generation
             out_lexemes = list(self.model.seed_lexemes())
             out_l_weights = [i[2] for i in out_lexemes]
             out_lexemes = [i[:2] for i in out_lexemes]
@@ -352,9 +447,10 @@ class MorphAgent(mesa.Agent):
 class MorphLearnModel(mesa.Model):
     """A multi-generation model with some number of agents."""
 
-    def __init__(self, *, gen_size=25, gen_count=10, morph_filename=None,
+    def __init__(self, *, gen_size=50, gen_count=10, morph_filename=None,
                  nw_func=None, nw_kwargs={}, discrete=True, whole_lex=True,
-                 h_space_increment=None, zipf_max=100, prod_size=100):
+                 h_space_increment=None, lexeme_count=1000, zipf_max=100,
+                 prod_size=100):
         """Initialize model object.
 
         Arguments:
@@ -376,10 +472,12 @@ class MorphLearnModel(mesa.Model):
                              defaults to the maximum number of
                              inflectional endings per MSPS in the seed
                              morphology. # TODO(RJR) allow dynamic increments?
-        zipf_max -- Basis for generating seed token frequencies
+        lexeme_count -- Number of lexemes in seed morphology
+        zipf_max -- Basis for generating token frequencies
         prod_size -- How many productions each agent should 'speak'.
         """
         lg.info('Initializing model...')
+        self.step_timesteps = [time.time()]
         self.num_agents = gen_size * gen_count
         lg.info('    gen_size: {}'.format(gen_size))
         self.gen_size = gen_size
@@ -390,6 +488,12 @@ class MorphLearnModel(mesa.Model):
             self.h_space_incr = self.max_flections
         else:
             self.h_space_incr = h_space_increment
+        self.lexeme_zipf_const = 1
+        while self.lexeme_dist_count(self.lexeme_zipf_const) < lexeme_count:
+            self.lexeme_zipf_const += 1
+        self.lexeme_type_freq_list = [floor(self.lexeme_zipf_const/i)
+                                      for i in
+                                      range(1, len(self.seed_MSPSs) + 1)]
         self.zipf_max = zipf_max
         self.prod_size = prod_size
         # try:
@@ -428,7 +532,12 @@ class MorphLearnModel(mesa.Model):
         # Data collectors
         self.dc = mesa.datacollection.DataCollector(
             model_reporters={'Homogen': homogen},
-            agent_reporters={'Morph': lex_size})
+            agent_reporters={'Lexicon_size': lex_size})
+
+    def lexeme_dist_count(self, constant):
+        """Return total number of lexemes given a constant for zipfian dist."""
+        return sum([floor(constant/i)
+                    for i in range(1, len(self.seed_MSPSs) + 1)])
 
     def parse_seed_morph(self, input_filename):
         """Build seed morphology from a file.
@@ -526,7 +635,7 @@ class MorphLearnModel(mesa.Model):
         output -- tuple(inflection_class, lexeme, tok_freq)
         """
         for ci, c in enumerate(self.seed_infl_classes):
-            for i in range(c['typeFreq']):  # each lexeme is named ci-i
+            for i in range(self.lexeme_type_freq_list[ci]):  # each lexeme is named ci-i
                 # generate tok_freq based on zipfian dist, chopping off tail
                 for tok_freq in [floor(self.zipf_max / i)
                                  for i in range(1, c['typeFreq'] + 1)]:
@@ -537,3 +646,4 @@ class MorphLearnModel(mesa.Model):
         lg.info('Model is stepping...')
         self.dc.collect(self)  # collect data
         self.schedule.step()
+        self.step_timesteps.append(time.time())
