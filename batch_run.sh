@@ -1,4 +1,4 @@
 for each in artificial-data/*.txt
 do
-	sh slurm.sh ${each}
+	sbatch slurm.sh ${each}
 done
