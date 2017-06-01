@@ -13,7 +13,6 @@ import random
 from statistics import mean
 import time
 
-import entropy as malouf
 import mesa
 import mesa.datacollection
 import mesa.time
@@ -21,6 +20,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import entropy as KL_div  # KL_div(real_dist, estim_dist)
 
+import entropy as malouf
 
 
 def connect(gen_size, gen_count, nx_gen, **kwargs):
