@@ -3,10 +3,9 @@
 # from collections import OrderedDict  # TODO(RJR) probably unnecessary
 from collections import Counter
 import logging as lg
-from math import e
+from math import ceil
 from math import factorial
 from math import floor
-from math import gamma
 from math import lgamma
 from math import log
 from math import log1p
@@ -21,6 +20,7 @@ import mesa.time
 import numpy as np
 import pandas as pd
 from scipy.stats import entropy as KL_div  # KL_div(real_dist, estim_dist)
+
 
 
 def connect(gen_size, gen_count, nx_gen, **kwargs):
@@ -39,7 +39,6 @@ def connect(gen_size, gen_count, nx_gen, **kwargs):
         relabel_dict = {j: j + (i * gen_size) for j in er}
         er = nx.relabel_nodes(er, relabel_dict)
         er_networks.extend(er.adjacency_list()[:gen_size])
-    # TODO(RJR) ensure that all nodes have at least one connection?
     return er_networks
 
 
@@ -70,7 +69,19 @@ def dicts2dict(list_of_dicts):
 
 def key_of_highest_value(in_dict):
     """Return the key with the highest value."""
-    return max(in_dict.items(), key=lambda x: x[1])[0]
+    try:
+        return max(in_dict.items(), key=lambda x: x[1])[0]
+    except ValueError:
+        return '-'
+
+
+def fill_gaps(MNBs, known_dists, t_ms):  # TODO(RJR) Is this right?
+    """Use mean neighbor behaviors to fill/level MS gaps."""
+    dists = []
+    for g_ms, dist in known_dists.items():
+        g_e = key_of_highest_value(dist)
+        dists.append(MNBs.get((t_ms, g_ms, g_e), {}))
+    return dicts2dict(dists)
 
 
 def prob_output(in_dict):
@@ -92,7 +103,7 @@ def product(iterable):
 
 def factorial_log(in_int, log_func=log):  # deprecated in favor of lgamma(n+1)
     """Compute factorial in log-space."""
-    return sum([log_func(i) for i in range(1, in_int+1)])
+    return sum([log_func(i) for i in range(1, in_int + 1)])
 
 
 def mlt_prob(p_dict, d_dict):  # multinomial distribution
@@ -109,23 +120,19 @@ def mlt_prob(p_dict, d_dict):  # multinomial distribution
 
 def mlt_prob_log(p_dict, d_dict):  # multinomial distribution
     """Probability of observing d_dict (data) assuming p_dict (prob dist)."""
-    # try:
+    # NB(RJR) This returns log(p)!! For p, e**log(p)
     return ((lgamma(sum(d_dict.values()) + 1) -
              (sum([lgamma(i + 1) for i in d_dict.values()]))) +
             (sum([log(p) * d_dict.get(e, 0) for e, p in p_dict.items()])))
-           # NB(RJR) This returns log(p)!! For p, e**log(p)
-    # except ValueError:
-    #     lg.warn('    mlt_prob_log threw ValueError! '
-    #             'Backing off to mlt_prob_log1p...')
-    #     return mlt_prob_log1p(p_dict, d_dict)
 
 
 def mlt_prob_log1p(p_dict, d_dict):  # multinomial distribution
     """Return probability of observing d_dict assuming p_dict."""
+    # NB(RJR) This returns log(p)!! For p, e**log(p)
     return ((lgamma(sum(d_dict.values()) + 1) -
              (sum([lgamma(i + 1) for i in d_dict.values()]))) +
             (sum([log1p(p) * d_dict.get(e, 0) for e, p in p_dict.items()])))
-           # NB(RJR) This returns log(p)!! For p, e**log(p)
+
 
 def homogen(model):
     """Return a model's homogeneity."""
@@ -140,11 +147,44 @@ def homogen(model):
 
 
 def lex_size(agent):
-    """Return agent's morphology."""
+    """Return number of lexeme in agent's morphology."""
     try:
         return len(agent.l_dist)
     except AttributeError:
         return len(list(agent.model.seed_lexemes()))
+
+
+def decl_entropy(agent):
+    """Return the declensional entropy of an agent's morphology."""
+    try:
+        return np.log2(len(agent.morph_table.index))
+    except AttributeError:
+        return None
+
+
+def avg_cell_entropy(agent):
+    """Return the average cell entropy of an agent's morphology."""
+    try:
+        return malouf.entropy(agent.morph_table).mean()
+    except AttributeError:
+        return None
+
+
+def cond_entropy(agent):
+    """Return the conditional entropy of an agent's morphology."""
+    try:
+        return malouf.cond_entropy(agent.morph_table).mean().mean()
+    except AttributeError:
+        return None
+
+
+def bootstrap(agent):
+    """Return the bootstrap average of an agent's morphology."""
+    try:
+        boot = malouf.bootstrap(agent.morph_table, 99)
+    except AttributeError:
+        return (0, 0)
+    return boot.mean(), 1.0 - sum(boot >= boot[0]) / 500
 
 
 def stars_and_bins(n, k, the_list=[]):
@@ -200,7 +240,8 @@ class MorphAgent(mesa.Agent):
         self.morphology = ''
         self.connections = set(model.network[self.unique_id])
         self.input = []   # Input obtained from adult agents
-        self.ddist = {}
+        self.morph_table = None
+        self.data = {}
 
     def __hash__(self):
         """Define MorphAgent's __hash__ for sorting."""
@@ -208,14 +249,14 @@ class MorphAgent(mesa.Agent):
 
     def step(self):
         """Take this action when called upon by the model's schedule."""
-        lg.info('Agent {:>5} is '
-                'stepping...(gen:{:>2})'.format(self.unique_id, self.gen_id))
         if self.is_adult and not self.RIP:  # 'active' adults
-            lg.info('    retiring...')
+            # lg.info('    retiring...')
             self.RIP = True
-            # TODO(RJR) delete massive memory attributes (h-space?)
         elif (not self.is_adult and
               self.model.schedule.steps == self.gen_id - 1):  # active children
+            lg.info('Agent {:>5} is '
+                    'stepping...(gen:{:>2})'.format(self.unique_id,
+                                                    self.gen_id))
             lg.info('    retrieving input...')
             lg.info('    connections: {}'.format(self.connections))
             new_input = [a.speak() for a in self.model.schedule.agents[:]
@@ -232,16 +273,62 @@ class MorphAgent(mesa.Agent):
             #             inputs.append(a.morphology)
             if self.input == []:
                 lg.warn('Input is empty!!!')
-            lg.info('    processing input...')
+            lg.info('    processing input... '
+                    '({} tokens)'.format(len(self.input)))
             self.process_input()  # Process input and generate output
+            lg.info('    Running evaluation metrics...')
+            lg.info('      lex_size...')
+            self.data['lex_size'] = lex_size(self)
+            lg.info('      decl_entropy...')
+            self.data['decl_entropy'] = decl_entropy(self)
+            lg.info('      avg_cell_entropy...')
+            self.data['avg_cell_entropy'] = avg_cell_entropy(self)
+            lg.info('      cond_entropy...')
+            self.data['cond_entropy'] = cond_entropy(self)
+            # lg.info('      bootstrap_avg and bootstrap_p...')
+            # self.data['bootstrap_avg'], self.data['bootstrap_p'] = bootstrap(self)  # noqa
             self.is_adult = True
         elif (not self.is_adult and
               self.model.schedule.steps != self.gen_id - 1):
-            lg.info('    still unborn.')
+            # lg.info('    still unborn.')
+            pass
         elif self.RIP:
             # raise RuntimeError('Agent {:>5} is already '
             #                    'retired.'.format(self.unique_id))
-            lg.info('    already retired.'.format(self.unique_id))
+            # lg.info('    already retired.'.format(self.unique_id))
+            # delete massive memory attributes
+            try:
+                del(self.l_dist)
+            except AttributeError:
+                pass
+            try:
+                del(self.l_p_dist)
+            except AttributeError:
+                pass
+            try:
+                del(self.ms_dist)
+            except AttributeError:
+                pass
+            try:
+                del(self.ms_p_dist)
+            except AttributeError:
+                pass
+            try:
+                del(self.ddist)
+            except AttributeError:
+                pass
+            try:
+                del(self.in_lex_dict)  # TODO(RJR) keep?
+            except AttributeError:
+                pass
+            try:
+                del(self.MNBs)
+            except AttributeError:
+                pass
+            try:
+                del(self.post_dist)
+            except AttributeError:
+                pass
         else:
             raise RuntimeError('Something strange with agent '
                                '{:>5}.'.format(self.unique_id))
@@ -252,8 +339,8 @@ class MorphAgent(mesa.Agent):
         lg.info('    compiling data distribution...')
         self.l_dist = Counter([i[0] for i in self.input])  # freq of lexemes
         self.l_p_dist = Ndict2pdict(self.l_dist)
-        self.ms_dist = Counter([i[1] for i in self.input])  # freq of t_MSPSs
-        self.ms_p_dist = Ndict2pdict(self.ms_dist)
+        # self.ms_dist = Counter([i[1] for i in self.input])  # freq of t_MSPSs
+        # self.ms_p_dist = Ndict2pdict(self.ms_dist)
         self.ddist = {}  # ddist[(l, t_ms, g_ms, g_e)] = {e1: x, e2: y, ...}
         for l, t_ms, t_e, g_ms, g_e in self.input:
             # if (l, t_ms, g_ms, g_e) in ddist:
@@ -281,7 +368,7 @@ class MorphAgent(mesa.Agent):
         lg.info('        compiling list of unique lexemes...')
         l_list = sorted(list(set([k[0] for k in self.post_dist])))
         lg.info('        compiling the dictionary...')
-        lex_dict = {l:{} for l in l_list}
+        lex_dict = {l: {} for l in l_list}
         for (l, t_ms, g_ms, g_e), e_dist in self.post_dist.items():
             try:
                 lex_dict[l][t_ms].append(e_dist)
@@ -290,6 +377,13 @@ class MorphAgent(mesa.Agent):
         for l in lex_dict:
             for t_ms in lex_dict[l]:
                 lex_dict[l][t_ms] = dicts2dict(lex_dict[l][t_ms])
+        # fill in blanks with MNBs TODO(RJR) Is this right?
+        # for l in lex_dict:
+        #     for t_ms in self.model.seed_MSPSs:
+        #         if t_ms in lex_dict[l]:
+        #             continue
+        #         else:
+        #             lex_dict[l][t_ms] = fill_gaps(self.MNBs, lex_dict[l], t_ms)
         # for l in l_list:
         #     lex_dict[l] = {}
         #     for t_ms in self.model.seed_MSPSs:
@@ -298,21 +392,35 @@ class MorphAgent(mesa.Agent):
         #         lex_dict[l][t_ms] = t_p_dict
         lg.info('        lexeme count: {}'.format(len(lex_dict)))
         self.in_lex_dict = lex_dict
-        lg.info('    (not) generating table from lex_dict...')  # TODO(RJR)!!!!
-        # table_dict = {}
-        # for lex, l_dict in self.in_lex_dict.items():
-        #     lg.debug('      {}, {}'.format(lex, l_dict))
-        #     e_list = tuple([self.model.out_func(l_dict[m])
-        #                     for m in self.model.seed_MSPSs])
-        #     try:
-        #         table_dict[e_list] += 1
-        #     except KeyError:
-        #         table_dict[e_list] = 1
+        lg.info('    generating table from lex_dict...')
+        table_dict = {}  # keys are tuples of endings
+        for lex, l_dict in self.in_lex_dict.items():
+            e_list = []
+            for m in self.model.seed_MSPSs:
+                try:
+                    e_list.append(key_of_highest_value(l_dict[m]))
+                except KeyError:
+                    # lg.warn('        {} has no value for {}!'.format(lex, m))
+                    e_list.append('-')
+            e_list = tuple(e_list)
+            try:
+                table_dict[e_list] += 1
+            except KeyError:
+                table_dict[e_list] = 1
+        with open('morph_table.tmp', 'w') as table_file:
+            print('\t'.join([''] + [m for m in self.model.seed_MSPSs]),
+                  file=table_file)
+            for e_list, type_freq in sorted(table_dict.items(),
+                                            key=lambda x: x[1],
+                                            reverse=True):
+                print(type_freq, *e_list, sep='\t', file=table_file)
+        self.morph_table = pd.read_table('morph_table.tmp', index_col=0)
+
         # d = {m: pd.Series([each[0][i] for each in sorted(table_dict.items(),
         #                                                  key=lambda x: x[1],
         #                                                  reverse=True)],
-        #                   index=[each[1] for each in sorted(table_dict.items(),
-        #                                                     key=lambda x: x[1],
+        #                   index=[each[1] for each in sorted(table_dict.items(),  # noqa
+        #                                                     key=lambda x: x[1],  # noqa
         #                                                     reverse=True)])
         #      for i, m in enumerate(self.model.seed_MSPSs)}
         # self.morph_table = pd.DataFrame(d)
@@ -334,23 +442,19 @@ class MorphAgent(mesa.Agent):
     def learn(self):
         """Determine hypothesis/hypotheses with highest posterior prob."""
         lg.info('        compiling mean neighbor behaviors...')
-        # lg.info('            compiling sets of possible flections for each MSPS...')
-        # flections = {}
-        # for f_ms in self.ms_dist:
-        #     for (l, t_ms, g_ms, g_e), e_dist in self.ddist.items():
-        #         try:
-        #             flections[g_ms].add(g_e)
-        #         except AttributeError:
-        #             flection[g_ms] = set([g_e])
-        lg.info('            compiling MNBs')
         MNBs = {}
+        g_dict = {ms: set() for ms in self.model.seed_MSPSs}
+        l_set = set()
         for l, t_ms, t_e, g_ms, g_e in self.input:
+            l_set.add(l)
+            g_dict[g_ms].add(g_e)
             try:
                 MNBs[(t_ms, g_ms, g_e)].update([t_e])
             except KeyError:
                 MNBs[(t_ms, g_ms, g_e)] = Counter([t_e])
         for k in MNBs:
             MNBs[k] = dict(MNBs[k])
+        self.MNBs = MNBs
         # for mnb_t_ms in self.ms_dist:
         #     for mnb_g_ms in self.ms_dist:
         #         if mnb_t_ms != mnb_g_ms:
@@ -372,7 +476,7 @@ class MorphAgent(mesa.Agent):
                 if mnb_e_dist != {}:
                     prior = mlt_prob_log(h, mnb_e_dist)
                 else:
-                    prior = 0.0  # log(1)  # TODO(RJR) bad logic?
+                    prior = 0.0  # log(1)  # TODO(RJR) logic?
                 if ddist_e_dist != {}:
                     likelihood = mlt_prob_log(h, ddist_e_dist)
                 else:
@@ -386,11 +490,11 @@ class MorphAgent(mesa.Agent):
                     max_h.append((h, posterior))
             if len(max_h) > 1:
                 lg.warn('        {} hypotheses have the '
-                        'same (max) posterior!: {} {}'.format(len(max_h),
-                                                              mnb_e_dist,
-                                                              ddist_e_dist))
-                for t in max_h:
-                    lg.warn('        {}'.format(t))
+                        'same (max) posterior!'.format(len(max_h)))
+                lg.warn('         mean nghbor bhavr: {}'.format(mnb_e_dist))
+                lg.warn('         lexeme bhavr: {}'.format(ddist_e_dist))
+                for i, t in enumerate(max_h):
+                    lg.warn('         hyp{}: {} ({})'.format(i, t[0], t[1]))
                 # average hypotheses with same probability
                 max_h = dicts2dict([i[0] for i in max_h])
             else:
@@ -413,7 +517,7 @@ class MorphAgent(mesa.Agent):
             for out_l in random.choices(out_lexemes,
                                         weights=out_l_weights,
                                         k=self.model.prod_size):
-                t_ms = random.choice(self.model.seed_MSPSs)  # TODO(RJR) weights?  # noqa
+                t_ms = random.choice(self.model.seed_MSPSs)  # TODO(RJR) wghts?
                 g_ms = random.choice(list(set(self.model.seed_MSPSs) - {t_ms}))
                 out.append((out_l[1],
                             t_ms,
@@ -448,9 +552,9 @@ class MorphLearnModel(mesa.Model):
     """A multi-generation model with some number of agents."""
 
     def __init__(self, *, gen_size=50, gen_count=10, morph_filename=None,
-                 nw_func=None, nw_kwargs={}, discrete=True, whole_lex=True,
-                 h_space_increment=None, lexeme_count=1000, zipf_max=100,
-                 prod_size=100):
+                 nw_func=None, nw_kwargs={}, connectedness=0.05, discrete=True,
+                 whole_lex=True, h_space_increment=None, lexeme_count=1000,
+                 zipf_max=100, prod_size=100):
         """Initialize model object.
 
         Arguments:
@@ -478,11 +582,25 @@ class MorphLearnModel(mesa.Model):
         """
         lg.info('Initializing model...')
         self.step_timesteps = [time.time()]
-        self.num_agents = gen_size * gen_count
         lg.info('    gen_size: {}'.format(gen_size))
         self.gen_size = gen_size
         lg.info('    gen_count: {}'.format(gen_count))
         self.gen_count = gen_count
+        self.num_agents = gen_size * gen_count
+        self.gen_members = [[i + (j * gen_size) for i in range(gen_size)]
+                            for j in range(gen_count)]
+        c = ceil(gen_size * connectedness)
+        self.network = ([[]] * gen_size +
+                        [random.sample(gen, c)
+                         for i, gen in enumerate(self.gen_members)
+                         for a in gen][:-gen_size])
+        # self.network = connect(gen_size, gen_count, nw_func, **nw_kwargs)
+        lg.info('=' * 79)
+        lg.info('Network adjacency list:')
+        for i, j in enumerate(self.network):
+            lg.info('    {:>4} => {}'.format(i, j))
+        assert self.num_agents == len(self.network)
+        self.morph_filename = morph_filename
         self.parse_seed_morph(morph_filename)
         if h_space_increment is None:
             self.h_space_incr = self.max_flections
@@ -491,25 +609,11 @@ class MorphLearnModel(mesa.Model):
         self.lexeme_zipf_const = 1
         while self.lexeme_dist_count(self.lexeme_zipf_const) < lexeme_count:
             self.lexeme_zipf_const += 1
-        self.lexeme_type_freq_list = [floor(self.lexeme_zipf_const/i)
+        self.lexeme_type_freq_list = [floor(self.lexeme_zipf_const / i)
                                       for i in
                                       range(1, len(self.seed_MSPSs) + 1)]
         self.zipf_max = zipf_max
         self.prod_size = prod_size
-        # try:
-        self.network = connect(gen_size, gen_count, nw_func, **nw_kwargs)
-        # except TypeError:
-        #     try:
-        #         assert isinstance(nw_func, list)
-        #     except AssertionError:
-        #         raise AssertionError('nw_func must be either a function or '
-        #                              'an adjacency list.')
-        #     self.network = nw_func
-        lg.info('=' * 79)
-        lg.info('Network adjacency list:')
-        for i, j in enumerate(self.network):
-            lg.info('    {:>4} => {}'.format(i, j))
-        assert self.num_agents == len(self.network)
         self.discrete = discrete
         if self.discrete:
             self.out_func = key_of_highest_value
@@ -527,16 +631,21 @@ class MorphLearnModel(mesa.Model):
             a = MorphAgent(i, self, gen_counter)
             if i < self.gen_size:  # The 1st generation are adults
                 a.is_adult = True
+                a.morph_table = pd.read_table(self.morph_filename, index_col=0)
             self.schedule.add(a)
 
         # Data collectors
-        self.dc = mesa.datacollection.DataCollector(
-            model_reporters={'Homogen': homogen},
-            agent_reporters={'Lexicon_size': lex_size})
+        # self.dc = mesa.datacollection.DataCollector(
+        #     model_reporters={'Homogen': homogen},
+        #     agent_reporters={'Lexicon_size': lex_size,
+        #                      'Decl_entropy': decl_entropy,
+        #                      'Avg_cell_entropy': avg_cell_entropy,
+        #                      'Cond_entropy': cond_entropy,
+        #                      'Bootstrap_avg_p': bootstrap})
 
     def lexeme_dist_count(self, constant):
         """Return total number of lexemes given a constant for zipfian dist."""
-        return sum([floor(constant/i)
+        return sum([floor(constant / i)
                     for i in range(1, len(self.seed_MSPSs) + 1)])
 
     def parse_seed_morph(self, input_filename):
@@ -551,7 +660,6 @@ class MorphLearnModel(mesa.Model):
         ...
         ...
         """
-        # TODO(RJR) Make all of this part of a Seed object?
         self.seed_filename = input_filename
         with open(input_filename) as in_file:
             self.seed_cols = [c for c
@@ -635,7 +743,7 @@ class MorphLearnModel(mesa.Model):
         output -- tuple(inflection_class, lexeme, tok_freq)
         """
         for ci, c in enumerate(self.seed_infl_classes):
-            for i in range(self.lexeme_type_freq_list[ci]):  # each lexeme is named ci-i
+            for i in range(self.lexeme_type_freq_list[ci]):  # lexeme = ci-i
                 # generate tok_freq based on zipfian dist, chopping off tail
                 for tok_freq in [floor(self.zipf_max / i)
                                  for i in range(1, c['typeFreq'] + 1)]:
@@ -644,6 +752,6 @@ class MorphLearnModel(mesa.Model):
     def step(self):
         """Advance the model by one step."""
         lg.info('Model is stepping...')
-        self.dc.collect(self)  # collect data
+        # self.dc.collect(self)  # collect data
         self.schedule.step()
         self.step_timesteps.append(time.time())

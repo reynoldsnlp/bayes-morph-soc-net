@@ -4,14 +4,29 @@
 class Morphology:
     """Represent natural and artificial morphological paradigms."""
 
-    def __init__(self, input_filename):
+    def __init__(self, the_arg):
         """Parse input file into Morphology object.
 
         Arguments:
-        input_filename can be a...
+        the_arg can be a...
         ...Morphology object (this becomes a pointer to that object)
         ...list of words
         ...path/filename string, tab-separated in the follow format.
+
+        """
+        if isinstance(the_arg, Morphology):
+            self = the_arg
+            return
+        elif isinstance(the_arg, str):
+            self.init_from_filename(the_arg)
+        elif isinstance(the_arg, Data):
+            self.init_from_data(the_arg)
+        else:
+            raise ValueError('Morphology can only be initialized from one of '
+                             'the following objects: str, Morphology, Data.')
+
+    def init_from_filename(self, input_filename):
+        """Initialize a morphology from a file.
 
         The first row contains headers, 'typeFreq' followed by MSPSs:
         typeFreq    MSPS1   MSPS2   MSPS3   etc.    ...
@@ -22,9 +37,6 @@ class Morphology:
         ...
         ...
         """
-        if isinstance(input_filename, Morphology):
-            self = input_filename
-            return
         self.filename = input_filename
         with open(input_filename) as in_file:
             self.cols = [c for c in in_file.readline().rstrip().split('\t')]
@@ -46,13 +58,17 @@ class Morphology:
                     self.msps_dict[msps][i_class[msps]] += i_class['typeFreq']
                 except KeyError:
                     self.msps_dict[msps][i_class[msps]] = i_class['typeFreq']
-        self.mnb = {}
+        self.mnb_dict = {}
         for target_msps in self.MSPSs:
             for given_msps in self.MSPSs:
                 if target_msps != given_msps:
                     for given_ending in self.msps_dict[given_msps]:
                         tgg = (target_msps, given_msps, given_ending)
-                        self.mnb[tgg] = self.mean_neighbor_behaviors(*tgg)
+                        self.mnb_dict[tgg] = self.mean_neighbor_behaviors(*tgg)
+
+    def init_from_data(self, data_input):
+        """Compile data to save as morphology file -> init_from_filename."""
+        # TODO(RJR) Data structure
 
     def mean_neighbor_behaviors(self, target_msps, given_msps, given_ending):
         """Calculate type-freq-weighted prevalence of endings.
@@ -74,13 +90,3 @@ class Morphology:
                     out_dict[i[target_msps]] = i['typeFreq']
                 cum_type_freq += i['typeFreq']
         return {k: v / cum_type_freq for k, v in out_dict.items()}
-
-    # TODO(RJR) How do we produce output from a Morphology and convert output
-    #           to a new Morphology?
-    def parse_input(input_list):
-        """Parse list of words to construct an inflection class table.
-
-        Arguments:
-        input_list -- list of tuples produced by an adult agent.
-        """
-        for i in
