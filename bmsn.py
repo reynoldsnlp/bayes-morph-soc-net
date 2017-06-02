@@ -75,15 +75,6 @@ def key_of_highest_value(in_dict):
         return '-'
 
 
-def fill_gaps(MNBs, known_dists, t_ms):  # TODO(RJR) Is this right?
-    """Use mean neighbor behaviors to fill/level MS gaps."""
-    dists = []
-    for g_ms, dist in known_dists.items():
-        g_e = key_of_highest_value(dist)
-        dists.append(MNBs.get((t_ms, g_ms, g_e), {}))
-    return dicts2dict(dists)
-
-
 def prob_output(in_dict):
     """Return a random key, choice weighted by value.
 
@@ -91,6 +82,19 @@ def prob_output(in_dict):
     """
     keys = list(in_dict.keys())
     return random.choices(keys, weights=[in_dict[k] for k in keys])
+
+
+def fill_gaps(MNBs, known_dists, t_ms):  # TODO(RJR) Is this right?
+    """Use mean neighbor behaviors to fill/level MS gaps."""
+    dists = []
+    for g_ms, dist in known_dists.items():
+        g_e = prob_output(dist)
+        try:
+            dists.append(MNBs[(t_ms, g_ms, g_e)])
+        except KeyError:
+            lg.warn('        fill_gaps: ({}, {}, {}) not in MNBs'.format(
+                t_ms, g_ms, g_e))
+    return dicts2dict(dists)
 
 
 def product(iterable):
@@ -378,18 +382,13 @@ class MorphAgent(mesa.Agent):
             for t_ms in lex_dict[l]:
                 lex_dict[l][t_ms] = dicts2dict(lex_dict[l][t_ms])
         # fill in blanks with MNBs TODO(RJR) Is this right?
-        # for l in lex_dict:
-        #     for t_ms in self.model.seed_MSPSs:
-        #         if t_ms in lex_dict[l]:
-        #             continue
-        #         else:
-        #             lex_dict[l][t_ms] = fill_gaps(self.MNBs, lex_dict[l], t_ms)
-        # for l in l_list:
-        #     lex_dict[l] = {}
-        #     for t_ms in self.model.seed_MSPSs:
-        #         t_p_dict = dicts2dict([v for k, v in self.post_dist.items()
-        #                                if k[:2] == (l, t_ms)])
-        #         lex_dict[l][t_ms] = t_p_dict
+        lg.info('        filling in blank cells (gaps) from MNBs...')
+        for l in lex_dict:
+            for t_ms in self.model.seed_MSPSs:
+                if t_ms in lex_dict[l]:
+                    continue
+                else:
+                    lex_dict[l][t_ms] = fill_gaps(self.MNBs, lex_dict[l], t_ms)
         lg.info('        lexeme count: {}'.format(len(lex_dict)))
         self.in_lex_dict = lex_dict
         lg.info('    generating table from lex_dict...')
@@ -496,7 +495,9 @@ class MorphAgent(mesa.Agent):
                 for i, t in enumerate(max_h):
                     lg.warn('         hyp{}: {} ({})'.format(i, t[0], t[1]))
                 # average hypotheses with same probability
-                max_h = dicts2dict([i[0] for i in max_h])
+                # max_h = dicts2dict([i[0] for i in max_h])
+                # choose one hypothesis at random
+                max_h = random.choice(max_h)[0]
             else:
                 max_h = max_h[0][0]
             self.post_dist[(l, t_ms, g_ms, g_e)] = max_h

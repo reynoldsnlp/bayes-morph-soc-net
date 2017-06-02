@@ -9,12 +9,13 @@ import matplotlib.pyplot as plt
 
 import bmsn
 
+# data files to focus on: 1, 4, 7, 11
 OUT_FILENAME_BASE = 'test'
 ASC_TIME = time.asctime().replace(' ', '-')
 GEN_SIZE = 50
 GEN_COUNT = 10
 H_SPACE_INC = 7
-PRODUCTION_SIZE = 1000000
+PRODUCTION_SIZE = 100000
 CONNECTEDNESS = 0.05
 MORPH_FILENAME = sys.argv[1]
 START = time.time()
