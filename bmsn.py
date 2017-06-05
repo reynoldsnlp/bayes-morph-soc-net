@@ -81,7 +81,10 @@ def prob_output(in_dict):
     Given {0: 0.1, 1: 0.9} 1 has a 90% chance of being selected.
     """
     keys = list(in_dict.keys())
-    return random.choices(keys, weights=[in_dict[k] for k in keys])
+    try:
+        return random.choices(keys, weights=[in_dict[k] for k in keys])[0]
+    except IndexError:  # if in_dict is empty
+        return None
 
 
 def fill_gaps(MNBs, known_dists, t_ms):  # TODO(RJR) Is this right?
@@ -333,6 +336,10 @@ class MorphAgent(mesa.Agent):
                 del(self.post_dist)
             except AttributeError:
                 pass
+            try:
+                del(self.input)
+            except AttributeError:
+                pass
         else:
             raise RuntimeError('Something strange with agent '
                                '{:>5}.'.format(self.unique_id))
@@ -406,14 +413,15 @@ class MorphAgent(mesa.Agent):
                 table_dict[e_list] += 1
             except KeyError:
                 table_dict[e_list] = 1
-        with open('morph_table.tmp', 'w') as table_file:
+        with open(self.model.table_filename, 'w') as table_file:
             print('\t'.join([''] + [m for m in self.model.seed_MSPSs]),
                   file=table_file)
             for e_list, type_freq in sorted(table_dict.items(),
                                             key=lambda x: x[1],
                                             reverse=True):
                 print(type_freq, *e_list, sep='\t', file=table_file)
-        self.morph_table = pd.read_table('morph_table.tmp', index_col=0)
+        self.morph_table = pd.read_table(self.model.table_filename,
+                                         index_col=0)
 
         # d = {m: pd.Series([each[0][i] for each in sorted(table_dict.items(),
         #                                                  key=lambda x: x[1],
@@ -602,6 +610,11 @@ class MorphLearnModel(mesa.Model):
             lg.info('    {:>4} => {}'.format(i, j))
         assert self.num_agents == len(self.network)
         self.morph_filename = morph_filename
+        self.table_filename = ('results/morph_table_' +
+                               str(self.step_timesteps[0]) +
+                               '_' +
+                               morph_filename.split('/')[1].split('.')[0] +
+                               '.tmp')
         self.parse_seed_morph(morph_filename)
         if h_space_increment is None:
             self.h_space_incr = self.max_flections

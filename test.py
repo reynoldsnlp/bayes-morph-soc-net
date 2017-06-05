@@ -15,7 +15,7 @@ ASC_TIME = time.asctime().replace(' ', '-')
 GEN_SIZE = 50
 GEN_COUNT = 10
 H_SPACE_INC = 7
-PRODUCTION_SIZE = 100000
+PRODUCTION_SIZE = int(sys.argv[2])
 CONNECTEDNESS = 0.05
 MORPH_FILENAME = sys.argv[1]
 START = time.time()
@@ -26,7 +26,8 @@ OUT_FILENAME = '_'.join([OUT_FILENAME_BASE,
                          str(GEN_COUNT),
                          str(H_SPACE_INC),
                          str(PRODUCTION_SIZE),
-                         str(CONNECTEDNESS)])
+                         str(CONNECTEDNESS),
+                         MORPH_FILENAME.split('/')[1].rstrip('.txt')])
 lg.basicConfig(filename='results/' + OUT_FILENAME + '.log',
                filemode='w', level=lg.DEBUG,
                format='%(asctime)s %(name)s %(levelname)s: %(message)s')
@@ -57,14 +58,7 @@ for i in range(GEN_COUNT):
 #                                           if hasattr(a, 'data') and
 #                                           'lex_size' in a.data]))
 
-with open('results/' + OUT_FILENAME + '.pickle', 'wb') as out_file:
-    pickle.dump(model, out_file)
-
-lg.info('=' * 79)
-END = time.time()
-lg.info('Script took {} minutes to complete.'.format((END - START) / 60))
-
-lg.info('    extracting data...')
+lg.info('building boxplots from data...')
 
 lg.info('    lex_size...')
 try:
@@ -116,3 +110,12 @@ plt.clf()
 # plt.boxplot(generationalize(bootstrap_ps, 10))
 # plt.savefig('results/' + OUT_FILENAME + '_bootstrap_p.png')
 # plt.clf()
+
+lg.info('=' * 79)
+END = time.time()
+lg.info('Script took {} minutes to complete.'.format((END - START) / 60))
+
+# do this last just in case pickling fails
+lg.info('Dumping model to pickle file...')
+with open('results/' + OUT_FILENAME + '.pickle', 'wb') as out_file:
+    pickle.dump(model, out_file)
