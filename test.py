@@ -9,15 +9,22 @@ import matplotlib.pyplot as plt
 
 import bmsn
 
+
 # data files to focus on: 1, 4, 7, 11
 OUT_FILENAME_BASE = 'test'
 ASC_TIME = time.asctime().replace(' ', '-')
 GEN_SIZE = 50
-GEN_COUNT = 10
+GEN_COUNT = 20
 H_SPACE_INC = 7
-PRODUCTION_SIZE = int(sys.argv[2])
+try:
+    PRODUCTION_SIZE = int(sys.argv[2])
+except IndexError:
+    PRODUCTION_SIZE = 10000
 CONNECTEDNESS = 0.05
-MORPH_FILENAME = sys.argv[1]
+try:
+    MORPH_FILENAME = sys.argv[1]
+except IndexError:
+    MORPH_FILENAME = 'unknown'
 START = time.time()
 
 OUT_FILENAME = '_'.join([OUT_FILENAME_BASE,
@@ -28,10 +35,6 @@ OUT_FILENAME = '_'.join([OUT_FILENAME_BASE,
                          str(PRODUCTION_SIZE),
                          str(CONNECTEDNESS),
                          MORPH_FILENAME.split('/')[1].rstrip('.txt')])
-lg.basicConfig(filename='results/' + OUT_FILENAME + '.log',
-               filemode='w', level=lg.DEBUG,
-               format='%(asctime)s %(name)s %(levelname)s: %(message)s')
-lg.getLogger().addHandler(lg.StreamHandler())
 
 
 def generationalize(in_list, N):
@@ -40,82 +43,153 @@ def generationalize(in_list, N):
     return [in_list[gen_size * i:gen_size * (i + 1)] for i in range(N)]
 
 
-model = bmsn.MorphLearnModel(gen_size=GEN_SIZE,
-                             gen_count=GEN_COUNT,
-                             morph_filename=MORPH_FILENAME,
-                             h_space_increment=H_SPACE_INC,
-                             prod_size=PRODUCTION_SIZE,
-                             connectedness=CONNECTEDNESS)
-for i in range(GEN_COUNT):
+def get_data(agent, function, data_key):
+    """Retrieve cached datapoint or compute new datapoint."""
+    try:
+        return agent.data[data_key]
+    except KeyError:
+        return function(agent)
+
+
+def draw_boxplots(model, out_filename=OUT_FILENAME, bootstrapping=False):
+    """Draw boxplots of agents' attributes across generations."""
+    print('Running draw_boxplots...', file=sys.stderr)
+    gen_count = model.gen_count
+
+    print('    lex_size...', file=sys.stderr)
+    try:
+        lex_sizes = [get_data(a, bmsn.lex_size, 'lex_size')
+                     for a in model.schedule.agents]
+    except (AttributeError, KeyError) as error:
+        print('        ...not in model. Computing from scratch...')
+        lex_sizes = [bmsn.lex_size(a) for a in model.schedule.agents]
+    ymax = max(lex_sizes)
+    if ymax <= 2.0:
+        plt.ylim((-0.1, 2.1))
+    else:
+        plt.ylim((-0.1, ymax + 0.1))
+    plt.boxplot(generationalize(lex_sizes, gen_count))
+    plt.savefig('results/' + out_filename + '_lex_size.png')
+    plt.clf()
+
+    print('    decl_entropy...', file=sys.stderr)
+    try:
+        decl_entropies = [get_data(a, bmsn.decl_entropy, 'decl_entropy')
+                          for a in model.schedule.agents]
+    except (AttributeError, KeyError) as error:
+        print('        ...not in model. Computing from scratch...')
+        decl_entropies = [bmsn.decl_entropy(a) for a in model.schedule.agents]
+    ymax = max(decl_entropies)
+    if ymax <= 2.0:
+        plt.ylim((-0.1, 2.1))
+    else:
+        plt.ylim((-0.1, ymax + 0.1))
+        print('WARN: maximum value over 2.0!', file=sys.stderr)
+    plt.boxplot(generationalize(decl_entropies, gen_count))
+    plt.savefig('results/' + out_filename + '_decl_entropy.png')
+    plt.clf()
+
+    print('    avg_cell_entropy...', file=sys.stderr)
+    try:
+        avg_cell_entropies = [get_data(a, bmsn.avg_cell_entropy, 'avg_cell_entropy')
+                              for a in model.schedule.agents]  # noqa
+    except (AttributeError, KeyError) as error:
+        print('        ...not in model. Computing from scratch...')
+        avg_cell_entropies = [bmsn.avg_cell_entropy(a) for a in model.schedule.agents]  # noqa
+    ymax = max(avg_cell_entropies)
+    if ymax <= 2.0:
+        plt.ylim((-0.1, 2.1))
+    else:
+        plt.ylim((-0.1, ymax + 0.1))
+        print('WARN: maximum value over 2.0!', file=sys.stderr)
+    plt.boxplot(generationalize(avg_cell_entropies, gen_count))
+    plt.savefig('results/' + out_filename + '_avg_cell_entropy.png')
+    plt.clf()
+
+    print('    cond_entropy...', file=sys.stderr)
+    try:
+        cond_entropies = [get_data(a, bmsn.cond_entropy, 'cond_entropy')
+                          for a in model.schedule.agents]
+    except (AttributeError, KeyError) as error:
+        print('        ...not in model. Computing from scratch...')
+        cond_entropies = [bmsn.cond_entropy(a) for a in model.schedule.agents]
+    ymax = max(cond_entropies)
+    if ymax <= 2.0:
+        plt.ylim((-0.1, 2.1))
+    else:
+        plt.ylim((-0.1, ymax + 0.1))
+        print('WARN: maximum value over 2.0!', file=sys.stderr)
+    plt.boxplot(generationalize(cond_entropies, gen_count))
+    plt.savefig('results/' + out_filename + '_cond_entropy.png')
+    plt.clf()
+
+    print('    mut_info...', file=sys.stderr)
+    mut_infos = [i - j for i, j in zip(avg_cell_entropies, cond_entropies)]
+    ymax = max(mut_infos)
+    if ymax <= 2.0:
+        plt.ylim((-0.1, 2.1))
+    else:
+        plt.ylim((-0.1, ymax + 0.1))
+        print('WARN: maximum value over 2.0!', file=sys.stderr)
+    plt.boxplot(generationalize(mut_infos, gen_count))
+    plt.savefig('results/' + out_filename + '_mut_info.png')
+    plt.clf()
+
+    if bootstrapping:
+        print('    bootstrap_avg and bootstrap_p...', file=sys.stderr)
+        # TODO(RJR) update to use new function like get_data
+        try:
+            bootstrap_avgs = [a.data['bootstrap_avg'] for a in model.schedule.agents]  # noqa
+            bootstrap_ps = [a.data['bootstrap_p'] for a in model.schedule.agents]  # noqa
+        except (AttributeError, KeyError) as error:
+            print('        ...not in model. Computing from scratch...')
+            bootstraps = [bmsn.bootstrap(a) for a in model.schedule.agents]
+            bootstrap_avgs = [i[0] for i in bootstraps]
+            bootstrap_ps = [i[1] for i in bootstraps]
+        ymax = max(bootstrap_avgs)
+        if ymax <= 2.0:
+            plt.ylim((-0.1, 2.1))
+        else:
+            plt.ylim((-0.1, ymax + 0.1))
+            print('WARN: maximum value over 2.0!', file=sys.stderr)
+        plt.boxplot(generationalize(bootstrap_avgs, gen_count))
+        plt.savefig('results/' + out_filename + '_bootstrap_avg.png')
+        plt.clf()
+        ymax = max(bootstrap_ps)
+        if ymax <= 2.0:
+            plt.ylim((-0.1, 2.1))
+        else:
+            plt.ylim((-0.1, ymax + 0.1))
+            print('WARN: maximum value over 2.0!', file=sys.stderr)
+        plt.boxplot(generationalize(bootstrap_ps, gen_count))
+        plt.savefig('results/' + out_filename + '_bootstrap_p.png')
+        plt.clf()
+
+
+if __name__ == '__main__':
+    lg.basicConfig(filename='results/' + OUT_FILENAME + '.log',
+                   filemode='w', level=lg.DEBUG,
+                   format='%(asctime)s %(name)s %(levelname)s: %(message)s')
+    lg.getLogger().addHandler(lg.StreamHandler())
+    model = bmsn.MorphLearnModel(gen_size=GEN_SIZE,
+                                 gen_count=GEN_COUNT,
+                                 morph_filename=MORPH_FILENAME,
+                                 h_space_increment=H_SPACE_INC,
+                                 prod_size=PRODUCTION_SIZE,
+                                 connectedness=CONNECTEDNESS)
+    for i in range(GEN_COUNT):
+        lg.info('=' * 79)
+        lg.info('Model step {}.'.format(i))
+        lg.info('Generation {} out of {}...'.format(i, GEN_COUNT))
+        model.step()
+
+    draw_boxplots(model)
+
     lg.info('=' * 79)
-    lg.info('Model step {}.'.format(i))
-    lg.info('Generation {} out of {}...'.format(i, GEN_COUNT))
-    model.step()
+    END = time.time()
+    lg.info('Script took {} minutes to complete.'.format((END - START) / 60))
 
-# lg.info('{} -- Lexeme counts: {}'.format(OUT_FILENAME,
-#                                          [a.data['lex_size']
-#                                           for a in model.schedule.agents
-#                                           if hasattr(a, 'data') and
-#                                           'lex_size' in a.data]))
-
-lg.info('building boxplots from data...')
-
-lg.info('    lex_size...')
-try:
-    lex_sizes = [a.data['lex_size'] for a in model.schedule.agents]
-except (AttributeError, KeyError) as error:
-    lex_sizes = [bmsn.lex_size(a) for a in model.schedule.agents]
-plt.boxplot(generationalize(lex_sizes, 10))
-plt.savefig('results/' + OUT_FILENAME + '_lex_size.png')
-plt.clf()
-
-lg.info('    decl_entropy...')
-try:
-    decl_entropies = [a.data['decl_entropy'] for a in model.schedule.agents]
-except (AttributeError, KeyError) as error:
-    decl_entropies = [bmsn.decl_entropy(a) for a in model.schedule.agents]
-plt.boxplot(generationalize(decl_entropies, 10))
-plt.savefig('results/' + OUT_FILENAME + '_decl_entropy.png')
-plt.clf()
-
-lg.info('    avg_cell_entropy...')
-try:
-    avg_cell_entropies = [a.data['avg_cell_entropy'] for a in model.schedule.agents]  # noqa
-except (AttributeError, KeyError) as error:
-    avg_cell_entropies = [bmsn.avg_cell_entropy(a) for a in model.schedule.agents]  # noqa
-plt.boxplot(generationalize(avg_cell_entropies, 10))
-plt.savefig('results/' + OUT_FILENAME + '_avg_cell_entropy.png')
-plt.clf()
-
-lg.info('    cond_entropy...')
-try:
-    cond_entropies = [a.data['cond_entropy'] for a in model.schedule.agents]
-except (AttributeError, KeyError) as error:
-    cond_entropies = [bmsn.cond_entropy(a) for a in model.schedule.agents]
-plt.boxplot(generationalize(cond_entropies, 10))
-plt.savefig('results/' + OUT_FILENAME + '_cond_entropy.png')
-plt.clf()
-
-# lg.info('    bootstrap_avg and bootstrap_p...')
-# try:
-#     bootstrap_avgs = [a.data['bootstrap_avg'] for a in model.schedule.agents]  # noqa
-#     bootstrap_ps = [a.data['bootstrap_p'] for a in model.schedule.agents]  # noqa
-# except (AttributeError, KeyError) as error:
-#     bootstraps = [bmsn.bootstrap(a) for a in model.schedule.agents]
-#     bootstrap_avgs = [i[0] for i in bootstraps]
-#     bootstrap_ps = [i[1] for i in bootstraps]
-# plt.boxplot(generationalize(bootstrap_avgs, 10))
-# plt.savefig('results/' + OUT_FILENAME + '_bootstrap_avg.png')
-# plt.clf()
-# plt.boxplot(generationalize(bootstrap_ps, 10))
-# plt.savefig('results/' + OUT_FILENAME + '_bootstrap_p.png')
-# plt.clf()
-
-lg.info('=' * 79)
-END = time.time()
-lg.info('Script took {} minutes to complete.'.format((END - START) / 60))
-
-# do this last just in case pickling fails
-lg.info('Dumping model to pickle file...')
-with open('results/' + OUT_FILENAME + '.pickle', 'wb') as out_file:
-    pickle.dump(model, out_file)
+    # do this last just in case pickling fails
+    lg.info('Dumping model to pickle file...')
+    with open('results/' + OUT_FILENAME + '.pickle', 'wb') as out_file:
+        pickle.dump(model, out_file)

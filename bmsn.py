@@ -399,7 +399,7 @@ class MorphAgent(mesa.Agent):
         lg.info('        lexeme count: {}'.format(len(lex_dict)))
         self.in_lex_dict = lex_dict
         lg.info('    generating table from lex_dict...')
-        table_dict = {}  # keys are tuples of endings
+        self.table_dict = {}  # keys are tuples of endings
         for lex, l_dict in self.in_lex_dict.items():
             e_list = []
             for m in self.model.seed_MSPSs:
@@ -410,28 +410,24 @@ class MorphAgent(mesa.Agent):
                     e_list.append('-')
             e_list = tuple(e_list)
             try:
-                table_dict[e_list] += 1
+                self.table_dict[e_list] += 1
             except KeyError:
-                table_dict[e_list] = 1
-        with open(self.model.table_filename, 'w') as table_file:
-            print('\t'.join([''] + [m for m in self.model.seed_MSPSs]),
+                self.table_dict[e_list] = 1
+        with open(self.model.table_filename + '.txt', 'a') as table_file, \
+                open(self.model.table_filename + '.tmp', 'w') as temp_file:
+            print('=' * 39, file=table_file)
+            print('Gen: {},    Agent: {}'.format(self.gen_id, self.unique_id),
                   file=table_file)
-            for e_list, type_freq in sorted(table_dict.items(),
+            header = '\t'.join([''] + [m for m in self.model.seed_MSPSs])
+            print(header, file=table_file)
+            print(header, file=temp_file)
+            for e_list, type_freq in sorted(self.table_dict.items(),
                                             key=lambda x: x[1],
                                             reverse=True):
                 print(type_freq, *e_list, sep='\t', file=table_file)
-        self.morph_table = pd.read_table(self.model.table_filename,
+                print(type_freq, *e_list, sep='\t', file=temp_file)
+        self.morph_table = pd.read_table(self.model.table_filename + '.tmp',
                                          index_col=0)
-
-        # d = {m: pd.Series([each[0][i] for each in sorted(table_dict.items(),
-        #                                                  key=lambda x: x[1],
-        #                                                  reverse=True)],
-        #                   index=[each[1] for each in sorted(table_dict.items(),  # noqa
-        #                                                     key=lambda x: x[1],  # noqa
-        #                                                     reverse=True)])
-        #      for i, m in enumerate(self.model.seed_MSPSs)}
-        # self.morph_table = pd.DataFrame(d)
-        # lg.info('    table is...{}'.format(self.morph_table))
         lg.info('    ...done!')
 
     def prior(self, MNBs, t_ms, g_ms, g_e, h_dist):
@@ -613,8 +609,7 @@ class MorphLearnModel(mesa.Model):
         self.table_filename = ('results/morph_table_' +
                                str(self.step_timesteps[0]) +
                                '_' +
-                               morph_filename.split('/')[1].split('.')[0] +
-                               '.tmp')
+                               morph_filename.split('/')[1].split('.')[0])
         self.parse_seed_morph(morph_filename)
         if h_space_increment is None:
             self.h_space_incr = self.max_flections
@@ -767,5 +762,12 @@ class MorphLearnModel(mesa.Model):
         """Advance the model by one step."""
         lg.info('Model is stepping...')
         # self.dc.collect(self)  # collect data
+        with open(self.table_filename + '.txt', 'a') as table_file:
+            print('=' * 79, file=table_file)
+            print('=' * 79, file=table_file)
+            print('Generation {}'.format(self.schedule.steps + 1),
+                  file=table_file)
+            print('=' * 79, file=table_file)
+            print('=' * 79, file=table_file)
         self.schedule.step()
         self.step_timesteps.append(time.time())
