@@ -31,7 +31,7 @@ def get_table_dict(agent):
 
 def write_tables(model, filename):
     """Write morphological tables to a file with same name as pickled file."""
-    with open('results/' + filename + '_TABLES.txt', 'w') as table_file:
+    with open(filename + '_TABLES.txt', 'w') as table_file:
         gen_tracker = None
         for a in model.schedule.agents:
             if a.gen_id != gen_tracker:
@@ -58,13 +58,13 @@ def write_tables(model, filename):
 
 if __name__ == '__main__':
     filename = sys.argv[1]
-    if '/' in filename:
-        filename = filename.split('/')[1]
-    print('Input file is {}.'.format(filename))
+    # if '/' in filename:
+    #     filename = filename.split('/')[1:]
+    print('Input file is "{}".'.format(filename))
     filename = filename.rstrip('.pickle')
-    print('Output filename is {}.'.format(filename))
+    print('Output filename is "{}".'.format(filename))
 
     print('Loading pickled model into memory... ({})'.format(filename))
-    with open('results/' + filename + '.pickle', 'rb') as p_file:
+    with open(filename + '.pickle', 'rb') as p_file:
         model = pickle.load(p_file)
     write_tables(model, filename)
