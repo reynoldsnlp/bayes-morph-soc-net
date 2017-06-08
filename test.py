@@ -1,5 +1,6 @@
 """Test out bmsn."""
 
+import datetime as dt
 import logging as lg
 import pickle
 import sys
@@ -12,9 +13,9 @@ import bmsn
 
 # data files to focus on: 1, 4, 7, 11
 OUT_FILENAME_BASE = 'test'
-ASC_TIME = time.asctime().replace(' ', '-')
+TIMESTAMP = dt.datetime.now().isoformat().replace(':', '-').split('.')[0]
 GEN_SIZE = 50
-GEN_COUNT = 20
+GEN_COUNT = 10
 H_SPACE_INC = 7
 try:
     PRODUCTION_SIZE = int(sys.argv[2])
@@ -28,7 +29,7 @@ except IndexError:
 START = time.time()
 
 OUT_FILENAME = '_'.join([OUT_FILENAME_BASE,
-                         ASC_TIME,
+                         TIMESTAMP, '', '',  # add underscores
                          str(GEN_SIZE),
                          str(GEN_COUNT),
                          str(H_SPACE_INC),
@@ -91,7 +92,7 @@ def draw_boxplots(model, out_filename=OUT_FILENAME, bootstrapping=False):
 
     print('    avg_cell_entropy...', file=sys.stderr)
     try:
-        avg_cell_entropies = [get_data(a, bmsn.avg_cell_entropy, 'avg_cell_entropy')
+        avg_cell_entropies = [get_data(a, bmsn.avg_cell_entropy, 'avg_cell_entropy')  # noqa
                               for a in model.schedule.agents]  # noqa
     except (AttributeError, KeyError) as error:
         print('        ...not in model. Computing from scratch...')
