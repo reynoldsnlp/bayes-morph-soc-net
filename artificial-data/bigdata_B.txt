@@ -1,0 +1,13 @@
+label	typeFreq	MPS_A	MPS_B	MPS_C	MPS_D	MPS_E
+1	1	a	q	r	s	o
+2	1	a	b	r	s	t
+3	1	a	b	c	s	t
+4	1	f	b	c	d	t
+5	1	f	g	c	d	e
+6	1	f	g	h	d	e
+7	1	k	g	h	i	e
+8	1	k	l	h	i	j
+9	1	k	l	m	i	j
+10	1	p	l	m	n	j
+11	1	p	q	m	n	o
+12	1	p	q	r	n	o
