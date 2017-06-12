@@ -54,6 +54,16 @@ def write_tables(model, filename):
                                                 key=lambda x: x[1],
                                                 reverse=True):
                     print(type_freq, *e_list, sep='\t', file=table_file)
+    with open(filename + '_last_table.txt', 'w') as table_file:
+        a = model.schedule.agents[-1]
+        table_dict = get_table_dict(a)
+        header = '\t'.join([''] + [m for m in a.model.seed_MSPSs])
+        print(header, file=table_file)
+        for i, (e_list, type_freq) in enumerate(sorted(table_dict.items(),
+                                                       key=lambda x: x[1],
+                                                       reverse=True)):
+            print(type_freq, *e_list, sep='\t', file=table_file)
+            # print(i + 1, type_freq, *e_list, sep='\t', file=table_file)
 
 
 if __name__ == '__main__':

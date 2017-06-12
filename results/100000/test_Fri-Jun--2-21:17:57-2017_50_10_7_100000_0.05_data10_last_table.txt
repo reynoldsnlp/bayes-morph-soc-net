@@ -1,0 +1,9 @@
+	A	B	C	D	E	F	G
+640	a	p	q	r	l	m	g
+141	o	i	j	d	e	t	u
+118	h	b	c	r	s	t	n
+96	h	i	c	d	s	t	u
+3	h	p	c	r	s	t	n
+1	h	p	q	r	l	t	g
+1	a	p	q	r	s	t	g
+1	a	p	q	r	l	t	g

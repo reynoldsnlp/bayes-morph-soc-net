@@ -1,0 +1,12 @@
+	A	B	C	D	E	F	G
+763	a	bb	q	r	l	m	g
+221	h	i	c	d	s	t	u
+4	h	bb	c	d	s	t	u
+4	h	i	q	d	s	t	u
+2	h	i	c	d	l	t	u
+2	a	i	c	d	s	t	u
+1	a	bb	q	d	l	m	g
+1	h	bb	q	d	s	t	u
+1	h	i	c	d	s	t	g
+1	h	i	q	d	s	m	u
+1	h	i	c	r	s	t	g

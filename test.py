@@ -9,6 +9,7 @@ import time
 import matplotlib.pyplot as plt
 
 import bmsn
+import rewrite_tables as rt
 
 
 # data files to focus on: 1, 4, 7, 11
@@ -185,6 +186,7 @@ if __name__ == '__main__':
         model.step()
 
     draw_boxplots(model)
+    rt.write_tables(model, OUT_FILENAME)
 
     lg.info('=' * 79)
     END = time.time()

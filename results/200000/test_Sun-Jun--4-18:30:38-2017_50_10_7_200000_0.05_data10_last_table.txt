@@ -1,0 +1,7 @@
+	A	B	C	D	E	F	G
+442	a	p	q	r	l	m	g
+193	a	b	q	r	s	m	n
+129	h	b	c	r	s	t	n
+96	h	i	c	d	s	t	u
+77	o	i	j	d	e	t	u
+64	o	p	j	k	e	f	u

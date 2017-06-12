@@ -1,0 +1,5 @@
+	A	B	C	D	E	F	G
+661	a	p	q	r	l	m	g
+141	o	i	j	d	e	t	u
+106	h	i	c	d	s	t	u
+93	h	i	c	r	s	t	u

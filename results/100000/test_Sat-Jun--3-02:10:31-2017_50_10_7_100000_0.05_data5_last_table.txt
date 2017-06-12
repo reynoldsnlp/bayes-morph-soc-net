@@ -1,0 +1,7 @@
+	A	B	C	D	E	F	G
+583	aa	bb	cc	d	e	f	g
+192	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+94	a	b	c	jj	kk	f	g
+2	a	b	c	jj	e	f	g
+1	a	dd	cc	ff	e	f	g

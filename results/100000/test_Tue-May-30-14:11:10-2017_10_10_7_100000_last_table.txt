@@ -1,0 +1,10 @@
+	A	B	C	D	E	F	G
+388	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+114	a	b	c	d	e	f	g
+95	a	b	c	jj	kk	ll	g
+75	a	b	cc	d	e	f	g
+3	a	bb	cc	d	e	f	g
+3	rr	b	c	d	e	f	g
+1	a	b	c	jj	e	ll	g

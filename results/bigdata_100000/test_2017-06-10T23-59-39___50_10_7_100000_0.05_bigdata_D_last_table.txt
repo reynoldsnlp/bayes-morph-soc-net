@@ -1,0 +1,7 @@
+	MPS_A	MPS_B	MPS_C	MPS_D	MPS_E
+840	a	dd	i	l	o
+222	b	e	g	j	m
+131	c	f	h	k	n
+109	aa	d	g	j	ll
+52	bb	e	h	k	mm
+1	bb	e	h	k	n

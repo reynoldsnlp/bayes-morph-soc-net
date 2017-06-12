@@ -605,22 +605,11 @@ class MorphLearnModel(mesa.Model):
         for i, j in enumerate(self.network):
             lg.info('    {:>4} => {}'.format(i, j))
         assert self.num_agents == len(self.network)
-        self.morph_filename = morph_filename
-        self.table_filename = ('results/morph_table_' +
-                               str(self.step_timesteps[0]) +
-                               '_' +
-                               morph_filename.split('/')[1].split('.')[0])
-        self.parse_seed_morph(morph_filename)
         if h_space_increment is None:
             self.h_space_incr = self.max_flections
         else:
             self.h_space_incr = h_space_increment
-        self.lexeme_zipf_const = 1
-        while self.lexeme_dist_count(self.lexeme_zipf_const) < lexeme_count:
-            self.lexeme_zipf_const += 1
-        self.lexeme_type_freq_list = [floor(self.lexeme_zipf_const / i)
-                                      for i in
-                                      range(1, len(self.seed_MSPSs) + 1)]
+        self.lexeme_count = lexeme_count
         self.zipf_max = zipf_max
         self.prod_size = prod_size
         self.discrete = discrete
@@ -630,6 +619,12 @@ class MorphLearnModel(mesa.Model):
             self.out_func = prob_output
         self.whole_lex = whole_lex
         self.schedule = mesa.time.BaseScheduler(self)
+        self.morph_filename = morph_filename
+        self.table_filename = ('results/morph_table_' +
+                               str(self.step_timesteps[0]) +
+                               '_' +
+                               morph_filename.split('/')[1].split('.')[0])
+        self.parse_seed_morph(morph_filename)
 
         # Create agents
         lg.info('Generating agents...')
@@ -671,21 +666,30 @@ class MorphLearnModel(mesa.Model):
         """
         self.seed_filename = input_filename
         with open(input_filename) as in_file:
-            self.seed_cols = [c for c
-                              in in_file.readline().rstrip().split('\t')]
-            self.seed_MSPSs = self.seed_cols[1:]
-            self.seed_infl_classes = []  # list of dicts
-            for line in in_file:
-                infl_class = {}
-                for i, value in enumerate(line.rstrip().split('\t')):
-                    if self.seed_cols[i] == 'typeFreq':
-                        infl_class[self.seed_cols[i]] = int(value)
-                    else:
-                        try:
-                            infl_class[self.seed_cols[i]] = float(value)
-                        except ValueError:
-                            infl_class[self.seed_cols[i]] = value
-                self.seed_infl_classes.append(infl_class)
+            in_file_lines = in_file.readlines()
+        self.seed_cols = [c for c in in_file_lines[0].rstrip().split('\t')]
+        self.seed_MSPSs = self.seed_cols[1:]
+        lg.debug('seed MSPSs: {}'.format(self.seed_MSPSs))
+        self.seed_infl_classes = []  # list of dicts
+        class_count = len(in_file_lines) - 1
+        self.lexeme_zipf_const = 1
+        while self.lexeme_dist_count(self.lexeme_zipf_const) < self.lexeme_count:  # noqa
+            self.lexeme_zipf_const += 1
+        self.lexeme_type_freq_list = [floor(self.lexeme_zipf_const / i)
+                                      for i in
+                                      range(1, class_count + 1)]
+        for c_id, line in enumerate(in_file_lines[1:]):
+            infl_class = {}
+            for i, value in enumerate(line.rstrip().split('\t')):
+                if self.seed_cols[i] == 'typeFreq':
+                    infl_class['typeFreq'] = self.lexeme_type_freq_list[c_id]
+                else:
+                    try:
+                        infl_class[self.seed_cols[i]] = float(value)
+                    except ValueError:
+                        infl_class[self.seed_cols[i]] = value
+            self.seed_infl_classes.append(infl_class)
+        lg.debug('infl classes: {}'.format(self.seed_infl_classes))
         self.max_type_freq = max([c['typeFreq']
                                   for c in self.seed_infl_classes])
         flections = {}
@@ -751,8 +755,11 @@ class MorphLearnModel(mesa.Model):
 
         output -- tuple(inflection_class, lexeme, tok_freq)
         """
+        lg.debug('seed_infl_classes: {}'.format(self.seed_infl_classes))
+        lg.debug('lexeme_type_freq_list: {}'.format(self.lexeme_type_freq_list))
+        lg.debug('zipf_max: {}'.format(self.zipf_max))
         for ci, c in enumerate(self.seed_infl_classes):
-            for i in range(self.lexeme_type_freq_list[ci]):  # lexeme = ci-i
+            for i in range(c['typeFreq']):  # lexeme = ci-i
                 # generate tok_freq based on zipfian dist, chopping off tail
                 for tok_freq in [floor(self.zipf_max / i)
                                  for i in range(1, c['typeFreq'] + 1)]:
