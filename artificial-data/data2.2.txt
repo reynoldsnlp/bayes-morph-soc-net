@@ -1,4 +1,4 @@
-typeFreq	MPS_A	MPS_B	MPS_C	MPS_D	MPS_E
+typeFreq	A	B	C	D	E
 1	a	f	i	l	o
 1	a	d	i	l	o
 1	a	d	g	l	o
