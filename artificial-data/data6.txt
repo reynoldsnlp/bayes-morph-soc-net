@@ -1,8 +1,0 @@
-typeFreq	A	B	C	D	E	F	G
-1	a	bb	q	r	l	m	g
-1	a	b	cc	r	s	m	n
-1	h	b	c	dd	s	t	n
-1	h	i	c	d	ee	t	u
-1	o	i	j	d	e	ff	u
-1	o	p	j	k	e	f	gg
-1	aa	p	q	k	l	f	g

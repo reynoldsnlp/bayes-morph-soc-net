@@ -1,0 +1,8 @@
+typeFreq	A	B	C	D	E	F	G
+387	aa	bb	cc	dd	e	f	f
+193	a	ee	ff	gg	hh	f	f
+129	a	b	ii	jj	kk	ll	f
+96	a	b	c	mm	nn	oo	pp
+77	tt	b	c	d	qq	rr	ss
+64	ww	xx	c	d	e	uu	vv
+55	zz	aaa	bbb	d	e	f	yy

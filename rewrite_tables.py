@@ -48,22 +48,25 @@ def write_tables(model, filename):
             if isinstance(table_dict, str):
                 print(table_dict, file=table_file)
             else:
-                header = '\t'.join([''] + [m for m in a.model.seed_MSPSs])
+                # header = '\t'.join(['typeFreq'] + [m for m in a.model.seed_MSPSs])  # noqa
+                header = '\t'.join(['id', 'typeFreq'] + [m for m in a.model.seed_MSPSs])  # noqa
                 print(header, file=table_file)
-                for e_list, type_freq in sorted(table_dict.items(),
-                                                key=lambda x: x[1],
-                                                reverse=True):
-                    print(type_freq, *e_list, sep='\t', file=table_file)
+                for i, (e_list, type_freq) in enumerate(sorted(table_dict.items(),  # noqa
+                                                               key=lambda x: x[1],  # noqa
+                                                               reverse=True)):
+                    # print(type_freq, *e_list, sep='\t', file=table_file)
+                    print(i + 1, type_freq, *e_list, sep='\t', file=table_file)
     with open(filename + '_last_table.txt', 'w') as table_file:
         a = model.schedule.agents[-1]
         table_dict = get_table_dict(a)
-        header = '\t'.join([''] + [m for m in a.model.seed_MSPSs])
+        # header = '\t'.join(['typeFreq'] + [m for m in a.model.seed_MSPSs])
+        header = '\t'.join(['id', 'typeFreq'] + [m for m in a.model.seed_MSPSs]) # noqa
         print(header, file=table_file)
         for i, (e_list, type_freq) in enumerate(sorted(table_dict.items(),
                                                        key=lambda x: x[1],
                                                        reverse=True)):
-            print(type_freq, *e_list, sep='\t', file=table_file)
-            # print(i + 1, type_freq, *e_list, sep='\t', file=table_file)
+            # print(type_freq, *e_list, sep='\t', file=table_file)
+            print(i + 1, type_freq, *e_list, sep='\t', file=table_file)
 
 
 if __name__ == '__main__':

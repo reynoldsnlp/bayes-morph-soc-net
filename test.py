@@ -74,6 +74,38 @@ def draw_boxplots(model, out_filename=OUT_FILENAME, bootstrapping=False):
     plt.savefig('results/' + out_filename + '_lex_size.png')
     plt.clf()
 
+    print('    class_count...', file=sys.stderr)
+    try:
+        class_counts = [get_data(a, bmsn.class_counter, 'class_count')
+                        for a in model.schedule.agents]
+    except (AttributeError, KeyError) as error:
+        print('        ...not in model. Computing from scratch...')
+        class_counts = [bmsn.class_counter(a) for a in model.schedule.agents]
+    ymax = max(class_counts)
+    if ymax <= 2.0:
+        plt.ylim((-0.1, 2.1))
+    else:
+        plt.ylim((-0.1, ymax + 0.1))
+    plt.boxplot(generationalize(class_counts, gen_count))
+    plt.savefig('results/' + out_filename + '_class_count.png')
+    plt.clf()
+
+    print('    exp_count...', file=sys.stderr)
+    try:
+        exp_counts = [get_data(a, bmsn.exp_counter, 'exp_count')
+                      for a in model.schedule.agents]
+    except (AttributeError, KeyError) as error:
+        print('        ...not in model. Computing from scratch...')
+        exp_counts = [bmsn.exp_counter(a) for a in model.schedule.agents]
+    ymax = max(exp_counts)
+    if ymax <= 2.0:
+        plt.ylim((-0.1, 2.1))
+    else:
+        plt.ylim((-0.1, ymax + 0.1))
+    plt.boxplot(generationalize(exp_counts, gen_count))
+    plt.savefig('results/' + out_filename + '_exp_count.png')
+    plt.clf()
+
     print('    decl_entropy...', file=sys.stderr)
     try:
         decl_entropies = [get_data(a, bmsn.decl_entropy, 'decl_entropy')
@@ -186,7 +218,7 @@ if __name__ == '__main__':
         model.step()
 
     draw_boxplots(model)
-    rt.write_tables(model, OUT_FILENAME)
+    rt.write_tables(model, 'results/' + OUT_FILENAME)
 
     lg.info('=' * 79)
     END = time.time()
