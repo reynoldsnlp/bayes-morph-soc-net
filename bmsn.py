@@ -630,6 +630,7 @@ class MorphLearnModel(mesa.Model):
         self.lexeme_count = lexeme_count
         self.zipf_max = zipf_max
         self.prod_size = prod_size
+        self.rand_tf = rand_tf
         self.discrete = discrete
         if self.discrete:
             self.out_func = key_of_highest_value
@@ -700,7 +701,7 @@ class MorphLearnModel(mesa.Model):
                                       range(1, self.class_count + 1)]
         if self.rand_tf:
             lg.info('randomizing order of type frequencies...')
-            self.lexeme_type_freq_list = random.shuffle(self.lexeme_type_freq_list)  # noqa
+            random.shuffle(self.lexeme_type_freq_list)
         lg.info('lexeme_type_freq_list {}'.format(self.lexeme_type_freq_list))
         lg.info('zipf_max: {}'.format(self.zipf_max))
         self.exp_dict = Counter()
