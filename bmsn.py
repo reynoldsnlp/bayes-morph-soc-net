@@ -576,7 +576,7 @@ class MorphLearnModel(mesa.Model):
     def __init__(self, *, gen_size=50, gen_count=10, morph_filename=None,
                  nw_func=None, nw_kwargs={}, connectedness=0.05, discrete=True,
                  whole_lex=True, h_space_increment=None, lexeme_count=1000,
-                 zipf_max=100, prod_size=100):
+                 zipf_max=100, prod_size=100, rand_tf=False):
         """Initialize model object.
 
         Arguments:
@@ -601,6 +601,7 @@ class MorphLearnModel(mesa.Model):
         lexeme_count -- Number of lexemes in seed morphology
         zipf_max -- Basis for generating token frequencies
         prod_size -- How many productions each agent should 'speak'.
+        rand_tf -- Randomize type frequency across declension classes
         """
         lg.info('Initializing model...')
         self.step_timesteps = [time.time()]
@@ -697,6 +698,9 @@ class MorphLearnModel(mesa.Model):
         self.lexeme_type_freq_list = [floor(self.lexeme_zipf_const / i)
                                       for i in
                                       range(1, self.class_count + 1)]
+        if self.rand_tf:
+            lg.info('randomizing order of type frequencies...')
+            self.lexeme_type_freq_list = random.shuffle(self.lexeme_type_freq_list)  # noqa
         lg.info('lexeme_type_freq_list {}'.format(self.lexeme_type_freq_list))
         lg.info('zipf_max: {}'.format(self.zipf_max))
         self.exp_dict = Counter()

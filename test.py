@@ -18,6 +18,7 @@ TIMESTAMP = dt.datetime.now().isoformat().replace(':', '-').split('.')[0]
 GEN_SIZE = 50
 GEN_COUNT = 10
 H_SPACE_INC = 7
+RAND_TF = True
 try:
     PRODUCTION_SIZE = int(sys.argv[2])
 except IndexError:
@@ -29,6 +30,10 @@ except IndexError:
     MORPH_FILENAME = 'unknown'
 START = time.time()
 
+if RAND_TF:
+    rand = 'rand'
+else:
+    rand = ''
 OUT_FILENAME = '_'.join([OUT_FILENAME_BASE,
                          TIMESTAMP, '', '',  # add underscores
                          str(GEN_SIZE),
@@ -36,6 +41,7 @@ OUT_FILENAME = '_'.join([OUT_FILENAME_BASE,
                          str(H_SPACE_INC),
                          str(PRODUCTION_SIZE),
                          str(CONNECTEDNESS),
+                         rand,
                          MORPH_FILENAME.split('/')[1].rstrip('.txt')])
 
 
@@ -210,7 +216,8 @@ if __name__ == '__main__':
                                  morph_filename=MORPH_FILENAME,
                                  h_space_increment=H_SPACE_INC,
                                  prod_size=PRODUCTION_SIZE,
-                                 connectedness=CONNECTEDNESS)
+                                 connectedness=CONNECTEDNESS,
+                                 rand_tf=RAND_TF)
     for i in range(GEN_COUNT):
         lg.info('=' * 79)
         lg.info('Model step {}.'.format(i))
