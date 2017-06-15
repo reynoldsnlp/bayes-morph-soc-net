@@ -1,0 +1,13 @@
+typeFreq	A	B	C	D	E
+1	a	dd	i	l	o
+1	a	d	gg	l	o
+1	a	d	g	jj	o
+1	aa	d	g	j	ll
+1	b	ee	g	j	m
+1	b	e	hh	j	m
+1	b	e	h	jj	m
+1	bb	e	h	k	mm
+1	c	ff	h	k	n
+1	c	f	ii	k	n
+1	c	f	i	kk	n
+1	cc	f	i	l	nn
