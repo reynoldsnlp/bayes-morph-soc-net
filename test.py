@@ -22,7 +22,7 @@ RAND_TF = True
 try:
     PRODUCTION_SIZE = int(sys.argv[2])
 except IndexError:
-    PRODUCTION_SIZE = 10000
+    PRODUCTION_SIZE = 100000
 CONNECTEDNESS = 0.05
 try:
     MORPH_FILENAME = sys.argv[1]
