@@ -1,6 +1,0 @@
-	A	B	C	D	E	F	G
-583	aa	bb	cc	d	e	f	g
-192	a	dd	ee	ff	e	f	g
-129	a	b	gg	hh	e	f	g
-96	a	b	cc	d	e	f	g
-1	a	bb	ee	ff	e	f	g

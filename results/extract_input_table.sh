@@ -1,9 +1,6 @@
 #!/bin/bash
 
-# This script takes one argument, the numeric part of data_x.y.txt
-# Ex: $ sh extract_input_table.sh 4.14
-
-for input in 4.{1..14}
+for input in 5.{1..23}
 do
 	pattern="*${input}.log"
 	for each in $(ls ${pattern})

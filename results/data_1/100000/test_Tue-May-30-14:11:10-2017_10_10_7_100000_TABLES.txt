@@ -1,0 +1,1140 @@
+===============================================================================
+===============================================================================
+Generation 0
+===============================================================================
+===============================================================================
+=======================================
+Gen: 0,    Agent: 0
+DELETED
+=======================================
+Gen: 0,    Agent: 1
+DELETED
+=======================================
+Gen: 0,    Agent: 2
+DELETED
+=======================================
+Gen: 0,    Agent: 3
+DELETED
+=======================================
+Gen: 0,    Agent: 4
+DELETED
+=======================================
+Gen: 0,    Agent: 5
+DELETED
+=======================================
+Gen: 0,    Agent: 6
+DELETED
+=======================================
+Gen: 0,    Agent: 7
+DELETED
+=======================================
+Gen: 0,    Agent: 8
+DELETED
+=======================================
+Gen: 0,    Agent: 9
+DELETED
+===============================================================================
+===============================================================================
+Generation 1
+===============================================================================
+===============================================================================
+=======================================
+Gen: 1,    Agent: 10
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 1,    Agent: 11
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 1,    Agent: 12
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 1,    Agent: 13
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 1,    Agent: 14
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 1,    Agent: 15
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 1,    Agent: 16
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 1,    Agent: 17
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 1,    Agent: 18
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 1,    Agent: 19
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+===============================================================================
+===============================================================================
+Generation 2
+===============================================================================
+===============================================================================
+=======================================
+Gen: 2,    Agent: 20
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 2,    Agent: 21
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 2,    Agent: 22
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 2,    Agent: 23
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 2,    Agent: 24
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 2,    Agent: 25
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 2,    Agent: 26
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 2,    Agent: 27
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 2,    Agent: 28
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 2,    Agent: 29
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+===============================================================================
+===============================================================================
+Generation 3
+===============================================================================
+===============================================================================
+=======================================
+Gen: 3,    Agent: 30
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+95	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+1	a	b	c	jj	kk	f	g
+=======================================
+Gen: 3,    Agent: 31
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 3,    Agent: 32
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 3,    Agent: 33
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+95	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+1	a	b	c	jj	kk	f	g
+=======================================
+Gen: 3,    Agent: 34
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 3,    Agent: 35
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 3,    Agent: 36
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 3,    Agent: 37
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 3,    Agent: 38
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+76	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+1	a	b	c	d	mm	nn	g
+=======================================
+Gen: 3,    Agent: 39
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+===============================================================================
+===============================================================================
+Generation 4
+===============================================================================
+===============================================================================
+=======================================
+Gen: 4,    Agent: 40
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+76	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+1	a	b	c	d	mm	f	oo
+=======================================
+Gen: 4,    Agent: 41
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 4,    Agent: 42
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 4,    Agent: 43
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+76	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+1	a	b	c	d	mm	nn	g
+=======================================
+Gen: 4,    Agent: 44
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 4,    Agent: 45
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 4,    Agent: 46
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+76	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+1	a	b	c	d	mm	f	oo
+=======================================
+Gen: 4,    Agent: 47
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+=======================================
+Gen: 4,    Agent: 48
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+126	a	b	gg	hh	ii	f	g
+95	a	b	c	jj	kk	ll	g
+73	a	b	c	d	mm	nn	oo
+62	rr	b	c	d	e	pp	qq
+54	tt	uu	c	d	e	f	ss
+4	a	b	c	d	e	nn	oo
+3	a	b	gg	hh	e	f	g
+1	a	b	c	jj	kk	f	g
+1	a	b	c	d	e	pp	qq
+1	rr	b	c	d	e	f	qq
+1	tt	uu	cc	d	e	f	ss
+=======================================
+Gen: 4,    Agent: 49
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+76	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+1	a	b	c	d	mm	f	oo
+===============================================================================
+===============================================================================
+Generation 5
+===============================================================================
+===============================================================================
+=======================================
+Gen: 5,    Agent: 50
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+76	a	b	c	d	mm	nn	oo
+63	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+1	a	b	c	d	mm	nn	g
+1	a	b	c	d	e	pp	qq
+=======================================
+Gen: 5,    Agent: 51
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+75	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+2	a	b	c	d	mm	nn	g
+=======================================
+Gen: 5,    Agent: 52
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+71	a	b	c	d	mm	nn	oo
+62	rr	b	c	d	e	pp	qq
+54	tt	uu	c	d	e	f	ss
+3	a	b	c	d	mm	nn	g
+2	a	b	c	d	mm	f	oo
+2	rr	b	c	d	e	pp	g
+1	a	b	c	d	mm	f	g
+1	tt	uu	c	d	e	f	g
+=======================================
+Gen: 5,    Agent: 53
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+75	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+2	a	b	c	d	mm	nn	g
+=======================================
+Gen: 5,    Agent: 54
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+76	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+1	a	b	c	d	mm	nn	g
+=======================================
+Gen: 5,    Agent: 55
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+71	a	b	c	d	mm	nn	oo
+62	rr	b	c	d	e	pp	qq
+54	tt	uu	c	d	e	f	ss
+6	a	b	c	d	mm	nn	g
+2	rr	b	c	d	e	pp	g
+1	tt	uu	c	d	e	f	g
+=======================================
+Gen: 5,    Agent: 56
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+75	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+2	a	b	c	d	mm	nn	g
+=======================================
+Gen: 5,    Agent: 57
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+75	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+2	a	b	c	d	mm	nn	g
+=======================================
+Gen: 5,    Agent: 58
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+73	a	b	c	d	mm	nn	oo
+62	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+4	a	b	c	d	mm	nn	g
+2	rr	b	c	d	e	pp	g
+=======================================
+Gen: 5,    Agent: 59
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+75	a	b	c	d	mm	nn	oo
+64	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+2	a	b	c	d	mm	nn	g
+===============================================================================
+===============================================================================
+Generation 6
+===============================================================================
+===============================================================================
+=======================================
+Gen: 6,    Agent: 60
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+72	a	b	c	d	mm	nn	oo
+62	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+2	a	b	c	d	mm	nn	g
+2	rr	b	c	d	e	f	qq
+1	a	b	c	d	e	nn	g
+1	a	b	c	d	mm	f	oo
+1	a	b	c	d	e	f	oo
+=======================================
+Gen: 6,    Agent: 61
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+73	a	b	c	d	mm	nn	oo
+61	rr	b	c	d	e	pp	qq
+54	tt	uu	c	d	e	f	ss
+3	rr	b	c	d	e	f	qq
+2	a	b	c	d	e	f	g
+1	a	b	c	d	e	nn	g
+1	a	b	c	d	mm	nn	g
+1	tt	uu	c	d	e	f	g
+=======================================
+Gen: 6,    Agent: 62
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+76	a	b	c	d	mm	nn	oo
+61	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+2	rr	b	c	d	e	f	qq
+1	a	b	c	d	e	f	oo
+1	rr	b	c	d	e	f	g
+=======================================
+Gen: 6,    Agent: 63
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+74	a	b	c	d	mm	nn	oo
+61	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+2	a	b	c	d	mm	nn	g
+2	rr	b	c	d	e	f	qq
+1	a	b	c	d	e	f	oo
+1	rr	b	c	d	e	pp	g
+=======================================
+Gen: 6,    Agent: 64
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+61	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+46	a	b	c	d	mm	nn	g
+29	a	b	c	d	mm	nn	oo
+2	rr	b	c	d	e	f	g
+1	a	b	c	d	mm	f	g
+1	a	b	c	d	e	f	g
+1	rr	b	c	d	e	pp	g
+=======================================
+Gen: 6,    Agent: 65
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+73	a	b	c	d	mm	nn	oo
+61	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+2	a	b	c	d	e	nn	g
+2	rr	b	c	d	e	f	qq
+1	a	b	c	d	mm	nn	g
+1	a	b	c	d	e	f	oo
+1	rr	b	c	d	e	pp	g
+=======================================
+Gen: 6,    Agent: 66
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+73	a	b	c	d	mm	nn	oo
+61	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+2	a	b	c	d	e	nn	g
+2	rr	b	c	d	e	f	qq
+1	a	b	c	d	mm	nn	g
+1	a	b	c	d	e	f	oo
+1	rr	b	c	d	e	pp	g
+=======================================
+Gen: 6,    Agent: 67
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+73	a	b	c	d	mm	nn	oo
+62	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+2	rr	b	c	d	e	f	qq
+1	a	b	c	d	e	nn	oo
+1	a	b	c	d	e	nn	g
+1	a	b	c	d	mm	nn	g
+1	a	b	c	d	e	f	oo
+=======================================
+Gen: 6,    Agent: 68
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+75	a	b	c	d	mm	nn	oo
+63	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+1	a	b	c	d	mm	f	oo
+1	a	b	c	d	e	f	oo
+1	rr	b	c	d	e	pp	g
+=======================================
+Gen: 6,    Agent: 69
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+75	a	b	c	d	mm	nn	g
+62	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+2	rr	b	c	d	e	f	qq
+1	a	b	c	d	e	nn	g
+1	a	b	c	d	e	f	g
+===============================================================================
+===============================================================================
+Generation 7
+===============================================================================
+===============================================================================
+=======================================
+Gen: 7,    Agent: 70
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+127	a	b	gg	hh	ii	f	g
+93	a	b	c	jj	kk	ll	g
+66	a	b	c	d	mm	nn	g
+57	rr	b	c	d	e	pp	qq
+54	tt	uu	c	d	e	f	ss
+8	a	b	c	d	e	nn	g
+4	a	b	c	d	e	f	g
+3	a	b	c	jj	kk	f	g
+2	a	b	gg	hh	e	f	g
+2	a	b	c	d	mm	f	g
+2	a	b	c	d	e	pp	qq
+2	rr	b	c	d	e	pp	g
+1	tt	uu	c	d	e	f	g
+=======================================
+Gen: 7,    Agent: 71
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+74	a	b	c	d	mm	nn	g
+61	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+5	a	b	c	d	e	f	g
+1	rr	b	c	d	e	f	g
+=======================================
+Gen: 7,    Agent: 72
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+61	rr	b	c	d	e	pp	qq
+59	a	b	c	d	e	f	g
+55	tt	uu	c	d	e	f	ss
+14	a	b	c	d	mm	f	g
+5	a	b	c	d	e	nn	g
+1	a	b	c	d	e	pp	g
+1	rr	b	c	d	e	pp	g
+=======================================
+Gen: 7,    Agent: 73
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+73	a	b	c	d	mm	nn	g
+61	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+4	a	b	c	d	e	f	g
+2	a	b	c	d	mm	f	g
+1	a	b	c	d	e	nn	g
+=======================================
+Gen: 7,    Agent: 74
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+72	a	b	c	d	mm	nn	oo
+61	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+3	a	b	c	d	e	f	g
+2	a	b	c	d	e	pp	g
+1	a	b	c	d	mm	f	g
+1	a	b	c	d	mm	f	oo
+1	a	b	c	d	mm	nn	g
+=======================================
+Gen: 7,    Agent: 75
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+192	a	dd	ee	ff	e	f	g
+127	a	b	gg	hh	ii	f	g
+94	a	b	c	jj	kk	ll	g
+68	a	b	c	d	mm	nn	oo
+55	rr	b	c	d	e	pp	qq
+54	tt	uu	c	d	e	f	ss
+3	a	b	c	d	e	nn	oo
+3	rr	b	c	d	e	f	qq
+3	a	b	c	d	e	pp	g
+2	a	b	gg	hh	e	f	g
+2	a	b	c	jj	kk	f	g
+2	a	b	c	d	e	f	g
+2	rr	b	c	d	e	pp	g
+1	a	dd	ee	d	e	f	g
+1	a	b	c	d	e	f	oo
+1	a	b	c	d	mm	f	oo
+1	a	b	c	d	e	nn	g
+1	a	b	c	d	mm	nn	g
+1	a	b	c	d	e	pp	qq
+1	tt	uu	c	d	e	f	g
+=======================================
+Gen: 7,    Agent: 76
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+61	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+40	a	b	c	d	mm	f	g
+33	a	b	c	d	mm	nn	g
+7	a	b	c	d	e	f	g
+=======================================
+Gen: 7,    Agent: 77
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+72	a	b	c	d	mm	nn	g
+61	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+7	a	b	c	d	e	f	g
+1	a	b	c	d	mm	f	g
+=======================================
+Gen: 7,    Agent: 78
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+61	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+51	a	b	c	d	mm	f	g
+24	a	b	c	d	mm	nn	g
+3	a	b	c	d	e	f	g
+2	a	b	c	d	e	pp	g
+=======================================
+Gen: 7,    Agent: 79
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+66	a	b	c	d	mm	f	g
+61	rr	b	c	d	e	pp	qq
+55	tt	uu	c	d	e	f	ss
+7	a	b	c	d	mm	nn	g
+5	a	b	c	d	e	f	g
+2	rr	b	c	d	e	pp	g
+===============================================================================
+===============================================================================
+Generation 8
+===============================================================================
+===============================================================================
+=======================================
+Gen: 8,    Agent: 80
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+128	a	b	gg	hh	ii	f	g
+95	a	b	c	jj	kk	ll	g
+75	a	b	c	d	e	f	g
+58	rr	b	c	d	e	pp	g
+55	tt	uu	c	d	e	f	g
+4	a	b	cc	d	e	f	g
+3	rr	b	c	d	e	pp	qq
+1	a	b	gg	hh	e	f	g
+1	a	b	c	jj	kk	f	g
+1	a	b	c	d	mm	f	g
+=======================================
+Gen: 8,    Agent: 81
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+79	a	b	c	d	e	f	g
+55	rr	b	c	d	e	pp	g
+55	tt	uu	c	d	e	f	g
+6	rr	b	c	d	e	f	g
+1	a	b	cc	d	e	f	g
+=======================================
+Gen: 8,    Agent: 82
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+78	a	b	c	d	e	f	g
+55	rr	b	c	d	e	pp	g
+55	tt	uu	c	d	e	f	g
+6	rr	b	c	d	e	f	g
+2	a	b	cc	d	e	f	g
+=======================================
+Gen: 8,    Agent: 83
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+78	a	b	c	d	e	f	g
+59	rr	b	c	d	e	pp	g
+55	tt	uu	c	d	e	f	g
+2	a	b	cc	d	e	f	g
+2	rr	b	c	d	e	f	g
+=======================================
+Gen: 8,    Agent: 84
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+77	a	b	c	d	e	f	g
+58	rr	b	c	d	e	pp	g
+55	tt	uu	c	d	e	f	g
+3	a	b	cc	d	e	f	g
+3	rr	b	c	d	e	f	g
+=======================================
+Gen: 8,    Agent: 85
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+79	a	b	c	d	e	f	g
+55	rr	b	c	d	e	pp	g
+55	tt	uu	c	d	e	f	g
+6	rr	b	c	d	e	f	g
+1	a	b	cc	d	e	f	g
+=======================================
+Gen: 8,    Agent: 86
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+79	a	b	c	d	e	f	g
+55	tt	uu	c	d	e	f	g
+53	rr	b	c	d	e	pp	g
+8	rr	b	c	d	e	f	g
+1	a	b	cc	d	e	f	g
+=======================================
+Gen: 8,    Agent: 87
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+78	a	b	c	d	e	f	g
+57	rr	b	c	d	e	pp	g
+55	tt	uu	c	d	e	f	g
+4	rr	b	c	d	e	f	g
+2	a	b	cc	d	e	f	g
+=======================================
+Gen: 8,    Agent: 88
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+78	a	b	c	d	e	f	g
+61	rr	b	c	d	e	pp	g
+55	tt	uu	c	d	e	f	g
+2	a	b	cc	d	e	f	g
+=======================================
+Gen: 8,    Agent: 89
+	A	B	C	D	E	F	G
+387	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+96	a	b	c	jj	kk	ll	g
+78	a	b	c	d	e	f	g
+61	rr	b	c	d	e	pp	g
+55	tt	uu	c	d	e	f	g
+2	a	b	cc	d	e	f	g
+===============================================================================
+===============================================================================
+Generation 9
+===============================================================================
+===============================================================================
+=======================================
+Gen: 9,    Agent: 90
+	A	B	C	D	E	F	G
+388	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+116	a	b	c	d	e	f	g
+96	a	b	c	jj	kk	ll	g
+75	a	b	cc	d	e	f	g
+4	a	bb	cc	d	e	f	g
+=======================================
+Gen: 9,    Agent: 91
+	A	B	C	D	E	F	G
+388	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+114	a	b	c	d	e	f	g
+95	a	b	c	jj	kk	ll	g
+75	a	b	cc	d	e	f	g
+3	a	bb	cc	d	e	f	g
+3	rr	b	c	d	e	f	g
+1	a	b	c	jj	e	ll	g
+=======================================
+Gen: 9,    Agent: 92
+	A	B	C	D	E	F	G
+388	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+114	a	b	c	d	e	f	g
+95	a	b	c	jj	kk	ll	g
+75	a	b	cc	d	e	f	g
+3	a	bb	cc	d	e	f	g
+3	rr	b	c	d	e	f	g
+1	a	b	c	jj	e	ll	g
+=======================================
+Gen: 9,    Agent: 93
+	A	B	C	D	E	F	G
+388	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+114	a	b	c	d	e	f	g
+95	a	b	c	jj	kk	ll	g
+74	a	b	cc	d	e	f	g
+4	a	bb	cc	d	e	f	g
+3	rr	b	c	d	e	f	g
+1	a	b	c	jj	e	ll	g
+=======================================
+Gen: 9,    Agent: 94
+	A	B	C	D	E	F	G
+388	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+114	a	b	c	d	e	f	g
+95	a	b	c	jj	kk	ll	g
+75	a	b	cc	d	e	f	g
+3	a	bb	cc	d	e	f	g
+3	rr	b	c	d	e	f	g
+1	a	b	c	jj	e	ll	g
+=======================================
+Gen: 9,    Agent: 95
+	A	B	C	D	E	F	G
+388	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+95	a	b	c	jj	kk	ll	g
+75	a	b	cc	d	e	f	g
+62	a	b	c	d	e	f	g
+52	tt	b	c	d	e	f	g
+3	a	bb	cc	d	e	f	g
+3	rr	b	c	d	e	f	g
+1	a	b	c	jj	e	ll	g
+=======================================
+Gen: 9,    Agent: 96
+	A	B	C	D	E	F	G
+388	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+114	a	b	c	d	e	f	g
+95	a	b	c	jj	kk	ll	g
+75	a	b	cc	d	e	f	g
+3	a	bb	cc	d	e	f	g
+3	rr	b	c	d	e	f	g
+1	a	b	c	jj	e	ll	g
+=======================================
+Gen: 9,    Agent: 97
+	A	B	C	D	E	F	G
+388	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+115	a	b	c	d	e	f	g
+95	a	b	c	jj	kk	ll	g
+75	a	b	cc	d	e	f	g
+3	a	bb	cc	d	e	f	g
+2	rr	b	c	d	e	f	g
+1	a	b	c	jj	e	ll	g
+=======================================
+Gen: 9,    Agent: 98
+	A	B	C	D	E	F	G
+388	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+114	a	b	c	d	e	f	g
+95	a	b	c	jj	kk	ll	g
+74	a	b	cc	d	e	f	g
+4	a	bb	cc	d	e	f	g
+3	rr	b	c	d	e	f	g
+1	a	b	c	jj	e	ll	g
+=======================================
+Gen: 9,    Agent: 99
+	A	B	C	D	E	F	G
+388	aa	bb	cc	d	e	f	g
+193	a	dd	ee	ff	e	f	g
+129	a	b	gg	hh	ii	f	g
+114	a	b	c	d	e	f	g
+95	a	b	c	jj	kk	ll	g
+75	a	b	cc	d	e	f	g
+3	a	bb	cc	d	e	f	g
+3	rr	b	c	d	e	f	g
+1	a	b	c	jj	e	ll	g

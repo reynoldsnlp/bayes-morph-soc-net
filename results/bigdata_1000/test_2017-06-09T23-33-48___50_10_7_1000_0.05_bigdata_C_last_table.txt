@@ -1,2 +1,0 @@
-	MPS_A	MPS_B	MPS_C	MPS_D	MPS_E
-1104	a	f	i	l	o

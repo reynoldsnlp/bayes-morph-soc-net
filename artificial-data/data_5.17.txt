@@ -1,0 +1,26 @@
+typeFreq	A	B	C	D	E	F
+NA	a	b	c	d	ggg	ooo
+NA	a	b	c	d	hhh	ppp
+NA	a	b	c	d	iii	qqq
+NA	a	b	c	d	jjj	rrr
+NA	aa	e	f	g	h	sss
+NA	bb	e	f	g	h	ttt
+NA	cc	e	f	g	h	uuu
+NA	dd	e	f	g	h	vvv
+NA	ee	ii	i	j	k	l
+NA	ff	jj	i	j	k	l
+NA	gg	kk	i	j	k	l
+NA	hh	ll	i	j	k	l
+NA	p	mm	qq	m	n	o
+NA	p	nn	rr	m	n	o
+NA	p	oo	ss	m	n	o
+NA	p	pp	tt	m	n	o
+NA	s	t	uu	yy	q	r
+NA	s	t	vv	zz	q	r
+NA	s	t	ww	aaa	q	r
+NA	s	t	xx	bbb	q	r
+NA	v	w	x	ccc	kkk	u
+NA	v	w	x	ddd	lll	u
+NA	v	w	x	eee	mmm	u
+NA	v	w	x	fff	nnn	u
+
