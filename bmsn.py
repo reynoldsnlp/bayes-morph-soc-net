@@ -782,12 +782,12 @@ class MorphLearnModel(mesa.Model):
 
         output -- tuple(inflection_class, lexeme, tok_freq)
         """
+        tok_freqs = [ceil(self.zipf_max / j)
+                     for j in range(1, max(self.lexeme_type_freq_list) + 1)]
         for ci, c in enumerate(self.seed_infl_classes):
             for i in range(c['typeFreq']):  # lexeme = ci-i
                 # generate tok_freq based on zipfian dist, chopping off tail
-                for tok_freq in [floor(self.zipf_max / i)
-                                 for i in range(1, c['typeFreq'] + 1)]:
-                    yield (ci, '{}-{}'.format(ci, i), tok_freq)
+                yield (ci, '{}-{}'.format(ci, i), tok_freqs[i])
 
     def step(self):
         """Advance the model by one step."""
