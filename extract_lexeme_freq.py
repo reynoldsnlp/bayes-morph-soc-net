@@ -1,7 +1,5 @@
 """Load pickled model and extract lexeme frequency dist of last agent."""
 
-from math import ceil
-from math import floor
 import pickle
 import sys
 
@@ -12,19 +10,6 @@ def key_of_highest_value(in_dict):
         return max(in_dict.items(), key=lambda x: x[1])[0]
     except ValueError:
         return '-'
-
-
-def seed_lexemes(model):
-    """Deterministic lexeme generator.
-
-    output -- tuple(inflection_class, lexeme, tok_freq)
-    """
-    for ci, c in enumerate(model.seed_infl_classes):
-        for i in range(c['typeFreq']):  # lexeme = ci-i
-            # generate tok_freq based on zipfian dist, chopping off tail
-            for tok_freq in [floor(model.zipf_max / i)
-                             for i in range(1, c['typeFreq'] + 1)]:
-                yield (ci, '{}-{}'.format(ci, i), tok_freq)
 
 
 def get_freq_dist(agent, init_dict):
@@ -53,7 +38,7 @@ def get_freq_dist(agent, init_dict):
 def write_freq_dist(model, filename):
     """Write freq dists to a file with same name as pickled file."""
     init_dict = {}
-    for ci, lex, freq in seed_lexemes(model):
+    for ci, lex, freq in model.seed_lexemes():
         try:
             init_dict[lex] += freq
         except KeyError:

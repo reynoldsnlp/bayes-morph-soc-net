@@ -1,0 +1,4 @@
+id	typeFreq	A	B	C	D	E	F
+1	649	a	b	c	d	m	p
+2	214	n	q	e	f	g	h
+3	138	k	l	o	r	i	j
