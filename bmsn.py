@@ -789,6 +789,18 @@ class MorphLearnModel(mesa.Model):
                 # generate tok_freq based on zipfian dist, chopping off tail
                 yield (ci, '{}-{}'.format(ci, i), tok_freqs[i])
 
+    def seed_lexemes_old(self):  # This is very bad! Do not use!
+        """Deterministic lexeme generator.
+
+        output -- tuple(inflection_class, lexeme, tok_freq)
+        """
+        for ci, c in enumerate(self.seed_infl_classes):
+            for i in range(c['typeFreq']):  # lexeme = ci-i
+                # generate tok_freq based on zipfian dist, chopping off tail
+                for tok_freq in [floor(self.zipf_max / i)
+                                 for i in range(1, c['typeFreq'] + 1)]:
+                    yield (ci, '{}-{}'.format(ci, i), tok_freq)
+
     def step(self):
         """Advance the model by one step."""
         lg.info('Model is stepping...')

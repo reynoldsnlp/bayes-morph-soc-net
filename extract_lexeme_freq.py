@@ -1,5 +1,6 @@
 """Load pickled model and extract lexeme frequency dist of last agent."""
 
+from math import floor
 import pickle
 import sys
 
@@ -10,6 +11,19 @@ def key_of_highest_value(in_dict):
         return max(in_dict.items(), key=lambda x: x[1])[0]
     except ValueError:
         return '-'
+
+
+def seed_lexemes_old(self):  # This is very bad! Do not use!
+    """Deterministic lexeme generator.
+
+    output -- tuple(inflection_class, lexeme, tok_freq)
+    """
+    for ci, c in enumerate(self.seed_infl_classes):
+        for i in range(c['typeFreq']):  # lexeme = ci-i
+            # generate tok_freq based on zipfian dist, chopping off tail
+            for tok_freq in [floor(self.zipf_max / i)
+                             for i in range(1, c['typeFreq'] + 1)]:
+                yield (ci, '{}-{}'.format(ci, i), tok_freq)
 
 
 def get_freq_dist(agent, init_dict):
