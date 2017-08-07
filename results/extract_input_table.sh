@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for input in {4..5}.{1..23}
+for input in 6.0{1..9} 6.10
 do
 	pattern="*${input}.log"
 	for each in $(ls ${pattern})

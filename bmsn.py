@@ -533,7 +533,7 @@ class MorphAgent(mesa.Agent):
         """
         out = []
         if self.input == [] and self.gen_id == 0:  # 1st generation
-            out_lexemes = list(self.model.seed_lexemes())
+            out_lexemes = list(self.model.seed_lexemes_flat())
             out_l_weights = [i[2] for i in out_lexemes]
             out_lexemes = [i[:2] for i in out_lexemes]
             for out_l in random.choices(out_lexemes,
@@ -777,7 +777,7 @@ class MorphLearnModel(mesa.Model):
                     out_dict[self.out_func(d[target_msps])] = 1
         return Ndict2pdict(out_dict)
 
-    def seed_lexemes(self):
+    def seed_lexemes_zipfian(self):
         """Deterministic lexeme generator.
 
         output -- tuple(inflection_class, lexeme, tok_freq)
@@ -788,6 +788,17 @@ class MorphLearnModel(mesa.Model):
             for i in range(c['typeFreq']):  # lexeme = ci-i
                 # generate tok_freq based on zipfian dist, chopping off tail
                 yield (ci, '{}-{}'.format(ci, i), tok_freqs[i])
+
+    def seed_lexemes_flat(self):
+        """Deterministic lexeme generator.
+
+        output -- tuple(inflection_class, lexeme, tok_freq)
+        """
+        tok_freq = self.prod_size / self.lexeme_count
+        for ci, c in enumerate(self.seed_infl_classes):
+            for i in range(c['typeFreq']):  # lexeme = ci-i
+                # generate tok_freq based on zipfian dist, chopping off tail
+                yield (ci, '{}-{}'.format(ci, i), tok_freq)
 
     def seed_lexemes_old(self):  # This is very bad! Do not use!
         """Deterministic lexeme generator.
