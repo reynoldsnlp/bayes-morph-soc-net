@@ -533,7 +533,7 @@ class MorphAgent(mesa.Agent):
         """
         out = []
         if self.input == [] and self.gen_id == 0:  # 1st generation
-            out_lexemes = list(self.model.seed_lexemes_flat())
+            out_lexemes = list(self.model.seed_lexemes_zipfian())
             out_l_weights = [i[2] for i in out_lexemes]
             out_lexemes = [i[:2] for i in out_lexemes]
             for out_l in random.choices(out_lexemes,

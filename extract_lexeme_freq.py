@@ -52,7 +52,7 @@ def get_freq_dist(agent, init_dict):
 def write_freq_dist(model, filename):
     """Write freq dists to a file with same name as pickled file."""
     init_dict = {}
-    for ci, lex, freq in model.seed_lexemes_flat():
+    for ci, lex, freq in model.seed_lexemes_zipfian():
         try:
             init_dict[lex] += freq
         except KeyError:
