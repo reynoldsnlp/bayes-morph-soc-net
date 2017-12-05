@@ -1,6 +1,6 @@
 """Implement agent-based social network model of Bayesian learning of morph."""
 
-# from collections import OrderedDict  # TODO(RJR) probably unnecessary
+# from collections import OrderedDict
 from collections import Counter
 import logging as lg
 from math import ceil
@@ -11,6 +11,7 @@ from math import log
 from math import log1p
 import random
 from statistics import mean
+import sys
 import time
 
 import mesa
@@ -87,7 +88,7 @@ def prob_output(in_dict):
         return None
 
 
-def fill_gaps(MNBs, known_dists, t_ms):  # TODO(RJR) Is this right?
+def fill_gaps(MNBs, known_dists, t_ms):
     """Use mean neighbor behaviors to fill/level MS gaps."""
     dists = []
     for g_ms, dist in known_dists.items():
@@ -408,7 +409,7 @@ class MorphAgent(mesa.Agent):
         for l in lex_dict:
             for t_ms in lex_dict[l]:
                 lex_dict[l][t_ms] = dicts2dict(lex_dict[l][t_ms])
-        # fill in blanks with MNBs TODO(RJR) Is this right?
+        # fill in blanks with MNBs
         lg.info('        filling in blank cells (gaps) from MNBs...')
         for l in lex_dict:
             for t_ms in self.model.seed_MSPSs:
@@ -449,7 +450,7 @@ class MorphAgent(mesa.Agent):
 
     def prior(self, MNBs, t_ms, g_ms, g_e, h_dist):
         """Compute prior probability."""
-        # TODO(RJR) NB! KL_div is not symmetric! Order matters
+        # NB! KL_div is not symmetric! Order matters
         # First seq should be the "real" distribution
         # Second seq should be the "sample" distribution
         return KL_div(h_dist, [MNBs[(t_ms, g_ms, g_e)][i]
@@ -496,12 +497,25 @@ class MorphAgent(mesa.Agent):
                 if mnb_e_dist != {}:
                     prior = mlt_prob_log(h, mnb_e_dist)
                 else:
-                    prior = 0.0  # log(1)  # TODO(RJR) logic?
+                    prior = self.model.min_float
+                    lg.debug('        No MNB! Prior set to minimum '
+                             '({})'.format(prior))
                 if ddist_e_dist != {}:
                     likelihood = mlt_prob_log(h, ddist_e_dist)
                 else:
-                    likelihood = 0.0  # log(1)  # TODO(RJR) logic?
+                    likelihood = self.model.min_float
+                    lg.debug('        No data! Likelihood set to minimum '
+                             '({})'.format(likelihood))
                 posterior = prior + likelihood  # TODO(RJR) add weights?
+                # weight could be based on...
+                #    * average MNB size vs current MNB size
+                #    * lexeme_count
+                #    * prod_size
+                #    * class_count
+                # average MNB size is mean(self.MNBs.values())
+                #
+                # self.MNBs[(t_ms, g_ms, g_e)]s raw counts
+                # posterior = weight * prior + likelihood
                 if max_h != [] and posterior < max_h[0][1]:
                     continue
                 elif max_h == [] or posterior > max_h[0][1]:
@@ -604,6 +618,7 @@ class MorphLearnModel(mesa.Model):
         rand_tf -- Randomize type frequency across declension classes
         """
         lg.info('Initializing model...')
+        self.min_float = -sys.float_info.max  # smallest possible float
         self.step_timesteps = [time.time()]
         lg.info('    gen_size: {}'.format(gen_size))
         self.gen_size = gen_size

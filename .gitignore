@@ -1,3 +1,4 @@
 *.docx
 *.pickle
+*.tmp
 __pycache__
