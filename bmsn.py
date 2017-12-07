@@ -464,6 +464,7 @@ class MorphAgent(mesa.Agent):
         """Determine hypothesis/hypotheses with highest posterior prob."""
         lg.info('        compiling mean neighbor behaviors...')
         MNBs = {}
+        self.MN_types = {}
         g_dict = {ms: set() for ms in self.model.seed_MSPSs}
         l_set = set()
         for l, t_ms, t_e, g_ms, g_e in self.input:
@@ -473,25 +474,27 @@ class MorphAgent(mesa.Agent):
                 MNBs[(t_ms, g_ms, g_e)].update([t_e])
             except KeyError:
                 MNBs[(t_ms, g_ms, g_e)] = Counter([t_e])
+            try:
+                self.MN_types[(g_ms, g_e)].add(l)
+            except KeyError:
+                self.MN_types[(g_ms, g_e)] = set([l])
         for k in MNBs:
             MNBs[k] = dict(MNBs[k])
         self.MNBs = MNBs
-        # for mnb_t_ms in self.ms_dist:
-        #     for mnb_g_ms in self.ms_dist:
-        #         if mnb_t_ms != mnb_g_ms:
-        #             # flections = [g_e for (l, t_ms, g_ms, g_e), e_dist
-        #             #              in self.ddist.items() if g_ms == mnb_g_ms]
-        #             lg.info('            compiling list MNBs')
-        #             for f in flections[mnb_g_ms]:
-        #                 MNBs[(mnb_t_ms, mnb_g_ms, f)] = dict(Counter(
-        #                     [t_e for l, t_ms, t_e, g_ms, g_e in self.input
-        #                      if t_ms == mnb_t_ms and g_ms == mnb_g_ms and
-        #                      g_e == f]))
+        self.MN_weights = {k: len(v) / self.model.lexeme_count
+                           for k, v in self.MN_types.items()}
+        lg.info('            MN_weights: {}'.format(self.MN_weights))
         lg.info('        compiling posteriors dictionary...')
         self.post_dist = {}
         for (l, t_ms, g_ms, g_e), ddist_e_dist in self.ddist.items():
             mnb_e_dist = MNBs.get((t_ms, g_ms, g_e), {})
             max_h = []
+            if self.model.prior_weight == 'proportion_of_lex':
+                prior_weight = self.MN_weights[(g_ms, g_e)]
+            elif self.model.prior_weight is None:
+                prior_weight = 1.0
+            else:
+                raise NotImplementedError('prior_weight argument not defined.')  # noqa
             for h in gen_hyp_space(sorted(list(mnb_e_dist)),
                                    increment_divisor=self.model.h_space_incr):
                 if mnb_e_dist != {}:
@@ -506,16 +509,7 @@ class MorphAgent(mesa.Agent):
                     likelihood = self.model.min_float
                     lg.debug('        No data! Likelihood set to minimum '
                              '({})'.format(likelihood))
-                posterior = prior + likelihood  # TODO(RJR) add weights?
-                # weight could be based on...
-                #    * average MNB size vs current MNB size
-                #    * lexeme_count
-                #    * prod_size
-                #    * class_count
-                # average MNB size is mean(self.MNBs.values())
-                #
-                # self.MNBs[(t_ms, g_ms, g_e)]s raw counts
-                # posterior = weight * prior + likelihood
+                posterior = (prior_weight * prior) + likelihood
                 if max_h != [] and posterior < max_h[0][1]:
                     continue
                 elif max_h == [] or posterior > max_h[0][1]:
@@ -590,7 +584,8 @@ class MorphLearnModel(mesa.Model):
     def __init__(self, *, gen_size=50, gen_count=10, morph_filename=None,
                  nw_func=None, nw_kwargs={}, connectedness=0.05, discrete=True,
                  whole_lex=True, h_space_increment=None, lexeme_count=1000,
-                 zipf_max=100, prod_size=100, rand_tf=False):
+                 zipf_max=100, prod_size=100, rand_tf=False,
+                 prior_weight=None):
         """Initialize model object.
 
         Arguments:
@@ -600,7 +595,7 @@ class MorphLearnModel(mesa.Model):
         nw_func   -- One of the following types...
             list     -- e.g. list[0] is list of connected nodes
             function -- function to generate adjacency list
-            A function must be accompanied by nw_kwargs!
+                        A function must be accompanied by nw_kwargs.
         nw_kwargs -- dict of arguments for nw_func function
         discrete -- boolean: discretize probability before productions
         whole_lex -- boolean: use whole lexicon to calculate priors
@@ -616,6 +611,7 @@ class MorphLearnModel(mesa.Model):
         zipf_max -- Basis for generating token frequencies
         prod_size -- How many productions each agent should 'speak'.
         rand_tf -- Randomize type frequency across declension classes
+        prior_weight -- None / 'proportion_of_lex' / 'mean_neighb_size_to_1'
         """
         lg.info('Initializing model...')
         self.min_float = -sys.float_info.max  # smallest possible float
@@ -646,6 +642,7 @@ class MorphLearnModel(mesa.Model):
         self.zipf_max = zipf_max
         self.prod_size = prod_size
         self.rand_tf = rand_tf
+        self.prior_weight = prior_weight
         self.discrete = discrete
         if self.discrete:
             self.out_func = key_of_highest_value

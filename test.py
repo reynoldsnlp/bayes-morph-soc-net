@@ -1,4 +1,8 @@
-"""Test out bmsn."""
+"""Test out bmsn.
+
+$ python3 test.py <morph_table> <production_size> <prior_weight>
+"""
+
 
 import datetime as dt
 import logging as lg
@@ -28,6 +32,10 @@ try:
     MORPH_FILENAME = sys.argv[1]
 except IndexError:
     MORPH_FILENAME = 'unknown'
+try:
+    PRIOR_WEIGHT = sys.argv[3]
+except IndexError:
+    PRIOR_WEIGHT = None
 START = time.time()
 
 if RAND_TF:
