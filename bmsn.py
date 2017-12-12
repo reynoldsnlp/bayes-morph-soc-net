@@ -715,6 +715,7 @@ class MorphLearnModel(mesa.Model):
             lg.info('randomizing order of type frequencies...')
             random.shuffle(self.lexeme_type_freq_list)
         lg.info('lexeme_type_freq_list {}'.format(self.lexeme_type_freq_list))
+        # TODO(RJR) write ..._input_table.txt a la extract_input_table.sh
         lg.info('zipf_max: {}'.format(self.zipf_max))
         self.exp_dict = Counter()
         for c_id, line in enumerate(in_file_lines[1:]):
