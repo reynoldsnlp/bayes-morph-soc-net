@@ -643,6 +643,7 @@ class MorphLearnModel(mesa.Model):
         self.prod_size = prod_size
         self.rand_tf = rand_tf
         self.prior_weight = prior_weight
+        lg.info('prior_weight: {}'.format(prior_weight))
         self.discrete = discrete
         if self.discrete:
             self.out_func = key_of_highest_value

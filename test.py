@@ -24,14 +24,14 @@ GEN_COUNT = 10
 H_SPACE_INC = 7
 RAND_TF = True
 try:
+    MORPH_FILENAME = sys.argv[1]
+except IndexError:
+    MORPH_FILENAME = 'unknown'
+try:
     PRODUCTION_SIZE = int(sys.argv[2])
 except IndexError:
     PRODUCTION_SIZE = 100000
 CONNECTEDNESS = 0.05
-try:
-    MORPH_FILENAME = sys.argv[1]
-except IndexError:
-    MORPH_FILENAME = 'unknown'
 try:
     PRIOR_WEIGHT = sys.argv[3]
 except IndexError:
@@ -225,7 +225,8 @@ if __name__ == '__main__':
                                  h_space_increment=H_SPACE_INC,
                                  prod_size=PRODUCTION_SIZE,
                                  connectedness=CONNECTEDNESS,
-                                 rand_tf=RAND_TF)
+                                 rand_tf=RAND_TF,
+                                 prior_weight=PRIOR_WEIGHT)
     for i in range(GEN_COUNT):
         lg.info('=' * 79)
         lg.info('Model step {}.'.format(i))
