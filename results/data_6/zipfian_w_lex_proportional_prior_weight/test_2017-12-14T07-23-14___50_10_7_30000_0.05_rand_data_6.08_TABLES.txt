@@ -1,0 +1,8165 @@
+===============================================================================
+===============================================================================
+Generation 0
+===============================================================================
+===============================================================================
+=======================================
+Gen: 0,    Agent: 0
+DELETED
+=======================================
+Gen: 0,    Agent: 1
+DELETED
+=======================================
+Gen: 0,    Agent: 2
+DELETED
+=======================================
+Gen: 0,    Agent: 3
+DELETED
+=======================================
+Gen: 0,    Agent: 4
+DELETED
+=======================================
+Gen: 0,    Agent: 5
+DELETED
+=======================================
+Gen: 0,    Agent: 6
+DELETED
+=======================================
+Gen: 0,    Agent: 7
+DELETED
+=======================================
+Gen: 0,    Agent: 8
+DELETED
+=======================================
+Gen: 0,    Agent: 9
+DELETED
+=======================================
+Gen: 0,    Agent: 10
+DELETED
+=======================================
+Gen: 0,    Agent: 11
+DELETED
+=======================================
+Gen: 0,    Agent: 12
+DELETED
+=======================================
+Gen: 0,    Agent: 13
+DELETED
+=======================================
+Gen: 0,    Agent: 14
+DELETED
+=======================================
+Gen: 0,    Agent: 15
+DELETED
+=======================================
+Gen: 0,    Agent: 16
+DELETED
+=======================================
+Gen: 0,    Agent: 17
+DELETED
+=======================================
+Gen: 0,    Agent: 18
+DELETED
+=======================================
+Gen: 0,    Agent: 19
+DELETED
+=======================================
+Gen: 0,    Agent: 20
+DELETED
+=======================================
+Gen: 0,    Agent: 21
+DELETED
+=======================================
+Gen: 0,    Agent: 22
+DELETED
+=======================================
+Gen: 0,    Agent: 23
+DELETED
+=======================================
+Gen: 0,    Agent: 24
+DELETED
+=======================================
+Gen: 0,    Agent: 25
+DELETED
+=======================================
+Gen: 0,    Agent: 26
+DELETED
+=======================================
+Gen: 0,    Agent: 27
+DELETED
+=======================================
+Gen: 0,    Agent: 28
+DELETED
+=======================================
+Gen: 0,    Agent: 29
+DELETED
+=======================================
+Gen: 0,    Agent: 30
+DELETED
+=======================================
+Gen: 0,    Agent: 31
+DELETED
+=======================================
+Gen: 0,    Agent: 32
+DELETED
+=======================================
+Gen: 0,    Agent: 33
+DELETED
+=======================================
+Gen: 0,    Agent: 34
+DELETED
+=======================================
+Gen: 0,    Agent: 35
+DELETED
+=======================================
+Gen: 0,    Agent: 36
+DELETED
+=======================================
+Gen: 0,    Agent: 37
+DELETED
+=======================================
+Gen: 0,    Agent: 38
+DELETED
+=======================================
+Gen: 0,    Agent: 39
+DELETED
+=======================================
+Gen: 0,    Agent: 40
+DELETED
+=======================================
+Gen: 0,    Agent: 41
+DELETED
+=======================================
+Gen: 0,    Agent: 42
+DELETED
+=======================================
+Gen: 0,    Agent: 43
+DELETED
+=======================================
+Gen: 0,    Agent: 44
+DELETED
+=======================================
+Gen: 0,    Agent: 45
+DELETED
+=======================================
+Gen: 0,    Agent: 46
+DELETED
+=======================================
+Gen: 0,    Agent: 47
+DELETED
+=======================================
+Gen: 0,    Agent: 48
+DELETED
+=======================================
+Gen: 0,    Agent: 49
+DELETED
+===============================================================================
+===============================================================================
+Generation 1
+===============================================================================
+===============================================================================
+=======================================
+Gen: 1,    Agent: 50
+id	typeFreq	A	B	C	D	E	F
+1	175	b	d	e	g	i	k
+2	122	b	d	f	h	j	k
+3	80	b	d	f	h	j	l
+4	79	b	d	f	g	i	k
+5	74	b	c	e	g	i	k
+6	74	b	d	f	h	i	k
+7	46	a	c	e	h	j	l
+8	39	a	c	e	g	i	k
+9	35	a	c	e	g	i	l
+10	34	b	d	f	g	j	k
+11	25	b	d	f	h	i	l
+12	24	a	d	e	h	j	l
+13	18	a	d	f	h	j	l
+14	16	a	c	e	g	j	l
+15	14	a	c	f	h	j	l
+16	13	b	d	e	h	i	k
+17	12	b	c	f	g	i	k
+18	11	a	d	e	g	i	k
+19	10	b	d	f	g	j	l
+20	8	b	c	e	g	i	l
+21	8	b	d	e	g	i	l
+22	8	a	c	f	g	j	l
+23	8	a	c	e	h	i	l
+24	7	b	c	f	h	j	l
+25	6	b	d	e	g	j	k
+26	6	b	d	e	h	j	k
+27	5	b	c	f	h	i	k
+28	5	a	d	f	h	j	k
+29	5	b	d	f	g	i	l
+30	4	a	d	f	h	i	k
+31	3	b	d	e	h	j	l
+32	3	a	c	e	g	j	k
+33	3	b	d	e	h	i	l
+34	2	b	c	e	g	j	k
+35	2	b	c	e	h	i	k
+36	2	a	d	e	h	i	k
+37	2	a	c	f	g	i	k
+38	2	a	d	f	h	i	l
+39	2	b	c	f	g	j	k
+40	2	a	d	f	g	i	k
+41	1	a	d	e	g	i	l
+42	1	b	c	f	g	i	l
+43	1	b	d	e	g	j	l
+44	1	b	c	f	h	j	k
+45	1	a	d	f	g	j	k
+46	1	a	d	f	g	j	l
+47	1	b	c	e	h	j	l
+=======================================
+Gen: 1,    Agent: 51
+id	typeFreq	A	B	C	D	E	F
+1	191	b	d	e	g	i	k
+2	129	b	d	f	h	j	k
+3	88	b	d	f	g	i	k
+4	65	a	c	e	g	j	l
+5	63	b	d	f	h	j	l
+6	55	b	d	f	h	i	k
+7	51	b	c	e	g	i	k
+8	45	b	d	f	g	j	k
+9	30	a	d	e	h	j	l
+10	27	a	c	e	h	j	l
+11	22	a	c	e	g	j	k
+12	21	a	d	f	h	j	l
+13	17	b	d	e	h	i	k
+14	15	b	c	e	g	i	l
+15	14	a	d	e	g	i	k
+16	14	b	d	f	h	i	l
+17	14	a	c	f	g	j	l
+18	12	b	c	f	g	i	k
+19	10	b	d	e	h	j	k
+20	10	b	d	f	g	j	l
+21	9	a	c	f	h	j	l
+22	9	a	c	e	g	i	k
+23	8	b	d	e	g	j	k
+24	8	a	d	f	h	i	k
+25	8	b	d	f	g	i	l
+26	7	a	d	f	h	j	k
+27	6	b	c	e	g	j	k
+28	5	b	c	f	h	j	l
+29	5	b	d	e	g	i	l
+30	5	a	c	e	g	i	l
+31	5	a	c	e	h	i	l
+32	4	b	d	e	g	j	l
+33	4	a	d	e	h	j	k
+34	4	a	d	f	h	i	l
+35	3	a	c	f	g	i	l
+36	2	b	c	e	g	j	l
+37	2	b	c	e	h	i	k
+38	2	b	d	e	h	j	l
+39	2	a	d	f	g	i	l
+40	1	a	d	e	g	j	k
+41	1	a	d	f	g	i	k
+42	1	b	d	e	h	i	l
+43	1	b	c	f	h	i	k
+44	1	a	d	f	g	j	k
+45	1	a	c	f	h	i	l
+46	1	a	c	f	h	j	k
+47	1	a	d	f	g	j	l
+48	1	a	d	e	g	j	l
+49	1	b	c	e	h	i	l
+=======================================
+Gen: 1,    Agent: 52
+id	typeFreq	A	B	C	D	E	F
+1	183	b	d	e	g	i	k
+2	98	b	d	f	g	i	k
+3	96	b	d	f	h	i	k
+4	93	b	d	f	h	j	k
+5	70	b	c	e	g	i	k
+6	62	a	c	e	h	j	l
+7	49	b	d	f	h	j	l
+8	31	a	d	e	h	j	l
+9	30	a	c	e	g	j	l
+10	30	b	d	f	g	j	k
+11	29	a	c	e	g	i	k
+12	20	b	d	e	h	i	k
+13	16	a	d	f	h	j	l
+14	16	b	d	f	h	i	l
+15	14	b	c	e	g	i	l
+16	14	a	d	e	g	i	k
+17	12	a	c	e	g	j	k
+18	11	a	c	f	h	j	l
+19	11	b	c	f	g	i	k
+20	9	a	c	e	g	i	l
+21	9	b	d	f	g	j	l
+22	8	a	d	f	h	j	k
+23	7	b	d	e	h	j	k
+24	7	b	d	e	h	i	l
+25	7	b	d	f	g	i	l
+26	7	a	c	f	g	j	l
+27	7	a	c	e	h	i	l
+28	6	a	d	f	g	i	k
+29	5	b	c	e	g	j	k
+30	4	b	c	f	h	j	l
+31	4	b	d	e	g	j	k
+32	3	b	d	e	g	i	l
+33	3	a	d	e	g	j	l
+34	3	a	d	f	h	i	k
+35	3	a	d	f	h	i	l
+36	2	a	d	e	g	i	l
+37	2	b	c	f	h	i	k
+38	2	b	d	e	h	j	l
+39	2	a	c	f	h	j	k
+40	2	a	d	e	h	i	l
+41	1	a	c	f	h	i	k
+42	1	a	c	f	g	i	k
+43	1	b	c	e	h	i	k
+44	1	a	d	f	g	j	k
+45	1	a	d	f	g	i	l
+46	1	a	d	e	h	j	k
+47	1	a	c	e	h	i	k
+48	1	b	c	f	h	j	k
+49	1	b	c	f	g	j	l
+50	1	b	c	e	h	i	l
+51	1	b	c	f	g	i	l
+52	1	a	d	e	h	i	k
+53	1	a	d	f	g	j	l
+54	1	b	c	e	h	j	l
+=======================================
+Gen: 1,    Agent: 53
+id	typeFreq	A	B	C	D	E	F
+1	147	b	d	f	g	i	k
+2	108	b	d	f	h	j	k
+3	98	b	d	e	g	i	k
+4	95	b	d	f	h	i	k
+5	66	b	c	e	g	i	k
+6	65	b	d	f	h	j	l
+7	48	b	d	f	g	j	k
+8	47	a	c	e	h	j	l
+9	35	a	c	e	g	i	k
+10	32	a	c	e	h	i	l
+11	29	a	d	e	h	j	l
+12	27	a	d	f	h	j	l
+13	26	b	c	f	g	i	k
+14	23	b	d	f	h	i	l
+15	19	a	c	f	h	j	l
+16	15	a	c	e	g	i	l
+17	12	b	c	e	g	i	l
+18	12	b	d	e	h	i	k
+19	12	a	c	e	g	j	l
+20	11	a	d	e	g	i	k
+21	9	b	d	f	g	j	l
+22	7	a	d	f	h	i	k
+23	6	a	d	f	g	i	k
+24	4	a	c	f	g	i	k
+25	4	b	d	e	g	j	k
+26	4	b	d	f	g	i	l
+27	4	b	c	f	h	i	l
+28	4	a	d	f	h	j	k
+29	3	b	c	f	h	j	l
+30	3	b	c	f	h	j	k
+31	3	b	c	f	h	i	k
+32	3	a	c	f	g	j	l
+33	2	b	c	e	g	j	l
+34	2	b	d	e	g	i	l
+35	2	b	c	e	h	i	k
+36	2	b	d	e	h	j	k
+37	2	b	c	f	g	j	l
+38	2	a	c	e	g	j	k
+39	1	a	d	e	h	i	k
+40	1	a	c	f	h	j	k
+41	1	a	d	f	g	j	l
+42	1	b	d	e	h	i	l
+43	1	a	d	f	h	i	l
+44	1	a	c	f	h	i	l
+45	1	a	c	e	h	i	k
+46	1	a	c	f	g	i	l
+=======================================
+Gen: 1,    Agent: 54
+id	typeFreq	A	B	C	D	E	F
+1	142	b	d	f	g	i	k
+2	134	b	d	e	g	i	k
+3	123	b	d	f	h	j	k
+4	86	b	d	f	h	i	k
+5	78	b	c	e	g	i	k
+6	72	b	d	f	h	j	l
+7	61	a	c	e	h	j	l
+8	34	a	c	e	g	i	k
+9	21	a	c	f	h	j	l
+10	21	a	c	e	h	i	l
+11	20	a	c	e	g	i	l
+12	19	b	d	f	h	i	l
+13	15	b	d	f	g	j	k
+14	13	b	c	f	g	i	k
+15	13	b	d	e	h	i	k
+16	13	a	c	e	g	j	l
+17	12	a	d	f	h	j	l
+18	12	a	d	e	h	j	l
+19	11	a	d	e	g	i	k
+20	11	b	d	f	g	j	l
+21	9	b	c	e	g	i	l
+22	7	b	d	f	g	i	l
+23	6	b	c	f	h	j	l
+24	6	a	d	f	h	i	k
+25	5	a	c	f	g	j	l
+26	5	b	c	f	h	i	k
+27	4	a	c	e	h	i	k
+28	4	a	d	f	h	j	k
+29	4	b	d	e	g	i	l
+30	3	a	d	f	h	i	l
+31	3	a	d	f	g	j	k
+32	2	a	d	e	g	i	l
+33	2	b	c	e	g	j	l
+34	2	a	d	f	g	i	k
+35	2	b	d	e	g	j	k
+36	2	b	d	e	h	j	k
+37	2	b	c	e	h	j	l
+38	2	a	d	f	g	j	l
+39	2	b	d	e	h	i	l
+40	2	b	c	f	h	j	k
+41	2	b	c	f	g	j	l
+42	2	a	c	e	g	j	k
+43	1	b	d	e	g	j	l
+44	1	b	c	f	h	i	l
+45	1	a	c	f	g	i	k
+46	1	b	c	f	g	j	k
+47	1	b	c	f	g	i	l
+48	1	b	c	e	h	i	k
+49	1	a	c	e	h	j	k
+50	1	b	c	e	h	i	l
+51	1	a	c	f	h	j	k
+52	1	a	d	e	g	j	l
+53	1	b	d	e	h	j	l
+54	1	a	c	f	g	i	l
+=======================================
+Gen: 1,    Agent: 55
+id	typeFreq	A	B	C	D	E	F
+1	166	b	d	e	g	i	k
+2	139	b	d	f	h	j	k
+3	77	b	c	e	g	i	k
+4	68	b	d	f	g	i	k
+5	65	b	d	f	h	i	k
+6	65	a	c	e	h	j	l
+7	55	b	d	f	h	j	l
+8	41	b	d	f	g	j	k
+9	36	a	c	e	g	i	k
+10	30	a	d	e	h	j	l
+11	23	b	c	f	g	i	k
+12	21	a	d	f	h	j	l
+13	21	b	d	f	h	i	l
+14	19	a	c	e	h	i	l
+15	17	b	c	e	g	i	l
+16	15	a	c	e	g	j	l
+17	14	b	d	e	h	i	k
+18	13	a	c	f	h	j	l
+19	12	a	c	e	g	i	l
+20	9	b	d	e	h	j	k
+21	8	a	d	e	g	i	k
+22	7	a	d	f	h	j	k
+23	7	b	d	f	g	i	l
+24	5	b	d	e	g	i	l
+25	5	b	d	e	g	j	k
+26	5	a	d	f	h	i	k
+27	5	b	d	f	g	j	l
+28	5	a	d	f	g	j	k
+29	5	a	c	f	g	j	l
+30	4	a	d	f	g	i	k
+31	4	b	c	e	g	j	k
+32	3	b	d	e	h	j	l
+33	3	a	d	e	g	i	l
+34	3	b	d	e	h	i	l
+35	2	b	c	f	h	j	l
+36	2	b	c	f	h	i	k
+37	2	a	c	f	g	j	k
+38	2	b	c	f	g	j	k
+39	2	b	c	f	h	i	l
+40	2	a	d	f	h	i	l
+41	2	a	d	f	g	j	l
+42	1	b	c	f	h	j	k
+43	1	b	d	e	g	j	l
+44	1	b	c	e	g	j	l
+45	1	a	c	f	g	i	k
+46	1	a	d	e	h	i	k
+47	1	b	c	e	h	i	k
+48	1	b	c	e	h	j	k
+49	1	a	d	f	g	i	l
+50	1	a	c	f	h	j	k
+51	1	b	c	e	h	j	l
+52	1	a	c	e	h	i	k
+53	1	a	c	e	h	j	k
+=======================================
+Gen: 1,    Agent: 56
+id	typeFreq	A	B	C	D	E	F
+1	158	b	d	e	g	i	k
+2	136	b	d	f	h	j	k
+3	84	b	c	e	g	i	k
+4	71	b	d	f	h	i	k
+5	64	b	d	f	h	j	l
+6	64	b	d	f	g	i	k
+7	52	a	c	e	g	j	l
+8	50	a	c	e	h	j	l
+9	32	b	d	f	g	j	k
+10	25	b	d	e	h	i	k
+11	24	a	c	e	g	i	k
+12	22	a	d	e	h	j	l
+13	19	a	c	f	h	j	l
+14	16	a	d	e	g	i	k
+15	16	a	c	e	g	j	k
+16	15	a	d	f	h	j	l
+17	15	b	c	f	g	i	k
+18	15	b	d	f	h	i	l
+19	13	b	c	e	g	i	l
+20	9	b	d	e	h	j	k
+21	9	b	d	f	g	i	l
+22	8	a	c	e	g	i	l
+23	7	b	c	f	h	j	l
+24	7	b	d	f	g	j	l
+25	6	a	c	f	g	j	l
+26	5	b	c	e	g	j	l
+27	4	b	d	e	h	j	l
+28	4	a	c	e	h	i	l
+29	4	a	d	f	h	i	k
+30	3	b	d	e	g	i	l
+31	3	b	c	e	h	i	k
+32	3	b	d	e	h	i	l
+33	3	a	d	f	g	i	k
+34	3	a	d	f	g	j	l
+35	3	a	d	f	g	j	k
+36	2	b	c	f	g	j	k
+37	2	b	c	e	h	j	k
+38	2	b	c	f	h	i	k
+39	2	b	c	f	h	j	k
+40	2	a	d	f	h	i	l
+41	2	b	d	e	g	j	l
+42	2	a	d	f	h	j	k
+43	2	a	d	e	g	j	l
+44	2	a	c	e	h	j	k
+45	1	b	c	e	g	j	k
+46	1	a	c	f	g	j	k
+47	1	b	d	e	g	j	k
+48	1	a	c	f	h	i	k
+49	1	a	c	e	h	i	k
+50	1	a	d	e	h	i	l
+51	1	a	d	e	h	i	k
+52	1	a	d	f	g	i	l
+53	1	a	c	f	h	j	k
+54	1	a	c	f	g	i	l
+55	1	a	d	e	g	i	l
+=======================================
+Gen: 1,    Agent: 57
+id	typeFreq	A	B	C	D	E	F
+1	154	b	d	e	g	i	k
+2	114	b	d	f	h	j	k
+3	89	b	d	f	g	i	k
+4	81	b	c	e	g	i	k
+5	65	b	d	f	h	j	l
+6	61	b	d	f	h	i	k
+7	47	a	d	f	h	j	l
+8	45	a	c	f	h	j	l
+9	38	a	c	e	h	j	l
+10	34	a	c	e	g	i	k
+11	33	b	d	f	g	j	k
+12	21	b	d	e	h	i	k
+13	17	b	c	f	g	i	k
+14	15	b	d	f	h	i	l
+15	14	a	d	e	g	i	k
+16	14	a	c	e	h	i	l
+17	13	a	c	e	g	j	l
+18	11	b	c	e	g	i	l
+19	9	b	c	f	h	j	l
+20	9	b	d	e	g	i	l
+21	8	b	c	f	h	i	k
+22	8	a	d	f	h	j	k
+23	8	b	d	f	g	j	l
+24	7	a	c	e	g	i	l
+25	7	a	d	f	h	i	k
+26	7	a	c	f	g	j	l
+27	6	a	d	f	g	i	k
+28	6	a	c	f	h	i	l
+29	5	b	d	e	g	j	k
+30	5	a	c	e	g	j	k
+31	5	b	d	e	h	j	k
+32	5	b	d	f	g	i	l
+33	4	b	c	e	g	j	k
+34	4	a	d	f	g	j	k
+35	4	a	d	e	g	j	k
+36	3	a	d	e	h	j	l
+37	3	a	d	f	h	i	l
+38	3	a	d	f	g	j	l
+39	3	a	c	f	h	i	k
+40	2	b	c	f	h	j	k
+41	2	b	c	e	h	i	l
+42	2	a	d	f	g	i	l
+43	1	b	d	e	g	j	l
+44	1	a	d	e	h	i	k
+45	1	a	c	f	h	j	k
+46	1	a	d	e	g	i	l
+47	1	b	d	e	h	i	l
+48	1	b	c	f	g	j	k
+49	1	a	d	e	h	j	k
+50	1	a	d	e	g	j	l
+51	1	a	c	f	g	i	l
+52	1	b	c	e	g	j	l
+=======================================
+Gen: 1,    Agent: 58
+id	typeFreq	A	B	C	D	E	F
+1	158	b	d	e	g	i	k
+2	135	b	d	f	h	j	k
+3	77	b	d	f	g	i	k
+4	76	b	c	e	g	i	k
+5	68	b	d	f	h	i	k
+6	67	b	d	f	h	j	l
+7	66	a	c	e	g	j	l
+8	50	b	d	f	g	j	k
+9	37	a	c	e	g	i	k
+10	33	a	d	e	h	j	l
+11	26	a	c	e	h	j	l
+12	20	b	c	e	g	i	l
+13	18	a	d	f	h	j	l
+14	17	b	d	e	h	i	k
+15	16	b	d	f	h	i	l
+16	14	a	c	e	g	i	l
+17	13	b	c	f	g	i	k
+18	12	a	c	f	h	j	l
+19	11	a	d	e	g	i	k
+20	10	a	d	f	h	j	k
+21	10	b	d	f	g	j	l
+22	9	a	c	f	g	j	l
+23	6	a	d	f	g	i	k
+24	6	b	d	f	g	i	l
+25	5	b	c	f	h	j	l
+26	4	a	d	f	h	i	k
+27	3	b	c	f	h	j	k
+28	3	b	c	e	g	j	k
+29	3	b	d	e	g	j	k
+30	2	b	d	e	g	i	l
+31	2	b	c	f	h	i	k
+32	2	a	c	f	g	i	k
+33	2	b	d	e	h	j	k
+34	2	b	d	e	h	i	l
+35	2	a	d	f	g	j	l
+36	2	a	d	f	h	i	l
+37	2	a	c	e	g	j	k
+38	1	b	c	f	g	j	k
+39	1	b	c	f	g	i	l
+40	1	b	d	e	h	j	l
+41	1	b	c	f	h	i	l
+42	1	a	d	f	g	i	l
+43	1	a	d	f	g	j	k
+44	1	a	c	f	g	i	l
+45	1	b	c	f	g	j	l
+46	1	b	c	e	g	j	l
+47	1	a	d	e	g	j	l
+48	1	a	c	e	h	i	l
+=======================================
+Gen: 1,    Agent: 59
+id	typeFreq	A	B	C	D	E	F
+1	143	b	d	f	h	j	k
+2	134	b	d	e	g	i	k
+3	93	b	d	f	g	i	k
+4	72	b	d	f	h	j	l
+5	66	b	c	e	g	i	k
+6	63	b	d	f	h	i	k
+7	51	a	c	e	g	j	l
+8	46	a	c	e	h	j	l
+9	45	b	d	f	g	j	k
+10	37	a	c	e	g	i	k
+11	32	a	d	e	h	j	l
+12	22	a	d	e	g	i	k
+13	15	b	d	e	h	i	k
+14	14	b	d	e	g	j	k
+15	13	a	d	f	h	j	l
+16	13	b	c	f	g	i	k
+17	13	b	d	f	h	i	l
+18	13	a	c	f	g	j	l
+19	11	b	c	e	g	i	l
+20	10	b	d	e	h	j	k
+21	8	a	c	f	h	j	l
+22	8	a	c	e	g	i	l
+23	8	b	d	f	g	j	l
+24	6	b	d	f	g	i	l
+25	5	b	c	f	h	j	l
+26	5	a	c	e	g	j	k
+27	5	a	d	f	g	i	k
+28	4	a	d	f	h	i	l
+29	4	b	d	e	h	j	l
+30	3	a	c	f	h	j	k
+31	3	b	c	e	g	j	k
+32	3	a	d	e	g	i	l
+33	3	a	d	f	h	i	k
+34	3	a	c	e	h	i	l
+35	2	b	d	e	g	i	l
+36	2	a	c	f	g	i	l
+37	2	b	c	e	h	i	k
+38	2	b	c	f	g	j	l
+39	2	b	c	f	h	j	k
+40	2	a	d	f	h	j	k
+41	2	a	d	e	h	j	k
+42	2	a	d	f	g	j	l
+43	1	b	c	f	g	j	k
+44	1	a	c	f	g	i	k
+45	1	a	c	e	h	i	k
+46	1	b	c	f	h	i	k
+47	1	b	c	f	h	i	l
+48	1	a	d	f	g	j	k
+49	1	b	c	e	h	i	l
+50	1	b	d	e	g	j	l
+51	1	a	c	f	g	j	k
+52	1	a	c	e	h	j	k
+53	1	b	c	e	g	j	l
+=======================================
+Gen: 1,    Agent: 60
+id	typeFreq	A	B	C	D	E	F
+1	160	b	d	e	g	i	k
+2	141	b	d	f	h	j	k
+3	77	b	d	f	g	i	k
+4	71	b	c	e	g	i	k
+5	70	b	d	f	h	j	l
+6	61	a	c	e	h	j	l
+7	51	b	d	f	h	i	k
+8	47	b	d	f	g	j	k
+9	32	a	c	e	g	j	l
+10	27	a	d	e	h	j	l
+11	24	a	c	e	g	i	k
+12	19	a	c	f	h	j	l
+13	17	b	c	f	g	i	k
+14	16	b	d	e	h	i	k
+15	14	a	c	e	g	j	k
+16	13	a	d	f	h	j	l
+17	13	b	d	f	h	i	l
+18	12	b	c	e	g	i	l
+19	12	b	d	f	g	j	l
+20	11	a	d	e	g	i	k
+21	9	a	c	e	g	i	l
+22	9	a	d	f	h	j	k
+23	8	b	c	e	g	j	k
+24	8	b	c	e	g	j	l
+25	7	b	c	f	h	j	l
+26	7	a	c	e	h	i	l
+27	6	b	d	f	g	i	l
+28	5	b	d	e	g	j	k
+29	5	b	d	e	h	j	k
+30	4	b	d	e	g	i	l
+31	4	a	c	f	g	i	k
+32	4	b	c	f	h	j	k
+33	4	a	d	f	g	i	k
+34	4	a	d	f	g	j	k
+35	4	b	c	f	h	i	k
+36	3	a	d	e	g	j	k
+37	3	a	c	f	g	j	l
+38	2	a	d	e	g	i	l
+39	2	b	c	f	g	j	l
+40	2	b	c	f	g	i	l
+41	2	b	c	e	h	j	l
+42	2	b	c	f	g	j	k
+43	2	b	d	e	g	j	l
+44	1	b	d	e	h	j	l
+45	1	b	c	e	h	i	k
+46	1	a	d	e	h	i	k
+47	1	a	d	f	g	j	l
+48	1	a	d	f	h	i	l
+49	1	a	d	f	h	i	k
+50	1	a	c	e	h	j	k
+=======================================
+Gen: 1,    Agent: 61
+id	typeFreq	A	B	C	D	E	F
+1	173	b	d	e	g	i	k
+2	95	b	d	f	h	j	k
+3	93	b	c	e	g	i	k
+4	88	b	d	f	h	i	k
+5	86	b	d	f	g	i	k
+6	66	b	d	f	h	j	l
+7	54	a	c	e	g	j	l
+8	38	a	c	e	h	j	l
+9	33	a	c	e	g	i	k
+10	30	a	d	e	h	j	l
+11	27	b	d	e	h	i	k
+12	25	b	d	f	h	i	l
+13	14	a	d	f	h	j	l
+14	14	b	c	e	g	i	l
+15	14	a	c	e	g	i	l
+16	13	b	d	e	h	j	k
+17	13	b	d	f	g	j	k
+18	12	b	c	f	g	i	k
+19	8	a	d	e	g	i	k
+20	8	b	d	f	g	i	l
+21	8	a	c	f	g	j	l
+22	7	a	c	f	h	j	l
+23	6	b	c	e	h	i	k
+24	6	b	d	e	g	j	k
+25	6	b	d	f	g	j	l
+26	5	b	c	f	h	j	l
+27	5	b	d	e	g	i	l
+28	4	a	d	e	g	i	l
+29	4	b	c	f	h	i	k
+30	4	a	d	f	h	i	k
+31	3	b	c	e	g	j	k
+32	3	b	c	f	h	j	k
+33	3	b	c	e	h	j	l
+34	3	b	c	f	g	j	k
+35	3	a	d	f	h	j	k
+36	3	a	c	e	h	i	l
+37	3	a	c	e	g	j	k
+38	2	b	d	e	g	j	l
+39	2	a	c	e	h	i	k
+40	2	a	d	f	g	i	k
+41	2	a	d	e	g	j	l
+42	2	a	c	f	g	i	l
+43	1	b	c	f	h	i	l
+44	1	a	d	e	h	i	k
+45	1	a	d	f	g	j	k
+46	1	a	d	e	h	j	k
+47	1	a	d	f	h	i	l
+48	1	b	d	e	h	j	l
+49	1	b	c	f	g	j	l
+50	1	b	c	f	g	i	l
+51	1	b	d	e	h	i	l
+52	1	a	d	e	h	i	l
+53	1	a	c	f	g	j	k
+=======================================
+Gen: 1,    Agent: 62
+id	typeFreq	A	B	C	D	E	F
+1	165	b	d	f	g	i	k
+2	109	b	d	f	h	j	k
+3	104	b	d	e	g	i	k
+4	79	a	c	e	h	j	l
+5	67	b	c	e	g	i	k
+6	58	a	d	f	h	j	l
+7	56	b	d	f	h	i	k
+8	43	b	d	f	g	j	k
+9	31	b	d	f	h	j	l
+10	26	a	d	e	h	j	l
+11	25	a	c	e	g	j	k
+12	24	a	d	f	h	j	k
+13	22	a	c	e	g	j	l
+14	21	b	d	f	h	i	l
+15	17	a	c	e	g	i	k
+16	16	a	c	f	h	j	l
+17	14	b	c	f	g	i	k
+18	12	a	d	e	g	i	k
+19	9	b	d	f	g	j	l
+20	8	b	d	e	g	j	k
+21	8	b	d	e	h	i	k
+22	8	a	d	f	g	j	k
+23	7	a	c	f	g	j	l
+24	6	b	d	f	g	i	l
+25	5	b	c	e	g	i	l
+26	5	b	c	f	h	i	k
+27	5	a	d	f	g	i	k
+28	4	a	c	e	g	i	l
+29	4	a	c	f	g	i	k
+30	4	b	d	e	g	i	l
+31	4	b	c	e	g	j	k
+32	4	b	c	f	g	j	k
+33	4	a	d	f	h	i	k
+34	3	b	c	f	h	j	k
+35	3	a	c	e	h	i	l
+36	3	b	d	e	h	j	k
+37	2	b	c	f	h	j	l
+38	2	a	d	f	h	i	l
+39	2	b	d	e	g	j	l
+40	2	a	d	f	g	j	l
+41	1	a	d	e	g	i	l
+42	1	b	c	e	g	j	l
+43	1	a	d	e	h	i	k
+44	1	b	c	f	g	j	l
+45	1	b	d	e	h	i	l
+46	1	a	c	f	h	i	k
+47	1	a	d	e	h	j	k
+48	1	a	d	e	g	j	l
+49	1	a	c	e	h	i	k
+50	1	b	c	e	h	j	l
+=======================================
+Gen: 1,    Agent: 63
+id	typeFreq	A	B	C	D	E	F
+1	158	b	d	f	h	j	k
+2	114	b	d	e	g	i	k
+3	104	b	d	f	g	i	k
+4	76	a	c	e	h	j	l
+5	74	b	d	f	h	j	l
+6	61	b	d	f	h	i	k
+7	57	b	c	e	g	i	k
+8	37	b	d	f	g	j	k
+9	26	b	c	f	g	i	k
+10	25	a	c	e	g	i	k
+11	24	a	c	e	g	j	l
+12	22	a	d	e	h	j	l
+13	20	a	c	e	g	j	k
+14	19	a	c	f	h	j	l
+15	16	b	d	f	h	i	l
+16	15	b	d	e	h	i	k
+17	14	a	c	e	g	i	l
+18	13	a	d	e	g	i	k
+19	11	b	d	f	g	j	l
+20	11	a	d	f	h	j	k
+21	10	a	d	f	h	j	l
+22	10	b	d	e	h	j	k
+23	9	b	c	e	g	i	l
+24	9	b	c	e	g	j	k
+25	8	b	c	f	h	j	l
+26	7	a	c	e	h	i	l
+27	4	b	d	e	g	i	l
+28	4	a	d	f	g	i	k
+29	4	b	d	e	g	j	k
+30	4	a	d	f	g	j	k
+31	4	b	d	f	g	i	l
+32	3	b	d	e	h	j	l
+33	3	a	c	f	h	i	k
+34	3	b	c	f	g	i	l
+35	3	a	c	f	g	j	l
+36	2	a	d	e	g	i	l
+37	2	b	c	f	g	j	k
+38	2	b	c	f	h	i	k
+39	2	a	d	f	h	i	l
+40	2	a	d	f	h	i	k
+41	1	b	c	e	h	i	l
+42	1	a	c	f	g	i	k
+43	1	a	c	f	h	j	k
+44	1	a	d	e	h	j	k
+45	1	b	c	e	h	j	k
+46	1	a	d	e	g	j	k
+47	1	b	d	e	g	j	l
+48	1	b	c	e	h	j	l
+49	1	a	c	e	h	i	k
+=======================================
+Gen: 1,    Agent: 64
+id	typeFreq	A	B	C	D	E	F
+1	149	b	d	f	h	j	k
+2	147	b	d	e	g	i	k
+3	83	b	d	f	h	j	l
+4	81	b	c	e	g	i	k
+5	60	b	d	f	g	i	k
+6	46	a	c	e	g	i	k
+7	45	b	d	f	h	i	k
+8	42	a	c	e	g	i	l
+9	41	a	c	f	g	j	l
+10	40	b	d	f	g	j	k
+11	36	a	d	f	h	j	l
+12	26	b	d	e	h	i	k
+13	22	a	c	f	h	j	l
+14	18	b	d	f	h	i	l
+15	15	a	c	e	g	j	l
+16	15	b	c	f	g	i	k
+17	14	b	d	f	g	j	l
+18	12	a	d	e	g	i	k
+19	10	b	c	e	g	i	l
+20	10	a	c	e	h	j	l
+21	6	b	c	f	h	j	l
+22	6	b	d	e	g	j	k
+23	6	a	d	f	h	i	k
+24	5	b	c	e	g	j	k
+25	5	b	c	f	g	j	k
+26	5	b	d	f	g	i	l
+27	5	a	d	e	h	j	l
+28	5	a	d	f	h	j	k
+29	5	a	c	e	h	i	l
+30	4	b	d	e	h	j	l
+31	4	a	c	f	g	i	l
+32	3	b	d	e	g	i	l
+33	3	a	c	e	g	j	k
+34	3	a	d	f	g	i	k
+35	3	b	d	e	h	j	k
+36	3	a	d	f	g	j	k
+37	2	b	c	f	h	i	l
+38	2	a	d	f	h	i	l
+39	2	a	d	f	g	j	l
+40	2	b	c	f	h	j	k
+41	2	a	d	f	g	i	l
+42	1	a	c	e	h	i	k
+43	1	b	c	e	h	i	k
+44	1	b	c	f	h	i	k
+45	1	a	c	f	g	i	k
+46	1	b	c	e	h	j	k
+47	1	a	c	f	h	j	k
+48	1	b	d	e	g	j	l
+49	1	a	c	f	h	i	l
+=======================================
+Gen: 1,    Agent: 65
+id	typeFreq	A	B	C	D	E	F
+1	161	b	d	e	g	i	k
+2	141	b	d	f	h	j	k
+3	93	b	c	e	g	i	k
+4	71	b	d	f	g	i	k
+5	67	b	d	f	h	i	k
+6	58	b	d	f	h	j	l
+7	50	a	c	e	h	j	l
+8	39	b	d	f	g	j	k
+9	29	a	c	e	g	i	k
+10	29	a	c	e	h	i	l
+11	24	a	d	f	h	j	l
+12	22	a	d	e	h	j	l
+13	18	b	d	e	h	i	k
+14	17	a	c	e	g	i	l
+15	17	b	c	f	g	i	k
+16	15	a	c	e	g	j	l
+17	14	a	c	f	h	j	l
+18	12	b	d	f	h	i	l
+19	11	b	d	f	g	j	l
+20	10	a	d	e	g	i	k
+21	9	b	c	f	h	j	l
+22	9	b	c	e	g	i	l
+23	7	a	c	e	g	j	k
+24	7	b	d	f	g	i	l
+25	6	b	d	e	g	j	k
+26	6	a	d	f	h	j	k
+27	4	b	d	e	g	i	l
+28	4	b	d	e	h	j	k
+29	4	a	d	f	h	i	k
+30	4	a	c	f	g	j	l
+31	3	b	d	e	h	j	l
+32	3	b	c	e	g	j	k
+33	3	b	c	f	g	i	l
+34	3	a	d	f	g	i	k
+35	3	a	d	f	g	j	k
+36	3	a	d	f	h	i	l
+37	2	a	d	e	g	i	l
+38	2	a	c	e	h	i	k
+39	2	b	c	f	g	j	k
+40	2	b	c	f	h	i	k
+41	2	a	d	f	g	j	l
+42	2	b	c	f	h	j	k
+43	2	a	c	f	h	j	k
+44	1	a	c	f	g	i	k
+45	1	a	c	f	g	j	k
+46	1	b	c	e	h	j	k
+47	1	b	c	e	h	i	k
+48	1	a	c	f	h	i	k
+49	1	b	c	f	h	i	l
+50	1	a	c	f	h	i	l
+51	1	b	c	f	g	j	l
+52	1	a	c	f	g	i	l
+53	1	b	c	e	h	j	l
+54	1	b	c	e	g	j	l
+=======================================
+Gen: 1,    Agent: 66
+id	typeFreq	A	B	C	D	E	F
+1	155	b	d	e	g	i	k
+2	126	b	d	f	h	j	k
+3	90	b	d	f	g	i	k
+4	83	b	c	e	g	i	k
+5	68	a	c	f	h	j	l
+6	67	b	d	f	h	i	k
+7	47	a	c	e	g	j	l
+8	43	b	d	f	g	j	k
+9	40	a	c	e	g	i	k
+10	32	b	d	f	h	j	l
+11	29	b	c	f	h	j	l
+12	29	a	c	f	g	j	l
+13	23	b	d	e	h	i	k
+14	22	a	c	e	h	j	l
+15	16	b	d	f	h	i	l
+16	10	a	d	f	h	j	l
+17	10	b	c	f	g	i	k
+18	9	b	c	e	g	i	l
+19	9	a	c	e	g	i	l
+20	8	b	d	f	g	j	l
+21	7	b	d	f	g	i	l
+22	6	b	d	e	g	j	k
+23	6	b	d	e	g	i	l
+24	6	a	d	e	g	i	k
+25	6	a	d	f	h	j	k
+26	5	a	d	f	g	i	k
+27	4	a	c	e	g	j	k
+28	4	b	c	f	h	i	k
+29	4	b	c	f	h	j	k
+30	4	b	d	e	h	i	l
+31	3	b	c	e	g	j	k
+32	2	a	d	e	g	j	l
+33	2	b	c	e	g	j	l
+34	2	a	d	e	g	i	l
+35	2	b	c	e	h	i	k
+36	2	a	d	f	h	i	k
+37	2	a	c	f	g	i	k
+38	2	a	d	e	h	j	l
+39	2	b	d	e	h	j	l
+40	2	a	d	f	h	i	l
+41	2	b	c	f	h	i	l
+42	2	a	d	f	g	j	l
+43	1	a	d	e	g	j	k
+44	1	b	c	e	h	j	k
+45	1	a	d	f	g	j	k
+46	1	b	c	e	h	j	l
+47	1	a	c	f	g	j	k
+48	1	b	d	e	h	j	k
+49	1	a	d	e	h	i	k
+50	1	b	d	e	g	j	l
+=======================================
+Gen: 1,    Agent: 67
+id	typeFreq	A	B	C	D	E	F
+1	165	b	d	f	h	j	k
+2	136	b	d	f	g	i	k
+3	107	b	d	e	g	i	k
+4	70	b	d	f	h	j	l
+5	65	b	c	e	g	i	k
+6	61	a	c	e	h	j	l
+7	48	b	d	f	g	j	k
+8	43	b	d	f	h	i	k
+9	36	a	d	e	h	j	l
+10	31	a	c	e	g	i	k
+11	23	a	c	e	h	i	l
+12	19	b	d	f	h	i	l
+13	17	b	c	f	g	i	k
+14	15	b	c	e	g	i	l
+15	14	a	c	f	h	j	l
+16	14	b	d	f	g	j	l
+17	14	a	c	e	g	j	l
+18	12	a	d	f	h	j	l
+19	12	b	d	e	h	i	k
+20	9	a	c	e	g	i	l
+21	8	a	d	e	g	i	k
+22	7	a	c	f	g	j	l
+23	6	a	c	e	g	j	k
+24	6	a	d	f	h	i	k
+25	6	b	c	f	g	j	k
+26	5	b	d	e	h	j	k
+27	5	a	d	f	h	j	k
+28	5	b	d	f	g	i	l
+29	4	b	d	e	g	j	k
+30	4	a	d	f	g	j	l
+31	3	b	d	e	g	i	l
+32	3	b	c	f	h	j	k
+33	3	a	d	f	g	j	k
+34	2	b	c	f	h	j	l
+35	2	a	d	e	g	i	l
+36	2	b	c	e	g	j	k
+37	2	b	c	f	h	i	k
+38	2	b	c	e	h	i	k
+39	2	b	c	f	g	j	l
+40	2	a	c	e	h	i	k
+41	2	a	d	f	g	i	k
+42	2	a	d	f	h	i	l
+43	1	b	c	e	h	i	l
+44	1	a	d	e	h	i	k
+45	1	b	d	e	g	j	l
+46	1	b	d	e	h	j	l
+47	1	b	c	e	h	j	k
+48	1	a	c	f	h	j	k
+49	1	b	c	e	h	j	l
+=======================================
+Gen: 1,    Agent: 68
+id	typeFreq	A	B	C	D	E	F
+1	144	b	d	e	g	i	k
+2	132	b	d	f	h	j	k
+3	79	b	c	e	g	i	k
+4	78	b	d	f	g	i	k
+5	72	b	d	f	h	j	l
+6	55	b	d	f	g	j	k
+7	53	b	d	f	h	i	k
+8	38	a	c	e	g	i	k
+9	37	a	c	e	g	i	l
+10	35	a	c	e	h	j	l
+11	28	a	d	e	h	j	l
+12	22	a	d	f	h	j	l
+13	20	b	c	e	g	i	l
+14	20	a	c	e	g	j	l
+15	18	b	c	f	g	i	k
+16	17	b	d	f	h	i	l
+17	16	b	d	e	h	i	k
+18	14	a	c	f	h	j	l
+19	13	a	c	f	g	j	l
+20	12	a	d	e	g	i	k
+21	7	b	c	f	h	j	k
+22	7	a	d	f	h	j	k
+23	6	a	c	e	h	i	l
+24	5	b	c	f	h	j	l
+25	5	b	d	e	g	j	k
+26	5	a	d	f	g	i	k
+27	5	b	d	e	h	j	k
+28	5	b	d	f	g	i	l
+29	5	b	d	f	g	j	l
+30	4	b	c	f	g	j	k
+31	4	b	d	e	h	i	l
+32	4	a	d	f	h	i	k
+33	3	b	c	f	g	j	l
+34	3	b	c	e	h	i	k
+35	3	a	d	f	g	j	k
+36	3	a	d	f	g	j	l
+37	3	a	c	e	g	j	k
+38	2	a	d	e	g	i	l
+39	2	a	c	f	g	i	k
+40	2	b	d	e	g	i	l
+41	2	b	c	f	h	i	k
+42	2	b	c	f	g	i	l
+43	2	b	d	e	h	j	l
+44	2	b	c	e	h	j	l
+45	1	b	c	e	g	j	l
+46	1	b	c	e	h	j	k
+47	1	b	c	e	g	j	k
+48	1	a	d	f	h	i	l
+49	1	a	d	e	g	j	l
+50	1	a	c	e	h	j	k
+=======================================
+Gen: 1,    Agent: 69
+id	typeFreq	A	B	C	D	E	F
+1	160	b	d	f	g	i	k
+2	112	b	d	e	g	i	k
+3	110	b	d	f	h	i	k
+4	102	b	d	f	h	j	k
+5	67	a	d	f	h	j	l
+6	64	b	c	e	g	i	k
+7	43	a	c	f	h	j	l
+8	36	b	d	f	h	j	l
+9	30	a	c	e	g	i	k
+10	29	a	c	e	g	i	l
+11	28	a	c	e	h	j	l
+12	25	b	d	f	h	i	l
+13	18	b	c	f	g	i	k
+14	16	b	d	f	g	j	k
+15	15	a	c	e	g	j	l
+16	14	b	d	e	h	i	k
+17	13	b	c	e	g	i	l
+18	12	a	d	e	g	i	k
+19	11	b	d	f	g	j	l
+20	8	b	d	f	g	i	l
+21	7	a	c	e	h	i	l
+22	6	a	d	f	h	i	k
+23	5	b	c	f	h	j	l
+24	5	a	d	f	g	i	k
+25	5	a	c	f	g	j	l
+26	4	a	d	f	h	j	k
+27	4	b	c	e	g	j	k
+28	4	a	d	e	h	j	l
+29	4	a	c	f	h	i	l
+30	3	a	c	f	h	i	k
+31	3	b	d	e	g	i	l
+32	3	b	c	f	h	i	l
+33	3	b	d	e	h	j	k
+34	3	a	d	f	h	i	l
+35	3	a	d	f	g	j	l
+36	3	a	c	e	g	j	k
+37	2	a	c	e	h	i	k
+38	2	b	c	f	g	j	k
+39	2	b	d	e	g	j	k
+40	2	a	d	e	h	i	k
+41	2	b	d	e	g	j	l
+42	1	b	c	e	g	j	l
+43	1	a	d	e	g	j	k
+44	1	a	c	f	h	j	k
+45	1	b	c	f	h	i	k
+46	1	a	c	f	g	i	k
+47	1	b	d	e	h	j	l
+48	1	a	d	f	g	j	k
+49	1	a	d	e	h	j	k
+50	1	b	c	f	g	j	l
+51	1	b	c	f	g	i	l
+52	1	a	d	f	g	i	l
+53	1	a	d	e	g	i	l
+54	1	b	c	e	h	i	k
+=======================================
+Gen: 1,    Agent: 70
+id	typeFreq	A	B	C	D	E	F
+1	174	b	d	e	g	i	k
+2	133	b	d	f	h	j	k
+3	78	b	d	f	g	i	k
+4	70	b	d	f	h	j	l
+5	59	a	c	f	h	j	l
+6	58	b	c	e	g	i	k
+7	57	a	c	e	h	j	l
+8	56	b	d	f	g	j	k
+9	42	b	d	f	h	i	k
+10	27	b	d	e	h	i	k
+11	20	a	c	e	g	j	k
+12	15	a	c	e	g	j	l
+13	14	a	d	f	h	j	l
+14	14	b	c	e	g	i	l
+15	14	a	c	e	g	i	k
+16	13	a	d	e	g	i	k
+17	13	b	d	e	g	j	k
+18	13	b	d	f	h	i	l
+19	12	b	c	f	h	j	l
+20	12	b	d	e	h	j	k
+21	11	b	c	f	g	i	k
+22	11	a	c	f	g	j	l
+23	10	b	d	f	g	j	l
+24	7	a	c	e	h	i	l
+25	6	a	d	f	h	j	k
+26	5	b	c	e	g	j	l
+27	5	a	d	e	h	j	l
+28	5	b	d	e	h	j	l
+29	5	b	d	f	g	i	l
+30	5	a	d	f	h	i	k
+31	4	b	c	f	h	j	k
+32	4	b	d	e	g	i	l
+33	4	a	d	f	g	j	k
+34	3	a	d	e	h	i	k
+35	3	b	d	e	g	j	l
+36	3	b	c	f	h	i	k
+37	2	b	c	e	g	j	k
+38	2	a	d	f	g	i	k
+39	2	b	c	e	h	i	k
+40	1	a	c	f	g	i	k
+41	1	a	c	e	h	i	k
+42	1	a	d	e	g	i	l
+43	1	a	d	e	g	j	k
+44	1	b	c	f	g	j	k
+45	1	b	d	e	h	i	l
+46	1	a	d	e	h	j	k
+47	1	b	c	e	h	j	l
+48	1	a	c	f	h	i	l
+49	1	a	c	e	g	i	l
+=======================================
+Gen: 1,    Agent: 71
+id	typeFreq	A	B	C	D	E	F
+1	156	b	d	e	g	i	k
+2	152	b	d	f	h	j	k
+3	81	b	c	e	g	i	k
+4	80	a	c	e	h	j	l
+5	77	b	d	f	g	i	k
+6	68	b	d	f	h	j	l
+7	52	b	d	f	g	j	k
+8	48	a	d	f	h	j	l
+9	46	b	d	f	h	i	k
+10	26	a	c	e	g	i	k
+11	25	a	c	f	h	j	l
+12	21	b	d	e	h	i	k
+13	14	a	d	e	g	i	k
+14	13	b	c	f	g	i	k
+15	12	a	c	e	g	j	l
+16	11	a	c	e	g	j	k
+17	10	b	d	e	g	j	k
+18	9	b	d	f	h	i	l
+19	9	b	d	f	g	j	l
+20	8	b	d	f	g	i	l
+21	7	b	c	f	h	j	l
+22	6	b	c	e	g	i	l
+23	6	b	d	e	h	j	k
+24	5	b	c	f	h	j	k
+25	5	a	c	e	g	i	l
+26	5	a	d	e	h	j	l
+27	4	a	d	f	h	i	k
+28	4	a	d	f	h	j	k
+29	4	a	d	f	g	j	k
+30	3	b	d	e	g	i	l
+31	3	b	c	f	g	j	k
+32	3	a	c	f	g	j	l
+33	3	a	c	e	h	i	l
+34	2	a	d	e	g	i	l
+35	2	a	d	e	g	j	k
+36	2	b	c	e	g	j	l
+37	2	a	d	f	g	i	k
+38	2	b	c	f	h	i	k
+39	2	b	c	e	g	j	k
+40	2	a	c	f	g	j	k
+41	2	a	d	f	h	i	l
+42	1	b	c	e	h	j	k
+43	1	b	c	e	h	j	l
+44	1	a	d	f	g	i	l
+45	1	b	d	e	h	j	l
+46	1	a	c	f	h	j	k
+47	1	a	d	e	h	i	k
+48	1	a	c	e	h	j	k
+49	1	a	d	e	g	j	l
+50	1	a	c	f	h	i	l
+=======================================
+Gen: 1,    Agent: 72
+id	typeFreq	A	B	C	D	E	F
+1	158	b	d	e	g	i	k
+2	101	b	d	f	h	j	k
+3	79	b	d	f	g	i	k
+4	78	b	c	e	g	i	k
+5	71	a	c	e	h	j	l
+6	68	b	d	f	h	i	k
+7	50	a	c	f	h	j	l
+8	42	b	d	f	g	j	k
+9	40	a	d	f	h	j	l
+10	38	b	d	f	h	j	l
+11	31	a	d	f	h	j	k
+12	29	a	c	e	g	j	l
+13	23	b	d	f	h	i	l
+14	22	a	c	e	g	j	k
+15	22	b	c	f	g	i	k
+16	21	a	c	e	g	i	k
+17	18	b	d	e	h	i	k
+18	12	b	c	e	g	i	l
+19	9	a	d	f	h	i	l
+20	7	b	c	e	g	j	k
+21	7	b	d	e	g	j	k
+22	7	b	d	f	g	j	l
+23	7	a	c	f	g	j	l
+24	7	a	c	e	h	i	l
+25	5	a	d	e	h	j	l
+26	5	a	d	f	h	i	k
+27	4	b	c	f	h	j	l
+28	4	b	d	e	g	i	l
+29	4	a	c	e	g	i	l
+30	4	b	c	e	h	i	k
+31	4	a	d	e	g	i	k
+32	4	b	d	f	g	i	l
+33	3	a	d	f	g	i	k
+34	2	a	d	e	g	j	k
+35	2	b	d	e	h	j	l
+36	2	a	d	f	g	j	l
+37	2	a	d	f	g	i	l
+38	1	b	c	e	g	j	l
+39	1	a	c	f	g	i	l
+40	1	a	c	f	g	i	k
+41	1	a	d	e	h	i	k
+42	1	b	c	f	h	i	k
+43	1	a	d	f	g	j	k
+44	1	b	c	f	g	j	l
+45	1	b	d	e	h	j	k
+46	1	a	c	f	h	j	k
+=======================================
+Gen: 1,    Agent: 73
+id	typeFreq	A	B	C	D	E	F
+1	180	b	d	e	g	i	k
+2	160	b	d	f	h	j	k
+3	80	b	c	e	g	i	k
+4	73	a	c	e	h	j	l
+5	67	b	d	f	g	i	k
+6	58	b	d	f	h	j	l
+7	49	b	d	f	g	j	k
+8	47	b	d	f	h	i	k
+9	31	a	c	e	g	i	k
+10	24	a	d	e	h	j	l
+11	22	a	d	f	h	j	l
+12	17	a	c	e	g	j	l
+13	17	b	d	e	h	i	k
+14	16	b	c	f	g	i	k
+15	15	b	d	f	h	i	l
+16	14	a	c	f	h	j	l
+17	13	b	c	e	g	i	l
+18	12	a	c	e	h	i	l
+19	10	a	d	e	g	i	k
+20	10	b	d	e	h	j	k
+21	10	a	d	f	h	j	k
+22	10	b	d	f	g	j	l
+23	7	a	c	e	g	i	l
+24	7	a	d	f	h	i	k
+25	5	b	c	f	h	j	l
+26	5	b	d	e	g	i	l
+27	5	b	d	f	g	i	l
+28	4	a	c	e	g	j	k
+29	3	b	c	e	g	j	l
+30	3	a	d	f	g	i	k
+31	3	a	c	f	g	j	l
+32	2	a	d	f	g	j	k
+33	2	a	c	f	h	j	k
+34	2	a	d	f	g	j	l
+35	2	a	c	e	h	j	k
+36	2	a	c	e	h	i	k
+37	1	b	c	e	g	j	k
+38	1	b	c	f	h	i	k
+39	1	a	d	e	h	i	k
+40	1	b	d	e	h	i	l
+41	1	b	d	e	g	j	k
+42	1	b	c	f	h	j	k
+43	1	b	c	e	h	j	l
+44	1	b	c	f	h	i	l
+45	1	a	d	f	g	i	l
+46	1	a	d	e	g	j	k
+47	1	a	c	f	g	j	k
+48	1	a	d	e	g	j	l
+49	1	a	c	f	h	i	l
+50	1	a	c	f	g	i	l
+=======================================
+Gen: 1,    Agent: 74
+id	typeFreq	A	B	C	D	E	F
+1	138	b	d	f	h	j	k
+2	124	b	d	f	g	i	k
+3	92	b	d	e	g	i	k
+4	71	b	d	f	h	j	l
+5	66	b	c	e	g	i	k
+6	60	b	d	f	h	i	k
+7	57	a	c	e	h	j	l
+8	53	b	d	f	g	j	k
+9	43	a	c	e	g	i	k
+10	27	a	d	e	h	j	l
+11	26	b	c	f	g	i	k
+12	25	a	c	e	h	i	l
+13	21	a	d	f	h	j	l
+14	19	a	c	e	g	i	l
+15	17	b	d	e	h	i	k
+16	17	a	c	f	h	j	l
+17	17	b	d	f	h	i	l
+18	13	a	c	e	g	j	l
+19	11	b	c	e	g	i	l
+20	11	a	d	e	g	i	k
+21	11	b	d	e	h	j	k
+22	8	a	d	f	h	i	l
+23	7	b	c	f	h	j	l
+24	6	b	d	e	g	j	k
+25	6	b	d	f	g	j	l
+26	5	a	d	f	h	j	k
+27	5	b	c	f	h	i	k
+28	5	a	d	f	h	i	k
+29	4	b	d	f	g	i	l
+30	4	a	c	f	g	j	l
+31	3	a	c	f	g	i	l
+32	3	a	d	f	g	j	l
+33	2	b	d	e	g	i	l
+34	2	a	d	e	g	i	l
+35	2	b	d	e	g	j	l
+36	2	b	c	f	g	i	l
+37	2	b	c	e	g	j	k
+38	2	a	d	f	g	i	k
+39	2	a	c	f	h	i	l
+40	1	a	c	e	h	i	k
+41	1	a	d	e	g	j	k
+42	1	a	c	e	g	j	k
+43	1	a	d	e	h	i	l
+44	1	b	c	e	h	i	k
+45	1	b	c	f	g	j	k
+46	1	a	c	f	g	i	k
+47	1	b	c	f	h	j	k
+48	1	b	d	e	h	i	l
+49	1	a	c	f	h	j	k
+50	1	a	d	f	g	j	k
+51	1	a	d	e	h	i	k
+=======================================
+Gen: 1,    Agent: 75
+id	typeFreq	A	B	C	D	E	F
+1	135	b	d	f	g	i	k
+2	122	b	d	f	h	j	k
+3	121	b	d	e	g	i	k
+4	89	b	d	f	h	i	k
+5	68	b	d	f	h	j	l
+6	64	b	c	e	g	i	k
+7	48	a	c	e	h	j	l
+8	45	a	c	e	g	j	l
+9	43	b	d	f	g	j	k
+10	31	b	d	f	h	i	l
+11	30	a	c	e	g	i	k
+12	26	a	d	e	h	j	l
+13	18	a	c	f	h	j	l
+14	16	b	c	f	g	i	k
+15	14	b	c	e	g	i	l
+16	12	b	d	e	h	i	k
+17	11	a	d	f	h	j	l
+18	9	a	d	e	g	i	k
+19	9	b	d	f	g	i	l
+20	7	a	c	e	g	j	k
+21	7	a	c	f	g	j	l
+22	6	a	c	e	g	i	l
+23	6	b	d	f	g	j	l
+24	5	b	c	f	h	j	l
+25	5	b	c	e	g	j	l
+26	4	a	d	f	g	i	k
+27	4	a	d	f	h	i	l
+28	4	a	d	f	h	j	k
+29	4	a	d	f	h	i	k
+30	3	b	c	f	h	j	k
+31	3	b	c	e	g	j	k
+32	3	b	d	e	h	j	k
+33	3	a	d	f	g	j	k
+34	2	b	d	e	g	j	l
+35	2	a	c	f	g	i	l
+36	2	a	d	e	g	j	k
+37	2	a	d	e	h	i	k
+38	2	a	d	f	g	j	l
+39	2	a	c	f	h	i	l
+40	2	a	c	e	h	i	l
+41	2	a	c	e	h	j	k
+42	1	b	d	e	g	i	l
+43	1	b	d	e	g	j	k
+44	1	a	c	f	g	i	k
+45	1	b	c	f	h	i	k
+46	1	b	c	e	h	i	k
+47	1	b	c	f	g	j	k
+48	1	b	c	f	h	i	l
+49	1	b	d	e	h	j	l
+50	1	a	d	e	h	j	k
+51	1	a	d	e	g	j	l
+=======================================
+Gen: 1,    Agent: 76
+id	typeFreq	A	B	C	D	E	F
+1	147	b	d	f	g	i	k
+2	132	b	d	f	h	j	k
+3	106	b	d	e	g	i	k
+4	76	b	c	e	g	i	k
+5	73	b	d	f	h	i	k
+6	65	b	d	f	h	j	l
+7	46	a	c	e	g	j	l
+8	38	b	d	f	g	j	k
+9	33	a	c	e	g	i	k
+10	31	a	c	e	g	i	l
+11	25	a	d	e	h	j	l
+12	24	a	d	f	h	j	l
+13	23	a	c	e	h	j	l
+14	22	b	c	f	g	i	k
+15	19	b	d	f	h	i	l
+16	12	a	c	f	h	j	l
+17	12	b	c	e	g	i	l
+18	10	a	d	e	g	i	k
+19	10	b	d	e	h	i	k
+20	8	b	d	f	g	j	l
+21	8	a	c	f	g	j	l
+22	7	b	c	f	h	j	l
+23	7	a	c	e	h	i	l
+24	5	b	c	f	h	i	k
+25	5	b	d	f	g	i	l
+26	5	a	d	f	h	j	k
+27	4	b	d	e	g	i	l
+28	4	b	c	e	g	j	k
+29	4	b	d	e	g	j	k
+30	4	a	d	f	g	j	k
+31	3	a	d	f	g	i	k
+32	3	a	d	f	h	i	l
+33	3	a	c	e	g	j	k
+34	2	a	d	e	h	j	k
+35	2	a	c	f	g	i	k
+36	2	b	d	e	h	j	k
+37	2	a	d	e	g	j	l
+38	2	a	d	f	g	j	l
+39	2	b	d	e	h	j	l
+40	1	a	d	e	g	i	l
+41	1	b	c	e	h	i	k
+42	1	b	c	f	g	i	l
+43	1	b	c	e	g	j	l
+44	1	b	d	e	h	i	l
+45	1	a	d	f	h	i	k
+46	1	b	c	f	h	i	l
+47	1	a	d	e	h	i	k
+48	1	b	d	e	g	j	l
+49	1	b	c	f	g	j	l
+50	1	b	c	f	g	j	k
+51	1	a	d	e	g	j	k
+52	1	b	c	e	h	j	l
+53	1	a	c	e	h	i	k
+54	1	a	c	e	h	j	k
+=======================================
+Gen: 1,    Agent: 77
+id	typeFreq	A	B	C	D	E	F
+1	149	b	d	e	g	i	k
+2	147	b	d	f	h	j	k
+3	86	b	c	e	g	i	k
+4	65	b	d	f	g	i	k
+5	64	b	d	f	h	j	l
+6	58	b	d	f	g	j	k
+7	56	a	c	e	g	j	l
+8	45	b	d	f	h	i	k
+9	31	a	d	e	h	j	l
+10	30	b	d	e	h	i	k
+11	29	a	c	e	g	i	k
+12	25	a	c	e	g	i	l
+13	24	a	c	e	h	j	l
+14	18	a	c	f	h	j	l
+15	17	a	d	f	h	j	l
+16	14	b	c	f	g	i	k
+17	12	b	c	f	h	j	l
+18	11	a	d	f	h	j	k
+19	10	b	c	e	g	i	l
+20	10	b	d	e	g	j	k
+21	10	b	d	f	g	j	l
+22	9	a	d	e	g	i	k
+23	8	b	d	f	g	i	l
+24	8	b	d	f	h	i	l
+25	8	a	c	f	g	j	l
+26	6	b	d	e	h	j	k
+27	5	b	c	e	g	j	k
+28	5	b	d	e	g	i	l
+29	5	a	d	f	g	j	l
+30	5	a	c	e	h	i	l
+31	4	a	d	f	h	i	k
+32	3	a	d	e	g	i	l
+33	3	a	d	e	g	j	k
+34	3	a	d	f	g	j	k
+35	3	b	d	e	h	j	l
+36	2	b	c	f	g	j	k
+37	2	a	c	e	h	j	k
+38	2	a	c	e	g	j	k
+39	1	b	c	e	g	j	l
+40	1	b	c	f	h	j	k
+41	1	a	d	f	g	i	k
+42	1	b	c	f	g	j	l
+43	1	a	c	f	g	j	k
+44	1	b	c	e	h	j	k
+45	1	a	d	e	h	j	k
+46	1	b	d	e	g	j	l
+47	1	a	c	e	h	i	k
+=======================================
+Gen: 1,    Agent: 78
+id	typeFreq	A	B	C	D	E	F
+1	144	b	d	e	g	i	k
+2	120	b	d	f	h	j	k
+3	118	b	d	f	g	i	k
+4	80	b	c	e	g	i	k
+5	59	a	c	e	h	j	l
+6	57	a	d	f	h	j	l
+7	51	b	d	f	h	i	k
+8	39	b	d	f	g	j	k
+9	34	b	d	f	h	j	l
+10	28	a	d	e	h	j	l
+11	27	a	c	f	h	j	l
+12	25	a	c	e	h	i	l
+13	24	a	c	e	g	i	k
+14	20	a	d	f	h	j	k
+15	16	b	c	e	g	i	l
+16	16	b	c	f	g	i	k
+17	14	b	d	e	h	i	k
+18	14	b	d	f	h	i	l
+19	12	a	c	e	g	i	l
+20	9	a	d	f	h	i	k
+21	9	b	d	f	g	i	l
+22	8	a	d	f	g	i	k
+23	8	a	c	e	g	j	l
+24	7	a	d	e	g	i	k
+25	6	a	d	f	g	j	k
+26	5	b	d	e	g	i	l
+27	5	b	d	e	g	j	k
+28	5	b	d	f	g	j	l
+29	3	b	c	e	g	j	k
+30	3	b	c	f	g	i	l
+31	3	b	d	e	h	j	k
+32	3	a	d	f	g	j	l
+33	3	a	d	f	h	i	l
+34	3	a	c	f	g	j	l
+35	2	b	d	e	h	j	l
+36	2	b	c	e	h	i	k
+37	2	b	c	f	h	j	k
+38	2	a	c	f	g	i	l
+39	1	b	c	e	h	i	l
+40	1	b	c	e	g	j	l
+41	1	b	c	f	h	i	k
+42	1	b	c	f	h	i	l
+43	1	b	d	e	g	j	l
+44	1	a	d	e	h	i	k
+45	1	a	d	e	g	i	l
+46	1	a	d	f	g	i	l
+47	1	b	c	f	g	j	l
+48	1	a	d	e	g	j	k
+49	1	b	d	e	h	i	l
+50	1	a	d	e	g	j	l
+51	1	a	c	e	h	j	k
+52	1	a	d	e	h	i	l
+53	1	a	c	e	g	j	k
+=======================================
+Gen: 1,    Agent: 79
+id	typeFreq	A	B	C	D	E	F
+1	144	b	d	f	h	j	k
+2	131	b	d	f	g	i	k
+3	105	b	d	e	g	i	k
+4	75	b	d	f	h	i	k
+5	73	b	d	f	h	j	l
+6	73	b	c	e	g	i	k
+7	61	a	c	e	h	j	l
+8	44	b	d	f	g	j	k
+9	26	a	c	f	h	j	l
+10	24	a	c	e	g	i	k
+11	22	a	d	f	h	j	l
+12	22	b	c	f	g	i	k
+13	20	a	c	e	g	j	l
+14	17	a	d	e	h	j	l
+15	16	b	c	e	g	i	l
+16	13	b	d	f	h	i	l
+17	12	a	d	e	g	i	k
+18	11	a	c	e	g	j	k
+19	10	b	d	f	g	i	l
+20	9	a	c	e	g	i	l
+21	9	b	d	e	h	i	k
+22	9	a	c	e	h	i	l
+23	6	b	c	f	h	j	l
+24	6	a	c	f	g	j	l
+25	5	a	d	f	h	j	k
+26	4	b	c	e	g	j	k
+27	4	a	d	f	g	i	k
+28	4	b	c	f	g	j	k
+29	4	a	d	f	h	i	k
+30	4	a	d	f	h	i	l
+31	4	b	d	f	g	j	l
+32	3	b	d	e	g	j	k
+33	3	a	c	f	g	i	k
+34	3	b	c	f	h	i	k
+35	3	b	c	e	h	i	k
+36	3	a	d	f	g	j	k
+37	2	b	d	e	g	i	l
+38	2	b	c	e	g	j	l
+39	2	b	c	e	h	j	l
+40	2	a	d	f	g	i	l
+41	2	b	c	f	g	i	l
+42	2	a	c	f	h	i	l
+43	1	a	c	f	g	i	l
+44	1	a	c	e	h	i	k
+45	1	b	d	e	h	j	k
+46	1	a	c	f	h	i	k
+47	1	a	d	f	g	j	l
+48	1	a	c	e	h	j	k
+49	1	b	c	f	g	j	l
+=======================================
+Gen: 1,    Agent: 80
+id	typeFreq	A	B	C	D	E	F
+1	155	b	d	f	h	j	k
+2	135	b	d	f	g	i	k
+3	103	b	d	e	g	i	k
+4	74	a	c	e	h	j	l
+5	72	b	c	e	g	i	k
+6	63	b	d	f	h	j	l
+7	59	b	d	f	g	j	k
+8	57	b	d	f	h	i	k
+9	28	a	c	f	h	j	l
+10	23	a	c	e	g	j	k
+11	23	a	c	e	g	j	l
+12	21	a	d	f	h	j	l
+13	16	a	c	e	g	i	k
+14	14	a	d	e	g	i	k
+15	12	b	c	f	g	i	k
+16	11	b	d	e	h	i	k
+17	10	b	c	e	g	i	l
+18	10	b	d	e	g	j	k
+19	9	b	d	f	g	j	l
+20	8	b	d	f	h	i	l
+21	8	a	d	e	h	j	l
+22	7	b	d	f	g	i	l
+23	6	b	c	f	h	j	l
+24	6	a	c	e	g	i	l
+25	6	a	d	f	h	i	k
+26	6	a	d	f	h	j	k
+27	5	a	d	f	g	i	k
+28	5	b	c	f	h	i	k
+29	5	a	d	f	g	j	k
+30	5	b	c	f	g	j	k
+31	5	b	d	e	h	j	k
+32	5	a	c	e	h	i	l
+33	4	b	c	e	g	j	k
+34	3	b	d	e	h	j	l
+35	3	a	d	e	g	j	l
+36	2	b	c	e	h	i	k
+37	2	a	d	f	g	i	l
+38	2	a	d	f	g	j	l
+39	2	a	c	f	g	j	l
+40	1	a	c	e	h	i	k
+41	1	b	c	e	g	j	l
+42	1	b	d	e	g	i	l
+43	1	a	c	f	g	i	k
+44	1	a	d	e	h	j	k
+45	1	b	d	e	g	j	l
+46	1	a	d	f	h	i	l
+47	1	b	c	f	h	i	l
+48	1	a	c	f	g	j	k
+49	1	a	d	e	g	i	l
+50	1	a	c	e	h	j	k
+=======================================
+Gen: 1,    Agent: 81
+id	typeFreq	A	B	C	D	E	F
+1	151	b	d	f	h	j	k
+2	130	b	d	f	g	i	k
+3	117	b	d	e	g	i	k
+4	56	a	d	f	h	j	l
+5	52	b	c	e	g	i	k
+6	51	b	d	f	h	j	l
+7	51	b	d	f	g	j	k
+8	50	b	d	f	h	i	k
+9	48	a	c	e	h	j	l
+10	33	a	c	e	g	i	k
+11	33	a	c	e	h	i	l
+12	24	a	d	e	h	j	l
+13	18	a	c	f	h	j	l
+14	15	a	c	e	g	j	l
+15	14	a	c	e	g	i	l
+16	14	a	d	f	h	j	k
+17	12	a	d	e	g	i	k
+18	10	b	c	f	g	i	k
+19	10	b	d	e	h	i	k
+20	10	b	d	f	h	i	l
+21	9	b	c	e	g	i	l
+22	8	b	d	e	h	j	k
+23	6	b	d	e	g	i	l
+24	6	b	c	e	h	i	k
+25	6	b	d	e	g	j	k
+26	6	a	d	f	g	j	k
+27	6	a	c	f	g	j	l
+28	5	a	d	f	g	i	k
+29	5	b	d	f	g	i	l
+30	5	b	d	f	g	j	l
+31	4	b	c	f	h	j	k
+32	4	a	d	f	g	j	l
+33	4	a	d	f	h	i	k
+34	3	b	c	e	h	i	l
+35	3	a	d	f	g	i	l
+36	3	b	d	e	g	j	l
+37	2	b	c	f	h	j	l
+38	2	a	d	e	g	i	l
+39	2	b	c	f	h	i	k
+40	2	a	c	f	h	j	k
+41	1	a	d	e	g	j	k
+42	1	b	c	e	g	j	k
+43	1	b	d	e	h	i	l
+44	1	b	c	f	h	i	l
+45	1	a	c	f	h	i	k
+46	1	b	c	e	h	j	l
+47	1	a	c	e	g	j	k
+48	1	a	d	e	h	j	k
+49	1	a	d	e	g	j	l
+50	1	a	c	f	h	i	l
+51	1	a	d	e	h	i	l
+=======================================
+Gen: 1,    Agent: 82
+id	typeFreq	A	B	C	D	E	F
+1	184	b	d	e	g	i	k
+2	100	b	d	f	g	i	k
+3	93	b	d	f	h	i	k
+4	93	b	d	f	h	j	k
+5	72	b	c	e	g	i	k
+6	56	b	d	f	h	j	l
+7	37	a	c	e	g	i	l
+8	36	b	d	f	h	i	l
+9	35	a	c	e	g	j	l
+10	34	a	c	e	g	i	k
+11	27	a	c	e	h	j	l
+12	22	a	d	f	h	j	l
+13	21	a	d	e	h	j	l
+14	18	a	c	f	h	j	l
+15	15	b	d	f	g	j	k
+16	14	b	c	e	g	i	l
+17	14	b	d	e	h	i	k
+18	12	a	d	e	g	i	k
+19	12	b	c	f	g	i	k
+20	9	b	d	e	g	j	k
+21	7	a	c	e	h	i	l
+22	6	a	d	f	g	i	k
+23	6	b	d	f	g	j	l
+24	6	b	d	f	g	i	l
+25	6	a	c	f	g	j	l
+26	5	b	c	e	h	i	k
+27	5	a	d	f	h	i	k
+28	5	b	d	e	h	j	l
+29	4	a	d	f	h	j	k
+30	3	b	c	f	h	j	l
+31	3	b	d	e	g	i	l
+32	3	a	c	e	g	j	k
+33	3	b	c	f	h	i	k
+34	3	a	d	e	g	j	l
+35	3	b	d	e	h	j	k
+36	3	b	d	e	h	i	l
+37	3	a	d	e	h	i	l
+38	2	b	c	e	g	j	l
+39	2	a	d	f	g	j	l
+40	2	a	d	e	h	i	k
+41	2	b	c	f	h	j	k
+42	2	a	d	f	h	i	l
+43	1	a	d	e	g	i	l
+44	1	b	c	e	g	j	k
+45	1	a	c	f	g	i	k
+46	1	b	c	f	g	j	k
+47	1	b	c	e	h	j	l
+48	1	a	d	e	g	j	k
+49	1	a	d	e	h	j	k
+50	1	b	c	f	h	i	l
+51	1	a	d	f	g	j	k
+52	1	b	d	e	g	j	l
+53	1	a	c	f	h	i	l
+54	1	a	c	f	g	i	l
+55	1	b	c	f	g	i	l
+=======================================
+Gen: 1,    Agent: 83
+id	typeFreq	A	B	C	D	E	F
+1	135	b	d	e	g	i	k
+2	134	b	d	f	g	i	k
+3	132	b	d	f	h	j	k
+4	75	a	c	e	h	j	l
+5	73	b	c	e	g	i	k
+6	69	b	d	f	h	i	k
+7	60	b	d	f	h	j	l
+8	41	a	c	e	g	i	k
+9	32	a	d	e	h	j	l
+10	19	b	c	f	g	i	k
+11	19	b	d	f	h	i	l
+12	18	a	c	e	g	j	l
+13	17	a	c	f	h	j	l
+14	16	b	c	e	g	i	l
+15	16	b	d	f	g	j	k
+16	15	a	d	f	h	j	l
+17	13	a	d	e	g	i	k
+18	13	b	d	e	h	i	k
+19	11	a	d	f	h	j	k
+20	8	b	c	f	h	j	l
+21	8	a	c	e	h	i	l
+22	7	b	d	f	g	i	l
+23	7	b	d	f	g	j	l
+24	5	a	c	e	g	i	l
+25	5	a	d	f	g	i	k
+26	5	a	d	f	h	i	k
+27	4	a	c	e	g	j	k
+28	4	b	d	e	h	i	l
+29	3	b	d	e	g	j	k
+30	3	b	d	e	h	j	k
+31	3	a	c	f	g	j	l
+32	2	b	c	e	h	i	l
+33	2	b	c	e	h	i	k
+34	2	b	c	e	g	j	k
+35	2	b	d	e	g	i	l
+36	2	b	c	f	g	j	k
+37	2	a	d	f	h	i	l
+38	2	a	d	f	g	j	l
+39	2	a	c	f	h	i	k
+40	2	b	c	f	h	i	k
+41	2	a	d	e	h	j	k
+42	1	a	c	e	h	i	k
+43	1	a	d	e	g	i	l
+44	1	a	c	f	g	i	k
+45	1	a	d	e	h	i	k
+46	1	b	d	e	h	j	l
+47	1	a	d	f	g	j	k
+48	1	a	c	f	h	i	l
+49	1	b	c	f	h	j	k
+50	1	b	c	e	h	j	l
+51	1	a	d	e	g	j	k
+52	1	a	d	e	g	j	l
+=======================================
+Gen: 1,    Agent: 84
+id	typeFreq	A	B	C	D	E	F
+1	150	b	d	e	g	i	k
+2	121	b	d	f	h	j	k
+3	81	b	c	e	g	i	k
+4	81	b	d	f	g	i	k
+5	77	b	d	f	h	j	l
+6	75	a	c	e	h	j	l
+7	64	b	d	f	h	i	k
+8	52	b	d	f	g	j	k
+9	35	a	d	e	h	j	l
+10	23	b	d	e	h	i	k
+11	19	a	c	e	g	i	k
+12	16	a	c	e	g	j	k
+13	15	a	c	f	h	j	l
+14	14	a	d	e	g	i	k
+15	13	a	d	f	h	j	l
+16	13	b	c	f	g	i	k
+17	13	a	c	e	g	j	l
+18	12	b	c	e	g	i	l
+19	11	b	d	f	h	i	l
+20	8	b	d	e	g	j	k
+21	8	b	d	e	h	j	k
+22	8	a	d	f	h	j	k
+23	7	b	c	f	h	j	l
+24	7	a	c	e	g	i	l
+25	7	b	d	f	g	j	l
+26	7	b	d	f	g	i	l
+27	7	a	c	e	h	i	l
+28	6	a	c	f	g	j	l
+29	4	a	d	f	h	i	k
+30	4	b	d	e	h	j	l
+31	3	b	c	e	g	j	k
+32	3	b	d	e	g	i	l
+33	3	b	c	f	h	j	k
+34	3	a	d	e	g	j	l
+35	3	b	d	e	h	i	l
+36	2	a	c	f	g	i	k
+37	2	a	d	e	g	i	l
+38	2	b	c	e	g	j	l
+39	2	a	d	e	h	j	k
+40	2	a	c	f	h	i	k
+41	2	b	c	f	g	i	l
+42	2	a	d	f	g	j	l
+43	2	a	c	f	g	i	l
+44	1	b	c	e	h	i	k
+45	1	a	c	e	h	i	k
+46	1	b	c	f	g	j	l
+47	1	b	d	e	g	j	l
+48	1	b	c	f	h	i	k
+49	1	b	c	f	h	i	l
+50	1	a	d	f	g	i	k
+51	1	a	d	f	h	i	l
+52	1	a	c	f	g	j	k
+53	1	a	d	f	g	j	k
+54	1	b	c	e	h	j	l
+55	1	a	c	f	h	i	l
+=======================================
+Gen: 1,    Agent: 85
+id	typeFreq	A	B	C	D	E	F
+1	151	b	d	f	h	j	k
+2	117	b	d	f	g	i	k
+3	113	b	d	e	g	i	k
+4	73	b	d	f	h	j	l
+5	71	b	c	e	g	i	k
+6	58	b	d	f	h	i	k
+7	55	a	c	e	g	j	l
+8	49	b	d	f	g	j	k
+9	42	a	c	e	h	j	l
+10	31	a	d	f	h	j	l
+11	24	a	d	e	h	j	l
+12	23	a	c	e	g	j	k
+13	15	b	d	f	h	i	l
+14	14	b	c	e	g	i	l
+15	14	a	c	e	g	i	k
+16	13	b	c	f	g	i	k
+17	12	b	d	e	h	i	k
+18	12	a	c	f	h	j	l
+19	9	a	d	e	g	i	k
+20	9	b	d	f	g	j	l
+21	8	a	d	f	h	j	k
+22	7	b	d	e	g	j	k
+23	7	a	c	f	g	j	l
+24	6	b	c	f	h	j	l
+25	6	b	c	e	g	j	l
+26	6	a	c	e	g	i	l
+27	6	a	d	f	g	i	k
+28	5	b	d	f	g	i	l
+29	4	b	d	e	h	j	k
+30	4	b	c	f	h	i	k
+31	3	b	c	f	h	j	k
+32	3	b	d	e	g	j	l
+33	3	b	c	f	g	j	k
+34	3	a	c	f	h	i	l
+35	2	b	c	e	g	j	k
+36	2	a	d	f	g	j	k
+37	2	a	d	e	g	j	k
+38	2	a	d	f	h	i	k
+39	2	b	c	f	g	j	l
+40	1	b	d	e	h	j	l
+41	1	a	c	f	g	i	l
+42	1	a	c	f	g	i	k
+43	1	a	c	e	h	i	k
+44	1	b	c	f	g	i	l
+45	1	a	d	f	g	j	l
+46	1	b	d	e	h	i	l
+47	1	a	d	e	h	i	l
+48	1	b	d	e	g	i	l
+49	1	b	c	e	h	i	k
+50	1	a	d	f	g	i	l
+51	1	a	d	f	h	i	l
+52	1	a	d	e	g	j	l
+53	1	a	c	e	h	i	l
+54	1	a	c	e	h	j	k
+=======================================
+Gen: 1,    Agent: 86
+id	typeFreq	A	B	C	D	E	F
+1	151	b	d	f	g	i	k
+2	122	b	d	f	h	j	k
+3	111	b	d	e	g	i	k
+4	69	b	d	f	h	i	k
+5	65	b	d	f	h	j	l
+6	64	b	c	e	g	i	k
+7	51	a	c	e	h	j	l
+8	41	a	c	e	g	i	k
+9	34	b	d	f	g	j	k
+10	29	a	d	e	h	j	l
+11	23	a	c	e	h	i	l
+12	22	a	c	f	h	j	l
+13	22	b	d	f	h	i	l
+14	18	b	c	f	g	i	k
+15	15	a	d	f	h	j	l
+16	14	a	c	e	g	j	l
+17	14	b	d	f	g	j	l
+18	13	b	c	e	g	i	l
+19	13	a	c	f	g	j	l
+20	12	b	d	e	h	i	k
+21	10	a	c	e	g	i	l
+22	10	b	d	f	g	i	l
+23	8	a	d	e	g	i	k
+24	7	a	d	f	h	i	k
+25	7	a	d	f	h	j	k
+26	6	a	d	f	g	i	k
+27	5	b	d	e	g	j	k
+28	4	b	c	f	h	j	l
+29	4	b	c	e	h	i	k
+30	3	b	d	e	g	i	l
+31	3	b	c	e	g	j	k
+32	3	b	c	f	h	i	k
+33	3	b	c	f	g	j	k
+34	3	b	d	e	h	j	k
+35	3	a	d	f	h	i	l
+36	2	a	d	e	g	i	l
+37	2	b	d	e	h	i	l
+38	1	b	d	e	h	j	l
+39	1	b	c	f	g	i	l
+40	1	a	c	f	g	i	k
+41	1	a	c	e	g	j	k
+42	1	b	c	f	h	j	k
+43	1	a	d	f	g	j	l
+44	1	a	d	e	h	j	k
+45	1	a	c	f	h	i	k
+46	1	b	c	f	g	j	l
+47	1	a	c	f	h	i	l
+48	1	a	c	f	g	i	l
+49	1	a	d	e	g	j	l
+50	1	b	c	e	g	j	l
+51	1	b	c	e	h	i	l
+52	1	a	c	e	h	i	k
+=======================================
+Gen: 1,    Agent: 87
+id	typeFreq	A	B	C	D	E	F
+1	144	b	d	e	g	i	k
+2	119	b	d	f	h	j	k
+3	94	b	c	e	g	i	k
+4	76	b	d	f	g	i	k
+5	69	b	d	f	h	j	l
+6	54	b	d	f	h	i	k
+7	47	a	d	f	h	j	l
+8	42	a	c	e	g	j	l
+9	42	a	c	e	h	j	l
+10	37	b	d	f	g	j	k
+11	33	a	c	e	g	i	k
+12	26	a	c	f	h	j	l
+13	26	b	c	f	g	i	k
+14	23	b	d	f	h	i	l
+15	17	a	c	e	g	i	l
+16	14	b	d	e	h	i	k
+17	10	a	d	e	g	i	k
+18	9	b	c	e	g	i	l
+19	9	b	d	f	g	j	l
+20	8	a	d	f	h	i	k
+21	8	a	d	f	h	j	k
+22	8	a	c	f	g	j	l
+23	6	b	c	f	h	j	l
+24	6	a	d	e	h	j	l
+25	5	b	d	e	g	i	l
+26	5	a	d	f	g	i	k
+27	4	b	c	e	g	j	k
+28	4	b	c	f	h	i	k
+29	4	a	d	e	h	i	k
+30	4	b	d	e	g	j	k
+31	4	a	d	f	h	i	l
+32	4	b	d	f	g	i	l
+33	4	a	c	e	g	j	k
+34	3	a	d	e	g	i	l
+35	3	b	c	e	h	i	k
+36	3	b	d	e	h	j	k
+37	3	b	d	e	h	j	l
+38	3	b	c	e	h	j	k
+39	3	a	d	f	g	j	k
+40	2	a	d	f	g	i	l
+41	2	b	c	f	g	i	l
+42	2	b	c	f	h	j	k
+43	2	a	c	e	h	i	l
+44	1	a	c	e	h	j	k
+45	1	a	c	e	h	i	k
+46	1	a	c	f	g	i	k
+47	1	a	d	e	g	j	k
+48	1	b	c	e	h	i	l
+49	1	a	d	e	h	j	k
+50	1	a	d	e	h	i	l
+51	1	b	d	e	g	j	l
+52	1	a	c	f	h	i	l
+53	1	a	d	e	g	j	l
+=======================================
+Gen: 1,    Agent: 88
+id	typeFreq	A	B	C	D	E	F
+1	136	b	d	f	g	i	k
+2	136	b	d	f	h	j	k
+3	105	b	d	e	g	i	k
+4	90	b	d	f	h	i	k
+5	74	b	d	f	h	j	l
+6	63	b	c	e	g	i	k
+7	44	a	c	e	g	j	l
+8	37	a	c	e	h	j	l
+9	32	a	c	e	g	i	k
+10	28	a	c	e	g	i	l
+11	28	b	d	f	h	i	l
+12	25	b	d	f	g	j	k
+13	25	a	d	e	h	j	l
+14	21	b	c	f	g	i	k
+15	17	a	d	f	h	j	l
+16	14	b	c	e	g	i	l
+17	11	a	d	e	g	i	k
+18	10	a	c	f	g	j	l
+19	9	b	d	e	h	i	k
+20	8	a	d	f	h	j	k
+21	7	a	c	f	h	j	l
+22	7	b	d	f	g	j	l
+23	6	b	d	f	g	i	l
+24	6	a	c	e	h	i	l
+25	5	a	d	f	g	i	k
+26	5	b	d	e	g	j	k
+27	4	b	c	f	h	j	l
+28	4	a	c	f	g	i	k
+29	4	b	d	e	g	i	l
+30	4	b	c	f	g	j	k
+31	3	b	c	e	g	j	k
+32	3	b	d	e	h	j	k
+33	3	a	d	f	g	j	l
+34	2	b	c	e	g	j	l
+35	2	a	d	e	g	i	l
+36	2	b	c	e	h	j	l
+37	2	a	d	f	h	i	k
+38	2	a	d	f	g	i	l
+39	2	a	c	f	g	j	k
+40	2	a	d	e	g	j	l
+41	1	b	c	e	h	i	k
+42	1	b	c	f	g	i	l
+43	1	b	d	e	h	i	l
+44	1	b	c	f	h	i	l
+45	1	b	d	e	h	j	l
+46	1	b	d	e	g	j	l
+47	1	b	c	f	h	j	k
+48	1	a	c	f	h	i	l
+49	1	b	c	f	h	i	k
+50	1	a	c	f	h	j	k
+51	1	a	c	e	h	i	k
+52	1	a	d	e	h	i	l
+53	1	a	c	e	g	j	k
+=======================================
+Gen: 1,    Agent: 89
+id	typeFreq	A	B	C	D	E	F
+1	126	b	d	f	h	j	k
+2	119	b	d	e	g	i	k
+3	104	b	d	f	g	i	k
+4	78	b	d	f	h	j	l
+5	64	b	d	f	h	i	k
+6	63	a	c	e	h	j	l
+7	61	b	c	e	g	i	k
+8	50	b	d	f	g	j	k
+9	39	a	c	e	g	i	k
+10	35	a	d	f	h	j	l
+11	27	a	c	f	h	j	l
+12	22	a	c	e	g	j	l
+13	21	b	c	f	g	i	k
+14	18	a	d	e	g	i	k
+15	18	a	d	e	h	j	l
+16	16	b	d	f	h	i	l
+17	10	a	c	e	g	i	l
+18	10	b	d	e	h	i	k
+19	10	a	d	f	h	j	k
+20	9	b	c	e	g	i	l
+21	9	b	d	f	g	j	l
+22	9	a	d	f	g	j	k
+23	8	b	d	e	g	j	k
+24	7	a	d	f	g	i	k
+25	6	b	c	f	h	j	l
+26	6	b	d	f	g	i	l
+27	5	a	c	e	g	j	k
+28	5	a	d	f	h	i	k
+29	5	a	d	f	h	i	l
+30	5	a	c	f	g	j	l
+31	5	a	c	e	h	i	l
+32	3	b	d	e	g	i	l
+33	3	b	d	e	g	j	l
+34	3	a	d	f	g	j	l
+35	2	a	c	f	h	i	l
+36	2	b	d	e	h	j	k
+37	2	b	d	e	h	j	l
+38	2	a	d	e	g	i	l
+39	2	a	d	e	g	j	l
+40	1	a	d	e	g	j	k
+41	1	b	c	e	g	j	k
+42	1	a	c	e	h	i	k
+43	1	b	c	e	g	j	l
+44	1	a	c	f	g	i	k
+45	1	b	c	f	h	i	k
+46	1	b	c	f	g	j	l
+47	1	b	c	f	g	i	l
+48	1	b	d	e	h	i	l
+49	1	b	c	f	h	i	l
+50	1	a	d	f	g	i	l
+51	1	a	c	f	g	i	l
+=======================================
+Gen: 1,    Agent: 90
+id	typeFreq	A	B	C	D	E	F
+1	175	b	d	e	g	i	k
+2	141	b	d	f	h	j	k
+3	72	b	c	e	g	i	k
+4	63	b	d	f	h	j	l
+5	59	b	d	f	g	j	k
+6	54	b	d	f	g	i	k
+7	53	a	c	e	h	j	l
+8	43	a	d	f	h	j	l
+9	38	b	d	f	h	i	k
+10	33	a	c	e	h	i	l
+11	32	a	c	e	g	i	k
+12	24	b	c	f	g	i	k
+13	21	a	d	f	h	j	k
+14	17	a	c	e	g	i	l
+15	17	a	d	e	g	i	k
+16	16	a	c	f	h	j	l
+17	16	b	d	e	h	i	k
+18	15	b	c	e	g	i	l
+19	13	a	c	e	g	j	l
+20	10	a	d	e	h	j	l
+21	9	b	d	f	h	i	l
+22	8	b	c	f	h	j	l
+23	7	a	d	f	h	i	k
+24	6	b	d	e	g	j	k
+25	6	b	d	f	g	i	l
+26	6	b	d	f	g	j	l
+27	5	b	d	e	g	i	l
+28	5	b	d	e	h	j	k
+29	5	a	c	f	g	j	l
+30	3	a	c	f	g	i	l
+31	3	a	d	f	g	j	k
+32	2	a	d	e	g	i	l
+33	2	b	c	e	h	i	k
+34	2	a	d	f	g	i	k
+35	2	a	d	f	g	i	l
+36	2	a	d	f	g	j	l
+37	2	b	c	f	g	j	k
+38	2	a	c	f	h	i	l
+39	2	a	c	e	g	j	k
+40	1	b	c	f	g	j	l
+41	1	b	c	e	h	i	l
+42	1	b	c	f	h	i	k
+43	1	b	c	f	g	i	l
+44	1	b	c	e	g	j	k
+45	1	b	d	e	h	j	l
+46	1	a	d	f	h	i	l
+47	1	a	c	f	h	j	k
+48	1	a	c	e	h	j	k
+49	1	a	d	e	g	j	k
+=======================================
+Gen: 1,    Agent: 91
+id	typeFreq	A	B	C	D	E	F
+1	143	b	d	f	h	j	k
+2	140	b	d	f	g	i	k
+3	93	b	d	e	g	i	k
+4	80	a	c	e	h	j	l
+5	70	b	c	e	g	i	k
+6	62	b	d	f	g	j	k
+7	61	b	d	f	h	j	l
+8	60	b	d	f	h	i	k
+9	30	a	d	e	h	j	l
+10	25	b	c	f	g	i	k
+11	20	a	c	e	g	j	l
+12	19	a	c	e	g	j	k
+13	17	a	d	f	h	j	l
+14	15	a	c	e	g	i	k
+15	13	b	c	e	g	i	l
+16	13	b	d	e	h	i	k
+17	13	b	d	f	h	i	l
+18	12	a	c	f	h	j	l
+19	10	b	c	f	h	j	l
+20	10	b	d	e	g	j	k
+21	9	b	d	f	g	i	l
+22	8	b	d	f	g	j	l
+23	7	a	c	e	g	i	l
+24	7	b	c	f	h	i	k
+25	6	a	d	f	h	j	k
+26	5	a	c	e	h	i	l
+27	5	a	d	e	g	i	k
+28	5	b	d	e	h	j	k
+29	3	b	c	e	g	j	k
+30	3	b	c	f	g	j	l
+31	3	a	c	f	g	i	k
+32	3	a	d	f	g	i	k
+33	3	a	c	f	h	i	l
+34	3	a	d	f	g	j	k
+35	3	a	c	f	g	j	l
+36	3	a	c	e	h	j	k
+37	2	b	c	f	g	i	l
+38	2	b	c	e	h	j	k
+39	2	a	d	e	g	j	l
+40	1	b	c	e	g	j	l
+41	1	b	c	e	h	i	k
+42	1	a	d	e	h	i	k
+43	1	a	c	e	h	i	k
+44	1	b	c	f	g	j	k
+45	1	b	c	f	h	j	k
+46	1	b	d	e	g	j	l
+47	1	b	d	e	h	j	l
+48	1	a	d	f	h	i	k
+49	1	a	d	e	h	j	k
+50	1	a	d	f	h	i	l
+51	1	a	c	f	h	j	k
+52	1	b	c	e	h	j	l
+=======================================
+Gen: 1,    Agent: 92
+id	typeFreq	A	B	C	D	E	F
+1	165	b	d	e	g	i	k
+2	130	b	d	f	h	j	k
+3	81	b	d	f	h	j	l
+4	74	b	c	e	g	i	k
+5	70	b	d	f	g	i	k
+6	69	a	c	e	h	j	l
+7	58	b	d	f	h	i	k
+8	54	b	d	f	g	j	k
+9	42	a	c	e	g	i	k
+10	31	a	d	e	h	j	l
+11	23	a	c	f	h	j	l
+12	20	b	c	f	g	i	k
+13	18	a	c	e	g	j	l
+14	16	a	d	f	h	j	l
+15	13	b	d	f	h	i	l
+16	13	a	d	f	h	j	k
+17	12	b	d	e	h	i	k
+18	12	b	d	f	g	j	l
+19	10	a	d	e	g	i	k
+20	7	b	c	e	g	i	l
+21	7	b	d	e	g	i	l
+22	7	b	d	e	h	j	k
+23	5	b	c	f	h	j	l
+24	5	a	c	e	g	i	l
+25	5	a	c	f	g	j	l
+26	4	b	c	f	g	j	k
+27	4	a	d	f	g	i	k
+28	4	b	d	e	g	j	k
+29	4	b	d	f	g	i	l
+30	4	a	d	f	h	i	k
+31	4	a	c	e	h	i	l
+32	3	a	d	f	g	j	l
+33	3	a	c	e	g	j	k
+34	2	b	c	e	g	j	k
+35	2	b	c	e	g	j	l
+36	2	b	c	f	h	j	k
+37	2	b	c	f	h	i	k
+38	2	a	d	f	h	i	l
+39	2	a	d	f	g	j	k
+40	2	a	c	f	h	i	k
+41	2	a	c	f	g	j	k
+42	1	a	c	f	g	i	k
+43	1	a	c	e	h	i	k
+44	1	a	d	e	g	j	k
+45	1	b	d	e	h	j	l
+46	1	a	d	f	g	i	l
+47	1	a	d	e	h	j	k
+48	1	a	c	f	h	i	l
+49	1	b	c	f	h	i	l
+=======================================
+Gen: 1,    Agent: 93
+id	typeFreq	A	B	C	D	E	F
+1	157	b	d	e	g	i	k
+2	126	b	d	f	h	j	k
+3	80	b	d	f	h	j	l
+4	72	b	d	f	g	i	k
+5	70	b	c	e	g	i	k
+6	55	a	c	e	h	j	l
+7	53	a	c	f	h	j	l
+8	47	b	d	f	g	j	k
+9	46	b	d	f	h	i	k
+10	40	a	c	e	g	i	k
+11	24	a	c	e	h	i	l
+12	18	a	d	e	g	i	k
+13	18	b	d	e	h	i	k
+14	18	b	d	e	h	j	k
+15	15	b	c	f	g	i	k
+16	14	b	d	f	h	i	l
+17	14	a	c	e	g	j	l
+18	13	a	d	f	h	j	k
+19	11	a	c	e	g	i	l
+20	11	b	d	e	g	j	k
+21	10	b	c	e	g	i	l
+22	9	a	d	f	h	j	l
+23	9	b	c	f	h	j	l
+24	8	b	d	f	g	j	l
+25	6	a	c	f	g	j	l
+26	5	b	d	e	h	j	l
+27	4	a	d	e	g	j	k
+28	4	b	d	f	g	i	l
+29	3	a	c	e	g	j	k
+30	3	b	c	e	h	i	k
+31	3	a	d	f	g	i	k
+32	3	a	d	f	g	j	k
+33	3	a	c	e	h	i	k
+34	3	b	d	e	g	j	l
+35	2	b	c	e	g	j	k
+36	2	a	d	e	g	i	l
+37	2	a	c	f	g	i	k
+38	2	b	c	f	h	i	k
+39	2	b	c	f	g	j	k
+40	2	b	c	e	h	j	k
+41	2	b	c	e	h	j	l
+42	2	a	d	f	h	i	k
+43	2	b	d	e	h	i	l
+44	2	a	c	f	g	i	l
+45	1	b	c	e	g	j	l
+46	1	b	c	e	h	i	l
+47	1	a	c	f	h	i	l
+48	1	b	c	f	h	j	k
+49	1	a	d	f	h	i	l
+50	1	a	c	e	h	j	k
+=======================================
+Gen: 1,    Agent: 94
+id	typeFreq	A	B	C	D	E	F
+1	134	b	d	f	g	i	k
+2	132	b	d	f	h	j	k
+3	102	b	d	e	g	i	k
+4	68	b	d	f	h	i	k
+5	62	b	c	e	g	i	k
+6	60	b	d	f	h	j	l
+7	44	b	d	f	g	j	k
+8	42	a	c	e	h	j	l
+9	35	a	c	e	g	i	k
+10	29	a	c	e	h	i	l
+11	27	a	d	e	h	j	l
+12	22	a	c	e	g	i	l
+13	22	a	c	f	h	j	l
+14	21	b	c	f	g	i	k
+15	18	b	d	e	h	i	k
+16	17	a	d	f	h	j	l
+17	16	b	d	f	h	i	l
+18	13	b	c	f	h	j	l
+19	13	b	c	e	g	i	l
+20	13	a	c	e	g	j	l
+21	10	a	d	e	g	i	k
+22	10	b	d	e	g	j	k
+23	9	a	d	f	h	j	k
+24	8	b	d	f	g	i	l
+25	7	b	c	f	h	i	k
+26	7	a	d	f	h	i	l
+27	6	a	d	f	g	i	k
+28	6	b	d	f	g	j	l
+29	6	a	c	f	g	j	l
+30	4	a	c	e	g	j	k
+31	4	b	d	e	g	i	l
+32	4	b	c	e	h	i	k
+33	4	a	d	f	h	i	k
+34	3	b	d	e	h	j	k
+35	2	b	c	e	g	j	k
+36	2	a	c	e	h	i	k
+37	2	b	d	e	h	j	l
+38	2	a	d	f	g	j	l
+39	2	b	d	e	h	i	l
+40	2	a	d	f	g	j	k
+41	2	a	d	e	g	j	l
+42	1	b	c	e	h	j	l
+43	1	b	c	e	g	j	l
+44	1	a	c	f	g	i	k
+45	1	a	d	e	g	j	k
+46	1	b	d	e	g	j	l
+47	1	a	d	e	h	j	k
+48	1	b	c	f	h	j	k
+49	1	a	c	f	g	j	k
+50	1	a	c	f	g	i	l
+=======================================
+Gen: 1,    Agent: 95
+id	typeFreq	A	B	C	D	E	F
+1	154	b	d	f	h	j	k
+2	136	b	d	f	g	i	k
+3	102	b	d	e	g	i	k
+4	75	b	c	e	g	i	k
+5	72	b	d	f	h	i	k
+6	69	b	d	f	h	j	l
+7	54	a	c	e	h	j	l
+8	53	b	d	f	g	j	k
+9	32	a	c	e	h	i	l
+10	30	a	c	e	g	i	k
+11	30	a	d	e	h	j	l
+12	20	a	c	f	h	j	l
+13	13	b	c	f	g	i	k
+14	12	a	d	f	h	j	l
+15	12	b	c	e	g	i	l
+16	11	b	d	e	h	i	k
+17	10	a	c	e	g	i	l
+18	10	b	d	f	h	i	l
+19	8	a	d	e	g	i	k
+20	8	a	c	e	g	j	l
+21	7	b	d	f	g	i	l
+22	6	a	d	f	h	j	k
+23	6	a	c	f	g	j	l
+24	5	b	c	e	h	i	k
+25	5	b	d	f	g	j	l
+26	4	b	c	f	h	j	l
+27	4	b	d	e	g	j	k
+28	4	a	d	f	g	j	k
+29	3	b	d	e	g	j	l
+30	3	b	c	e	g	j	k
+31	3	b	d	e	g	i	l
+32	3	a	c	f	g	i	k
+33	3	a	d	f	g	i	k
+34	3	b	c	f	h	i	k
+35	3	a	d	f	h	i	k
+36	3	b	d	e	h	j	l
+37	3	a	c	e	g	j	k
+38	2	b	c	e	g	j	l
+39	2	a	d	e	g	i	l
+40	2	a	d	e	g	j	k
+41	2	a	d	e	h	i	k
+42	2	b	c	f	h	i	l
+43	2	a	c	f	g	i	l
+44	1	a	c	f	h	j	k
+45	1	a	c	f	g	j	k
+46	1	b	c	f	h	j	k
+47	1	b	d	e	h	j	k
+48	1	b	c	f	g	i	l
+49	1	a	d	f	g	j	l
+50	1	b	d	e	h	i	l
+51	1	a	d	f	g	i	l
+52	1	a	d	e	g	j	l
+53	1	a	c	e	h	j	k
+=======================================
+Gen: 1,    Agent: 96
+id	typeFreq	A	B	C	D	E	F
+1	142	b	d	f	g	i	k
+2	131	b	d	f	h	j	k
+3	97	b	d	e	g	i	k
+4	86	b	d	f	h	i	k
+5	74	b	d	f	h	j	l
+6	60	b	c	e	g	i	k
+7	47	a	c	e	h	j	l
+8	36	a	c	e	g	i	l
+9	36	b	d	f	g	j	k
+10	29	a	c	e	g	i	k
+11	27	b	c	f	g	i	k
+12	25	a	c	e	g	j	l
+13	24	a	d	e	h	j	l
+14	22	b	d	f	h	i	l
+15	14	b	d	e	h	i	k
+16	14	a	c	e	h	i	l
+17	12	a	d	f	h	j	l
+18	12	b	c	e	g	i	l
+19	11	a	c	f	h	j	l
+20	10	a	d	e	g	i	k
+21	9	a	d	f	g	i	k
+22	9	b	d	f	g	i	l
+23	9	a	d	f	h	j	k
+24	7	a	c	f	g	j	l
+25	6	b	c	f	h	j	l
+26	5	b	c	e	h	i	k
+27	5	a	d	f	h	i	k
+28	4	b	d	e	g	j	k
+29	4	b	d	e	h	j	k
+30	4	b	d	f	g	j	l
+31	3	b	d	e	g	i	l
+32	3	a	d	e	g	i	l
+33	3	b	c	e	g	j	k
+34	2	a	d	f	g	j	k
+35	2	a	c	f	h	j	k
+36	2	a	c	f	g	i	l
+37	2	a	d	e	g	j	l
+38	2	a	c	e	g	j	k
+39	1	b	c	f	h	i	l
+40	1	b	c	f	h	j	k
+41	1	a	d	e	h	i	k
+42	1	b	c	f	g	j	k
+43	1	b	d	e	h	j	l
+44	1	a	d	e	h	j	k
+45	1	a	d	f	g	i	l
+46	1	a	d	f	h	i	l
+47	1	a	d	e	h	i	l
+48	1	a	c	f	h	i	l
+49	1	a	c	e	h	j	k
+=======================================
+Gen: 1,    Agent: 97
+id	typeFreq	A	B	C	D	E	F
+1	172	b	d	e	g	i	k
+2	110	b	d	f	h	j	k
+3	79	b	d	f	g	i	k
+4	76	b	c	e	g	i	k
+5	72	b	d	f	h	i	k
+6	65	a	c	e	h	j	l
+7	51	a	d	f	h	j	l
+8	41	b	d	f	g	j	k
+9	34	b	d	f	h	j	l
+10	29	a	c	e	g	i	k
+11	25	b	d	e	h	i	k
+12	24	a	c	e	g	j	l
+13	23	a	c	f	h	j	l
+14	21	a	d	e	h	j	l
+15	21	b	d	f	h	i	l
+16	20	b	c	f	g	i	k
+17	17	a	d	e	g	i	k
+18	12	b	d	f	g	j	l
+19	9	b	c	e	g	i	l
+20	7	a	d	f	h	j	k
+21	7	b	d	e	h	j	k
+22	7	a	c	f	g	j	l
+23	6	a	c	e	g	j	k
+24	5	a	c	e	g	i	l
+25	5	b	d	e	h	j	l
+26	5	b	d	f	g	i	l
+27	4	b	d	e	g	j	k
+28	4	a	d	e	g	i	l
+29	4	b	d	e	g	i	l
+30	4	a	d	f	g	i	k
+31	4	a	c	e	h	i	l
+32	3	a	d	e	h	i	k
+33	3	a	d	f	h	i	k
+34	3	b	d	e	g	j	l
+35	3	a	d	f	g	j	k
+36	2	b	c	e	g	j	k
+37	2	b	c	e	h	i	k
+38	2	b	c	f	h	i	k
+39	2	a	d	f	h	i	l
+40	2	b	d	e	h	i	l
+41	2	a	d	e	h	j	k
+42	1	b	c	f	h	j	l
+43	1	b	c	e	h	i	l
+44	1	b	c	e	g	j	l
+45	1	a	c	f	g	i	k
+46	1	b	c	f	g	j	k
+47	1	b	c	e	h	j	k
+48	1	b	c	f	g	j	l
+49	1	a	d	f	g	i	l
+50	1	a	d	f	g	j	l
+51	1	b	c	f	h	j	k
+52	1	b	c	e	h	j	l
+53	1	a	c	e	h	j	k
+54	1	a	d	e	h	i	l
+55	1	a	c	e	h	i	k
+=======================================
+Gen: 1,    Agent: 98
+id	typeFreq	A	B	C	D	E	F
+1	171	b	d	f	h	j	k
+2	125	b	d	e	g	i	k
+3	110	b	d	f	g	i	k
+4	75	b	c	e	g	i	k
+5	57	b	d	f	h	j	l
+6	54	a	c	e	h	j	l
+7	49	b	d	f	g	j	k
+8	42	b	d	f	h	i	k
+9	38	a	c	e	g	i	k
+10	29	a	d	f	h	j	l
+11	25	a	d	e	h	j	l
+12	23	b	c	f	g	i	k
+13	21	a	c	f	h	j	l
+14	17	b	d	f	h	i	l
+15	17	a	c	e	g	j	l
+16	15	a	c	e	h	i	l
+17	14	b	c	e	g	i	l
+18	14	b	d	f	g	j	l
+19	11	b	d	e	g	j	k
+20	9	b	d	e	h	j	k
+21	8	a	c	e	g	i	l
+22	8	b	d	e	h	i	k
+23	7	b	c	f	h	j	l
+24	7	a	d	f	h	j	k
+25	5	b	d	f	g	i	l
+26	4	a	d	e	g	i	k
+27	4	a	d	f	h	i	k
+28	4	a	c	f	g	j	l
+29	3	b	c	e	g	j	l
+30	3	a	c	f	g	i	k
+31	3	b	c	f	h	i	k
+32	3	a	d	f	h	i	l
+33	2	b	c	e	g	j	k
+34	2	a	d	e	h	i	k
+35	2	b	c	e	h	i	k
+36	2	a	d	f	g	i	k
+37	2	a	d	f	g	i	l
+38	2	b	d	e	h	j	l
+39	2	a	d	e	h	j	k
+40	2	a	c	e	g	j	k
+41	1	b	d	e	g	i	l
+42	1	a	d	e	g	i	l
+43	1	b	c	f	g	j	k
+44	1	b	d	e	g	j	l
+45	1	a	c	f	h	j	k
+46	1	b	c	e	h	i	l
+47	1	b	c	f	h	i	l
+48	1	b	d	e	h	i	l
+49	1	a	d	f	g	j	k
+50	1	a	c	f	h	i	l
+=======================================
+Gen: 1,    Agent: 99
+id	typeFreq	A	B	C	D	E	F
+1	148	b	d	f	h	j	k
+2	144	b	d	f	g	i	k
+3	92	b	d	e	g	i	k
+4	72	b	c	e	g	i	k
+5	71	b	d	f	h	j	l
+6	63	a	c	e	h	j	l
+7	55	b	d	f	h	i	k
+8	52	b	d	f	g	j	k
+9	41	a	c	e	g	i	k
+10	21	a	c	e	h	i	l
+11	20	a	c	f	h	j	l
+12	19	a	d	e	h	j	l
+13	16	a	c	e	g	j	l
+14	15	b	c	e	g	i	l
+15	15	b	c	f	g	i	k
+16	15	b	d	e	h	i	k
+17	14	a	c	e	g	i	l
+18	13	b	d	f	h	i	l
+19	12	a	d	f	h	j	l
+20	12	a	d	f	h	j	k
+21	10	a	d	e	g	i	k
+22	9	b	d	f	g	j	l
+23	8	a	d	f	g	j	l
+24	6	b	c	f	h	j	l
+25	6	b	d	e	h	j	k
+26	6	a	d	f	h	i	k
+27	5	b	d	e	g	j	k
+28	4	b	d	f	g	i	l
+29	4	a	c	f	g	j	l
+30	3	a	d	f	g	i	k
+31	3	b	c	f	g	j	k
+32	3	a	d	f	g	j	k
+33	2	a	c	f	g	i	k
+34	2	b	d	e	g	i	l
+35	2	a	d	e	g	i	l
+36	2	b	c	e	h	i	k
+37	2	a	d	f	h	i	l
+38	2	a	c	e	g	j	k
+39	1	b	d	e	g	j	l
+40	1	a	c	f	g	i	l
+41	1	a	d	e	h	i	k
+42	1	a	d	f	g	i	l
+43	1	b	d	e	h	j	l
+44	1	a	d	e	g	j	k
+45	1	b	c	f	h	j	k
+46	1	b	c	f	h	i	l
+47	1	b	c	e	h	i	l
+48	1	a	c	f	g	j	k
+49	1	a	c	f	h	i	l
+50	1	b	c	e	h	j	l
+===============================================================================
+===============================================================================
+Generation 2
+===============================================================================
+===============================================================================
+=======================================
+Gen: 2,    Agent: 100
+id	typeFreq	A	B	C	D	E	F
+1	193	b	d	e	g	i	k
+2	184	b	d	f	h	j	k
+3	118	b	d	f	g	j	k
+4	95	b	d	f	g	i	k
+5	56	b	d	e	g	j	k
+6	42	b	c	e	h	j	l
+7	41	b	d	f	h	i	k
+8	36	a	c	e	h	j	l
+9	31	b	c	e	g	i	k
+10	29	b	c	e	h	j	k
+11	18	b	d	e	h	j	k
+12	14	b	c	f	h	j	k
+13	13	b	d	e	h	i	k
+14	11	b	c	e	g	j	k
+15	11	a	c	e	h	j	k
+16	10	b	d	f	h	j	l
+17	8	a	d	e	g	i	k
+18	8	b	d	f	g	j	l
+19	7	b	c	f	h	j	l
+20	7	a	d	e	h	j	l
+21	5	a	d	e	h	j	k
+22	5	b	d	e	g	i	l
+23	5	b	c	f	g	i	k
+24	5	a	d	f	h	j	k
+25	5	b	d	e	h	j	l
+26	4	b	d	e	g	j	l
+27	4	b	c	f	g	j	k
+28	3	b	d	e	h	i	l
+29	3	a	d	f	g	i	k
+30	3	a	c	f	h	j	l
+31	2	a	c	e	g	i	k
+32	2	b	c	e	h	i	k
+33	2	b	c	f	h	i	k
+34	2	b	d	f	g	i	l
+35	2	a	d	f	h	j	l
+36	2	b	c	e	h	i	l
+37	2	a	c	e	g	j	l
+38	2	a	c	e	g	j	k
+39	1	a	d	e	h	i	k
+40	1	a	d	e	g	j	k
+41	1	b	c	f	g	i	l
+42	1	a	d	f	g	j	l
+43	1	a	c	f	g	i	k
+44	1	a	d	f	h	i	k
+45	1	b	c	e	g	j	l
+46	1	b	d	f	h	i	l
+47	1	a	c	f	h	j	k
+48	1	a	c	f	g	j	k
+49	1	b	c	e	g	i	l
+=======================================
+Gen: 2,    Agent: 101
+id	typeFreq	A	B	C	D	E	F
+1	306	b	d	e	g	i	k
+2	147	b	d	f	h	j	k
+3	66	b	d	e	g	j	k
+4	64	b	d	f	g	j	k
+5	57	b	d	e	h	j	k
+6	44	b	d	e	h	i	k
+7	43	b	d	f	g	i	k
+8	32	b	c	e	h	j	l
+9	29	a	c	e	h	j	l
+10	26	b	c	e	g	i	k
+11	25	b	d	f	h	i	k
+12	23	b	d	e	h	j	l
+13	20	b	c	e	g	j	k
+14	12	b	d	f	h	j	l
+15	11	b	c	e	h	j	k
+16	9	b	d	e	g	j	l
+17	7	b	d	e	g	i	l
+18	7	a	d	e	h	j	k
+19	7	a	c	e	h	j	k
+20	6	b	d	f	g	i	l
+21	6	a	c	e	g	j	l
+22	6	b	c	e	g	j	l
+23	5	a	d	e	g	i	k
+24	5	a	d	e	h	j	l
+25	3	a	c	e	g	i	k
+26	3	b	c	f	g	i	k
+27	3	a	d	e	g	j	l
+28	3	a	d	e	g	j	k
+29	3	a	c	e	g	j	k
+30	2	a	d	e	h	i	k
+31	2	a	d	f	h	j	l
+32	2	b	c	e	h	i	k
+33	2	b	d	e	h	i	l
+34	2	b	d	f	g	j	l
+35	2	a	d	f	g	j	k
+36	1	b	c	f	g	j	k
+37	1	a	d	f	g	i	k
+38	1	b	c	f	g	i	l
+39	1	b	c	f	h	j	k
+40	1	a	d	f	h	j	k
+41	1	b	c	f	h	i	l
+42	1	a	c	f	h	i	k
+43	1	b	c	f	h	j	l
+44	1	a	d	f	h	i	l
+45	1	a	c	e	h	i	l
+46	1	b	c	e	h	i	l
+=======================================
+Gen: 2,    Agent: 102
+id	typeFreq	A	B	C	D	E	F
+1	281	b	d	e	g	i	k
+2	192	b	d	f	h	j	k
+3	103	b	d	f	g	j	k
+4	90	b	d	f	g	i	k
+5	81	b	d	e	g	j	k
+6	30	b	d	f	h	i	k
+7	24	b	d	f	h	j	l
+8	24	b	d	e	h	j	k
+9	22	a	d	e	h	j	l
+10	16	b	d	e	g	j	l
+11	15	b	c	e	g	i	k
+12	13	b	d	e	h	i	k
+13	10	b	d	e	g	i	l
+14	10	b	d	e	h	j	l
+15	9	a	d	e	g	j	k
+16	9	b	c	e	g	j	k
+17	7	b	c	e	g	j	l
+18	5	b	d	f	g	j	l
+19	4	a	d	f	h	j	k
+20	4	b	c	f	g	j	k
+21	4	a	c	e	h	j	k
+22	3	a	d	e	g	i	k
+23	3	b	c	e	h	j	k
+24	3	a	d	f	g	i	k
+25	3	a	d	f	g	j	k
+26	3	b	c	f	h	j	k
+27	3	a	d	e	h	j	k
+28	3	b	c	e	h	j	l
+29	3	a	c	e	g	j	l
+30	2	a	d	e	h	i	k
+31	2	a	d	e	g	i	l
+32	2	a	c	e	h	j	l
+33	2	b	c	f	g	j	l
+34	2	b	d	f	h	i	l
+35	2	a	c	e	g	j	k
+36	1	b	d	f	g	i	l
+37	1	a	d	f	h	j	l
+38	1	b	c	f	g	i	k
+39	1	a	d	f	h	i	l
+40	1	a	c	f	g	i	l
+41	1	a	d	f	h	i	k
+42	1	a	c	f	h	j	l
+43	1	a	d	e	h	i	l
+44	1	b	c	f	h	j	l
+45	1	a	d	e	g	j	l
+46	1	a	c	e	g	i	k
+47	1	b	c	e	h	i	k
+=======================================
+Gen: 2,    Agent: 103
+id	typeFreq	A	B	C	D	E	F
+1	247	b	d	e	g	i	k
+2	175	b	d	f	h	j	k
+3	110	b	d	f	g	j	k
+4	74	b	d	e	g	j	k
+5	68	b	d	f	g	i	k
+6	43	b	d	f	h	i	k
+7	41	b	d	e	h	j	k
+8	24	b	c	e	h	j	k
+9	21	b	c	e	g	j	k
+10	20	a	c	e	h	j	l
+11	18	b	c	e	g	i	k
+12	17	b	d	e	h	j	l
+13	14	b	d	f	h	j	l
+14	13	b	c	f	h	j	k
+15	12	b	c	e	h	j	l
+16	11	b	d	e	h	i	k
+17	10	b	d	f	g	j	l
+18	10	a	c	e	h	j	k
+19	8	b	d	e	g	j	l
+20	6	b	c	f	h	j	l
+21	6	a	d	e	h	j	k
+22	5	a	d	e	h	j	l
+23	5	a	d	f	g	j	k
+24	4	a	d	e	g	j	k
+25	4	a	d	f	h	j	k
+26	3	b	c	f	g	i	k
+27	3	b	d	f	h	i	l
+28	2	a	d	e	g	i	k
+29	2	b	d	e	g	i	l
+30	2	b	d	e	h	i	l
+31	2	b	c	e	g	j	l
+32	2	b	c	f	g	j	k
+33	2	b	d	f	g	i	l
+34	2	a	c	e	g	j	k
+35	2	a	c	f	h	j	k
+36	2	a	c	f	h	j	l
+37	2	a	c	e	g	j	l
+38	1	b	c	f	h	i	k
+39	1	a	d	f	g	i	l
+40	1	a	d	f	g	i	k
+41	1	a	c	e	g	i	k
+42	1	b	c	f	g	j	l
+43	1	a	c	f	g	j	l
+44	1	a	c	e	h	i	l
+45	1	a	c	f	h	i	l
+46	1	b	c	e	h	i	l
+=======================================
+Gen: 2,    Agent: 104
+id	typeFreq	A	B	C	D	E	F
+1	293	b	d	e	g	i	k
+2	195	b	d	f	h	j	k
+3	113	b	d	f	g	i	k
+4	84	b	d	f	g	j	k
+5	48	b	d	e	h	j	k
+6	36	b	d	e	g	j	k
+7	24	b	d	f	h	i	k
+8	18	b	d	e	h	j	l
+9	17	b	d	e	h	i	k
+10	14	b	c	e	g	i	k
+11	14	b	c	e	h	j	k
+12	12	a	c	e	h	j	l
+13	11	a	d	f	h	j	k
+14	10	b	d	f	h	j	l
+15	10	b	c	f	h	j	k
+16	10	b	c	e	h	j	l
+17	6	b	d	e	g	j	l
+18	6	a	d	e	g	j	k
+19	6	b	c	e	g	j	k
+20	6	b	d	f	g	j	l
+21	5	b	d	e	h	i	l
+22	5	a	d	e	h	j	l
+23	5	a	d	e	h	j	k
+24	5	b	c	e	h	i	l
+25	5	a	c	e	h	j	k
+26	4	b	c	e	h	i	k
+27	3	a	d	f	h	j	l
+28	3	b	d	e	g	i	l
+29	3	b	c	f	g	i	k
+30	3	a	d	f	g	j	k
+31	3	b	c	f	g	j	k
+32	2	b	c	f	h	j	l
+33	2	a	d	e	g	i	k
+34	2	a	d	e	h	i	k
+35	2	a	d	f	g	i	k
+36	2	a	c	f	h	j	k
+37	1	a	d	e	g	j	l
+38	1	b	c	e	g	j	l
+39	1	b	d	f	g	i	l
+40	1	b	d	f	h	i	l
+41	1	a	d	f	h	i	k
+42	1	a	c	e	g	j	l
+43	1	a	d	e	h	i	l
+44	1	a	c	e	h	i	l
+45	1	a	c	f	h	j	l
+46	1	a	c	e	h	i	k
+47	1	a	c	f	g	j	k
+48	1	a	c	e	g	j	k
+49	1	b	c	f	h	i	l
+50	1	a	c	f	h	i	k
+=======================================
+Gen: 2,    Agent: 105
+id	typeFreq	A	B	C	D	E	F
+1	214	b	d	f	g	i	k
+2	200	b	d	f	h	j	k
+3	135	b	d	f	g	j	k
+4	90	b	d	e	g	i	k
+5	47	b	d	f	h	i	k
+6	37	b	d	e	g	j	k
+7	36	a	c	e	h	j	l
+8	22	b	d	e	h	j	k
+9	21	b	d	e	h	j	l
+10	21	b	c	e	g	i	k
+11	18	b	c	e	h	j	k
+12	14	b	c	f	g	i	k
+13	13	b	c	e	h	j	l
+14	11	a	c	e	h	j	k
+15	9	b	c	e	g	j	k
+16	9	b	c	f	h	j	k
+17	8	a	d	e	h	j	l
+18	7	b	d	e	g	i	l
+19	7	b	c	f	h	j	l
+20	6	a	d	e	g	j	k
+21	6	b	d	e	h	i	k
+22	6	b	d	f	g	j	l
+23	5	a	c	e	g	j	k
+24	5	b	d	e	g	j	l
+25	5	a	d	f	g	j	k
+26	5	b	d	f	h	j	l
+27	4	a	d	f	h	j	k
+28	4	b	c	f	g	j	k
+29	4	a	d	f	g	i	k
+30	3	a	d	e	g	i	k
+31	3	b	d	f	g	i	l
+32	3	b	d	f	h	i	l
+33	2	a	c	e	g	i	k
+34	2	a	d	e	h	i	k
+35	2	a	d	f	h	i	k
+36	2	a	c	f	h	j	l
+37	2	a	c	f	h	j	k
+38	2	a	d	e	h	j	k
+39	2	a	c	e	g	j	l
+40	1	a	c	f	g	i	k
+41	1	b	c	f	g	j	l
+42	1	a	d	f	h	j	l
+43	1	b	c	e	g	i	l
+44	1	b	c	f	h	i	k
+45	1	b	c	e	g	j	l
+46	1	a	d	f	g	j	l
+47	1	a	c	e	h	i	k
+48	1	a	d	e	g	j	l
+=======================================
+Gen: 2,    Agent: 106
+id	typeFreq	A	B	C	D	E	F
+1	262	b	d	e	g	i	k
+2	177	b	d	f	h	j	k
+3	86	b	d	f	g	i	k
+4	78	b	d	f	g	j	k
+5	62	b	d	e	g	j	k
+6	34	a	c	e	h	j	l
+7	29	a	d	e	h	j	l
+8	28	b	d	f	h	i	k
+9	25	b	d	e	h	j	k
+10	23	a	d	e	h	j	k
+11	21	a	d	f	h	j	k
+12	18	b	d	e	h	i	k
+13	13	a	d	e	g	i	k
+14	12	a	d	f	h	j	l
+15	9	b	d	f	h	j	l
+16	9	a	d	f	g	j	k
+17	8	b	c	e	g	i	k
+18	8	b	d	f	g	j	l
+19	8	a	c	f	h	j	l
+20	7	a	d	e	g	j	k
+21	7	b	c	f	h	j	k
+22	7	b	c	e	h	j	k
+23	7	a	c	e	h	j	k
+24	6	b	d	e	h	j	l
+25	6	a	d	f	g	i	k
+26	5	b	d	e	g	i	l
+27	5	b	c	f	g	i	k
+28	4	a	d	e	h	i	k
+29	4	b	c	e	h	i	k
+30	4	b	c	e	g	j	k
+31	3	b	d	e	g	j	l
+32	3	b	c	e	h	j	l
+33	3	b	c	f	g	j	k
+34	3	a	d	f	h	i	l
+35	2	b	d	f	g	i	l
+36	2	a	c	f	h	j	k
+37	2	b	c	f	h	j	l
+38	2	b	d	e	h	i	l
+39	1	a	c	e	g	j	k
+40	1	b	d	f	h	i	l
+41	1	b	c	f	g	j	l
+42	1	a	d	e	g	i	l
+43	1	b	c	e	g	j	l
+44	1	a	d	f	h	i	k
+45	1	a	c	f	g	j	k
+46	1	a	d	f	g	j	l
+47	1	a	c	e	h	i	k
+=======================================
+Gen: 2,    Agent: 107
+id	typeFreq	A	B	C	D	E	F
+1	251	b	d	e	g	i	k
+2	165	b	d	f	h	j	k
+3	123	b	d	f	g	i	k
+4	55	b	d	f	g	j	k
+5	51	b	d	f	h	i	k
+6	45	b	c	e	g	i	k
+7	34	b	d	e	h	j	k
+8	28	b	d	e	h	i	k
+9	28	a	c	e	h	j	l
+10	23	b	d	e	g	j	k
+11	18	b	d	f	h	j	l
+12	17	b	c	e	h	j	k
+13	15	b	c	e	g	j	k
+14	13	b	c	e	h	j	l
+15	12	b	c	f	h	j	l
+16	10	a	d	e	g	i	k
+17	8	b	d	e	h	j	l
+18	7	a	c	e	h	j	k
+19	6	a	c	e	g	i	k
+20	6	b	c	f	h	i	k
+21	6	a	c	e	h	i	k
+22	6	b	d	f	g	j	l
+23	6	a	c	e	g	j	k
+24	5	b	d	f	g	i	l
+25	5	b	d	f	h	i	l
+26	5	a	d	e	h	j	k
+27	4	a	d	f	h	j	k
+28	4	b	d	e	g	i	l
+29	4	b	d	e	h	i	l
+30	4	b	c	f	h	j	k
+31	4	a	d	e	h	j	l
+32	3	a	d	e	h	i	k
+33	3	b	c	f	g	i	k
+34	3	a	c	e	h	i	l
+35	3	b	c	e	h	i	l
+36	2	a	d	f	g	j	k
+37	2	b	c	e	h	i	k
+38	2	a	d	f	g	i	k
+39	2	b	c	e	g	j	l
+40	2	b	c	e	g	i	l
+41	2	a	d	f	h	i	k
+42	2	a	c	e	g	j	l
+43	1	a	c	e	g	i	l
+44	1	a	c	f	h	j	l
+45	1	b	c	f	g	j	k
+46	1	b	c	f	g	j	l
+47	1	a	c	f	g	j	l
+48	1	a	d	e	g	j	k
+49	1	b	d	e	g	j	l
+=======================================
+Gen: 2,    Agent: 108
+id	typeFreq	A	B	C	D	E	F
+1	271	b	d	e	g	i	k
+2	115	b	d	f	g	i	k
+3	109	b	d	f	g	j	k
+4	108	b	d	f	h	j	k
+5	66	b	d	e	g	j	k
+6	33	a	d	f	h	j	k
+7	31	a	c	e	h	j	k
+8	29	a	c	e	h	j	l
+9	25	b	d	f	h	i	k
+10	19	a	d	e	h	j	k
+11	17	a	d	e	h	j	l
+12	15	b	d	e	h	j	k
+13	14	b	d	e	h	i	k
+14	14	a	d	f	g	j	k
+15	11	b	d	f	h	j	l
+16	10	a	d	f	h	j	l
+17	10	b	c	e	g	i	k
+18	10	b	c	e	g	j	k
+19	8	b	c	f	h	j	k
+20	8	a	c	e	g	j	k
+21	7	a	d	f	g	i	k
+22	7	a	c	f	h	j	k
+23	6	a	d	e	g	i	k
+24	6	a	d	e	g	j	k
+25	6	a	c	f	h	j	l
+26	6	b	d	f	g	j	l
+27	5	a	c	e	g	i	k
+28	5	b	d	e	g	j	l
+29	5	a	c	e	g	j	l
+30	3	b	d	e	g	i	l
+31	3	a	c	f	g	j	k
+32	3	b	c	e	h	j	k
+33	2	a	d	f	g	j	l
+34	2	b	c	e	h	j	l
+35	2	a	c	e	g	i	l
+36	1	b	c	e	h	i	k
+37	1	a	d	e	g	j	l
+38	1	b	c	f	g	j	k
+39	1	b	d	f	g	i	l
+40	1	a	d	e	h	i	k
+41	1	a	c	f	g	i	k
+42	1	b	c	f	h	i	k
+43	1	b	d	e	h	j	l
+44	1	a	c	f	h	i	k
+45	1	b	c	f	h	i	l
+=======================================
+Gen: 2,    Agent: 109
+id	typeFreq	A	B	C	D	E	F
+1	243	b	d	e	g	i	k
+2	217	b	d	f	h	j	k
+3	84	b	d	f	g	i	k
+4	67	b	d	f	g	j	k
+5	59	b	d	f	h	i	k
+6	40	b	c	e	g	i	k
+7	30	b	d	f	h	j	l
+8	29	b	d	e	g	j	k
+9	25	b	d	e	h	j	k
+10	24	b	d	e	h	j	l
+11	22	a	d	e	h	j	l
+12	19	a	c	e	h	j	l
+13	16	b	d	e	h	i	k
+14	11	b	c	f	h	j	k
+15	10	a	d	e	h	j	k
+16	8	a	d	f	h	j	k
+17	7	b	d	e	g	i	l
+18	6	b	c	f	g	j	k
+19	6	b	c	f	h	j	l
+20	5	b	c	f	g	i	k
+21	5	b	d	f	g	i	l
+22	5	a	d	f	g	j	k
+23	5	a	d	f	h	j	l
+24	5	b	c	e	h	j	l
+25	4	b	d	e	g	j	l
+26	4	b	d	f	g	j	l
+27	4	a	c	e	g	j	k
+28	3	a	d	e	g	i	k
+29	3	a	d	f	g	j	l
+30	3	a	d	f	h	i	k
+31	3	a	d	e	g	j	k
+32	3	b	c	e	h	j	k
+33	3	a	c	e	h	j	k
+34	2	a	d	f	g	i	k
+35	2	b	c	e	g	j	k
+36	2	a	d	e	h	i	k
+37	2	b	c	e	h	i	k
+38	2	b	d	e	h	i	l
+39	2	a	c	f	h	j	l
+40	2	a	c	e	h	i	k
+41	1	b	c	e	g	i	l
+42	1	a	c	f	h	i	k
+43	1	b	c	e	g	j	l
+44	1	b	d	f	h	i	l
+45	1	a	c	f	g	j	k
+46	1	a	c	f	h	j	k
+47	1	a	d	e	g	j	l
+48	1	b	c	e	h	i	l
+49	1	a	c	e	g	j	l
+=======================================
+Gen: 2,    Agent: 110
+id	typeFreq	A	B	C	D	E	F
+1	256	b	d	e	g	i	k
+2	198	b	d	f	h	j	k
+3	92	b	d	f	g	i	k
+4	90	b	d	f	g	j	k
+5	53	b	d	f	h	i	k
+6	31	b	d	f	h	j	l
+7	28	b	d	e	h	j	k
+8	28	b	d	e	g	j	k
+9	27	b	d	e	h	i	k
+10	25	a	d	e	h	j	l
+11	22	a	d	e	h	j	k
+12	21	b	d	e	h	j	l
+13	15	a	c	e	h	j	l
+14	13	b	c	e	g	i	k
+15	10	a	d	e	g	i	k
+16	9	a	d	e	g	j	k
+17	8	a	c	e	h	j	k
+18	7	b	d	f	g	j	l
+19	7	b	d	f	h	i	l
+20	6	b	c	e	g	j	k
+21	6	b	c	e	h	j	k
+22	6	a	d	f	h	j	k
+23	5	b	d	f	g	i	l
+24	4	b	c	f	g	i	k
+25	4	b	d	e	g	i	l
+26	4	a	d	e	g	j	l
+27	3	b	c	e	h	i	k
+28	3	a	c	e	g	j	l
+29	2	a	d	f	g	j	k
+30	2	b	d	e	g	j	l
+31	2	b	c	e	h	j	l
+32	2	a	c	e	h	i	k
+33	1	a	c	f	h	i	k
+34	1	a	d	e	h	i	k
+35	1	b	c	f	g	j	k
+36	1	a	d	f	h	i	k
+37	1	b	c	f	g	j	l
+38	1	a	d	f	g	i	k
+39	1	b	c	f	h	i	l
+40	1	a	d	f	h	j	l
+41	1	b	d	e	h	i	l
+42	1	b	c	e	g	j	l
+43	1	a	c	e	g	j	k
+44	1	a	c	e	g	i	l
+=======================================
+Gen: 2,    Agent: 111
+id	typeFreq	A	B	C	D	E	F
+1	278	b	d	e	g	i	k
+2	162	b	d	f	h	j	k
+3	111	b	d	f	g	i	k
+4	71	b	d	f	g	j	k
+5	45	b	d	f	h	i	k
+6	40	b	d	e	h	j	k
+7	36	b	d	e	g	j	k
+8	29	b	c	e	h	j	k
+9	27	b	d	e	h	i	k
+10	24	a	c	e	h	j	l
+11	20	b	d	e	h	j	l
+12	18	b	d	f	h	j	l
+13	16	b	c	e	g	i	k
+14	14	b	c	e	h	j	l
+15	13	b	c	e	g	j	k
+16	7	b	d	f	g	j	l
+17	6	b	d	f	g	i	l
+18	6	b	d	e	g	i	l
+19	6	b	c	f	g	i	k
+20	6	b	c	f	h	j	l
+21	6	a	d	f	h	j	k
+22	6	a	c	e	h	j	k
+23	5	b	d	e	g	j	l
+24	5	b	c	f	h	j	k
+25	4	a	d	e	h	j	k
+26	4	a	d	e	h	j	l
+27	3	a	d	e	g	i	k
+28	3	a	c	e	g	i	k
+29	3	b	d	e	h	i	l
+30	3	b	c	e	h	i	k
+31	3	a	d	f	h	j	l
+32	2	b	c	e	g	j	l
+33	2	a	d	f	g	i	k
+34	2	a	d	e	h	i	k
+35	2	a	d	f	g	j	k
+36	2	a	d	f	g	j	l
+37	2	b	c	f	g	j	k
+38	2	a	c	e	g	j	l
+39	1	a	d	e	g	j	k
+40	1	b	d	f	h	i	l
+41	1	a	d	f	h	i	k
+42	1	a	d	f	g	i	l
+43	1	a	d	e	g	j	l
+44	1	a	c	e	g	j	k
+45	1	b	c	e	h	i	l
+=======================================
+Gen: 2,    Agent: 112
+id	typeFreq	A	B	C	D	E	F
+1	203	b	d	f	h	j	k
+2	190	b	d	e	g	i	k
+3	140	b	d	f	g	i	k
+4	69	b	d	f	g	j	k
+5	65	b	d	f	h	i	k
+6	33	a	c	e	h	j	l
+7	31	b	d	e	h	j	k
+8	28	b	d	f	h	j	l
+9	23	b	d	e	g	j	k
+10	22	b	c	e	g	i	k
+11	20	b	d	e	h	j	l
+12	20	b	d	e	h	i	k
+13	17	a	d	e	h	j	l
+14	13	b	c	f	h	j	l
+15	11	b	c	e	h	j	k
+16	9	b	d	f	g	j	l
+17	8	b	c	e	h	i	k
+18	6	b	d	e	g	j	l
+19	6	b	c	e	h	j	l
+20	6	b	d	f	h	i	l
+21	6	a	c	e	h	j	k
+22	6	a	d	f	h	j	l
+23	6	a	d	e	h	j	k
+24	5	a	d	e	g	i	k
+25	5	b	c	f	h	i	k
+26	5	b	d	f	g	i	l
+27	4	b	d	e	g	i	l
+28	4	b	c	f	g	j	k
+29	4	b	c	f	g	i	k
+30	4	a	c	f	h	j	l
+31	4	a	d	f	h	j	k
+32	3	b	d	e	h	i	l
+33	3	a	d	e	h	i	k
+34	3	b	c	f	h	j	k
+35	3	a	d	f	h	i	k
+36	3	b	c	e	g	j	k
+37	2	b	c	e	g	i	l
+38	2	a	d	f	g	i	k
+39	1	a	c	e	g	i	k
+40	1	a	d	e	g	j	k
+41	1	a	d	f	g	j	k
+42	1	a	d	e	g	j	l
+43	1	a	c	f	h	j	k
+44	1	b	c	f	h	i	l
+45	1	b	c	e	h	i	l
+46	1	a	c	e	g	j	k
+47	1	a	c	e	h	i	k
+=======================================
+Gen: 2,    Agent: 113
+id	typeFreq	A	B	C	D	E	F
+1	249	b	d	e	g	i	k
+2	163	b	d	f	h	j	k
+3	126	b	d	f	g	i	k
+4	99	b	d	f	g	j	k
+5	47	b	d	e	g	j	k
+6	33	b	d	f	h	i	k
+7	30	b	c	e	g	i	k
+8	29	a	d	e	h	j	l
+9	21	b	d	e	h	j	k
+10	18	b	d	f	h	j	l
+11	17	a	c	e	h	j	l
+12	14	b	d	e	h	i	k
+13	13	b	c	f	h	j	l
+14	12	a	d	e	g	i	k
+15	11	b	c	e	g	j	k
+16	9	b	c	f	g	i	k
+17	7	a	d	e	h	j	k
+18	6	b	d	e	h	j	l
+19	6	b	d	e	g	i	l
+20	6	a	d	e	g	j	k
+21	6	b	c	f	h	j	k
+22	5	b	d	f	g	j	l
+23	5	a	c	f	h	j	l
+24	5	a	c	e	h	j	k
+25	4	a	d	f	g	i	k
+26	4	a	d	f	h	j	k
+27	4	b	d	e	g	j	l
+28	4	a	c	e	g	i	k
+29	3	b	c	e	h	j	k
+30	3	a	c	e	g	j	k
+31	3	b	d	f	g	i	l
+32	3	a	d	f	h	j	l
+33	3	a	c	e	h	i	l
+34	2	a	c	e	h	i	k
+35	2	a	d	f	h	i	k
+36	2	b	c	e	h	i	k
+37	2	b	c	f	g	j	k
+38	2	b	d	f	h	i	l
+39	2	b	c	f	h	i	l
+40	2	a	c	f	g	j	k
+41	2	b	c	e	h	j	l
+42	2	a	d	e	g	j	l
+43	2	a	c	f	g	j	l
+44	1	a	c	e	g	i	l
+45	1	b	c	e	g	j	l
+46	1	a	c	f	h	i	k
+47	1	b	d	e	h	i	l
+48	1	a	c	f	g	i	l
+49	1	a	d	e	h	i	k
+50	1	b	c	f	h	i	k
+51	1	a	d	f	g	j	k
+52	1	a	d	e	h	i	l
+53	1	a	d	f	h	i	l
+54	1	b	c	e	h	i	l
+55	1	a	c	e	g	j	l
+56	1	b	c	e	g	i	l
+=======================================
+Gen: 2,    Agent: 114
+id	typeFreq	A	B	C	D	E	F
+1	254	b	d	e	g	i	k
+2	220	b	d	f	h	j	k
+3	106	b	d	f	g	i	k
+4	67	b	d	f	g	j	k
+5	61	b	d	f	h	i	k
+6	51	b	d	e	g	j	k
+7	33	b	d	e	h	j	k
+8	28	b	d	e	h	i	k
+9	20	b	d	f	h	j	l
+10	19	a	d	e	h	j	l
+11	17	b	c	e	g	i	k
+12	14	b	d	e	h	j	l
+13	11	a	c	e	h	j	l
+14	8	a	d	e	g	i	k
+15	7	a	d	e	g	j	k
+16	7	b	c	e	h	j	k
+17	6	a	c	e	h	j	k
+18	6	a	d	f	h	j	k
+19	5	a	d	e	h	j	k
+20	4	b	d	e	g	i	l
+21	4	b	c	e	h	i	k
+22	4	b	d	e	g	j	l
+23	4	b	d	f	g	j	l
+24	4	a	c	f	h	j	l
+25	3	b	c	f	g	i	k
+26	3	b	c	f	h	j	k
+27	3	a	d	e	h	i	k
+28	3	b	d	f	h	i	l
+29	2	b	c	e	g	j	k
+30	2	a	d	f	h	i	k
+31	2	b	c	f	g	j	k
+32	2	b	d	e	h	i	l
+33	2	a	c	f	h	j	k
+34	2	b	d	f	g	i	l
+35	2	a	d	f	g	j	k
+36	2	b	c	e	h	j	l
+37	2	a	d	f	h	j	l
+38	1	a	c	e	g	j	k
+39	1	b	c	e	g	j	l
+40	1	b	c	f	h	i	l
+41	1	a	c	f	g	j	k
+42	1	a	c	f	h	i	k
+43	1	a	c	f	g	i	k
+44	1	a	c	e	h	i	k
+45	1	a	c	e	g	i	k
+46	1	a	c	e	g	i	l
+47	1	b	c	f	h	i	k
+=======================================
+Gen: 2,    Agent: 115
+id	typeFreq	A	B	C	D	E	F
+1	248	b	d	e	g	i	k
+2	165	b	d	f	h	j	k
+3	101	b	d	f	g	j	k
+4	80	b	d	f	g	i	k
+5	53	b	d	e	g	j	k
+6	38	b	c	e	g	i	k
+7	38	b	d	f	h	i	k
+8	34	a	c	e	h	j	k
+9	31	a	c	e	h	j	l
+10	18	a	d	f	h	j	k
+11	18	b	c	e	g	j	k
+12	14	b	c	f	h	j	k
+13	14	b	d	e	h	j	k
+14	12	b	d	e	h	i	k
+15	11	b	d	f	g	j	l
+16	11	b	c	e	h	j	k
+17	8	a	c	f	h	j	l
+18	7	b	c	f	h	j	l
+19	7	a	c	e	g	j	k
+20	7	a	d	e	g	j	k
+21	7	a	d	e	h	j	k
+22	6	b	d	f	h	j	l
+23	6	b	c	e	h	j	l
+24	5	a	d	e	g	i	k
+25	5	a	d	e	h	j	l
+26	5	b	d	e	h	j	l
+27	5	a	d	f	g	j	k
+28	4	a	c	e	g	j	l
+29	4	b	d	e	g	i	l
+30	4	b	c	f	g	j	k
+31	4	a	c	f	h	j	k
+32	4	b	d	f	h	i	l
+33	3	a	d	f	h	j	l
+34	3	b	d	e	g	j	l
+35	3	a	d	f	g	i	k
+36	2	b	c	f	h	i	k
+37	2	b	d	f	g	i	l
+38	1	a	c	e	g	i	k
+39	1	a	c	f	g	i	k
+40	1	b	c	e	h	i	k
+41	1	b	c	f	g	j	l
+42	1	a	d	f	g	i	l
+43	1	a	d	e	h	i	k
+44	1	b	d	e	h	i	l
+45	1	a	c	e	h	i	l
+46	1	b	c	f	g	i	k
+47	1	a	c	f	g	j	k
+48	1	a	d	f	h	i	k
+49	1	b	c	f	g	i	l
+50	1	b	c	e	g	j	l
+51	1	b	c	e	h	i	l
+=======================================
+Gen: 2,    Agent: 116
+id	typeFreq	A	B	C	D	E	F
+1	274	b	d	e	g	i	k
+2	175	b	d	f	g	i	k
+3	108	b	d	f	g	j	k
+4	63	b	d	f	h	j	k
+5	37	a	c	e	h	j	l
+6	32	b	d	e	g	j	k
+7	32	b	d	f	h	i	k
+8	20	a	c	e	h	j	k
+9	19	a	d	e	h	j	l
+10	18	a	d	f	h	j	k
+11	18	b	d	e	h	j	k
+12	15	a	d	e	g	i	k
+13	15	a	c	e	g	j	k
+14	14	a	d	e	h	j	k
+15	14	a	d	f	g	i	k
+16	14	a	c	f	h	j	k
+17	11	a	d	e	g	j	k
+18	11	b	c	e	g	i	k
+19	10	a	d	f	g	j	k
+20	6	b	d	e	g	j	l
+21	6	b	d	e	h	i	k
+22	6	b	d	e	g	i	l
+23	6	a	d	f	h	i	k
+24	6	b	d	e	h	j	l
+25	5	b	c	f	h	i	k
+26	5	b	d	f	h	i	l
+27	5	b	d	f	h	j	l
+28	4	a	c	e	g	i	k
+29	4	b	d	f	g	i	l
+30	4	a	c	f	g	j	l
+31	4	b	c	f	g	i	k
+32	4	b	d	f	g	j	l
+33	3	a	c	f	h	j	l
+34	3	b	c	e	g	j	k
+35	3	a	d	f	h	j	l
+36	3	a	d	e	g	j	l
+37	2	b	c	f	g	j	k
+38	2	b	c	e	g	j	l
+39	2	b	c	e	h	j	l
+40	2	b	c	e	h	i	k
+41	2	a	d	e	h	i	l
+42	2	b	c	e	g	i	l
+43	2	a	c	e	g	j	l
+44	1	b	c	f	h	j	k
+45	1	a	d	f	g	i	l
+46	1	b	d	e	h	i	l
+47	1	a	d	e	h	i	k
+48	1	b	c	f	h	i	l
+49	1	b	c	f	h	j	l
+50	1	a	c	f	h	i	k
+51	1	b	c	e	h	j	k
+52	1	a	d	f	g	j	l
+53	1	a	c	e	g	i	l
+=======================================
+Gen: 2,    Agent: 117
+id	typeFreq	A	B	C	D	E	F
+1	258	b	d	e	g	i	k
+2	125	b	d	f	g	j	k
+3	117	b	d	f	h	j	k
+4	95	b	d	f	g	i	k
+5	63	b	d	e	g	j	k
+6	53	a	c	e	h	j	l
+7	36	a	d	f	h	j	k
+8	23	b	c	e	g	i	k
+9	20	a	d	e	h	j	l
+10	18	a	d	e	h	j	k
+11	16	b	d	f	h	i	k
+12	15	b	d	e	h	j	k
+13	14	a	c	e	h	j	k
+14	13	b	d	e	h	i	k
+15	10	a	d	e	g	i	k
+16	10	a	d	f	g	j	k
+17	10	a	d	f	h	j	l
+18	10	b	c	f	h	j	k
+19	8	b	c	e	h	j	k
+20	8	b	c	e	g	j	k
+21	6	a	c	e	g	j	l
+22	5	b	d	e	g	i	l
+23	5	a	d	e	g	j	k
+24	5	b	d	f	h	i	l
+25	5	a	c	f	h	j	l
+26	4	b	c	e	h	i	k
+27	4	a	c	e	g	i	k
+28	4	a	d	f	g	j	l
+29	4	b	d	f	g	j	l
+30	4	a	c	f	h	j	k
+31	4	b	d	f	h	j	l
+32	4	b	d	e	h	i	l
+33	3	b	c	f	g	i	k
+34	3	a	d	f	g	i	k
+35	3	a	d	e	h	i	k
+36	3	b	d	e	h	j	l
+37	2	a	c	e	g	j	k
+38	2	b	c	f	h	j	l
+39	1	b	c	e	g	i	l
+40	1	a	c	f	g	j	k
+41	1	a	d	e	g	j	l
+42	1	b	d	f	g	i	l
+43	1	a	c	f	g	j	l
+44	1	a	d	f	h	i	k
+45	1	b	c	f	h	i	l
+46	1	a	c	e	h	i	k
+47	1	a	c	f	g	i	l
+=======================================
+Gen: 2,    Agent: 118
+id	typeFreq	A	B	C	D	E	F
+1	228	b	d	e	g	i	k
+2	153	b	d	f	h	j	k
+3	116	b	d	f	g	i	k
+4	85	b	d	f	g	j	k
+5	55	a	c	e	h	j	l
+6	46	b	c	e	g	i	k
+7	34	b	d	e	g	j	k
+8	32	b	d	f	h	i	k
+9	24	a	c	e	h	j	k
+10	17	b	c	f	h	j	k
+11	17	a	c	e	g	j	k
+12	15	b	c	e	h	j	k
+13	13	b	c	e	g	j	k
+14	11	a	c	f	h	j	k
+15	11	b	d	f	h	j	l
+16	11	b	d	e	h	i	k
+17	9	b	d	f	g	j	l
+18	8	b	c	f	h	j	l
+19	8	b	d	e	h	j	k
+20	8	b	c	f	g	i	k
+21	8	b	c	f	g	j	k
+22	8	b	c	e	h	j	l
+23	5	a	c	e	g	j	l
+24	5	b	d	e	g	i	l
+25	5	b	d	f	g	i	l
+26	5	a	c	f	h	j	l
+27	5	b	c	f	g	j	l
+28	4	b	d	e	g	j	l
+29	4	a	d	e	g	j	k
+30	4	a	d	f	h	j	l
+31	4	a	d	e	g	i	k
+32	4	a	d	f	g	j	k
+33	4	b	c	e	g	j	l
+34	3	a	d	f	h	j	k
+35	3	b	c	f	g	i	l
+36	3	b	d	f	h	i	l
+37	3	b	c	f	h	i	k
+38	2	a	d	e	h	j	l
+39	2	b	c	e	h	i	k
+40	2	b	c	e	g	i	l
+41	2	a	d	f	g	i	k
+42	2	b	d	e	h	i	l
+43	2	b	d	e	h	j	l
+44	2	a	d	e	h	j	k
+45	2	a	d	f	h	i	l
+46	1	a	c	f	g	i	k
+47	1	a	d	e	g	i	l
+48	1	a	c	f	h	i	k
+49	1	a	c	e	g	i	k
+50	1	a	c	f	g	j	l
+51	1	a	c	e	h	i	l
+52	1	a	d	e	g	j	l
+=======================================
+Gen: 2,    Agent: 119
+id	typeFreq	A	B	C	D	E	F
+1	234	b	d	f	h	j	k
+2	227	b	d	e	g	i	k
+3	81	b	d	f	g	i	k
+4	81	b	d	f	g	j	k
+5	58	b	d	f	h	i	k
+6	47	b	c	e	g	i	k
+7	43	b	d	e	g	j	k
+8	36	b	d	e	h	j	k
+9	24	b	d	e	h	i	k
+10	19	b	d	e	h	j	l
+11	14	b	d	f	h	j	l
+12	11	b	c	e	g	j	k
+13	9	b	c	f	h	j	k
+14	8	a	d	f	h	j	k
+15	8	b	c	f	g	i	k
+16	7	a	d	e	g	i	k
+17	7	b	d	f	g	i	l
+18	7	a	d	e	g	j	k
+19	7	a	d	e	h	j	k
+20	6	b	c	f	h	j	l
+21	5	b	c	e	h	i	k
+22	5	b	d	e	h	i	l
+23	4	a	c	e	g	j	k
+24	4	b	d	f	g	j	l
+25	4	a	d	f	h	i	k
+26	4	a	d	e	h	j	l
+27	3	b	d	e	g	j	l
+28	3	b	c	e	h	j	k
+29	3	b	d	f	h	i	l
+30	3	a	c	e	h	j	l
+31	3	a	c	e	g	j	l
+32	2	b	c	f	g	i	l
+33	2	b	c	e	g	i	l
+34	2	b	c	f	h	i	k
+35	2	a	d	e	h	i	k
+36	2	b	c	e	h	j	l
+37	2	a	d	e	g	j	l
+38	1	a	c	e	g	i	k
+39	1	b	c	f	g	j	k
+40	1	a	c	f	h	j	l
+41	1	b	c	f	g	j	l
+42	1	a	d	f	g	j	l
+43	1	a	d	f	h	j	l
+44	1	a	c	f	g	j	l
+45	1	b	d	e	g	i	l
+46	1	a	d	f	h	i	l
+47	1	b	c	e	g	j	l
+48	1	b	c	e	h	i	l
+49	1	b	c	f	h	i	l
+50	1	a	c	e	h	j	k
+51	1	a	c	e	h	i	k
+=======================================
+Gen: 2,    Agent: 120
+id	typeFreq	A	B	C	D	E	F
+1	328	b	d	e	g	i	k
+2	138	b	d	f	h	j	k
+3	120	b	d	f	g	i	k
+4	68	b	d	f	g	j	k
+5	55	b	d	f	h	i	k
+6	41	a	d	e	h	j	l
+7	37	b	d	f	h	j	l
+8	30	b	d	e	h	j	k
+9	25	b	d	e	g	j	k
+10	22	b	d	e	h	i	k
+11	11	a	d	e	h	j	k
+12	9	b	d	e	h	j	l
+13	8	a	d	f	h	j	l
+14	8	b	d	f	g	j	l
+15	6	a	d	f	g	j	k
+16	6	a	c	e	h	j	l
+17	5	a	d	f	h	j	k
+18	5	a	d	e	g	i	k
+19	5	b	c	e	g	i	k
+20	5	a	d	e	h	i	k
+21	5	b	d	f	h	i	l
+22	5	a	d	e	g	j	k
+23	5	a	c	e	h	i	k
+24	5	a	c	e	h	j	k
+25	3	b	c	e	h	j	k
+26	3	a	d	f	g	i	k
+27	3	b	d	e	g	i	l
+28	3	b	d	e	g	j	l
+29	3	b	d	f	g	i	l
+30	3	a	c	f	h	j	l
+31	2	a	c	e	g	i	k
+32	2	b	c	f	h	j	l
+33	2	b	c	f	h	i	l
+34	2	a	c	f	h	j	k
+35	2	a	c	e	g	j	k
+36	2	b	c	e	g	j	k
+37	2	b	c	e	h	i	l
+38	1	b	c	f	g	i	k
+39	1	b	d	e	h	i	l
+40	1	b	c	f	g	j	l
+41	1	a	c	f	g	j	k
+42	1	a	c	f	g	j	l
+43	1	b	c	f	h	i	k
+44	1	a	d	f	g	i	l
+45	1	b	c	f	h	j	k
+46	1	a	d	f	g	j	l
+47	1	a	d	f	h	i	l
+48	1	a	c	f	h	i	k
+49	1	b	c	e	h	j	l
+50	1	b	c	f	g	j	k
+51	1	b	c	e	h	i	k
+52	1	b	c	e	g	j	l
+53	1	a	d	e	g	i	l
+54	1	a	c	e	h	i	l
+=======================================
+Gen: 2,    Agent: 121
+id	typeFreq	A	B	C	D	E	F
+1	281	b	d	f	g	i	k
+2	170	b	d	e	g	i	k
+3	109	b	d	f	h	i	k
+4	67	b	d	f	h	j	k
+5	49	b	d	f	g	j	k
+6	37	a	d	e	h	j	l
+7	34	b	d	f	h	j	l
+8	27	a	c	e	h	j	l
+9	20	a	d	f	h	j	l
+10	16	b	d	e	h	i	k
+11	15	a	d	f	g	i	k
+12	13	b	c	e	g	i	k
+13	13	b	d	e	g	j	k
+14	12	b	d	e	h	j	k
+15	11	a	d	f	h	j	k
+16	11	a	d	e	h	j	k
+17	9	a	d	f	g	j	k
+18	8	b	c	e	g	j	k
+19	7	a	d	e	g	i	k
+20	7	b	d	f	h	i	l
+21	6	b	d	f	g	i	l
+22	6	b	d	e	h	j	l
+23	5	b	d	e	g	j	l
+24	5	a	d	f	h	i	k
+25	5	a	c	e	h	j	k
+26	4	b	d	e	g	i	l
+27	4	b	d	e	h	i	l
+28	4	b	c	f	h	j	l
+29	4	a	c	f	h	j	l
+30	4	b	d	f	g	j	l
+31	4	b	c	e	h	j	l
+32	3	b	c	e	g	i	l
+33	3	a	d	f	g	i	l
+34	3	b	c	e	h	i	k
+35	2	a	d	e	g	i	l
+36	2	a	c	e	g	j	k
+37	2	b	c	f	g	i	k
+38	2	a	d	e	h	i	k
+39	2	b	c	f	g	j	k
+40	2	a	c	f	h	j	k
+41	2	a	d	e	g	j	l
+42	1	a	c	e	g	i	k
+43	1	a	d	f	g	j	l
+44	1	a	d	e	h	i	l
+45	1	a	c	e	g	j	l
+46	1	a	c	f	g	i	l
+47	1	a	c	e	h	i	k
+48	1	a	c	e	h	i	l
+49	1	a	c	f	g	i	k
+50	1	b	c	e	h	j	k
+51	1	a	c	f	h	i	k
+52	1	b	c	f	g	j	l
+=======================================
+Gen: 2,    Agent: 122
+id	typeFreq	A	B	C	D	E	F
+1	257	b	d	e	g	i	k
+2	209	b	d	f	h	j	k
+3	71	b	d	f	g	i	k
+4	59	b	d	f	g	j	k
+5	54	b	d	f	h	i	k
+6	44	b	d	e	g	j	k
+7	40	b	d	f	h	j	l
+8	34	b	d	e	h	i	k
+9	33	a	d	e	h	j	l
+10	32	b	d	e	h	j	k
+11	23	b	d	e	h	j	l
+12	22	a	c	e	h	j	l
+13	11	b	c	e	g	i	k
+14	11	b	c	e	h	j	l
+15	9	a	d	f	h	j	k
+16	9	a	d	e	h	j	k
+17	8	a	d	f	h	j	l
+18	7	a	d	e	g	i	k
+19	6	a	d	e	g	j	k
+20	5	b	d	e	g	i	l
+21	5	b	d	f	g	j	l
+22	5	a	c	e	h	j	k
+23	4	b	c	e	g	j	k
+24	4	b	d	f	g	i	l
+25	4	a	d	f	g	j	k
+26	4	b	d	e	g	j	l
+27	3	b	d	e	h	i	l
+28	3	b	c	f	g	j	k
+29	3	b	c	f	h	j	l
+30	3	a	d	f	h	i	k
+31	3	b	c	e	h	j	k
+32	2	b	c	f	g	i	k
+33	2	a	c	f	h	j	l
+34	2	a	d	f	g	j	l
+35	2	b	d	f	h	i	l
+36	1	a	c	e	g	j	k
+37	1	a	d	e	h	i	k
+38	1	a	d	e	g	i	l
+39	1	a	d	f	g	i	l
+40	1	b	c	f	h	j	k
+41	1	b	c	e	h	i	k
+42	1	a	d	e	g	j	l
+43	1	b	c	e	g	i	l
+=======================================
+Gen: 2,    Agent: 123
+id	typeFreq	A	B	C	D	E	F
+1	290	b	d	e	g	i	k
+2	211	b	d	f	h	j	k
+3	64	b	d	f	g	i	k
+4	51	b	d	f	h	i	k
+5	51	a	d	e	h	j	l
+6	45	b	d	e	g	j	k
+7	38	b	d	f	g	j	k
+8	33	b	d	e	h	j	k
+9	28	a	d	f	h	j	k
+10	27	a	d	e	h	j	k
+11	25	b	d	e	h	i	k
+12	19	b	d	f	h	j	l
+13	13	a	d	f	h	j	l
+14	7	a	d	e	g	i	k
+15	7	a	d	e	h	i	k
+16	7	a	d	e	g	j	k
+17	7	a	c	e	h	j	k
+18	6	b	d	f	h	i	l
+19	5	b	c	e	h	j	k
+20	5	b	d	f	g	j	l
+21	5	a	c	e	h	j	l
+22	4	b	c	e	h	i	k
+23	4	b	c	e	g	j	k
+24	4	b	d	e	h	i	l
+25	4	b	c	f	g	j	k
+26	4	a	d	f	g	j	k
+27	3	b	c	f	h	j	k
+28	3	b	c	e	g	i	k
+29	3	b	d	e	g	i	l
+30	3	b	d	e	h	j	l
+31	3	b	d	f	g	i	l
+32	3	b	c	e	h	j	l
+33	2	a	c	e	h	i	k
+34	2	a	c	f	g	j	k
+35	2	b	d	e	g	j	l
+36	2	b	c	f	g	j	l
+37	1	a	c	e	g	i	k
+38	1	b	c	f	g	i	k
+39	1	b	c	e	g	j	l
+40	1	a	d	f	h	i	k
+41	1	b	c	e	h	i	l
+42	1	b	c	f	h	j	l
+43	1	a	c	f	h	i	l
+44	1	a	c	e	g	j	l
+45	1	a	d	e	g	j	l
+46	1	a	d	e	h	i	l
+47	1	a	c	e	g	j	k
+=======================================
+Gen: 2,    Agent: 124
+id	typeFreq	A	B	C	D	E	F
+1	281	b	d	e	g	i	k
+2	141	b	d	f	g	i	k
+3	129	b	d	f	h	i	k
+4	115	b	d	f	h	j	k
+5	37	b	d	f	g	j	k
+6	30	b	d	e	h	i	k
+7	25	a	d	e	h	j	l
+8	23	b	d	e	g	j	k
+9	22	a	d	e	g	i	k
+10	21	a	d	e	h	j	k
+11	20	b	d	e	h	j	k
+12	17	b	c	e	g	i	k
+13	15	b	d	f	h	j	l
+14	11	a	d	f	h	j	k
+15	11	b	d	f	h	i	l
+16	9	a	d	f	h	j	l
+17	8	a	d	e	g	j	k
+18	6	b	d	f	g	i	l
+19	6	b	d	e	h	j	l
+20	5	a	c	e	g	j	k
+21	5	b	d	e	g	j	l
+22	5	b	c	f	h	j	k
+23	5	a	d	f	h	i	k
+24	4	a	c	e	h	j	k
+25	4	a	d	e	h	i	k
+26	4	a	c	e	h	j	l
+27	4	b	d	f	g	j	l
+28	3	a	d	e	g	i	l
+29	3	b	d	e	h	i	l
+30	3	b	c	e	h	j	k
+31	3	a	d	e	g	j	l
+32	2	b	d	e	g	i	l
+33	2	b	c	e	g	i	l
+34	2	a	d	f	g	i	k
+35	2	b	c	f	g	j	k
+36	2	b	c	f	h	i	k
+37	2	b	c	e	g	j	k
+38	2	b	c	e	h	i	k
+39	2	a	c	f	g	j	l
+40	2	a	c	e	h	i	l
+41	2	a	d	f	g	j	k
+42	2	a	c	f	h	j	k
+43	1	a	d	f	g	j	l
+44	1	a	c	f	h	i	k
+45	1	b	c	e	h	j	l
+46	1	a	d	f	h	i	l
+=======================================
+Gen: 2,    Agent: 125
+id	typeFreq	A	B	C	D	E	F
+1	305	b	d	e	g	i	k
+2	204	b	d	f	h	j	k
+3	62	b	d	f	g	i	k
+4	59	b	d	f	g	j	k
+5	50	b	d	f	h	i	k
+6	39	a	d	e	h	j	l
+7	38	b	d	e	g	j	k
+8	33	b	d	e	h	i	k
+9	26	b	d	e	h	j	k
+10	23	a	d	f	h	j	k
+11	18	a	d	e	h	j	k
+12	16	b	d	f	h	j	l
+13	11	a	d	e	g	j	k
+14	9	b	c	e	g	i	k
+15	9	b	d	e	h	j	l
+16	8	a	d	e	h	i	k
+17	8	b	d	f	g	j	l
+18	8	a	c	e	h	j	l
+19	6	a	c	e	g	i	k
+20	6	b	c	e	h	j	k
+21	5	a	d	e	g	i	k
+22	5	a	d	f	h	j	l
+23	4	a	d	f	g	j	k
+24	4	a	c	e	h	j	k
+25	3	a	c	e	h	i	k
+26	3	b	d	e	g	i	l
+27	3	a	d	f	h	i	k
+28	3	b	d	f	h	i	l
+29	3	a	d	f	g	j	l
+30	3	b	c	e	g	j	l
+31	2	b	c	e	g	j	k
+32	2	b	c	f	g	i	k
+33	2	a	d	f	g	i	k
+34	2	a	c	f	h	j	k
+35	2	b	d	e	h	i	l
+36	2	a	c	e	g	j	k
+37	2	b	d	f	g	i	l
+38	2	b	c	f	h	j	k
+39	2	b	c	e	h	j	l
+40	1	a	c	e	g	i	l
+41	1	b	c	e	h	i	l
+42	1	a	c	f	h	j	l
+43	1	b	d	e	g	j	l
+44	1	b	c	f	g	j	k
+45	1	b	c	f	h	i	l
+46	1	a	c	f	g	i	k
+47	1	a	d	e	h	i	l
+48	1	a	d	e	g	j	l
+=======================================
+Gen: 2,    Agent: 126
+id	typeFreq	A	B	C	D	E	F
+1	238	b	d	e	g	i	k
+2	176	b	d	f	h	j	k
+3	108	b	d	f	g	i	k
+4	81	b	d	f	g	j	k
+5	52	b	d	f	h	i	k
+6	44	b	c	e	g	i	k
+7	34	b	d	e	g	j	k
+8	32	a	c	e	h	j	l
+9	30	b	d	e	h	j	k
+10	20	b	d	f	h	j	l
+11	19	b	c	e	g	j	k
+12	15	b	d	e	h	i	k
+13	12	a	d	e	g	i	k
+14	10	b	d	e	h	j	l
+15	10	a	c	e	h	j	k
+16	8	a	c	e	g	i	k
+17	7	b	c	e	h	j	k
+18	7	b	c	e	h	j	l
+19	7	a	d	e	h	j	l
+20	6	b	c	f	h	j	k
+21	6	b	d	e	g	i	l
+22	6	b	c	f	h	j	l
+23	6	a	c	e	g	j	k
+24	5	b	d	f	g	j	l
+25	5	a	d	e	h	j	k
+26	4	b	c	e	h	i	k
+27	4	a	d	f	g	i	k
+28	4	a	d	e	g	j	k
+29	4	b	d	e	g	j	l
+30	4	a	d	f	h	j	k
+31	3	a	c	e	g	i	l
+32	3	b	c	f	g	i	k
+33	3	a	c	e	h	i	l
+34	2	a	d	e	h	i	k
+35	2	b	c	e	g	i	l
+36	2	b	c	e	g	j	l
+37	2	b	d	f	g	i	l
+38	2	b	c	f	g	j	k
+39	2	b	d	f	h	i	l
+40	2	a	c	f	h	j	l
+41	2	b	d	e	h	i	l
+42	2	a	c	e	g	j	l
+43	1	a	c	f	g	i	k
+44	1	a	c	f	h	j	k
+45	1	b	c	f	g	j	l
+46	1	a	c	f	g	j	k
+47	1	b	c	f	h	i	k
+48	1	a	d	f	g	j	k
+49	1	b	c	f	h	i	l
+50	1	a	d	f	h	j	l
+51	1	b	c	e	h	i	l
+52	1	a	d	e	h	i	l
+=======================================
+Gen: 2,    Agent: 127
+id	typeFreq	A	B	C	D	E	F
+1	343	b	d	e	g	i	k
+2	118	b	d	f	h	j	k
+3	66	a	c	e	h	j	l
+4	58	b	d	f	g	j	k
+5	54	b	d	e	g	j	k
+6	47	b	d	f	g	i	k
+7	42	b	d	e	h	i	k
+8	36	b	d	f	h	i	k
+9	32	b	d	e	h	j	k
+10	19	b	c	e	h	j	k
+11	18	b	c	e	h	j	l
+12	16	a	c	e	h	j	k
+13	15	b	c	e	g	i	k
+14	11	b	c	f	h	j	k
+15	10	b	d	f	h	j	l
+16	9	a	d	e	h	j	k
+17	9	b	c	e	g	j	k
+18	8	a	d	f	h	j	k
+19	7	b	d	e	h	i	l
+20	6	b	d	e	g	j	l
+21	6	a	d	e	h	j	l
+22	6	a	c	f	h	j	k
+23	6	b	d	f	g	j	l
+24	5	b	d	e	g	i	l
+25	5	b	d	e	h	j	l
+26	5	a	d	e	g	j	k
+27	4	a	d	f	g	i	k
+28	4	b	c	f	g	i	k
+29	3	b	d	f	g	i	l
+30	3	b	c	f	h	j	l
+31	3	b	c	f	g	j	k
+32	2	a	d	e	g	i	l
+33	2	a	c	e	g	i	k
+34	2	a	d	f	g	j	k
+35	2	a	c	f	g	i	k
+36	2	a	d	e	g	i	k
+37	2	b	d	f	h	i	l
+38	2	a	c	f	h	j	l
+39	1	a	c	e	g	i	l
+40	1	a	d	e	h	i	k
+41	1	b	c	e	h	i	k
+42	1	b	c	e	g	j	l
+43	1	a	c	f	h	i	l
+44	1	b	c	f	g	i	l
+45	1	b	c	f	g	j	l
+46	1	b	c	e	g	i	l
+47	1	a	c	f	h	i	k
+48	1	a	d	f	h	i	k
+49	1	a	c	e	g	j	k
+50	1	a	c	e	g	j	l
+51	1	a	d	f	h	j	l
+=======================================
+Gen: 2,    Agent: 128
+id	typeFreq	A	B	C	D	E	F
+1	233	b	d	e	g	i	k
+2	173	b	d	f	h	j	k
+3	90	b	d	f	g	i	k
+4	62	b	d	f	h	i	k
+5	57	a	d	e	h	j	l
+6	55	b	d	f	g	j	k
+7	29	a	d	f	h	j	l
+8	28	a	d	f	h	j	k
+9	27	b	d	f	h	j	l
+10	26	b	d	e	h	i	k
+11	24	b	d	e	g	j	k
+12	22	b	d	e	h	j	k
+13	17	b	c	e	g	i	k
+14	15	a	c	e	h	j	l
+15	14	a	d	e	h	j	k
+16	14	a	d	e	g	i	k
+17	10	a	d	e	h	i	k
+18	10	b	d	f	g	j	l
+19	7	b	d	f	h	i	l
+20	6	a	d	f	g	j	k
+21	6	a	c	f	h	j	l
+22	6	a	d	f	h	i	k
+23	5	a	d	f	g	i	k
+24	5	b	d	e	h	j	l
+25	5	a	d	e	g	j	k
+26	5	a	d	e	g	j	l
+27	5	a	c	e	g	j	l
+28	4	a	d	e	h	i	l
+29	4	b	c	f	g	i	k
+30	4	a	c	e	h	i	l
+31	3	b	d	e	g	i	l
+32	3	b	d	f	g	i	l
+33	3	a	c	f	h	j	k
+34	3	b	c	f	h	j	k
+35	3	a	d	f	h	i	l
+36	2	b	c	e	h	i	k
+37	2	b	c	e	h	j	k
+38	2	b	c	f	g	j	k
+39	2	b	c	e	g	j	k
+40	2	b	d	e	h	i	l
+41	2	b	c	f	h	i	k
+42	1	b	c	f	h	j	l
+43	1	a	d	f	g	j	l
+44	1	a	c	e	g	j	k
+45	1	a	c	e	h	j	k
+46	1	a	c	f	g	j	l
+=======================================
+Gen: 2,    Agent: 129
+id	typeFreq	A	B	C	D	E	F
+1	259	b	d	e	g	i	k
+2	155	b	d	f	g	j	k
+3	129	b	d	f	g	i	k
+4	50	b	d	f	h	j	k
+5	47	a	c	e	h	j	l
+6	41	a	d	f	h	j	k
+7	33	b	d	e	g	j	k
+8	26	a	c	e	h	j	k
+9	24	a	c	f	h	j	k
+10	22	b	c	e	g	i	k
+11	20	b	d	f	h	i	k
+12	17	a	d	f	g	j	k
+13	12	a	d	e	h	j	k
+14	12	a	d	e	g	j	k
+15	10	a	c	e	g	j	k
+16	9	b	d	e	h	i	k
+17	8	a	d	e	h	j	l
+18	8	a	d	f	h	j	l
+19	8	a	c	e	g	i	k
+20	8	a	d	f	g	i	k
+21	7	b	d	e	h	j	k
+22	7	b	d	f	g	j	l
+23	7	a	c	f	h	j	l
+24	6	b	c	f	h	j	k
+25	6	b	c	f	g	j	k
+26	5	a	d	e	g	i	k
+27	5	b	c	e	g	j	k
+28	5	a	c	e	g	j	l
+29	4	b	c	e	h	j	l
+30	4	b	c	e	h	j	k
+31	3	b	d	f	h	j	l
+32	3	b	d	e	h	j	l
+33	3	b	d	e	g	i	l
+34	3	b	c	f	g	i	k
+35	3	a	d	f	h	i	k
+36	3	a	c	f	g	j	l
+37	2	b	c	e	h	i	k
+38	2	a	c	f	g	i	k
+39	2	b	d	f	g	i	l
+40	2	a	d	f	h	i	l
+41	2	b	c	f	h	i	k
+42	2	a	c	f	g	j	k
+43	2	b	c	e	g	i	l
+44	2	b	c	f	h	j	l
+45	2	a	c	e	h	i	l
+46	1	b	c	f	g	i	l
+47	1	a	d	e	g	i	l
+48	1	b	c	e	g	j	l
+49	1	a	d	e	g	j	l
+50	1	a	d	f	g	j	l
+51	1	b	d	f	h	i	l
+52	1	b	d	e	g	j	l
+53	1	a	c	f	g	i	l
+54	1	a	d	f	g	i	l
+55	1	a	d	e	h	i	k
+56	1	a	c	e	h	i	k
+=======================================
+Gen: 2,    Agent: 130
+id	typeFreq	A	B	C	D	E	F
+1	227	b	d	e	g	i	k
+2	149	b	d	f	h	j	k
+3	120	b	d	f	g	i	k
+4	88	b	d	f	h	i	k
+5	48	b	d	f	g	j	k
+6	31	b	d	f	h	j	l
+7	31	b	c	e	g	i	k
+8	28	b	d	e	h	i	k
+9	25	a	c	e	h	j	l
+10	24	a	d	e	h	j	l
+11	17	b	d	e	h	j	k
+12	15	a	d	e	g	j	k
+13	15	a	d	e	h	j	k
+14	14	b	d	e	g	j	k
+15	12	a	d	f	h	j	k
+16	11	a	d	f	h	j	l
+17	11	a	d	e	g	i	k
+18	10	a	c	e	g	i	k
+19	10	b	d	e	g	i	l
+20	9	b	d	f	g	i	l
+21	7	b	d	f	g	j	l
+22	6	a	d	f	h	i	k
+23	6	b	d	e	h	j	l
+24	6	a	c	e	g	j	k
+25	5	a	d	e	g	i	l
+26	5	b	c	e	g	j	k
+27	5	a	d	f	g	i	k
+28	5	b	c	f	g	i	k
+29	5	a	d	f	g	j	k
+30	5	b	c	f	h	j	l
+31	4	a	c	f	h	j	k
+32	4	a	c	f	h	j	l
+33	4	b	d	f	h	i	l
+34	3	a	d	e	h	i	k
+35	3	b	c	f	h	j	k
+36	3	a	c	e	h	j	k
+37	3	a	c	e	g	j	l
+38	3	a	c	e	h	i	l
+39	3	a	d	f	h	i	l
+40	3	a	d	e	h	i	l
+41	3	a	d	e	g	j	l
+42	2	b	c	f	g	j	l
+43	2	b	c	e	h	j	l
+44	2	b	c	e	g	j	l
+45	2	b	d	e	h	i	l
+46	2	b	d	e	g	j	l
+47	1	a	d	f	g	i	l
+48	1	a	c	f	g	j	k
+49	1	b	c	e	h	j	k
+50	1	a	c	f	g	i	k
+51	1	b	c	e	g	i	l
+=======================================
+Gen: 2,    Agent: 131
+id	typeFreq	A	B	C	D	E	F
+1	292	b	d	e	g	i	k
+2	146	b	d	f	g	i	k
+3	133	b	d	f	h	j	k
+4	71	b	d	f	g	j	k
+5	40	a	c	e	h	j	l
+6	37	b	d	f	h	i	k
+7	32	b	c	e	h	j	k
+8	29	b	d	e	g	j	k
+9	28	b	c	e	g	i	k
+10	21	b	d	e	h	j	k
+11	17	b	c	e	h	j	l
+12	13	b	c	e	g	j	k
+13	12	b	d	f	h	j	l
+14	11	b	c	f	h	j	k
+15	9	b	d	e	h	i	k
+16	9	a	c	e	h	j	k
+17	7	a	d	e	g	i	k
+18	6	a	d	f	h	j	k
+19	6	b	d	f	g	i	l
+20	5	b	c	f	g	i	k
+21	5	a	d	e	g	j	k
+22	5	b	c	f	h	j	l
+23	5	b	d	f	g	j	l
+24	5	b	d	e	h	j	l
+25	4	a	c	f	h	j	l
+26	4	b	c	e	h	i	k
+27	4	a	d	e	h	j	k
+28	4	b	c	e	g	j	l
+29	3	a	c	e	g	j	k
+30	3	b	d	f	h	i	l
+31	3	a	d	f	g	i	k
+32	3	a	d	f	g	j	k
+33	3	b	d	e	g	i	l
+34	3	a	d	e	h	j	l
+35	2	a	d	e	g	i	l
+36	2	a	d	e	h	i	k
+37	2	b	c	f	g	j	l
+38	2	a	c	f	h	j	k
+39	2	b	c	f	g	j	k
+40	2	b	d	e	h	i	l
+41	2	a	c	e	h	i	l
+42	2	b	c	e	h	i	l
+43	1	a	c	e	g	j	l
+44	1	a	d	e	g	j	l
+45	1	a	d	f	h	j	l
+46	1	a	c	e	h	i	k
+47	1	a	c	e	g	i	l
+48	1	a	c	f	h	i	l
+49	1	a	c	e	g	i	k
+=======================================
+Gen: 2,    Agent: 132
+id	typeFreq	A	B	C	D	E	F
+1	346	b	d	e	g	i	k
+2	127	b	d	f	g	j	k
+3	81	b	d	f	h	j	k
+4	72	b	d	e	g	j	k
+5	62	b	d	f	g	i	k
+6	43	b	d	e	h	j	k
+7	35	a	c	e	h	j	l
+8	20	b	d	e	h	i	k
+9	20	a	d	e	h	j	l
+10	19	b	d	f	h	i	k
+11	18	b	c	e	h	j	k
+12	15	a	d	e	h	j	k
+13	14	a	d	e	g	i	k
+14	14	b	c	e	h	j	l
+15	13	b	d	e	h	j	l
+16	12	a	c	e	h	j	k
+17	10	b	d	f	h	j	l
+18	10	b	d	e	g	j	l
+19	5	a	d	e	g	j	k
+20	5	b	d	f	g	i	l
+21	5	b	c	f	g	j	k
+22	5	b	d	f	g	j	l
+23	4	b	c	e	g	j	k
+24	4	b	c	e	g	i	k
+25	4	b	d	e	g	i	l
+26	4	a	d	e	g	j	l
+27	3	a	c	e	g	j	l
+28	3	a	c	e	g	j	k
+29	2	b	d	e	h	i	l
+30	2	b	c	f	g	i	k
+31	2	a	c	e	g	i	k
+32	2	a	d	f	g	j	k
+33	2	b	d	f	h	i	l
+34	2	a	d	f	h	j	k
+35	2	b	c	f	h	j	k
+36	2	b	c	e	h	i	k
+37	2	a	d	e	h	i	k
+38	1	b	c	e	g	i	l
+39	1	a	d	f	g	i	l
+40	1	a	d	f	g	i	k
+41	1	b	c	f	h	i	k
+42	1	a	d	f	h	i	k
+43	1	a	c	f	g	j	k
+44	1	a	c	e	h	i	l
+45	1	a	d	f	h	j	l
+46	1	a	d	e	g	i	l
+=======================================
+Gen: 2,    Agent: 133
+id	typeFreq	A	B	C	D	E	F
+1	262	b	d	e	g	i	k
+2	205	b	d	f	h	j	k
+3	60	b	d	f	g	i	k
+4	55	b	d	f	h	i	k
+5	53	b	d	f	g	j	k
+6	40	b	c	e	g	i	k
+7	39	b	d	e	g	j	k
+8	29	b	d	e	h	j	k
+9	25	b	d	e	h	i	k
+10	20	a	c	e	h	j	k
+11	19	a	d	e	h	j	l
+12	18	b	d	f	h	j	l
+13	17	a	c	e	h	j	l
+14	16	a	d	e	h	j	k
+15	12	a	d	f	h	j	k
+16	10	b	c	e	h	j	k
+17	9	a	d	f	h	j	l
+18	9	b	d	f	h	i	l
+19	6	b	c	e	h	i	k
+20	6	a	c	e	g	j	k
+21	5	a	d	e	g	i	k
+22	5	a	d	e	g	j	k
+23	5	b	c	e	g	j	k
+24	5	b	d	e	g	j	l
+25	4	a	c	e	h	i	k
+26	4	b	c	f	g	i	k
+27	4	b	c	f	h	j	k
+28	4	a	d	f	g	i	k
+29	4	a	c	f	h	j	k
+30	4	b	c	f	h	j	l
+31	4	a	d	f	h	i	k
+32	4	b	d	f	g	j	l
+33	3	a	d	e	h	i	k
+34	3	b	d	e	h	i	l
+35	3	b	d	f	g	i	l
+36	3	b	d	e	h	j	l
+37	2	a	c	e	g	i	k
+38	2	b	c	f	h	i	k
+39	2	b	d	e	g	i	l
+40	2	a	c	f	h	j	l
+41	2	a	d	e	g	j	l
+42	2	a	d	f	h	i	l
+43	2	a	d	f	g	j	k
+44	2	b	c	e	h	j	l
+45	2	a	c	e	h	i	l
+46	1	b	c	e	g	j	l
+47	1	b	c	f	g	j	k
+48	1	a	d	e	h	i	l
+49	1	b	c	f	h	i	l
+50	1	a	d	f	g	i	l
+51	1	a	c	f	h	i	k
+52	1	a	c	e	g	j	l
+53	1	b	c	e	g	i	l
+54	1	b	c	f	g	j	l
+=======================================
+Gen: 2,    Agent: 134
+id	typeFreq	A	B	C	D	E	F
+1	282	b	d	e	g	i	k
+2	206	b	d	f	h	j	k
+3	77	b	d	f	g	i	k
+4	56	b	d	f	h	i	k
+5	53	b	d	f	g	j	k
+6	46	b	d	e	h	i	k
+7	43	a	d	e	h	j	l
+8	38	b	d	e	h	j	k
+9	35	b	d	e	g	j	k
+10	25	b	d	f	h	j	l
+11	21	b	d	e	h	j	l
+12	11	a	d	e	h	j	k
+13	8	b	d	f	h	i	l
+14	7	b	d	e	h	i	l
+15	7	a	c	e	h	j	l
+16	6	a	d	f	h	j	k
+17	6	b	c	e	h	j	k
+18	6	b	c	e	g	i	k
+19	6	a	d	f	h	j	l
+20	6	b	d	f	g	j	l
+21	4	b	d	e	g	j	l
+22	4	b	d	f	g	i	l
+23	4	a	c	e	h	i	k
+24	3	a	d	e	g	i	k
+25	3	a	d	f	g	j	k
+26	3	a	d	e	g	j	l
+27	3	a	c	e	h	j	k
+28	2	b	d	e	g	i	l
+29	2	b	c	e	g	i	l
+30	2	b	c	e	g	j	k
+31	2	b	c	f	g	i	k
+32	2	b	c	f	h	j	l
+33	2	a	c	e	h	i	l
+34	2	a	d	e	h	i	l
+35	2	b	c	e	h	j	l
+36	2	b	c	e	g	j	l
+37	2	a	c	e	g	j	l
+38	1	a	d	e	g	j	k
+39	1	b	c	f	h	i	l
+40	1	a	c	f	h	j	k
+41	1	b	c	f	g	j	l
+42	1	a	d	f	h	i	k
+43	1	b	c	e	h	i	k
+44	1	b	c	e	h	i	l
+45	1	b	c	f	h	j	k
+46	1	a	d	e	h	i	k
+47	1	a	c	e	g	j	k
+48	1	a	c	e	g	i	l
+49	1	a	c	f	h	j	l
+=======================================
+Gen: 2,    Agent: 135
+id	typeFreq	A	B	C	D	E	F
+1	309	b	d	e	g	i	k
+2	150	b	d	f	h	j	k
+3	81	b	d	e	g	j	k
+4	73	b	d	f	g	j	k
+5	49	b	d	f	g	i	k
+6	48	a	c	e	h	j	l
+7	46	b	d	e	h	j	k
+8	29	b	c	e	g	i	k
+9	19	a	c	e	h	j	k
+10	18	b	d	e	h	j	l
+11	17	b	c	e	h	j	l
+12	15	b	d	e	h	i	k
+13	15	b	d	f	h	i	k
+14	13	b	c	e	h	j	k
+15	11	a	c	e	g	j	k
+16	9	b	c	e	g	j	k
+17	8	a	d	f	h	j	k
+18	8	b	d	f	h	j	l
+19	8	a	d	e	h	j	l
+20	7	a	c	e	g	j	l
+21	6	a	d	e	g	j	k
+22	6	a	d	e	h	j	k
+23	6	a	d	e	g	i	k
+24	5	b	c	e	h	i	k
+25	5	b	d	f	g	i	l
+26	4	a	d	f	g	j	k
+27	4	b	d	e	g	j	l
+28	3	b	c	f	g	i	k
+29	3	b	c	f	h	j	k
+30	3	b	d	f	g	j	l
+31	3	b	c	e	g	j	l
+32	2	a	c	e	g	i	k
+33	2	b	d	e	g	i	l
+34	2	b	c	f	g	j	k
+35	2	b	c	f	h	i	k
+36	2	a	d	e	g	j	l
+37	1	b	d	e	h	i	l
+38	1	a	d	f	g	i	k
+39	1	a	d	f	g	j	l
+40	1	a	c	f	h	j	k
+41	1	b	d	f	h	i	l
+42	1	a	d	f	h	j	l
+43	1	b	c	f	h	j	l
+44	1	a	c	e	h	i	k
+45	1	a	d	e	h	i	l
+46	1	a	c	f	g	j	k
+=======================================
+Gen: 2,    Agent: 136
+id	typeFreq	A	B	C	D	E	F
+1	293	b	d	e	g	i	k
+2	138	b	d	f	h	j	k
+3	82	b	d	e	g	j	k
+4	78	b	d	f	g	j	k
+5	50	b	d	e	h	j	k
+6	45	b	d	f	g	i	k
+7	35	a	c	e	g	j	k
+8	32	b	c	e	g	i	k
+9	25	b	d	f	h	i	k
+10	21	a	d	f	h	j	k
+11	18	a	d	e	h	j	k
+12	18	b	c	e	g	j	k
+13	17	b	d	e	h	i	k
+14	15	a	c	e	h	j	k
+15	11	b	d	e	h	j	l
+16	11	a	c	e	h	j	l
+17	10	b	d	f	h	j	l
+18	9	a	c	e	g	j	l
+19	9	b	c	e	h	j	k
+20	8	a	d	e	g	j	k
+21	8	a	d	f	g	j	k
+22	7	b	c	f	h	j	k
+23	5	b	d	f	g	j	l
+24	5	b	d	e	g	j	l
+25	5	b	c	e	g	j	l
+26	5	a	d	e	h	j	l
+27	4	b	d	e	g	i	l
+28	4	b	d	f	g	i	l
+29	3	a	c	e	g	i	k
+30	3	b	c	f	h	j	l
+31	3	b	c	e	g	i	l
+32	3	b	c	f	g	i	k
+33	3	a	d	e	g	i	k
+34	2	b	c	f	g	j	k
+35	2	a	c	f	h	j	l
+36	2	a	d	f	h	i	k
+37	2	a	d	f	g	j	l
+38	2	b	c	e	h	j	l
+39	1	b	d	e	h	i	l
+40	1	b	c	e	h	i	k
+41	1	a	d	e	h	i	k
+42	1	a	c	f	h	j	k
+43	1	a	d	f	h	j	l
+44	1	a	c	f	g	j	k
+45	1	a	d	f	g	i	k
+46	1	a	d	e	g	j	l
+=======================================
+Gen: 2,    Agent: 137
+id	typeFreq	A	B	C	D	E	F
+1	330	b	d	f	g	i	k
+2	118	b	d	e	g	i	k
+3	114	b	d	f	g	j	k
+4	93	b	d	f	h	j	k
+5	49	b	d	f	h	i	k
+6	36	a	c	e	h	j	l
+7	27	a	c	e	h	j	k
+8	23	b	c	e	g	i	k
+9	15	b	d	e	h	j	k
+10	13	a	c	f	h	j	l
+11	11	b	c	f	g	i	k
+12	10	a	d	e	h	j	l
+13	9	b	d	f	h	j	l
+14	9	b	d	e	g	j	k
+15	9	a	c	e	g	j	k
+16	9	b	d	f	g	i	l
+17	9	a	d	f	h	j	k
+18	9	a	d	e	h	j	k
+19	7	b	d	e	h	j	l
+20	6	b	d	e	h	i	k
+21	6	a	d	f	g	j	k
+22	6	a	d	f	g	i	k
+23	6	a	d	f	h	j	l
+24	6	b	d	f	g	j	l
+25	5	a	c	f	g	i	k
+26	5	a	d	e	g	i	k
+27	5	a	c	e	g	j	l
+28	5	b	c	e	g	j	k
+29	4	a	d	e	g	j	k
+30	4	b	d	e	g	i	l
+31	4	b	c	e	h	j	l
+32	3	a	c	f	h	j	k
+33	3	b	c	f	h	j	k
+34	3	a	c	f	g	j	k
+35	3	a	d	e	g	j	l
+36	2	b	c	e	g	j	l
+37	2	b	d	e	g	j	l
+38	2	a	c	f	g	j	l
+39	2	b	c	e	h	j	k
+40	2	a	d	f	h	i	k
+41	2	b	d	f	h	i	l
+42	2	a	c	e	h	i	k
+43	1	b	c	f	g	i	l
+44	1	a	d	e	h	i	l
+45	1	a	c	f	g	i	l
+46	1	a	c	f	h	i	k
+47	1	b	c	f	h	i	k
+48	1	b	c	f	g	j	k
+49	1	a	c	e	g	i	k
+50	1	b	d	e	h	i	l
+51	1	a	d	f	h	i	l
+52	1	a	d	e	h	i	k
+53	1	a	c	e	h	i	l
+54	1	b	c	e	h	i	k
+55	1	a	c	e	g	i	l
+=======================================
+Gen: 2,    Agent: 138
+id	typeFreq	A	B	C	D	E	F
+1	276	b	d	e	g	i	k
+2	130	b	d	f	h	j	k
+3	124	b	d	f	g	i	k
+4	111	b	d	f	g	j	k
+5	54	b	d	e	g	j	k
+6	30	a	c	e	h	j	l
+7	29	b	d	e	h	j	k
+8	24	b	c	e	g	i	k
+9	23	b	c	e	h	j	k
+10	20	b	c	f	h	j	k
+11	18	b	c	e	g	j	k
+12	17	b	c	e	h	j	l
+13	16	b	d	e	h	i	k
+14	14	b	d	f	h	i	k
+15	11	b	d	f	g	i	l
+16	8	b	d	f	g	j	l
+17	7	b	c	e	g	j	l
+18	6	b	c	f	g	i	k
+19	6	b	c	f	h	j	l
+20	6	b	d	f	h	j	l
+21	6	a	c	e	h	j	k
+22	5	a	d	e	h	j	k
+23	5	a	d	e	g	j	k
+24	5	b	d	e	h	j	l
+25	5	b	c	f	g	j	k
+26	4	a	c	f	h	j	k
+27	3	a	d	f	h	j	k
+28	3	a	d	e	g	i	k
+29	3	a	d	e	g	i	l
+30	3	a	c	f	h	j	l
+31	3	b	d	f	h	i	l
+32	3	a	c	e	g	j	k
+33	2	b	d	e	g	i	l
+34	2	a	d	e	h	i	k
+35	2	b	d	e	g	j	l
+36	2	a	c	f	g	j	l
+37	2	a	d	f	h	j	l
+38	2	a	d	e	h	j	l
+39	2	a	c	e	h	i	l
+40	1	a	c	e	h	i	k
+41	1	a	c	f	g	i	k
+42	1	a	d	f	g	j	k
+43	1	a	d	f	h	i	l
+44	1	b	c	f	h	i	k
+45	1	b	d	e	h	i	l
+46	1	a	c	e	g	j	l
+47	1	b	c	f	g	j	l
+48	1	b	c	e	h	i	k
+=======================================
+Gen: 2,    Agent: 139
+id	typeFreq	A	B	C	D	E	F
+1	231	b	d	e	g	i	k
+2	170	b	d	f	h	j	k
+3	104	b	d	f	g	i	k
+4	81	b	d	f	g	j	k
+5	53	b	d	f	h	i	k
+6	51	a	c	e	h	j	l
+7	45	b	c	e	g	i	k
+8	34	b	d	e	g	j	k
+9	30	b	c	e	h	j	l
+10	25	b	d	e	h	j	k
+11	18	b	d	e	h	i	k
+12	13	b	c	f	h	j	l
+13	12	a	c	e	h	j	k
+14	11	b	d	f	h	j	l
+15	11	a	d	e	g	i	k
+16	10	b	c	e	h	j	k
+17	8	b	d	e	h	j	l
+18	6	a	d	e	h	j	k
+19	6	a	c	e	g	i	k
+20	6	b	c	f	g	i	k
+21	6	a	d	f	g	j	k
+22	5	b	c	e	h	i	k
+23	5	b	d	f	g	i	l
+24	4	a	d	f	h	j	k
+25	4	b	d	e	g	i	l
+26	4	b	c	e	g	j	k
+27	4	a	c	e	h	i	l
+28	3	a	d	f	g	i	k
+29	3	a	c	e	g	j	k
+30	3	b	c	f	h	j	k
+31	3	a	c	e	g	j	l
+32	3	b	d	f	g	j	l
+33	3	a	d	f	h	j	l
+34	3	b	c	e	h	i	l
+35	2	a	c	f	g	i	k
+36	2	b	d	e	g	j	l
+37	2	a	d	e	g	j	k
+38	2	b	d	f	h	i	l
+39	2	b	c	e	g	j	l
+40	2	b	c	e	g	i	l
+41	1	a	c	e	h	i	k
+42	1	a	d	e	h	i	k
+43	1	a	d	e	g	i	l
+44	1	b	c	f	h	i	l
+45	1	b	c	f	g	j	k
+46	1	a	c	f	h	j	l
+47	1	a	c	f	h	j	k
+48	1	a	c	f	g	j	l
+49	1	a	d	e	h	i	l
+50	1	a	c	e	g	i	l
+51	1	a	d	e	h	j	l
+=======================================
+Gen: 2,    Agent: 140
+id	typeFreq	A	B	C	D	E	F
+1	280	b	d	e	g	i	k
+2	181	b	d	f	h	j	k
+3	73	b	d	f	g	i	k
+4	63	b	d	f	g	j	k
+5	46	b	c	e	h	j	l
+6	42	b	d	e	g	j	k
+7	41	b	d	e	h	j	k
+8	40	b	d	f	h	i	k
+9	38	a	c	e	h	j	l
+10	23	b	d	e	h	i	k
+11	22	b	c	e	g	i	k
+12	20	b	d	e	h	j	l
+13	16	b	d	f	h	j	l
+14	13	b	c	f	h	j	l
+15	9	b	d	f	g	j	l
+16	8	b	c	f	h	j	k
+17	8	b	c	e	h	j	k
+18	7	b	d	e	g	i	l
+19	5	a	d	e	g	i	k
+20	5	a	d	e	h	j	k
+21	5	b	c	e	g	j	l
+22	5	a	d	e	h	j	l
+23	4	a	d	e	g	j	k
+24	4	b	c	e	h	i	l
+25	4	b	d	e	g	j	l
+26	3	a	d	f	h	j	k
+27	3	b	c	e	g	j	k
+28	3	a	c	f	h	j	l
+29	3	b	d	f	g	i	l
+30	3	b	c	f	g	j	k
+31	2	a	c	e	h	j	k
+32	2	a	c	e	g	j	k
+33	2	b	c	e	h	i	k
+34	2	b	c	f	g	i	k
+35	2	b	d	f	h	i	l
+36	2	b	d	e	h	i	l
+37	2	a	c	e	g	j	l
+38	1	a	d	f	g	j	k
+39	1	a	d	e	g	i	l
+40	1	a	d	e	h	i	k
+41	1	a	d	f	h	i	l
+42	1	a	d	f	g	i	k
+43	1	a	c	f	g	i	k
+44	1	a	c	f	g	j	k
+45	1	a	c	f	h	j	k
+46	1	b	c	e	g	i	l
+47	1	a	d	e	g	j	l
+=======================================
+Gen: 2,    Agent: 141
+id	typeFreq	A	B	C	D	E	F
+1	258	b	d	f	g	i	k
+2	165	b	d	f	h	j	k
+3	106	b	d	e	g	i	k
+4	92	b	d	f	h	i	k
+5	77	b	d	f	g	j	k
+6	28	b	c	e	g	i	k
+7	24	a	c	e	h	j	l
+8	19	b	d	e	h	j	k
+9	18	a	d	e	h	j	l
+10	14	b	d	e	h	i	k
+11	14	b	d	e	h	j	l
+12	13	b	d	e	g	j	k
+13	12	b	d	f	h	j	l
+14	12	b	c	f	h	j	l
+15	11	a	c	e	g	j	k
+16	11	b	c	f	g	i	k
+17	11	b	d	f	g	i	l
+18	10	b	c	e	h	j	l
+19	7	a	d	e	h	j	k
+20	7	b	d	e	h	i	l
+21	6	a	c	e	g	i	k
+22	6	b	d	f	g	j	l
+23	6	a	c	e	h	j	k
+24	6	b	c	e	h	j	k
+25	5	b	d	e	g	i	l
+26	5	b	c	e	h	i	k
+27	5	a	d	e	h	i	k
+28	4	b	c	e	g	j	k
+29	4	a	d	f	g	i	k
+30	4	a	d	f	h	j	k
+31	4	b	d	e	g	j	l
+32	4	b	d	f	h	i	l
+33	3	a	d	e	g	i	k
+34	3	a	d	f	h	i	k
+35	3	a	d	f	g	i	l
+36	3	b	c	f	h	j	k
+37	3	b	c	f	g	j	k
+38	2	a	c	f	h	j	k
+39	2	a	d	f	h	j	l
+40	2	a	c	e	h	i	k
+41	2	a	c	e	h	i	l
+42	2	a	d	e	g	j	l
+43	2	a	d	e	g	j	k
+44	1	a	c	f	g	i	k
+45	1	b	c	f	g	i	l
+46	1	b	c	f	h	i	k
+47	1	a	d	e	h	i	l
+48	1	b	c	e	h	i	l
+49	1	a	c	f	h	j	l
+=======================================
+Gen: 2,    Agent: 142
+id	typeFreq	A	B	C	D	E	F
+1	262	b	d	f	g	i	k
+2	139	b	d	e	g	i	k
+3	128	b	d	f	h	j	k
+4	88	b	d	f	g	j	k
+5	60	a	c	e	h	j	l
+6	40	b	c	e	g	i	k
+7	32	b	d	f	h	i	k
+8	23	b	d	f	h	j	l
+9	20	b	d	e	h	j	l
+10	17	b	d	e	g	j	k
+11	17	b	d	f	g	j	l
+12	16	b	c	f	h	j	l
+13	12	b	c	e	h	j	l
+14	10	a	d	e	g	i	k
+15	9	b	c	e	g	j	k
+16	9	b	c	f	g	i	k
+17	9	b	d	f	g	i	l
+18	8	a	d	f	g	i	k
+19	8	a	d	e	h	j	l
+20	7	b	d	e	h	i	k
+21	7	b	d	e	g	i	l
+22	7	b	c	e	h	j	k
+23	6	a	c	e	h	j	k
+24	6	a	c	f	h	j	l
+25	6	b	d	e	h	j	k
+26	5	a	d	f	g	j	k
+27	5	a	c	e	g	j	l
+28	4	a	d	e	h	j	k
+29	3	b	c	f	g	j	k
+30	3	b	c	f	h	j	k
+31	3	b	d	e	g	j	l
+32	2	b	c	e	g	i	l
+33	2	b	c	e	h	i	k
+34	2	a	d	e	g	j	k
+35	2	a	c	e	h	i	l
+36	2	b	d	f	h	i	l
+37	2	a	d	f	h	j	k
+38	2	a	c	e	g	j	k
+39	1	a	d	e	h	i	k
+40	1	a	d	f	g	i	l
+41	1	a	c	f	g	i	k
+42	1	b	d	e	h	i	l
+43	1	b	c	f	h	i	k
+44	1	a	d	f	h	i	l
+45	1	a	d	f	h	i	k
+46	1	a	c	f	h	i	l
+47	1	a	d	e	h	i	l
+48	1	b	c	e	h	i	l
+49	1	b	c	f	g	i	l
+50	1	a	c	e	h	i	k
+51	1	a	d	e	g	j	l
+52	1	b	c	e	g	j	l
+53	1	a	c	e	g	i	l
+54	1	a	c	f	h	i	k
+55	1	a	c	e	g	i	k
+=======================================
+Gen: 2,    Agent: 143
+id	typeFreq	A	B	C	D	E	F
+1	237	b	d	e	g	i	k
+2	200	b	d	f	h	j	k
+3	94	b	d	f	g	j	k
+4	77	b	d	f	g	i	k
+5	60	b	d	e	g	j	k
+6	50	a	c	e	h	j	l
+7	43	b	c	e	g	i	k
+8	42	b	d	f	h	i	k
+9	26	b	d	e	h	j	k
+10	23	a	c	e	h	j	k
+11	12	b	d	f	h	j	l
+12	12	b	c	e	h	j	l
+13	10	b	d	e	h	i	k
+14	8	b	c	e	h	j	k
+15	8	b	d	f	g	j	l
+16	8	b	c	f	h	j	k
+17	7	a	d	e	h	j	k
+18	7	a	c	f	h	j	l
+19	7	a	d	e	h	j	l
+20	5	a	d	f	h	j	k
+21	5	b	c	f	g	i	k
+22	5	b	d	e	g	i	l
+23	5	b	c	f	h	j	l
+24	5	b	d	e	h	j	l
+25	4	a	c	f	h	j	k
+26	4	a	d	f	g	i	k
+27	4	b	c	e	g	j	k
+28	3	a	d	f	g	j	k
+29	3	b	c	f	g	j	k
+30	3	b	d	f	h	i	l
+31	3	a	d	f	h	i	k
+32	3	a	c	e	g	j	k
+33	3	b	c	e	h	i	k
+34	2	b	c	e	g	j	l
+35	2	b	c	f	h	i	k
+36	2	b	d	f	g	i	l
+37	2	b	d	e	g	j	l
+38	1	a	d	e	h	i	k
+39	1	b	c	e	g	i	l
+40	1	a	d	e	g	i	k
+41	1	b	d	e	h	i	l
+42	1	a	d	e	g	j	k
+43	1	a	d	f	g	i	l
+44	1	b	c	f	g	j	l
+=======================================
+Gen: 2,    Agent: 144
+id	typeFreq	A	B	C	D	E	F
+1	304	b	d	e	g	i	k
+2	234	b	d	f	h	j	k
+3	80	b	d	f	g	i	k
+4	56	b	d	f	g	j	k
+5	55	b	d	f	h	i	k
+6	36	b	d	e	g	j	k
+7	36	b	c	e	g	i	k
+8	35	b	d	e	h	j	k
+9	32	b	d	e	h	i	k
+10	16	b	d	f	h	j	l
+11	11	b	d	e	h	i	l
+12	10	b	d	e	h	j	l
+13	9	a	d	f	h	j	k
+14	7	b	c	e	h	i	k
+15	7	b	d	f	h	i	l
+16	6	a	d	e	g	i	k
+17	6	a	d	e	h	j	k
+18	6	b	c	f	h	j	k
+19	5	a	c	e	g	i	k
+20	4	b	d	e	g	j	l
+21	4	b	d	f	g	j	l
+22	4	b	d	f	g	i	l
+23	3	a	d	e	h	j	l
+24	3	a	d	e	h	i	k
+25	2	a	d	f	h	i	k
+26	2	a	d	e	g	j	l
+27	2	a	d	f	g	j	k
+28	2	a	d	f	h	j	l
+29	2	b	d	e	g	i	l
+30	2	a	c	e	h	j	l
+31	2	b	c	e	h	j	k
+32	2	b	c	e	g	j	k
+33	2	a	c	e	g	j	l
+34	1	b	c	f	g	i	k
+35	1	a	d	f	g	i	k
+36	1	b	c	f	h	i	k
+37	1	a	c	e	h	i	l
+38	1	a	d	e	h	i	l
+39	1	a	c	e	g	j	k
+40	1	b	c	f	h	i	l
+41	1	a	c	f	h	j	k
+42	1	a	c	e	h	i	k
+43	1	b	c	e	h	j	l
+44	1	a	d	f	h	i	l
+45	1	a	c	e	h	j	k
+46	1	a	d	e	g	j	k
+47	1	a	c	f	g	j	l
+=======================================
+Gen: 2,    Agent: 145
+id	typeFreq	A	B	C	D	E	F
+1	232	b	d	e	g	i	k
+2	168	b	d	f	h	j	k
+3	108	b	d	f	g	i	k
+4	101	b	d	f	g	j	k
+5	53	b	d	e	g	j	k
+6	46	a	c	e	h	j	l
+7	26	b	d	f	h	i	k
+8	20	b	d	e	h	j	k
+9	19	a	d	e	h	j	k
+10	18	b	c	e	g	i	k
+11	15	a	d	e	h	j	l
+12	14	a	c	e	h	j	k
+13	13	b	d	f	h	j	l
+14	12	a	d	f	h	j	k
+15	12	a	d	e	g	j	k
+16	12	a	d	f	g	j	k
+17	10	b	d	e	h	i	k
+18	10	a	c	e	g	j	l
+19	9	a	d	e	g	i	k
+20	9	b	c	e	g	j	k
+21	9	a	c	f	h	j	l
+22	8	b	d	f	g	j	l
+23	7	a	d	f	h	j	l
+24	6	b	c	e	h	j	k
+25	6	b	d	e	g	j	l
+26	5	a	d	f	h	i	k
+27	5	b	d	e	h	j	l
+28	5	a	c	e	g	j	k
+29	4	b	c	f	g	i	k
+30	4	b	d	e	g	i	l
+31	4	b	c	f	h	j	k
+32	3	b	c	e	g	j	l
+33	3	b	c	f	h	j	l
+34	3	a	d	f	g	j	l
+35	3	b	c	f	h	i	k
+36	2	a	c	e	h	i	k
+37	2	b	d	f	g	i	l
+38	2	b	c	e	h	j	l
+39	2	b	d	f	h	i	l
+40	2	a	c	f	h	j	k
+41	2	a	d	f	g	i	k
+42	2	a	d	e	h	i	k
+43	1	b	c	f	g	j	k
+44	1	b	c	f	h	i	l
+45	1	a	d	f	h	i	l
+46	1	a	d	e	g	j	l
+47	1	a	c	f	g	j	l
+=======================================
+Gen: 2,    Agent: 146
+id	typeFreq	A	B	C	D	E	F
+1	249	b	d	e	g	i	k
+2	167	b	d	f	h	j	k
+3	109	b	d	f	g	i	k
+4	93	b	d	f	g	j	k
+5	40	b	d	e	g	j	k
+6	38	a	c	e	h	j	l
+7	34	b	d	f	h	i	k
+8	30	b	c	e	g	i	k
+9	24	b	d	e	h	j	k
+10	16	b	d	e	h	i	k
+11	14	b	d	f	h	j	l
+12	12	b	c	f	h	j	l
+13	11	b	d	e	h	j	l
+14	10	b	c	e	h	j	k
+15	10	b	c	e	h	j	l
+16	10	a	d	e	h	j	l
+17	9	b	c	f	g	i	k
+18	9	a	d	e	g	i	k
+19	9	a	c	e	h	j	k
+20	8	b	c	e	g	j	k
+21	7	b	d	e	g	j	l
+22	6	a	d	f	h	j	k
+23	6	a	c	e	g	j	k
+24	6	b	d	e	g	i	l
+25	6	b	d	f	g	j	l
+26	6	a	d	e	h	j	k
+27	6	a	c	e	g	j	l
+28	6	b	c	e	g	j	l
+29	5	a	d	e	g	j	k
+30	4	b	d	f	g	i	l
+31	4	b	d	f	h	i	l
+32	3	b	c	f	g	j	k
+33	3	a	d	f	h	i	k
+34	3	b	c	e	h	i	k
+35	3	b	c	f	h	j	k
+36	2	a	c	e	g	i	k
+37	2	a	d	f	g	i	k
+38	2	a	d	e	h	i	k
+39	2	b	c	f	h	i	k
+40	2	a	d	f	h	j	l
+41	2	a	d	f	g	j	k
+42	2	a	d	e	g	j	l
+43	1	b	d	e	h	i	l
+44	1	a	d	f	h	i	l
+45	1	b	c	f	h	i	l
+46	1	a	d	f	g	j	l
+47	1	a	c	f	g	j	k
+48	1	a	c	f	h	j	l
+49	1	a	c	e	h	i	l
+50	1	a	d	e	h	i	l
+51	1	a	c	e	h	i	k
+52	1	b	c	e	h	i	l
+53	1	a	c	f	h	j	k
+=======================================
+Gen: 2,    Agent: 147
+id	typeFreq	A	B	C	D	E	F
+1	368	b	d	e	g	i	k
+2	132	b	d	f	h	j	k
+3	76	b	d	f	g	i	k
+4	62	b	d	f	g	j	k
+5	49	b	d	e	g	j	k
+6	38	a	d	e	h	j	l
+7	34	b	d	e	h	j	k
+8	29	b	d	e	h	i	k
+9	24	b	d	f	h	j	l
+10	24	b	d	f	h	i	k
+11	15	a	d	e	h	j	k
+12	15	b	d	e	h	j	l
+13	12	b	c	e	g	i	k
+14	12	a	c	e	h	j	l
+15	9	a	d	e	g	i	k
+16	9	b	d	e	g	j	l
+17	8	a	d	e	g	j	k
+18	8	b	c	e	h	j	k
+19	7	b	d	f	h	i	l
+20	6	b	d	e	g	i	l
+21	5	b	d	f	g	i	l
+22	5	b	c	e	g	j	k
+23	5	a	d	f	h	j	l
+24	4	b	d	e	h	i	l
+25	4	b	d	f	g	j	l
+26	4	b	c	e	h	j	l
+27	4	a	c	e	h	j	k
+28	3	a	d	f	g	i	k
+29	3	a	c	e	g	j	l
+30	3	a	d	e	h	i	k
+31	3	b	c	f	g	j	k
+32	3	a	d	e	h	i	l
+33	2	a	d	f	h	j	k
+34	2	b	c	f	h	j	l
+35	2	a	d	f	g	j	k
+36	2	b	c	e	g	i	l
+37	1	a	c	f	h	j	l
+38	1	a	d	e	g	i	l
+39	1	b	c	f	g	i	k
+40	1	a	c	f	g	i	k
+41	1	b	c	f	h	j	k
+42	1	b	c	e	g	j	l
+43	1	a	c	e	g	j	k
+44	1	a	c	e	h	i	k
+45	1	b	c	e	h	i	l
+46	1	b	c	f	h	i	k
+=======================================
+Gen: 2,    Agent: 148
+id	typeFreq	A	B	C	D	E	F
+1	250	b	d	e	g	i	k
+2	149	b	d	f	g	j	k
+3	142	b	d	f	g	i	k
+4	127	b	d	f	h	j	k
+5	51	a	d	e	h	j	l
+6	36	b	d	e	g	j	k
+7	23	b	d	f	h	i	k
+8	17	a	d	f	h	j	l
+9	16	b	d	f	h	j	l
+10	16	b	d	e	h	i	k
+11	16	a	d	e	h	j	k
+12	13	b	d	e	h	j	k
+13	13	a	d	e	g	j	k
+14	11	a	d	f	g	j	k
+15	10	a	d	f	h	j	k
+16	10	b	d	f	g	j	l
+17	9	b	d	e	h	j	l
+18	8	a	d	e	g	i	k
+19	7	b	c	e	g	i	k
+20	6	b	c	e	g	j	k
+21	5	a	d	f	g	i	k
+22	5	b	d	f	g	i	l
+23	5	a	c	e	h	j	l
+24	4	a	c	e	h	i	k
+25	4	a	c	f	h	j	l
+26	4	a	c	e	h	j	k
+27	3	b	d	e	g	i	l
+28	3	b	d	e	g	j	l
+29	3	a	d	e	h	i	l
+30	3	a	d	e	h	i	k
+31	3	a	c	e	h	i	l
+32	3	a	d	e	g	j	l
+33	2	a	d	e	g	i	l
+34	2	b	c	f	g	i	k
+35	2	b	c	f	g	j	k
+36	2	b	c	e	h	j	k
+37	2	b	d	f	h	i	l
+38	2	b	c	e	h	j	l
+39	1	a	c	e	g	i	l
+40	1	b	c	e	h	i	k
+41	1	b	c	e	h	i	l
+42	1	a	c	f	g	j	k
+43	1	a	c	f	h	j	k
+44	1	a	d	f	h	i	l
+45	1	b	c	f	g	j	l
+46	1	a	d	f	h	i	k
+47	1	b	d	e	h	i	l
+48	1	a	c	f	h	i	l
+49	1	b	c	e	g	j	l
+50	1	a	d	f	g	j	l
+51	1	b	c	f	h	j	l
+52	1	a	c	e	g	j	k
+=======================================
+Gen: 2,    Agent: 149
+id	typeFreq	A	B	C	D	E	F
+1	272	b	d	e	g	i	k
+2	170	b	d	f	h	j	k
+3	133	b	d	f	g	i	k
+4	85	b	d	f	g	j	k
+5	52	b	d	f	h	i	k
+6	35	b	d	e	g	j	k
+7	31	b	d	f	h	j	l
+8	27	a	d	e	h	j	l
+9	26	b	d	e	h	j	k
+10	23	b	d	e	h	i	k
+11	23	b	d	e	h	j	l
+12	11	a	d	e	g	i	k
+13	11	b	c	e	g	i	k
+14	10	a	d	e	h	j	k
+15	7	a	d	f	g	i	k
+16	6	a	d	e	g	j	k
+17	6	b	d	e	g	i	l
+18	6	b	c	f	g	i	k
+19	6	b	d	e	g	j	l
+20	6	b	d	f	h	i	l
+21	5	a	c	e	h	i	k
+22	5	a	d	f	h	j	k
+23	4	b	c	e	g	j	k
+24	3	a	c	e	g	i	k
+25	3	a	d	f	g	j	l
+26	3	b	c	f	h	j	l
+27	2	b	c	e	h	j	k
+28	2	a	d	f	h	i	k
+29	2	b	c	f	g	j	k
+30	2	a	c	f	h	j	l
+31	2	a	d	f	h	j	l
+32	2	b	d	f	g	i	l
+33	2	b	c	e	h	j	l
+34	2	a	d	f	h	i	l
+35	2	a	c	e	g	j	k
+36	2	a	d	e	g	j	l
+37	2	a	d	e	h	i	k
+38	1	a	c	f	g	i	k
+39	1	b	d	f	g	j	l
+40	1	b	c	f	h	i	k
+41	1	a	d	f	g	i	l
+42	1	b	c	f	h	j	k
+43	1	b	d	e	h	i	l
+44	1	b	c	e	h	i	l
+45	1	a	c	e	h	i	l
+46	1	a	c	e	h	j	l
+47	1	b	c	e	h	i	k
+===============================================================================
+===============================================================================
+Generation 3
+===============================================================================
+===============================================================================
+=======================================
+Gen: 3,    Agent: 150
+id	typeFreq	A	B	C	D	E	F
+1	671	b	d	f	g	i	k
+2	64	b	d	e	h	j	k
+3	52	b	d	f	g	j	k
+4	51	b	d	f	h	i	k
+5	46	b	d	f	h	j	k
+6	34	a	d	e	h	j	k
+7	26	b	d	e	g	i	k
+8	12	b	d	e	h	i	k
+9	7	b	d	e	g	j	k
+10	7	a	c	e	h	j	k
+11	6	a	d	f	g	i	k
+12	3	b	c	f	g	i	k
+13	3	b	d	e	h	j	l
+14	3	a	d	f	h	j	k
+15	2	a	d	f	g	j	k
+16	2	b	c	e	h	j	k
+17	2	a	d	e	g	j	k
+18	2	b	c	f	h	i	k
+19	1	b	d	e	g	i	l
+20	1	b	d	f	g	i	l
+21	1	a	c	f	g	j	k
+22	1	b	d	e	h	i	l
+23	1	b	d	f	h	j	l
+24	1	a	d	f	h	i	k
+25	1	a	d	e	h	i	k
+=======================================
+Gen: 3,    Agent: 151
+id	typeFreq	A	B	C	D	E	F
+1	421	b	d	e	g	i	k
+2	281	b	d	e	h	j	k
+3	109	b	d	e	g	j	k
+4	92	b	d	e	h	i	k
+5	51	b	d	f	h	j	k
+6	19	b	d	f	g	i	k
+7	11	b	d	f	g	j	k
+8	8	b	d	f	h	i	k
+9	4	b	d	e	h	j	l
+10	1	b	d	e	g	j	l
+11	1	a	d	f	g	i	k
+12	1	b	c	f	g	j	k
+13	1	a	d	f	h	j	k
+=======================================
+Gen: 3,    Agent: 152
+id	typeFreq	A	B	C	D	E	F
+1	331	b	d	e	g	i	k
+2	204	b	d	e	h	j	k
+3	197	b	d	f	h	j	k
+4	97	b	d	e	h	i	k
+5	91	b	d	e	g	j	k
+6	28	b	d	f	h	i	k
+7	25	b	d	f	g	j	k
+8	17	b	d	f	g	i	k
+9	4	a	d	e	h	j	k
+10	2	b	d	e	g	i	l
+11	1	b	d	e	h	i	l
+12	1	a	d	e	g	j	k
+13	1	a	d	e	h	i	l
+14	1	b	d	e	h	j	l
+15	1	b	d	e	g	j	l
+=======================================
+Gen: 3,    Agent: 153
+id	typeFreq	A	B	C	D	E	F
+1	346	b	d	e	g	i	k
+2	227	b	d	f	h	j	k
+3	136	b	d	e	h	j	k
+4	122	b	d	e	h	i	k
+5	67	b	d	e	g	j	k
+6	46	b	d	f	h	i	k
+7	29	b	d	f	g	i	k
+8	23	b	d	f	g	j	k
+9	1	b	c	e	g	j	k
+10	1	b	c	e	h	i	k
+11	1	a	d	f	h	j	k
+12	1	b	c	e	g	i	k
+13	1	b	d	e	g	j	l
+=======================================
+Gen: 3,    Agent: 154
+id	typeFreq	A	B	C	D	E	F
+1	337	b	d	e	g	i	k
+2	155	b	d	f	h	j	k
+3	134	b	d	e	h	j	k
+4	113	b	d	f	g	i	k
+5	71	b	d	f	g	j	k
+6	63	b	d	e	g	j	k
+7	52	b	d	e	h	i	k
+8	45	b	d	f	h	i	k
+9	22	b	c	e	h	j	k
+10	2	b	c	e	g	i	k
+11	1	a	d	e	h	i	k
+12	1	a	d	f	g	j	k
+13	1	b	d	f	g	i	l
+14	1	b	c	f	h	i	k
+15	1	b	c	e	g	j	k
+16	1	b	c	f	h	j	k
+17	1	a	c	e	h	i	k
+=======================================
+Gen: 3,    Agent: 155
+id	typeFreq	A	B	C	D	E	F
+1	418	b	d	e	g	i	k
+2	188	b	d	e	h	j	k
+3	126	b	d	f	h	j	k
+4	109	b	d	e	h	i	k
+5	88	b	d	e	g	j	k
+6	24	b	d	f	g	i	k
+7	22	b	d	f	g	j	k
+8	19	b	d	f	h	i	k
+9	2	b	c	e	h	j	k
+10	1	a	d	f	h	i	k
+11	1	b	c	e	h	i	k
+12	1	b	d	e	h	i	l
+13	1	b	c	e	g	j	k
+14	1	b	c	f	h	i	k
+=======================================
+Gen: 3,    Agent: 156
+id	typeFreq	A	B	C	D	E	F
+1	369	b	d	e	g	i	k
+2	180	b	d	f	h	j	k
+3	167	b	d	e	h	j	k
+4	87	b	d	e	g	j	k
+5	70	b	d	e	h	i	k
+6	47	b	d	f	h	i	k
+7	40	b	d	f	g	i	k
+8	29	b	d	f	g	j	k
+9	5	b	d	e	h	j	l
+10	2	a	d	e	h	i	k
+11	1	b	d	e	h	i	l
+12	1	b	d	f	g	i	l
+13	1	a	d	f	h	j	k
+14	1	a	d	e	h	j	k
+15	1	b	d	f	h	j	l
+=======================================
+Gen: 3,    Agent: 157
+id	typeFreq	A	B	C	D	E	F
+1	381	b	d	e	g	i	k
+2	177	b	d	f	h	j	k
+3	137	b	d	e	h	j	k
+4	86	b	d	e	h	i	k
+5	78	b	d	e	g	j	k
+6	51	b	d	f	g	i	k
+7	46	b	d	f	h	i	k
+8	36	b	d	f	g	j	k
+9	3	b	c	e	h	i	k
+10	2	a	d	e	h	j	k
+11	1	a	d	f	g	i	k
+12	1	a	d	f	g	j	k
+13	1	b	c	e	g	i	k
+14	1	a	d	e	g	i	l
+=======================================
+Gen: 3,    Agent: 158
+id	typeFreq	A	B	C	D	E	F
+1	378	b	d	e	g	i	k
+2	184	b	d	f	h	j	k
+3	150	b	d	e	h	j	k
+4	131	b	d	e	g	j	k
+5	78	b	d	e	h	i	k
+6	34	b	d	f	g	j	k
+7	21	b	d	f	h	i	k
+8	20	b	d	f	g	i	k
+9	3	a	d	e	g	j	k
+10	1	b	d	e	h	i	l
+11	1	b	d	e	h	j	l
+=======================================
+Gen: 3,    Agent: 159
+id	typeFreq	A	B	C	D	E	F
+1	382	b	d	e	g	i	k
+2	219	b	d	e	h	j	k
+3	137	b	d	f	h	j	k
+4	110	b	d	e	h	i	k
+5	78	b	d	e	g	j	k
+6	25	b	d	f	h	i	k
+7	24	b	d	f	g	j	k
+8	18	b	d	f	g	i	k
+9	5	b	d	e	h	j	l
+10	2	b	c	e	h	j	k
+11	1	b	c	e	g	j	k
+=======================================
+Gen: 3,    Agent: 160
+id	typeFreq	A	B	C	D	E	F
+1	348	b	d	f	g	i	k
+2	251	b	d	e	g	i	k
+3	101	b	d	e	h	j	k
+4	71	b	d	f	h	i	k
+5	68	b	d	f	h	j	k
+6	46	b	d	e	h	i	k
+7	37	b	d	f	g	j	k
+8	25	b	d	e	g	j	k
+9	18	b	c	e	h	j	k
+10	9	a	c	e	h	j	k
+11	3	b	c	f	h	j	k
+12	3	a	d	e	h	j	k
+13	3	b	c	f	h	i	k
+14	3	b	c	e	h	j	l
+15	2	a	d	e	h	i	k
+16	2	b	d	e	h	j	l
+17	1	b	c	f	g	j	k
+18	1	b	d	f	h	j	l
+19	1	b	d	f	g	j	l
+20	1	b	d	e	h	i	l
+21	1	b	c	f	g	i	k
+22	1	a	d	e	g	i	k
+23	1	b	c	e	g	i	k
+24	1	b	c	e	h	i	k
+25	1	a	d	e	h	j	l
+26	1	a	d	f	h	i	k
+=======================================
+Gen: 3,    Agent: 161
+id	typeFreq	A	B	C	D	E	F
+1	415	b	d	e	g	i	k
+2	235	b	d	e	h	j	k
+3	97	b	d	f	h	j	k
+4	94	b	d	e	h	i	k
+5	84	b	d	e	g	j	k
+6	26	b	d	f	g	j	k
+7	22	b	d	f	g	i	k
+8	14	b	d	f	h	i	k
+9	7	a	d	e	h	j	k
+10	1	a	d	f	g	i	k
+11	1	b	d	f	g	i	l
+12	1	a	d	e	h	i	k
+13	1	a	d	f	h	i	k
+14	1	a	d	e	g	i	k
+15	1	a	d	e	g	j	k
+16	1	b	d	f	h	j	l
+=======================================
+Gen: 3,    Agent: 162
+id	typeFreq	A	B	C	D	E	F
+1	443	b	d	e	g	i	k
+2	261	b	d	e	h	j	k
+3	103	b	d	e	g	j	k
+4	91	b	d	e	h	i	k
+5	36	b	d	f	h	j	k
+6	20	b	d	f	g	i	k
+7	15	b	d	f	g	j	k
+8	9	b	d	f	h	i	k
+9	8	a	d	e	h	j	k
+10	4	b	c	e	g	i	k
+11	3	b	c	e	h	j	k
+12	3	a	d	f	h	j	k
+13	2	b	d	e	h	i	l
+14	1	a	d	e	h	i	k
+15	1	a	d	e	g	j	k
+16	1	b	d	e	g	j	l
+=======================================
+Gen: 3,    Agent: 163
+id	typeFreq	A	B	C	D	E	F
+1	507	b	d	e	g	i	k
+2	197	b	d	e	g	j	k
+3	138	b	d	e	h	j	k
+4	45	b	d	e	h	i	k
+5	28	b	c	e	h	j	k
+6	26	b	d	f	g	j	k
+7	21	b	d	f	g	i	k
+8	7	b	d	f	h	j	k
+9	7	b	d	f	h	i	k
+10	6	a	d	e	g	i	k
+11	6	b	c	e	g	j	k
+12	3	b	c	e	g	i	k
+13	2	a	d	e	h	j	k
+14	1	b	d	e	h	i	l
+15	1	b	c	f	g	i	k
+16	1	b	c	e	h	i	l
+17	1	a	d	e	g	j	k
+18	1	a	d	f	g	j	k
+19	1	b	c	e	h	i	k
+20	1	b	c	f	g	j	k
+21	1	b	d	e	h	j	l
+=======================================
+Gen: 3,    Agent: 164
+id	typeFreq	A	B	C	D	E	F
+1	439	b	d	e	g	i	k
+2	137	b	d	e	h	j	k
+3	118	b	d	f	g	j	k
+4	108	b	d	e	g	j	k
+5	74	b	d	f	g	i	k
+6	44	b	d	f	h	j	k
+7	40	b	d	e	h	i	k
+8	24	b	d	f	h	i	k
+9	3	a	d	e	g	i	k
+10	3	a	d	e	h	j	k
+11	2	a	d	e	g	j	k
+12	2	b	d	e	g	i	l
+13	1	b	d	e	h	j	l
+14	1	b	d	e	g	j	l
+15	1	b	c	f	h	i	k
+16	1	b	c	e	g	i	k
+17	1	b	c	f	g	i	k
+18	1	a	c	e	g	j	k
+19	1	a	d	f	h	j	k
+=======================================
+Gen: 3,    Agent: 165
+id	typeFreq	A	B	C	D	E	F
+1	396	b	d	e	g	i	k
+2	222	b	d	e	h	j	k
+3	117	b	d	e	h	i	k
+4	98	b	d	e	g	j	k
+5	76	b	d	f	h	j	k
+6	32	b	d	f	h	i	k
+7	27	b	d	f	g	i	k
+8	25	b	d	f	g	j	k
+9	2	b	d	e	h	j	l
+10	1	a	d	e	g	i	k
+11	1	b	c	e	g	i	k
+12	1	a	d	e	g	j	k
+13	1	b	d	f	h	j	l
+14	1	b	c	e	h	i	k
+15	1	a	d	e	h	j	k
+=======================================
+Gen: 3,    Agent: 166
+id	typeFreq	A	B	C	D	E	F
+1	428	b	d	e	g	i	k
+2	287	b	d	e	h	j	k
+3	101	b	d	e	g	j	k
+4	96	b	d	e	h	i	k
+5	21	b	d	f	h	j	k
+6	19	b	d	f	g	i	k
+7	14	b	d	f	g	j	k
+8	12	b	d	f	h	i	k
+9	4	b	d	e	g	i	l
+10	3	a	d	e	g	i	k
+11	2	b	c	e	g	i	k
+12	2	b	d	e	h	j	l
+13	2	b	c	e	h	j	k
+14	2	a	d	e	h	j	k
+15	2	a	d	e	h	j	l
+16	1	a	d	f	g	i	k
+17	1	a	d	e	h	i	k
+18	1	b	c	e	h	i	k
+19	1	b	c	f	h	j	k
+20	1	b	d	e	h	i	l
+=======================================
+Gen: 3,    Agent: 167
+id	typeFreq	A	B	C	D	E	F
+1	434	b	d	e	g	i	k
+2	274	b	d	e	h	j	k
+3	111	b	d	e	h	i	k
+4	79	b	d	e	g	j	k
+5	36	b	d	f	h	j	k
+6	22	b	d	f	g	i	k
+7	16	b	d	f	g	j	k
+8	14	b	d	f	h	i	k
+9	2	b	d	e	g	j	l
+10	2	b	d	e	g	i	l
+11	2	b	c	e	g	i	k
+12	2	b	c	e	h	i	k
+13	1	b	d	e	h	i	l
+14	1	b	c	e	h	j	l
+15	1	b	c	f	h	i	k
+16	1	a	d	e	g	i	k
+17	1	b	c	e	g	j	k
+18	1	a	d	e	g	j	l
+19	1	a	c	e	h	j	k
+=======================================
+Gen: 3,    Agent: 168
+id	typeFreq	A	B	C	D	E	F
+1	279	b	d	e	g	i	k
+2	259	b	d	f	g	i	k
+3	109	b	d	f	g	j	k
+4	103	b	d	e	h	j	k
+5	66	b	d	f	h	i	k
+6	58	b	d	f	h	j	k
+7	40	b	d	e	g	j	k
+8	30	a	d	e	h	j	k
+9	24	b	d	e	h	i	k
+10	5	b	c	e	h	j	k
+11	3	b	d	e	h	j	l
+12	3	a	d	f	g	i	k
+13	2	b	c	f	g	j	k
+14	2	b	d	f	g	i	l
+15	2	b	d	f	h	j	l
+16	2	a	d	e	h	j	l
+17	2	a	d	e	g	j	k
+18	1	a	c	e	h	j	k
+19	1	a	d	e	g	i	l
+20	1	b	c	e	g	j	k
+21	1	b	d	e	h	i	l
+22	1	b	d	e	g	i	l
+23	1	a	d	f	h	i	k
+24	1	b	c	f	g	i	k
+25	1	b	c	e	h	i	k
+26	1	b	d	f	h	i	l
+27	1	a	d	e	g	i	k
+28	1	a	d	f	h	j	k
+29	1	b	c	f	h	j	k
+=======================================
+Gen: 3,    Agent: 169
+id	typeFreq	A	B	C	D	E	F
+1	402	b	d	e	g	i	k
+2	234	b	d	e	h	j	k
+3	90	b	d	e	g	j	k
+4	82	b	d	f	h	j	k
+5	58	b	d	e	h	i	k
+6	53	b	d	f	g	i	k
+7	31	b	d	f	g	j	k
+8	25	b	d	f	h	i	k
+9	6	b	d	e	h	j	l
+10	5	b	d	e	g	j	l
+11	3	b	d	f	h	i	l
+12	3	a	d	e	h	j	l
+13	1	a	d	e	g	i	k
+14	1	a	d	e	h	j	k
+15	1	a	d	f	g	j	k
+16	1	b	c	e	h	i	k
+17	1	b	c	e	g	i	k
+18	1	b	d	f	h	j	l
+19	1	a	d	f	h	i	k
+20	1	b	c	e	h	j	k
+21	1	a	d	e	g	j	k
+=======================================
+Gen: 3,    Agent: 170
+id	typeFreq	A	B	C	D	E	F
+1	459	b	d	e	g	i	k
+2	205	b	d	e	h	j	k
+3	124	b	d	e	h	i	k
+4	75	b	d	f	h	j	k
+5	50	b	d	e	g	j	k
+6	26	b	d	f	g	i	k
+7	24	b	d	f	h	i	k
+8	19	b	d	f	g	j	k
+9	9	a	d	e	h	j	k
+10	2	b	d	e	g	i	l
+11	2	a	d	e	g	i	k
+12	2	a	d	e	h	i	k
+13	2	a	d	f	h	j	k
+14	1	b	d	e	h	i	l
+15	1	b	d	e	h	j	l
+=======================================
+Gen: 3,    Agent: 171
+id	typeFreq	A	B	C	D	E	F
+1	433	b	d	e	g	i	k
+2	211	b	d	e	h	j	k
+3	122	b	d	e	h	i	k
+4	82	b	d	e	g	j	k
+5	70	b	d	f	h	j	k
+6	29	b	d	f	g	i	k
+7	24	b	d	f	h	i	k
+8	21	b	d	f	g	j	k
+9	2	b	c	e	h	j	k
+10	2	b	d	e	h	j	l
+11	1	a	d	f	g	i	k
+12	1	b	d	e	g	j	l
+13	1	b	d	f	h	j	l
+14	1	b	d	e	h	i	l
+15	1	b	d	f	h	i	l
+=======================================
+Gen: 3,    Agent: 172
+id	typeFreq	A	B	C	D	E	F
+1	487	b	d	e	g	i	k
+2	230	b	d	e	h	j	k
+3	114	b	d	e	g	j	k
+4	95	b	d	e	h	i	k
+5	22	b	d	f	g	i	k
+6	16	b	d	f	h	j	k
+7	14	b	d	f	g	j	k
+8	10	b	d	e	h	j	l
+9	6	b	d	f	h	i	k
+10	3	b	d	e	g	i	l
+11	1	a	d	e	g	j	k
+12	1	b	d	f	h	j	l
+13	1	b	c	e	h	j	k
+14	1	a	d	e	h	j	k
+=======================================
+Gen: 3,    Agent: 173
+id	typeFreq	A	B	C	D	E	F
+1	439	b	d	e	g	i	k
+2	154	b	d	e	h	j	k
+3	137	b	d	f	h	j	k
+4	93	b	d	e	g	j	k
+5	60	b	d	e	h	i	k
+6	39	b	d	f	g	i	k
+7	35	b	d	f	g	j	k
+8	26	b	d	f	h	i	k
+9	5	a	d	e	h	j	k
+10	3	a	d	e	g	j	k
+11	3	a	d	f	h	j	k
+12	1	a	d	e	g	i	k
+13	1	b	d	e	h	i	l
+14	1	b	d	e	g	i	l
+15	1	a	d	f	h	i	k
+16	1	a	d	f	g	i	k
+17	1	b	d	f	g	i	l
+18	1	b	d	f	h	j	l
+=======================================
+Gen: 3,    Agent: 174
+id	typeFreq	A	B	C	D	E	F
+1	353	b	d	e	g	i	k
+2	210	b	d	e	h	j	k
+3	148	b	d	f	h	j	k
+4	92	b	d	e	g	j	k
+5	77	b	d	e	h	i	k
+6	40	b	d	f	g	i	k
+7	39	b	d	f	h	i	k
+8	19	b	d	f	g	j	k
+9	13	b	c	e	h	j	k
+10	3	b	d	e	h	j	l
+11	2	b	c	e	g	i	k
+12	2	a	d	f	h	i	k
+13	1	b	c	e	h	i	k
+14	1	b	c	f	h	i	k
+15	1	b	c	e	g	j	k
+=======================================
+Gen: 3,    Agent: 175
+id	typeFreq	A	B	C	D	E	F
+1	362	b	d	e	g	i	k
+2	198	b	d	e	h	j	k
+3	157	b	d	f	h	j	k
+4	82	b	d	e	g	j	k
+5	70	b	d	e	h	i	k
+6	45	b	d	f	g	i	k
+7	38	b	d	f	h	i	k
+8	28	b	d	f	g	j	k
+9	5	b	d	e	h	j	l
+10	3	b	d	e	g	j	l
+11	3	a	d	e	h	j	k
+12	2	a	d	e	h	i	k
+13	1	b	d	e	h	i	l
+14	1	b	d	e	g	i	l
+15	1	a	d	e	g	j	k
+16	1	b	c	f	g	i	k
+17	1	b	d	f	g	i	l
+18	1	a	d	f	h	j	k
+19	1	a	d	e	g	i	k
+=======================================
+Gen: 3,    Agent: 176
+id	typeFreq	A	B	C	D	E	F
+1	399	b	d	e	g	i	k
+2	295	b	d	e	h	j	k
+3	118	b	d	e	h	i	k
+4	87	b	d	e	g	j	k
+5	30	b	d	f	h	j	k
+6	15	b	d	f	g	i	k
+7	13	b	d	f	g	j	k
+8	12	b	d	f	h	i	k
+9	11	b	d	e	h	j	l
+10	3	b	d	e	g	i	l
+11	3	b	c	f	g	i	k
+12	3	b	c	e	h	j	k
+13	2	b	c	e	g	j	k
+14	2	b	c	e	g	i	k
+15	2	b	c	e	h	i	k
+16	1	b	d	e	h	i	l
+17	1	b	c	f	h	i	k
+18	1	a	d	e	g	i	k
+19	1	a	d	e	h	i	k
+20	1	a	d	e	h	j	k
+=======================================
+Gen: 3,    Agent: 177
+id	typeFreq	A	B	C	D	E	F
+1	475	b	d	e	g	i	k
+2	259	b	d	e	h	j	k
+3	105	b	d	e	g	j	k
+4	82	b	d	e	h	i	k
+5	22	b	d	f	g	j	k
+6	19	b	d	f	g	i	k
+7	12	b	d	f	h	j	k
+8	10	b	d	f	h	i	k
+9	5	a	d	e	h	j	k
+10	4	b	d	e	g	i	l
+11	3	a	d	e	g	i	k
+12	2	b	d	e	g	j	l
+13	1	a	d	f	h	i	l
+14	1	b	d	e	h	j	l
+15	1	a	d	e	h	i	k
+=======================================
+Gen: 3,    Agent: 178
+id	typeFreq	A	B	C	D	E	F
+1	404	b	d	f	g	i	k
+2	134	b	d	f	h	j	k
+3	108	b	d	e	h	j	k
+4	102	b	d	f	h	i	k
+5	83	b	d	e	g	i	k
+6	70	b	d	f	g	j	k
+7	26	b	d	e	g	j	k
+8	24	b	d	e	h	i	k
+9	14	b	c	e	h	j	l
+10	9	b	c	e	h	j	k
+11	6	b	d	e	h	j	l
+12	4	a	d	f	h	j	k
+13	3	b	c	e	g	i	k
+14	3	b	d	f	h	j	l
+15	2	a	d	e	h	j	k
+16	1	b	d	f	g	i	l
+17	1	b	d	e	g	j	l
+18	1	b	d	e	g	i	l
+19	1	b	c	f	g	i	k
+20	1	a	d	e	h	i	k
+21	1	a	d	f	h	i	k
+22	1	b	c	f	h	i	k
+23	1	b	d	f	h	i	l
+24	1	b	c	f	h	j	k
+=======================================
+Gen: 3,    Agent: 179
+id	typeFreq	A	B	C	D	E	F
+1	448	b	d	f	g	i	k
+2	182	b	d	f	h	j	k
+3	122	b	d	f	h	i	k
+4	116	b	d	f	g	j	k
+5	65	b	d	e	h	j	k
+6	25	b	d	e	h	j	l
+7	10	b	d	e	g	j	k
+8	9	b	d	e	g	i	k
+9	4	b	d	f	g	i	l
+10	4	b	d	f	h	j	l
+11	4	b	c	e	h	j	l
+12	3	a	d	f	g	j	k
+13	3	b	d	e	h	i	k
+14	2	b	c	f	h	j	k
+15	1	b	c	f	g	i	k
+16	1	b	c	f	g	j	k
+17	1	b	d	f	g	j	l
+18	1	b	c	e	h	j	k
+=======================================
+Gen: 3,    Agent: 180
+id	typeFreq	A	B	C	D	E	F
+1	511	b	d	e	g	i	k
+2	180	b	d	e	g	j	k
+3	148	b	d	e	h	j	k
+4	70	b	d	e	h	i	k
+5	24	b	d	f	g	j	k
+6	20	b	d	f	g	i	k
+7	19	b	d	f	h	j	k
+8	8	b	d	f	h	i	k
+9	4	b	c	e	g	i	k
+10	2	b	c	e	h	i	k
+11	2	a	d	e	g	i	k
+12	2	b	d	f	h	j	l
+13	2	b	d	e	g	j	l
+14	2	b	c	e	g	j	k
+15	1	a	d	e	g	j	k
+16	1	b	c	e	h	j	k
+17	1	b	d	e	h	j	l
+18	1	b	d	e	h	i	l
+19	1	b	d	f	h	i	l
+20	1	a	d	e	h	j	k
+21	1	b	c	f	h	j	k
+=======================================
+Gen: 3,    Agent: 181
+id	typeFreq	A	B	C	D	E	F
+1	360	b	d	e	g	i	k
+2	201	b	d	e	h	j	k
+3	181	b	d	f	h	j	k
+4	92	b	d	e	h	i	k
+5	88	b	d	e	g	j	k
+6	27	b	d	f	h	i	k
+7	24	b	d	f	g	i	k
+8	24	b	d	f	g	j	k
+9	1	a	d	e	g	i	k
+10	1	b	d	e	g	j	l
+11	1	a	d	f	h	j	k
+12	1	b	d	e	h	j	l
+=======================================
+Gen: 3,    Agent: 182
+id	typeFreq	A	B	C	D	E	F
+1	515	b	d	e	g	i	k
+2	203	b	d	e	g	j	k
+3	158	b	d	e	h	j	k
+4	51	b	d	e	h	i	k
+5	22	b	d	f	g	j	k
+6	19	b	d	f	g	i	k
+7	9	b	d	f	h	j	k
+8	7	b	d	f	h	i	k
+9	3	b	c	e	h	j	k
+10	3	b	c	e	g	j	k
+11	3	a	d	e	h	j	k
+12	2	a	d	e	g	i	k
+13	1	a	d	e	h	i	k
+14	1	a	d	f	g	i	k
+15	1	b	c	e	h	i	k
+16	1	b	c	f	g	i	k
+17	1	b	d	f	h	j	l
+18	1	a	d	e	g	j	k
+=======================================
+Gen: 3,    Agent: 183
+id	typeFreq	A	B	C	D	E	F
+1	481	b	d	e	g	i	k
+2	260	b	d	e	h	j	k
+3	143	b	d	e	g	j	k
+4	86	b	d	e	h	i	k
+5	9	b	d	f	g	i	k
+6	5	b	d	f	h	j	k
+7	3	a	d	e	g	i	k
+8	3	b	d	f	g	j	k
+9	3	b	d	f	h	i	k
+10	2	b	d	e	g	i	l
+11	1	b	c	e	g	i	k
+12	1	b	c	e	g	j	k
+13	1	a	d	e	g	j	k
+14	1	a	d	e	h	j	k
+15	1	b	c	e	h	j	k
+16	1	b	c	f	g	j	k
+=======================================
+Gen: 3,    Agent: 184
+id	typeFreq	A	B	C	D	E	F
+1	322	b	d	e	g	i	k
+2	269	b	d	e	h	j	k
+3	138	b	d	f	h	j	k
+4	109	b	d	e	g	j	k
+5	94	b	d	e	h	i	k
+6	30	b	d	f	h	i	k
+7	18	b	d	f	g	i	k
+8	18	b	d	f	g	j	k
+9	2	b	d	e	h	j	l
+10	1	b	d	e	g	j	l
+=======================================
+Gen: 3,    Agent: 185
+id	typeFreq	A	B	C	D	E	F
+1	280	b	d	e	g	i	k
+2	174	b	d	f	h	j	k
+3	161	b	d	f	g	i	k
+4	126	b	d	e	h	j	k
+5	103	b	d	f	h	i	k
+6	64	b	d	f	g	j	k
+7	56	b	d	e	h	i	k
+8	30	b	d	e	g	j	k
+9	2	b	d	e	g	i	l
+10	1	b	c	f	g	j	k
+11	1	a	d	e	h	j	k
+12	1	b	c	e	g	j	k
+13	1	b	c	e	g	i	k
+14	1	b	d	e	h	j	l
+=======================================
+Gen: 3,    Agent: 186
+id	typeFreq	A	B	C	D	E	F
+1	512	b	d	e	g	i	k
+2	125	b	d	e	h	j	k
+3	107	b	d	e	h	i	k
+4	79	b	d	f	g	i	k
+5	52	b	d	e	g	j	k
+6	35	b	d	f	h	i	k
+7	33	b	d	f	h	j	k
+8	25	b	d	f	g	j	k
+9	22	b	d	e	h	j	l
+10	2	b	c	e	h	j	k
+11	2	b	d	f	h	j	l
+12	1	b	d	e	g	i	l
+13	1	a	d	f	g	i	k
+14	1	b	c	e	g	i	k
+15	1	b	c	e	h	i	k
+16	1	a	d	e	h	i	k
+17	1	b	d	e	g	j	l
+18	1	a	d	e	h	j	k
+=======================================
+Gen: 3,    Agent: 187
+id	typeFreq	A	B	C	D	E	F
+1	451	b	d	e	g	i	k
+2	276	b	d	e	h	j	k
+3	98	b	d	e	h	i	k
+4	89	b	d	e	g	j	k
+5	25	b	d	f	h	j	k
+6	20	b	d	f	h	i	k
+7	15	b	d	f	g	i	k
+8	14	b	d	f	g	j	k
+9	2	b	c	e	g	i	k
+10	2	b	c	e	h	i	k
+11	2	b	c	e	h	j	k
+12	1	b	d	e	g	i	l
+13	1	a	d	e	h	i	k
+14	1	a	d	e	g	j	k
+15	1	a	d	e	h	j	k
+16	1	a	d	e	g	i	k
+17	1	b	d	f	h	j	l
+18	1	a	c	e	h	j	k
+=======================================
+Gen: 3,    Agent: 188
+id	typeFreq	A	B	C	D	E	F
+1	293	b	d	e	g	i	k
+2	186	b	d	f	h	j	k
+3	165	b	d	e	h	j	k
+4	108	b	d	f	g	i	k
+5	77	b	d	f	h	i	k
+6	54	b	d	f	g	j	k
+7	53	b	d	e	g	j	k
+8	51	b	d	e	h	i	k
+9	3	b	d	f	g	j	l
+10	2	a	d	e	h	j	k
+11	2	b	c	f	g	j	k
+12	1	b	d	e	g	i	l
+13	1	b	d	e	h	j	l
+14	1	a	d	e	g	i	k
+15	1	b	c	e	h	j	k
+16	1	a	d	e	g	j	k
+17	1	a	c	e	g	j	k
+18	1	b	d	f	h	j	l
+=======================================
+Gen: 3,    Agent: 189
+id	typeFreq	A	B	C	D	E	F
+1	496	b	d	e	g	i	k
+2	211	b	d	e	g	j	k
+3	132	b	d	e	h	j	k
+4	53	b	d	e	h	i	k
+5	21	b	d	f	g	j	k
+6	20	b	d	f	g	i	k
+7	20	a	d	e	h	j	k
+8	11	b	d	f	h	j	k
+9	7	b	d	f	h	i	k
+10	5	b	d	e	g	i	l
+11	4	b	d	e	h	j	l
+12	4	b	d	e	g	j	l
+13	4	b	c	e	h	j	k
+14	3	b	c	f	h	j	k
+15	2	b	c	e	g	j	k
+16	2	a	d	e	g	j	k
+17	2	a	d	e	g	i	k
+18	2	a	c	e	h	j	k
+19	1	b	c	f	g	i	k
+20	1	b	d	f	h	j	l
+=======================================
+Gen: 3,    Agent: 190
+id	typeFreq	A	B	C	D	E	F
+1	383	b	d	e	g	i	k
+2	290	b	d	e	h	j	k
+3	118	b	d	e	h	i	k
+4	99	b	d	e	g	j	k
+5	51	b	d	f	h	j	k
+6	16	b	d	f	g	j	k
+7	13	b	d	f	g	i	k
+8	13	b	d	f	h	i	k
+9	7	b	d	e	h	j	l
+10	3	b	d	e	h	i	l
+11	2	a	d	e	h	j	k
+12	1	b	d	f	h	j	l
+13	1	b	c	f	h	i	k
+14	1	b	d	e	g	i	l
+15	1	b	c	e	h	i	k
+16	1	b	c	e	g	i	k
+17	1	b	d	f	h	i	l
+=======================================
+Gen: 3,    Agent: 191
+id	typeFreq	A	B	C	D	E	F
+1	427	b	d	e	g	i	k
+2	281	b	d	e	h	j	k
+3	120	b	d	e	h	i	k
+4	83	b	d	e	g	j	k
+5	37	b	d	f	h	j	k
+6	20	b	d	f	g	i	k
+7	15	b	d	f	g	j	k
+8	12	b	d	f	h	i	k
+9	2	b	c	e	h	j	k
+10	2	b	c	e	h	i	k
+11	1	a	d	f	h	i	k
+12	1	b	d	e	h	j	l
+=======================================
+Gen: 3,    Agent: 192
+id	typeFreq	A	B	C	D	E	F
+1	402	b	d	e	g	i	k
+2	157	b	d	e	h	j	k
+3	152	b	d	f	h	j	k
+4	101	b	d	e	g	j	k
+5	71	b	d	e	h	i	k
+6	37	b	d	f	g	j	k
+7	32	b	d	f	g	i	k
+8	29	b	d	f	h	i	k
+9	4	a	d	e	h	j	k
+10	3	a	d	f	h	j	k
+11	2	a	d	e	g	i	k
+12	2	a	d	e	g	j	k
+13	1	a	c	e	h	j	k
+14	1	b	c	e	g	j	k
+15	1	b	c	e	g	j	l
+16	1	b	c	e	g	i	k
+17	1	b	d	e	h	i	l
+18	1	b	d	f	h	i	l
+19	1	b	c	e	h	i	k
+20	1	b	c	f	g	i	k
+21	1	a	d	f	g	j	k
+=======================================
+Gen: 3,    Agent: 193
+id	typeFreq	A	B	C	D	E	F
+1	459	b	d	e	g	i	k
+2	137	b	d	e	h	j	k
+3	122	b	d	e	g	j	k
+4	92	b	d	f	g	j	k
+5	65	b	d	f	h	j	k
+6	49	b	d	e	h	i	k
+7	46	b	d	f	g	i	k
+8	20	b	d	f	h	i	k
+9	2	b	d	e	h	j	l
+10	2	a	d	e	h	j	k
+11	1	b	c	e	g	j	k
+12	1	a	d	f	g	i	k
+13	1	a	d	f	h	j	k
+14	1	b	c	f	g	i	k
+15	1	b	d	f	g	i	l
+16	1	a	d	e	g	i	k
+17	1	b	c	e	h	j	k
+=======================================
+Gen: 3,    Agent: 194
+id	typeFreq	A	B	C	D	E	F
+1	352	b	d	e	g	i	k
+2	164	b	d	e	h	j	k
+3	162	b	d	f	h	j	k
+4	68	b	d	f	h	i	k
+5	68	b	d	f	g	i	k
+6	68	b	d	e	h	i	k
+7	53	b	d	e	g	j	k
+8	37	b	d	f	g	j	k
+9	4	b	d	e	h	j	l
+10	3	b	d	e	h	i	l
+11	3	b	d	e	g	i	l
+12	3	b	c	f	h	j	k
+13	3	a	d	e	h	j	k
+14	2	a	d	e	h	i	k
+15	2	b	d	f	g	i	l
+16	1	a	d	e	g	i	k
+17	1	a	d	e	g	j	k
+18	1	b	d	e	g	j	l
+19	1	a	d	f	g	j	k
+20	1	a	d	f	g	i	k
+21	1	b	c	f	g	j	k
+22	1	b	c	e	g	i	k
+23	1	b	d	f	h	j	l
+24	1	a	d	f	h	j	k
+=======================================
+Gen: 3,    Agent: 195
+id	typeFreq	A	B	C	D	E	F
+1	382	b	d	f	g	i	k
+2	154	b	d	f	h	j	k
+3	105	b	d	e	h	j	k
+4	101	b	d	f	h	i	k
+5	82	b	d	f	g	j	k
+6	75	b	d	e	g	i	k
+7	22	b	d	e	g	j	k
+8	22	b	d	e	h	i	k
+9	18	b	d	e	h	j	l
+10	14	b	c	e	h	j	l
+11	5	b	d	f	g	i	l
+12	3	a	d	f	h	i	k
+13	3	b	d	f	h	j	l
+14	2	b	c	f	g	i	k
+15	2	a	d	f	g	i	k
+16	2	b	d	e	h	i	l
+17	1	b	d	f	h	i	l
+18	1	b	c	e	h	j	k
+19	1	a	c	e	h	j	k
+20	1	b	c	f	g	j	k
+21	1	a	d	e	g	j	k
+22	1	b	c	e	g	i	k
+23	1	b	d	e	g	i	l
+24	1	b	d	e	g	j	l
+25	1	b	d	f	g	j	l
+=======================================
+Gen: 3,    Agent: 196
+id	typeFreq	A	B	C	D	E	F
+1	380	b	d	e	g	i	k
+2	202	b	d	e	h	j	k
+3	131	b	d	f	h	j	k
+4	115	b	d	e	h	i	k
+5	76	b	d	e	g	j	k
+6	36	b	d	f	h	i	k
+7	27	b	d	f	g	i	k
+8	18	b	d	f	g	j	k
+9	6	b	c	e	h	j	k
+10	2	a	d	e	h	j	k
+11	2	a	d	e	g	i	k
+12	2	b	c	e	g	i	k
+13	1	b	d	e	h	j	l
+14	1	a	d	e	h	i	k
+15	1	b	c	f	h	i	k
+16	1	a	d	f	h	i	k
+=======================================
+Gen: 3,    Agent: 197
+id	typeFreq	A	B	C	D	E	F
+1	459	b	d	e	g	i	k
+2	267	b	d	e	h	j	k
+3	88	b	d	e	h	i	k
+4	82	b	d	e	g	j	k
+5	29	b	d	f	h	j	k
+6	26	b	d	f	g	i	k
+7	13	b	d	f	g	j	k
+8	12	b	d	f	h	i	k
+9	11	a	d	e	h	j	k
+10	3	b	d	e	h	j	l
+11	2	b	d	e	g	i	l
+12	2	a	d	e	g	i	k
+13	1	b	d	e	g	j	l
+14	1	a	d	f	h	j	k
+15	1	b	c	e	g	j	k
+16	1	a	d	e	h	j	l
+17	1	b	d	e	h	i	l
+=======================================
+Gen: 3,    Agent: 198
+id	typeFreq	A	B	C	D	E	F
+1	490	b	d	e	g	i	k
+2	178	b	d	e	h	j	k
+3	110	b	d	e	h	i	k
+4	77	b	d	f	h	j	k
+5	72	b	d	e	g	j	k
+6	33	b	d	f	g	i	k
+7	21	b	d	f	h	i	k
+8	15	b	d	f	g	j	k
+9	2	b	d	e	h	j	l
+10	1	a	d	e	g	i	k
+11	1	b	c	e	g	i	k
+12	1	a	d	f	h	j	k
+=======================================
+Gen: 3,    Agent: 199
+id	typeFreq	A	B	C	D	E	F
+1	354	b	d	e	g	i	k
+2	175	b	d	e	h	j	k
+3	124	b	d	f	h	j	k
+4	94	b	d	e	h	i	k
+5	75	b	d	e	g	j	k
+6	43	b	c	e	h	j	k
+7	40	b	d	f	g	i	k
+8	37	b	d	f	h	i	k
+9	36	b	d	f	g	j	k
+10	4	b	c	e	h	i	k
+11	2	a	d	e	g	i	k
+12	2	b	c	f	h	i	k
+13	2	a	d	e	h	i	k
+14	2	b	d	e	g	i	l
+15	2	b	c	f	h	j	k
+16	1	b	c	e	g	j	k
+17	1	b	c	f	g	i	k
+18	1	a	d	e	g	j	k
+19	1	a	c	e	g	i	k
+20	1	b	d	f	h	i	l
+21	1	b	d	f	g	i	l
+22	1	b	d	e	h	j	l
+23	1	a	c	e	h	i	k
+24	1	b	c	e	h	j	l
+===============================================================================
+===============================================================================
+Generation 4
+===============================================================================
+===============================================================================
+=======================================
+Gen: 4,    Agent: 200
+id	typeFreq	A	B	C	D	E	F
+1	454	b	d	e	g	i	k
+2	407	b	d	e	g	j	k
+3	108	b	d	e	h	j	k
+4	32	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 201
+id	typeFreq	A	B	C	D	E	F
+1	699	b	d	e	g	i	k
+2	269	b	d	e	g	j	k
+3	18	b	d	e	h	i	k
+4	14	b	d	e	h	j	k
+5	1	b	d	f	g	i	k
+=======================================
+Gen: 4,    Agent: 202
+id	typeFreq	A	B	C	D	E	F
+1	375	b	d	e	g	j	k
+2	374	b	d	e	g	i	k
+3	223	b	d	e	h	j	k
+4	29	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 203
+id	typeFreq	A	B	C	D	E	F
+1	561	b	d	e	g	i	k
+2	204	b	d	e	h	j	k
+3	128	b	d	e	h	i	k
+4	108	b	d	e	g	j	k
+=======================================
+Gen: 4,    Agent: 204
+id	typeFreq	A	B	C	D	E	F
+1	727	b	d	e	g	i	k
+2	225	b	d	e	g	j	k
+3	25	b	d	e	h	j	k
+4	24	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 205
+id	typeFreq	A	B	C	D	E	F
+1	518	b	d	e	h	j	k
+2	221	b	d	e	g	i	k
+3	131	b	d	e	h	i	k
+4	116	b	d	e	g	j	k
+5	11	b	d	f	h	j	k
+6	2	b	d	f	h	i	k
+7	2	b	d	f	g	j	k
+=======================================
+Gen: 4,    Agent: 206
+id	typeFreq	A	B	C	D	E	F
+1	696	b	d	e	g	i	k
+2	122	b	d	e	h	j	k
+3	119	b	d	e	g	j	k
+4	63	b	d	e	h	i	k
+5	1	b	d	f	g	i	k
+=======================================
+Gen: 4,    Agent: 207
+id	typeFreq	A	B	C	D	E	F
+1	513	b	d	e	g	i	k
+2	210	b	d	e	h	j	k
+3	179	b	d	e	g	j	k
+4	98	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 208
+id	typeFreq	A	B	C	D	E	F
+1	412	b	d	e	g	i	k
+2	298	b	d	e	h	j	k
+3	230	b	d	e	h	i	k
+4	61	b	d	e	g	j	k
+=======================================
+Gen: 4,    Agent: 209
+id	typeFreq	A	B	C	D	E	F
+1	449	b	d	e	g	i	k
+2	221	b	d	e	h	j	k
+3	174	b	d	e	h	i	k
+4	71	b	d	e	g	j	k
+5	34	b	d	f	h	j	k
+6	23	b	d	f	h	i	k
+7	22	b	d	f	g	i	k
+8	7	b	d	f	g	j	k
+=======================================
+Gen: 4,    Agent: 210
+id	typeFreq	A	B	C	D	E	F
+1	411	b	d	e	g	i	k
+2	371	b	d	e	g	j	k
+3	192	b	d	e	h	j	k
+4	27	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 211
+id	typeFreq	A	B	C	D	E	F
+1	513	b	d	e	h	j	k
+2	237	b	d	e	g	i	k
+3	140	b	d	e	g	j	k
+4	111	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 212
+id	typeFreq	A	B	C	D	E	F
+1	529	b	d	e	h	j	k
+2	243	b	d	e	g	i	k
+3	119	b	d	e	h	i	k
+4	109	b	d	e	g	j	k
+=======================================
+Gen: 4,    Agent: 213
+id	typeFreq	A	B	C	D	E	F
+1	358	b	d	e	h	j	k
+2	341	b	d	e	g	i	k
+3	228	b	d	e	g	j	k
+4	74	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 214
+id	typeFreq	A	B	C	D	E	F
+1	714	b	d	e	g	i	k
+2	176	b	d	e	g	j	k
+3	62	b	d	e	h	i	k
+4	49	b	d	e	h	j	k
+=======================================
+Gen: 4,    Agent: 215
+id	typeFreq	A	B	C	D	E	F
+1	429	b	d	e	g	i	k
+2	367	b	d	e	g	j	k
+3	174	b	d	e	h	j	k
+4	29	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 216
+id	typeFreq	A	B	C	D	E	F
+1	781	b	d	f	g	i	k
+2	89	b	d	f	g	j	k
+3	38	b	d	f	h	i	k
+4	35	b	d	e	h	j	k
+5	24	b	d	f	h	j	k
+6	20	b	d	e	g	i	k
+7	12	b	d	e	g	j	k
+8	2	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 217
+id	typeFreq	A	B	C	D	E	F
+1	572	b	d	e	g	i	k
+2	218	b	d	e	h	j	k
+3	110	b	d	e	h	i	k
+4	100	b	d	e	g	j	k
+=======================================
+Gen: 4,    Agent: 218
+id	typeFreq	A	B	C	D	E	F
+1	416	b	d	e	g	j	k
+2	345	b	d	e	g	i	k
+3	211	b	d	e	h	j	k
+4	29	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 219
+id	typeFreq	A	B	C	D	E	F
+1	352	b	d	e	h	j	k
+2	345	b	d	e	g	i	k
+3	211	b	d	e	h	i	k
+4	93	b	d	e	g	j	k
+=======================================
+Gen: 4,    Agent: 220
+id	typeFreq	A	B	C	D	E	F
+1	539	b	d	e	g	i	k
+2	248	b	d	e	g	j	k
+3	149	b	d	e	h	j	k
+4	65	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 221
+id	typeFreq	A	B	C	D	E	F
+1	666	b	d	e	g	i	k
+2	170	b	d	e	g	j	k
+3	98	b	d	e	h	j	k
+4	66	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 222
+id	typeFreq	A	B	C	D	E	F
+1	407	b	d	e	h	j	k
+2	242	b	d	e	g	i	k
+3	147	b	d	e	h	i	k
+4	103	b	d	e	g	j	k
+5	67	b	d	f	h	j	k
+6	17	b	d	f	h	i	k
+7	12	b	d	f	g	j	k
+8	6	b	d	f	g	i	k
+=======================================
+Gen: 4,    Agent: 223
+id	typeFreq	A	B	C	D	E	F
+1	475	b	d	e	h	j	k
+2	252	b	d	e	g	i	k
+3	179	b	d	e	g	j	k
+4	92	b	d	e	h	i	k
+5	1	a	d	e	h	i	k
+6	1	b	d	f	g	j	k
+7	1	b	d	f	h	i	k
+=======================================
+Gen: 4,    Agent: 224
+id	typeFreq	A	B	C	D	E	F
+1	523	b	d	e	h	j	k
+2	224	b	d	e	g	i	k
+3	136	b	d	e	g	j	k
+4	118	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 225
+id	typeFreq	A	B	C	D	E	F
+1	653	b	d	e	g	i	k
+2	141	b	d	e	g	j	k
+3	131	b	d	e	h	j	k
+4	76	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 226
+id	typeFreq	A	B	C	D	E	F
+1	533	b	d	e	g	i	k
+2	238	b	d	e	h	j	k
+3	116	b	d	e	g	j	k
+4	113	b	d	e	h	i	k
+5	1	b	d	f	g	i	k
+=======================================
+Gen: 4,    Agent: 227
+id	typeFreq	A	B	C	D	E	F
+1	689	b	d	e	g	i	k
+2	179	b	d	e	g	j	k
+3	80	b	d	e	h	i	k
+4	52	b	d	e	h	j	k
+5	1	b	d	f	h	j	k
+=======================================
+Gen: 4,    Agent: 228
+id	typeFreq	A	B	C	D	E	F
+1	554	b	d	e	g	i	k
+2	173	b	d	e	h	i	k
+3	170	b	d	e	h	j	k
+4	103	b	d	e	g	j	k
+=======================================
+Gen: 4,    Agent: 229
+id	typeFreq	A	B	C	D	E	F
+1	437	b	d	e	g	j	k
+2	357	b	d	e	g	i	k
+3	181	b	d	e	h	j	k
+4	26	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 230
+id	typeFreq	A	B	C	D	E	F
+1	632	b	d	e	g	i	k
+2	146	b	d	e	h	j	k
+3	137	b	d	e	h	i	k
+4	86	b	d	e	g	j	k
+=======================================
+Gen: 4,    Agent: 231
+id	typeFreq	A	B	C	D	E	F
+1	678	b	d	e	g	i	k
+2	291	b	d	e	g	j	k
+3	20	b	d	e	h	i	k
+4	12	b	d	e	h	j	k
+=======================================
+Gen: 4,    Agent: 232
+id	typeFreq	A	B	C	D	E	F
+1	676	b	d	e	g	i	k
+2	271	b	d	e	g	j	k
+3	30	b	d	e	h	i	k
+4	24	b	d	e	h	j	k
+=======================================
+Gen: 4,    Agent: 233
+id	typeFreq	A	B	C	D	E	F
+1	677	b	d	e	g	i	k
+2	190	b	d	e	g	j	k
+3	76	b	d	e	h	j	k
+4	56	b	d	e	h	i	k
+5	1	b	d	f	g	j	k
+=======================================
+Gen: 4,    Agent: 234
+id	typeFreq	A	B	C	D	E	F
+1	490	b	d	e	h	j	k
+2	254	b	d	e	g	i	k
+3	140	b	d	e	h	i	k
+4	117	b	d	e	g	j	k
+=======================================
+Gen: 4,    Agent: 235
+id	typeFreq	A	B	C	D	E	F
+1	338	b	d	e	g	i	k
+2	309	b	d	e	g	j	k
+3	304	b	d	e	h	j	k
+4	50	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 236
+id	typeFreq	A	B	C	D	E	F
+1	543	b	d	e	h	j	k
+2	202	b	d	e	g	i	k
+3	128	b	d	e	g	j	k
+4	128	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 237
+id	typeFreq	A	B	C	D	E	F
+1	387	b	d	e	g	i	k
+2	277	b	d	e	h	j	k
+3	273	b	d	e	g	j	k
+4	61	b	d	e	h	i	k
+5	2	b	d	f	g	j	k
+6	1	b	d	f	h	j	k
+=======================================
+Gen: 4,    Agent: 238
+id	typeFreq	A	B	C	D	E	F
+1	510	b	d	e	h	j	k
+2	239	b	d	e	g	i	k
+3	131	b	d	e	h	i	k
+4	120	b	d	e	g	j	k
+5	1	b	d	f	h	j	k
+=======================================
+Gen: 4,    Agent: 239
+id	typeFreq	A	B	C	D	E	F
+1	541	b	d	e	h	j	k
+2	201	b	d	e	g	i	k
+3	132	b	d	e	g	j	k
+4	126	b	d	e	h	i	k
+5	1	b	d	e	h	j	l
+=======================================
+Gen: 4,    Agent: 240
+id	typeFreq	A	B	C	D	E	F
+1	629	b	d	e	g	i	k
+2	142	b	d	e	h	j	k
+3	124	b	d	e	g	j	k
+4	106	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 241
+id	typeFreq	A	B	C	D	E	F
+1	754	b	d	e	g	i	k
+2	218	b	d	e	g	j	k
+3	17	b	d	e	h	i	k
+4	12	b	d	e	h	j	k
+=======================================
+Gen: 4,    Agent: 242
+id	typeFreq	A	B	C	D	E	F
+1	588	b	d	e	g	i	k
+2	167	b	d	e	h	j	k
+3	132	b	d	e	g	j	k
+4	114	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 243
+id	typeFreq	A	B	C	D	E	F
+1	568	b	d	e	g	i	k
+2	225	b	d	e	h	j	k
+3	109	b	d	e	g	j	k
+4	99	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 244
+id	typeFreq	A	B	C	D	E	F
+1	597	b	d	e	g	i	k
+2	175	b	d	e	h	j	k
+3	145	b	d	e	g	j	k
+4	84	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 245
+id	typeFreq	A	B	C	D	E	F
+1	527	b	d	e	h	j	k
+2	248	b	d	e	g	i	k
+3	118	b	d	e	g	j	k
+4	108	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 246
+id	typeFreq	A	B	C	D	E	F
+1	355	b	d	e	h	j	k
+2	349	b	d	e	g	i	k
+3	218	b	d	e	g	j	k
+4	77	b	d	e	h	i	k
+5	1	b	d	f	g	i	k
+6	1	b	d	f	h	j	k
+=======================================
+Gen: 4,    Agent: 247
+id	typeFreq	A	B	C	D	E	F
+1	590	b	d	e	g	i	k
+2	208	b	d	e	h	j	k
+3	123	b	d	e	g	j	k
+4	80	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 248
+id	typeFreq	A	B	C	D	E	F
+1	740	b	d	e	g	i	k
+2	107	b	d	e	h	j	k
+3	94	b	d	e	g	j	k
+4	60	b	d	e	h	i	k
+=======================================
+Gen: 4,    Agent: 249
+id	typeFreq	A	B	C	D	E	F
+1	554	b	d	f	g	i	k
+2	205	b	d	f	h	j	k
+3	114	b	d	f	g	j	k
+4	97	b	d	f	h	i	k
+5	25	b	d	e	h	j	k
+6	3	b	d	e	g	i	k
+7	2	b	d	e	h	i	k
+8	1	b	d	e	g	j	k
+===============================================================================
+===============================================================================
+Generation 5
+===============================================================================
+===============================================================================
+=======================================
+Gen: 5,    Agent: 250
+id	typeFreq	A	B	C	D	E	F
+1	660	b	d	e	g	i	k
+2	128	b	d	e	h	i	k
+3	114	b	d	e	h	j	k
+4	97	b	d	e	g	j	k
+=======================================
+Gen: 5,    Agent: 251
+id	typeFreq	A	B	C	D	E	F
+1	362	b	d	e	g	j	k
+2	326	b	d	e	g	i	k
+3	269	b	d	e	h	j	k
+4	43	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 252
+id	typeFreq	A	B	C	D	E	F
+1	626	b	d	e	g	i	k
+2	136	b	d	e	h	i	k
+3	121	b	d	e	g	j	k
+4	117	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 253
+id	typeFreq	A	B	C	D	E	F
+1	947	b	d	e	g	i	k
+2	39	b	d	e	g	j	k
+3	13	b	d	e	h	i	k
+4	2	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 254
+id	typeFreq	A	B	C	D	E	F
+1	758	b	d	e	g	i	k
+2	153	b	d	e	g	j	k
+3	66	b	d	e	h	i	k
+4	24	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 255
+id	typeFreq	A	B	C	D	E	F
+1	924	b	d	e	g	i	k
+2	57	b	d	e	g	j	k
+3	19	b	d	e	h	i	k
+4	1	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 256
+id	typeFreq	A	B	C	D	E	F
+1	572	b	d	e	g	j	k
+2	288	b	d	e	h	j	k
+3	126	b	d	e	g	i	k
+4	15	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 257
+id	typeFreq	A	B	C	D	E	F
+1	972	b	d	e	g	i	k
+2	15	b	d	e	g	j	k
+3	12	b	d	e	h	i	k
+4	2	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 258
+id	typeFreq	A	B	C	D	E	F
+1	695	b	d	e	g	i	k
+2	138	b	d	e	h	i	k
+3	103	b	d	e	h	j	k
+4	65	b	d	e	g	j	k
+=======================================
+Gen: 5,    Agent: 259
+id	typeFreq	A	B	C	D	E	F
+1	743	b	d	e	g	j	k
+2	171	b	d	e	h	j	k
+3	66	b	d	e	g	i	k
+4	20	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 260
+id	typeFreq	A	B	C	D	E	F
+1	624	b	d	e	h	j	k
+2	151	b	d	e	g	i	k
+3	117	b	d	e	g	j	k
+4	109	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 261
+id	typeFreq	A	B	C	D	E	F
+1	699	b	d	e	g	i	k
+2	159	b	d	e	g	j	k
+3	98	b	d	e	h	i	k
+4	45	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 262
+id	typeFreq	A	B	C	D	E	F
+1	982	b	d	e	g	i	k
+2	16	b	d	e	g	j	k
+3	3	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 263
+id	typeFreq	A	B	C	D	E	F
+1	455	b	d	e	h	j	k
+2	220	b	d	e	g	i	k
+3	191	b	d	e	g	j	k
+4	135	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 264
+id	typeFreq	A	B	C	D	E	F
+1	756	b	d	e	g	j	k
+2	130	b	d	e	h	j	k
+3	95	b	d	e	g	i	k
+4	20	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 265
+id	typeFreq	A	B	C	D	E	F
+1	727	b	d	e	g	i	k
+2	158	b	d	e	g	j	k
+3	88	b	d	e	h	i	k
+4	28	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 266
+id	typeFreq	A	B	C	D	E	F
+1	958	b	d	e	g	i	k
+2	43	b	d	e	g	j	k
+=======================================
+Gen: 5,    Agent: 267
+id	typeFreq	A	B	C	D	E	F
+1	809	b	d	e	g	j	k
+2	185	b	d	e	g	i	k
+3	4	b	d	e	h	j	k
+4	3	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 268
+id	typeFreq	A	B	C	D	E	F
+1	797	b	d	e	g	i	k
+2	137	b	d	e	g	j	k
+3	57	b	d	e	h	i	k
+4	10	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 269
+id	typeFreq	A	B	C	D	E	F
+1	783	b	d	e	g	i	k
+2	124	b	d	e	g	j	k
+3	70	b	d	e	h	i	k
+4	24	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 270
+id	typeFreq	A	B	C	D	E	F
+1	425	b	d	e	g	i	k
+2	321	b	d	e	g	j	k
+3	198	b	d	e	h	j	k
+4	57	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 271
+id	typeFreq	A	B	C	D	E	F
+1	855	b	d	e	g	i	k
+2	136	b	d	e	g	j	k
+3	8	b	d	e	h	i	k
+4	2	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 272
+id	typeFreq	A	B	C	D	E	F
+1	764	b	d	e	g	j	k
+2	150	b	d	e	h	j	k
+3	71	b	d	e	g	i	k
+4	16	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 273
+id	typeFreq	A	B	C	D	E	F
+1	491	b	d	e	h	j	k
+2	211	b	d	e	g	i	k
+3	187	b	d	e	h	i	k
+4	112	b	d	e	g	j	k
+=======================================
+Gen: 5,    Agent: 274
+id	typeFreq	A	B	C	D	E	F
+1	844	b	d	e	g	i	k
+2	126	b	d	e	g	j	k
+3	28	b	d	e	h	i	k
+4	3	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 275
+id	typeFreq	A	B	C	D	E	F
+1	888	b	d	e	g	i	k
+2	89	b	d	e	g	j	k
+3	23	b	d	e	h	i	k
+4	1	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 276
+id	typeFreq	A	B	C	D	E	F
+1	865	b	d	e	g	i	k
+2	126	b	d	e	g	j	k
+3	8	b	d	e	h	i	k
+4	2	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 277
+id	typeFreq	A	B	C	D	E	F
+1	980	b	d	e	g	i	k
+2	17	b	d	e	g	j	k
+3	3	b	d	e	h	i	k
+4	1	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 278
+id	typeFreq	A	B	C	D	E	F
+1	611	b	d	e	h	j	k
+2	160	b	d	e	g	i	k
+3	126	b	d	e	h	i	k
+4	104	b	d	e	g	j	k
+=======================================
+Gen: 5,    Agent: 279
+id	typeFreq	A	B	C	D	E	F
+1	936	b	d	e	g	i	k
+2	65	b	d	e	g	j	k
+=======================================
+Gen: 5,    Agent: 280
+id	typeFreq	A	B	C	D	E	F
+1	638	b	d	e	h	j	k
+2	146	b	d	e	g	i	k
+3	111	b	d	e	g	j	k
+4	106	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 281
+id	typeFreq	A	B	C	D	E	F
+1	557	b	d	e	h	j	k
+2	175	b	d	e	g	i	k
+3	145	b	d	e	h	i	k
+4	124	b	d	e	g	j	k
+=======================================
+Gen: 5,    Agent: 282
+id	typeFreq	A	B	C	D	E	F
+1	337	b	d	e	g	i	k
+2	324	b	d	e	h	i	k
+3	297	b	d	e	h	j	k
+4	43	b	d	e	g	j	k
+=======================================
+Gen: 5,    Agent: 283
+id	typeFreq	A	B	C	D	E	F
+1	876	b	d	e	g	i	k
+2	114	b	d	e	g	j	k
+3	9	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 284
+id	typeFreq	A	B	C	D	E	F
+1	975	b	d	e	g	i	k
+2	12	b	d	e	h	i	k
+3	11	b	d	e	g	j	k
+4	2	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 285
+id	typeFreq	A	B	C	D	E	F
+1	842	b	d	e	g	j	k
+2	126	b	d	e	g	i	k
+3	25	b	d	e	h	j	k
+4	8	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 286
+id	typeFreq	A	B	C	D	E	F
+1	501	b	d	e	h	j	k
+2	203	b	d	e	g	j	k
+3	191	b	d	e	g	i	k
+4	106	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 287
+id	typeFreq	A	B	C	D	E	F
+1	872	b	d	e	g	i	k
+2	120	b	d	e	g	j	k
+3	8	b	d	e	h	i	k
+4	1	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 288
+id	typeFreq	A	B	C	D	E	F
+1	668	b	d	e	g	i	k
+2	119	b	d	e	h	i	k
+3	107	b	d	e	h	j	k
+4	107	b	d	e	g	j	k
+=======================================
+Gen: 5,    Agent: 289
+id	typeFreq	A	B	C	D	E	F
+1	675	b	d	e	g	i	k
+2	187	b	d	e	g	j	k
+3	87	b	d	e	h	i	k
+4	52	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 290
+id	typeFreq	A	B	C	D	E	F
+1	880	b	d	e	g	i	k
+2	63	b	d	e	g	j	k
+3	52	b	d	e	h	i	k
+4	5	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 291
+id	typeFreq	A	B	C	D	E	F
+1	625	b	d	e	h	j	k
+2	162	b	d	e	g	i	k
+3	126	b	d	e	h	i	k
+4	88	b	d	e	g	j	k
+=======================================
+Gen: 5,    Agent: 292
+id	typeFreq	A	B	C	D	E	F
+1	685	b	d	e	g	i	k
+2	113	b	d	e	h	i	k
+3	113	b	d	e	h	j	k
+4	90	b	d	e	g	j	k
+=======================================
+Gen: 5,    Agent: 293
+id	typeFreq	A	B	C	D	E	F
+1	424	b	d	e	h	i	k
+2	285	b	d	e	h	j	k
+3	258	b	d	e	g	i	k
+4	33	b	d	e	g	j	k
+=======================================
+Gen: 5,    Agent: 294
+id	typeFreq	A	B	C	D	E	F
+1	887	b	d	e	g	i	k
+2	96	b	d	e	g	j	k
+3	13	b	d	e	h	i	k
+4	4	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 295
+id	typeFreq	A	B	C	D	E	F
+1	696	b	d	e	h	j	k
+2	140	b	d	e	g	i	k
+3	85	b	d	e	g	j	k
+4	80	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 296
+id	typeFreq	A	B	C	D	E	F
+1	853	b	d	e	g	i	k
+2	124	b	d	e	g	j	k
+3	21	b	d	e	h	i	k
+4	3	b	d	e	h	j	k
+=======================================
+Gen: 5,    Agent: 297
+id	typeFreq	A	B	C	D	E	F
+1	727	b	d	e	g	j	k
+2	135	b	d	e	g	i	k
+3	118	b	d	e	h	j	k
+4	21	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 298
+id	typeFreq	A	B	C	D	E	F
+1	595	b	d	e	h	j	k
+2	172	b	d	e	g	i	k
+3	124	b	d	e	g	j	k
+4	109	b	d	e	h	i	k
+=======================================
+Gen: 5,    Agent: 299
+id	typeFreq	A	B	C	D	E	F
+1	366	b	d	e	g	j	k
+2	305	b	d	e	h	j	k
+3	292	b	d	e	g	i	k
+4	38	b	d	e	h	i	k
+===============================================================================
+===============================================================================
+Generation 6
+===============================================================================
+===============================================================================
+=======================================
+Gen: 6,    Agent: 300
+id	typeFreq	A	B	C	D	E	F
+1	978	b	d	e	g	i	k
+2	19	b	d	e	g	j	k
+3	3	b	d	e	h	i	k
+4	1	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 301
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+2	1	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 302
+id	typeFreq	A	B	C	D	E	F
+1	976	b	d	e	g	i	k
+2	18	b	d	e	g	j	k
+3	7	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 303
+id	typeFreq	A	B	C	D	E	F
+1	947	b	d	e	g	i	k
+2	26	b	d	e	g	j	k
+3	25	b	d	e	h	i	k
+4	3	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 304
+id	typeFreq	A	B	C	D	E	F
+1	988	b	d	e	g	i	k
+2	13	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 305
+id	typeFreq	A	B	C	D	E	F
+1	381	b	d	e	g	j	k
+2	353	b	d	e	h	j	k
+3	214	b	d	e	g	i	k
+4	52	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 306
+id	typeFreq	A	B	C	D	E	F
+1	747	b	d	e	g	i	k
+2	254	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 307
+id	typeFreq	A	B	C	D	E	F
+1	536	b	d	e	g	j	k
+2	465	b	d	e	g	i	k
+=======================================
+Gen: 6,    Agent: 308
+id	typeFreq	A	B	C	D	E	F
+1	991	b	d	e	g	i	k
+2	10	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 309
+id	typeFreq	A	B	C	D	E	F
+1	874	b	d	e	g	j	k
+2	105	b	d	e	g	i	k
+3	16	b	d	e	h	j	k
+4	6	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 310
+id	typeFreq	A	B	C	D	E	F
+1	514	b	d	e	g	j	k
+2	371	b	d	e	g	i	k
+3	84	b	d	e	h	j	k
+4	32	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 311
+id	typeFreq	A	B	C	D	E	F
+1	959	b	d	e	g	i	k
+2	23	b	d	e	g	j	k
+3	19	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 312
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 313
+id	typeFreq	A	B	C	D	E	F
+1	720	b	d	e	h	j	k
+2	210	b	d	e	h	i	k
+3	58	b	d	e	g	j	k
+4	12	b	d	e	g	i	k
+=======================================
+Gen: 6,    Agent: 314
+id	typeFreq	A	B	C	D	E	F
+1	979	b	d	e	g	i	k
+2	15	b	d	e	g	j	k
+3	7	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 315
+id	typeFreq	A	B	C	D	E	F
+1	817	b	d	e	g	i	k
+2	151	b	d	e	g	j	k
+3	30	b	d	e	h	i	k
+4	3	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 316
+id	typeFreq	A	B	C	D	E	F
+1	985	b	d	e	g	j	k
+2	16	b	d	e	g	i	k
+=======================================
+Gen: 6,    Agent: 317
+id	typeFreq	A	B	C	D	E	F
+1	955	b	d	e	g	i	k
+2	46	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 318
+id	typeFreq	A	B	C	D	E	F
+1	999	b	d	e	g	i	k
+2	2	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 319
+id	typeFreq	A	B	C	D	E	F
+1	682	b	d	e	g	i	k
+2	150	b	d	e	g	j	k
+3	129	b	d	e	h	i	k
+4	40	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 320
+id	typeFreq	A	B	C	D	E	F
+1	958	b	d	e	g	i	k
+2	29	b	d	e	g	j	k
+3	12	b	d	e	h	i	k
+4	1	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 321
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 322
+id	typeFreq	A	B	C	D	E	F
+1	957	b	d	e	g	i	k
+2	23	b	d	e	h	i	k
+3	17	b	d	e	g	j	k
+4	3	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 323
+id	typeFreq	A	B	C	D	E	F
+1	999	b	d	e	g	i	k
+2	2	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 324
+id	typeFreq	A	B	C	D	E	F
+1	961	b	d	e	g	i	k
+2	22	b	d	e	g	j	k
+3	17	b	d	e	h	i	k
+4	1	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 325
+id	typeFreq	A	B	C	D	E	F
+1	966	b	d	e	g	i	k
+2	35	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 326
+id	typeFreq	A	B	C	D	E	F
+1	990	b	d	e	g	i	k
+2	6	b	d	e	g	j	k
+3	5	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 327
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 328
+id	typeFreq	A	B	C	D	E	F
+1	741	b	d	e	g	i	k
+2	150	b	d	e	g	j	k
+3	77	b	d	e	h	i	k
+4	33	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 329
+id	typeFreq	A	B	C	D	E	F
+1	731	b	d	e	g	i	k
+2	143	b	d	e	h	i	k
+3	87	b	d	e	g	j	k
+4	40	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 330
+id	typeFreq	A	B	C	D	E	F
+1	958	b	d	e	g	i	k
+2	43	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 331
+id	typeFreq	A	B	C	D	E	F
+1	949	b	d	e	g	i	k
+2	31	b	d	e	h	i	k
+3	19	b	d	e	g	j	k
+4	2	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 332
+id	typeFreq	A	B	C	D	E	F
+1	993	b	d	e	g	i	k
+2	6	b	d	e	g	j	k
+3	2	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 333
+id	typeFreq	A	B	C	D	E	F
+1	995	b	d	e	g	i	k
+2	5	b	d	e	g	j	k
+3	1	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 334
+id	typeFreq	A	B	C	D	E	F
+1	990	b	d	e	g	j	k
+2	11	b	d	e	g	i	k
+=======================================
+Gen: 6,    Agent: 335
+id	typeFreq	A	B	C	D	E	F
+1	967	b	d	e	g	i	k
+2	34	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 336
+id	typeFreq	A	B	C	D	E	F
+1	990	b	d	e	g	i	k
+2	8	b	d	e	g	j	k
+3	3	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 337
+id	typeFreq	A	B	C	D	E	F
+1	649	b	d	e	g	i	k
+2	172	b	d	e	h	i	k
+3	126	b	d	e	g	j	k
+4	54	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 338
+id	typeFreq	A	B	C	D	E	F
+1	985	b	d	e	g	j	k
+2	16	b	d	e	g	i	k
+=======================================
+Gen: 6,    Agent: 339
+id	typeFreq	A	B	C	D	E	F
+1	620	b	d	e	g	i	k
+2	139	b	d	e	h	i	k
+3	126	b	d	e	g	j	k
+4	116	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 340
+id	typeFreq	A	B	C	D	E	F
+1	953	b	d	e	g	i	k
+2	48	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 341
+id	typeFreq	A	B	C	D	E	F
+1	997	b	d	e	g	i	k
+2	3	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 342
+id	typeFreq	A	B	C	D	E	F
+1	997	b	d	e	g	i	k
+2	4	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 343
+id	typeFreq	A	B	C	D	E	F
+1	968	b	d	e	g	i	k
+2	19	b	d	e	g	j	k
+3	14	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 344
+id	typeFreq	A	B	C	D	E	F
+1	963	b	d	e	g	i	k
+2	19	b	d	e	h	i	k
+3	17	b	d	e	g	j	k
+4	2	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 345
+id	typeFreq	A	B	C	D	E	F
+1	979	b	d	e	g	i	k
+2	17	b	d	e	g	j	k
+3	5	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 346
+id	typeFreq	A	B	C	D	E	F
+1	868	b	d	e	g	i	k
+2	99	b	d	e	g	j	k
+3	31	b	d	e	h	i	k
+4	3	b	d	e	h	j	k
+=======================================
+Gen: 6,    Agent: 347
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	j	k
+=======================================
+Gen: 6,    Agent: 348
+id	typeFreq	A	B	C	D	E	F
+1	997	b	d	e	g	i	k
+2	2	b	d	e	g	j	k
+3	2	b	d	e	h	i	k
+=======================================
+Gen: 6,    Agent: 349
+id	typeFreq	A	B	C	D	E	F
+1	991	b	d	e	g	i	k
+2	10	b	d	e	g	j	k
+===============================================================================
+===============================================================================
+Generation 7
+===============================================================================
+===============================================================================
+=======================================
+Gen: 7,    Agent: 350
+id	typeFreq	A	B	C	D	E	F
+1	960	b	d	e	g	i	k
+2	34	b	d	e	h	i	k
+3	6	b	d	e	g	j	k
+4	1	b	d	e	h	j	k
+=======================================
+Gen: 7,    Agent: 351
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	j	k
+=======================================
+Gen: 7,    Agent: 352
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 353
+id	typeFreq	A	B	C	D	E	F
+1	988	b	d	e	g	i	k
+2	11	b	d	e	g	j	k
+3	2	b	d	e	h	i	k
+=======================================
+Gen: 7,    Agent: 354
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 355
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 356
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 357
+id	typeFreq	A	B	C	D	E	F
+1	986	b	d	e	g	i	k
+2	15	b	d	e	g	j	k
+=======================================
+Gen: 7,    Agent: 358
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 359
+id	typeFreq	A	B	C	D	E	F
+1	999	b	d	e	g	i	k
+2	1	b	d	e	g	j	k
+3	1	b	d	e	h	i	k
+=======================================
+Gen: 7,    Agent: 360
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 361
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+2	1	b	d	e	h	i	k
+=======================================
+Gen: 7,    Agent: 362
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 363
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 364
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+2	1	b	d	e	g	j	k
+=======================================
+Gen: 7,    Agent: 365
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 366
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 367
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 368
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 369
+id	typeFreq	A	B	C	D	E	F
+1	985	b	d	e	g	j	k
+2	16	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 370
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+2	1	b	d	e	g	j	k
+=======================================
+Gen: 7,    Agent: 371
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 372
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 373
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 374
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 375
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 376
+id	typeFreq	A	B	C	D	E	F
+1	977	b	d	e	g	i	k
+2	20	b	d	e	h	i	k
+3	3	b	d	e	g	j	k
+4	1	b	d	e	h	j	k
+=======================================
+Gen: 7,    Agent: 377
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 378
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 379
+id	typeFreq	A	B	C	D	E	F
+1	983	b	d	e	g	j	k
+2	18	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 380
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 381
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 382
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 383
+id	typeFreq	A	B	C	D	E	F
+1	949	b	d	e	g	i	k
+2	52	b	d	e	g	j	k
+=======================================
+Gen: 7,    Agent: 384
+id	typeFreq	A	B	C	D	E	F
+1	976	b	d	e	g	j	k
+2	25	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 385
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 386
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 387
+id	typeFreq	A	B	C	D	E	F
+1	999	b	d	e	g	i	k
+2	1	b	d	e	g	j	k
+=======================================
+Gen: 7,    Agent: 388
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 389
+id	typeFreq	A	B	C	D	E	F
+1	992	b	d	e	g	j	k
+2	9	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 390
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 391
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 392
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	j	k
+2	1	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 393
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	j	k
+=======================================
+Gen: 7,    Agent: 394
+id	typeFreq	A	B	C	D	E	F
+1	999	b	d	e	g	i	k
+2	1	b	d	e	g	j	k
+=======================================
+Gen: 7,    Agent: 395
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 396
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 7,    Agent: 397
+id	typeFreq	A	B	C	D	E	F
+1	995	b	d	e	g	i	k
+2	3	b	d	e	h	i	k
+3	1	b	d	e	g	j	k
+=======================================
+Gen: 7,    Agent: 398
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	j	k
+=======================================
+Gen: 7,    Agent: 399
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+===============================================================================
+===============================================================================
+Generation 8
+===============================================================================
+===============================================================================
+=======================================
+Gen: 8,    Agent: 400
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 401
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 402
+id	typeFreq	A	B	C	D	E	F
+1	999	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 403
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 404
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 405
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 406
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 407
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 408
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 409
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 410
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 411
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 412
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 413
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 414
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	j	k
+=======================================
+Gen: 8,    Agent: 415
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 416
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 417
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 418
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 419
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 420
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 421
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 422
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 423
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 424
+id	typeFreq	A	B	C	D	E	F
+1	998	b	d	e	g	j	k
+2	3	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 425
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 426
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 427
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 428
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 429
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 430
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 431
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 432
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 433
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 434
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 435
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	j	k
+=======================================
+Gen: 8,    Agent: 436
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	j	k
+=======================================
+Gen: 8,    Agent: 437
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 438
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 439
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 440
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 441
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	j	k
+=======================================
+Gen: 8,    Agent: 442
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 443
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 444
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 445
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 446
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 447
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 448
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 8,    Agent: 449
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+===============================================================================
+===============================================================================
+Generation 9
+===============================================================================
+===============================================================================
+=======================================
+Gen: 9,    Agent: 450
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 451
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	j	k
+=======================================
+Gen: 9,    Agent: 452
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 453
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 454
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 455
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 456
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 457
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 458
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 459
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 460
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 461
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 462
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 463
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 464
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 465
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	j	k
+=======================================
+Gen: 9,    Agent: 466
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 467
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 468
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 469
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 470
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 471
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 472
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 473
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 474
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 475
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	j	k
+=======================================
+Gen: 9,    Agent: 476
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 477
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 478
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 479
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 480
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 481
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 482
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 483
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 484
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 485
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 486
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 487
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 488
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 489
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 490
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 491
+id	typeFreq	A	B	C	D	E	F
+1	1000	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 492
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 493
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 494
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 495
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 496
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 497
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 498
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k
+=======================================
+Gen: 9,    Agent: 499
+id	typeFreq	A	B	C	D	E	F
+1	1001	b	d	e	g	i	k

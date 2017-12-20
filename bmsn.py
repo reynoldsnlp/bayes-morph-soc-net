@@ -13,6 +13,7 @@ import random
 from statistics import mean
 import sys
 import time
+import warnings
 
 import mesa
 import mesa.datacollection
@@ -24,7 +25,7 @@ from scipy.stats import entropy as KL_div  # KL_div(real_dist, estim_dist)
 import entropy as malouf
 
 
-def connect(gen_size, gen_count, nx_gen, **kwargs):
+def connect(gen_size, gen_count, nx_gen, **kwargs):  # not used
     """Generate connections between agents."""
     import networkx as nx
     if nx_gen is None:
@@ -49,7 +50,7 @@ def Ndict2pdict(in_dict):
     return {k: v / N for k, v in in_dict.items()}
 
 
-def Nlist2plist(in_list):
+def Nlist2plist(in_list):  # not used
     """Transform raw count list to proportional list."""
     N = sum(in_list)
     return [i / N for i in in_list]
@@ -114,7 +115,7 @@ def factorial_log(in_int, log_func=log):  # deprecated in favor of lgamma(n+1)
     return sum([log_func(i) for i in range(1, in_int + 1)])
 
 
-def mlt_prob(p_dict, d_dict):  # multinomial distribution
+def mlt_prob(p_dict, d_dict):  # multinomial distribution, deprecated in favor of mlt_prob_log
     """Return probability of observing d_dict assuming p_dict."""
     try:
         return ((factorial(sum(d_dict.values())) /
@@ -142,7 +143,7 @@ def mlt_prob_log1p(p_dict, d_dict):  # multinomial distribution
             (sum([log1p(p) * d_dict.get(e, 0) for e, p in p_dict.items()])))
 
 
-def homogen(model):
+def homogen(model):  # unused
     """Return a model's homogeneity."""
     agent_morphs = [a.morphology for a in model.schedule.agents
                     if a.RIP is False]
@@ -501,14 +502,14 @@ class MorphAgent(mesa.Agent):
                     prior = mlt_prob_log(h, mnb_e_dist)
                 else:
                     prior = self.model.min_float
-                    lg.debug('        No MNB! Prior set to minimum '
-                             '({})'.format(prior))
+                    lg.warn('        No MNB! Prior set to minimum '
+                            '({})'.format(prior))
                 if ddist_e_dist != {}:
                     likelihood = mlt_prob_log(h, ddist_e_dist)
                 else:
                     likelihood = self.model.min_float
-                    lg.debug('        No data! Likelihood set to minimum '
-                             '({})'.format(likelihood))
+                    lg.warn('        No data! Likelihood set to minimum '
+                            '({})'.format(likelihood))
                 posterior = (prior_weight * prior) + likelihood
                 if max_h != [] and posterior < max_h[0][1]:
                     continue
@@ -541,7 +542,13 @@ class MorphAgent(mesa.Agent):
         """
         out = []
         if self.input == [] and self.gen_id == 0:  # 1st generation
-            out_lexemes = list(self.model.seed_lexemes_zipfian())
+            if self.model.lexeme_dist_shape == 'zipf':
+                out_lexemes = list(self.model.seed_lexemes_zipfian())
+            elif self.model.lexeme_dist_shape == 'flat':
+                out_lexemes = list(self.model.seed_lexemes_flat())
+            else:
+                raise NotImplementedError('lexeme_dist_shape must be in '
+                                          "{'flat', 'zipf'}.")
             out_l_weights = [i[2] for i in out_lexemes]
             out_lexemes = [i[:2] for i in out_lexemes]
             for out_l in random.choices(out_lexemes,
@@ -585,7 +592,7 @@ class MorphLearnModel(mesa.Model):
                  nw_func=None, nw_kwargs={}, connectedness=0.05, discrete=True,
                  whole_lex=True, h_space_increment=None, lexeme_count=1000,
                  zipf_max=100, prod_size=100, rand_tf=False,
-                 prior_weight=None):
+                 lexeme_dist_shape='flat', prior_weight=None):
         """Initialize model object.
 
         Arguments:
@@ -611,10 +618,12 @@ class MorphLearnModel(mesa.Model):
         zipf_max -- Basis for generating token frequencies
         prod_size -- How many productions each agent should 'speak'.
         rand_tf -- Randomize type frequency across declension classes
+        lexeme_dist_shape -- 'flat' / 'zipf'
         prior_weight -- None / 'proportion_of_lex' / 'mean_neighb_size_to_1'
         """
         lg.info('Initializing model...')
         self.min_float = -sys.float_info.max  # smallest possible float
+        lg.info('    min_float: {}'.format(self.min_float))
         self.step_timesteps = [time.time()]
         lg.info('    gen_size: {}'.format(gen_size))
         self.gen_size = gen_size
@@ -623,6 +632,7 @@ class MorphLearnModel(mesa.Model):
         self.num_agents = gen_size * gen_count
         self.gen_members = [[i + (j * gen_size) for i in range(gen_size)]
                             for j in range(gen_count)]
+        lg.info('    connectedness: {}'.format(connectedness))
         c = ceil(gen_size * connectedness)
         self.network = ([[]] * gen_size +
                         [random.sample(gen, c)
@@ -638,24 +648,38 @@ class MorphLearnModel(mesa.Model):
             self.h_space_incr = self.max_flections
         else:
             self.h_space_incr = h_space_increment
+        lg.info('    h_space_incr: {}'.format(self.h_space_incr))
         self.lexeme_count = lexeme_count
+        lg.info('    lexeme_count: {}'.format(self.lexeme_count))
         self.zipf_max = zipf_max
+        lg.info('    zipf_max: {}'.format(self.zipf_max))
         self.prod_size = prod_size
+        lg.info('    prod_size: {}'.format(self.prod_size))
         self.rand_tf = rand_tf
+        lg.info('    rand_tf: {}'.format(self.rand_tf))
+        assert lexeme_dist_shape in {'flat', 'zipf'}
+        self.lexeme_dist_shape = lexeme_dist_shape
+        lg.info('    lexeme_dist_shape: {}'.format(self.lexeme_dist_shape))
+        assert prior_weight in {None, 'proportion_of_lex', 'mean_neighb_size_to_1'}  # noqa: E501
         self.prior_weight = prior_weight
-        lg.info('prior_weight: {}'.format(prior_weight))
+        lg.info('    prior_weight: {}'.format(prior_weight))
         self.discrete = discrete
+        lg.info('    discrete: {}'.format(self.discrete))
         if self.discrete:
             self.out_func = key_of_highest_value
         else:
             self.out_func = prob_output
+        lg.info('    out_func: {}'.format(self.out_func))
         self.whole_lex = whole_lex
+        lg.info('    whole_lex: {}'.format(self.whole_lex))
         self.schedule = mesa.time.BaseScheduler(self)
         self.morph_filename = morph_filename
+        lg.info('    morph_filename: {}'.format(self.morph_filename))
         self.table_filename = ('results/morph_table_' +
                                str(self.step_timesteps[0]) +
                                '_' +
                                morph_filename.split('/')[1].split('.')[0])
+        lg.info('    table_filename: {}'.format(self.table_filename))
         self.parse_seed_morph(morph_filename)
 
         # Create agents
@@ -704,11 +728,13 @@ class MorphLearnModel(mesa.Model):
         lg.debug('seed MSPSs: {}'.format(self.seed_MSPSs))
         self.seed_infl_classes = []  # list of dicts
         self.class_count = len(in_file_lines) - 1
+        # use lexeme_zipf_const to scale dist up to the lexeme_count
         self.lexeme_zipf_const = 1
         while (self.lexeme_dist_count(self.lexeme_zipf_const,
                                       self.class_count) <
                 self.lexeme_count):
             self.lexeme_zipf_const += 1
+        # type frequencies for each class
         self.lexeme_type_freq_list = [floor(self.lexeme_zipf_const / i)
                                       for i in
                                       range(1, self.class_count + 1)]
@@ -717,8 +743,7 @@ class MorphLearnModel(mesa.Model):
             random.shuffle(self.lexeme_type_freq_list)
         lg.info('lexeme_type_freq_list {}'.format(self.lexeme_type_freq_list))
         # TODO(RJR) write ..._input_table.txt a la extract_input_table.sh
-        lg.info('zipf_max: {}'.format(self.zipf_max))
-        self.exp_dict = Counter()
+        self.exp_dict = Counter()  # exponent frequencies
         for c_id, line in enumerate(in_file_lines[1:]):
             infl_class = {}
             for i, value in enumerate(line.rstrip().split('\t')):
@@ -819,6 +844,10 @@ class MorphLearnModel(mesa.Model):
 
         output -- tuple(inflection_class, lexeme, tok_freq)
         """
+        lg.warn('seed_lexemes_old is retained only for historical reasons. '
+                'USE WISELY!')
+        warnings.warn('seed_lexemes_old is retained only for historical '
+                      'reasons. USE WISELY!')
         for ci, c in enumerate(self.seed_infl_classes):
             for i in range(c['typeFreq']):  # lexeme = ci-i
                 # generate tok_freq based on zipfian dist, chopping off tail

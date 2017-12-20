@@ -36,6 +36,10 @@ try:
     PRIOR_WEIGHT = sys.argv[3]
 except IndexError:
     PRIOR_WEIGHT = None
+try:
+    LEXEME_DIST_SHAPE = sys.argv[4]
+except IndexError:
+    LEXEME_DIST_SHAPE = 'flat'
 START = time.time()
 
 if RAND_TF:
@@ -226,6 +230,7 @@ if __name__ == '__main__':
                                  prod_size=PRODUCTION_SIZE,
                                  connectedness=CONNECTEDNESS,
                                  rand_tf=RAND_TF,
+                                 lexeme_dist_shape=LEXEME_DIST_SHAPE,
                                  prior_weight=PRIOR_WEIGHT)
     for i in range(GEN_COUNT):
         lg.info('=' * 79)
