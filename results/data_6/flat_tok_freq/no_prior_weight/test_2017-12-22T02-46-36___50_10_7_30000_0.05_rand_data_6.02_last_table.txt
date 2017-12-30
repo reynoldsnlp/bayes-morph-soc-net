@@ -1,0 +1,12 @@
+id	typeFreq	A	B	C	D	E	F
+1	317	j	u	gg	rr	fff	qqq
+2	194	e	p	bb	mm	aaa	lll
+3	125	c	n	z	kk	yy	jjj
+4	101	l	w	ii	tt	hhh	sss
+5	82	f	q	cc	nn	bbb	mmm
+6	69	g	s	dd	pp	ccc	ooo
+7	60	b	m	y	vv	xx	iii
+8	14	a	x	jj	uu	ww	ttt
+9	14	i	t	ff	qq	eee	ppp
+10	13	h	t	ee	qq	ddd	ppp
+11	12	d	o	aa	ll	zz	kkk

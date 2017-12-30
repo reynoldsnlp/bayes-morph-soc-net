@@ -1,0 +1,4 @@
+id	typeFreq	A	B	C	D	E	F
+1	526	a	e	l	p	t	x
+2	238	c	g	k	o	s	w
+3	237	c	g	j	n	r	v

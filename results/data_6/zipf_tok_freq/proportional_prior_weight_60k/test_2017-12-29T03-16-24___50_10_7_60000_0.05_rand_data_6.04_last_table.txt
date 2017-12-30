@@ -1,0 +1,14 @@
+id	typeFreq	A	B	C	D	E	F
+1	424	c	i	n	t	z	ff
+2	181	f	l	q	w	cc	hh
+3	157	b	h	m	s	y	ee
+4	108	a	g	r	x	dd	jj
+5	61	d	j	o	u	aa	gg
+6	51	e	k	p	v	bb	hh
+7	11	e	j	p	v	aa	gg
+8	3	b	g	m	s	dd	jj
+9	1	d	j	o	u	aa	ff
+10	1	d	j	p	u	aa	gg
+11	1	e	j	p	u	aa	gg
+12	1	e	k	p	v	bb	gg
+13	1	e	k	q	v	bb	hh
