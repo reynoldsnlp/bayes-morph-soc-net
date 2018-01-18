@@ -8,6 +8,7 @@ do
 		do
 			for each in 01 02 03 04 05 06 08 10
 			do
+				echo "Running model... (${each} ${weight} ${dist})"
 				nice python3 test.py artificial-data/data_6.${each}.txt 60000 ${weight} ${dist}
 			done
 		done
