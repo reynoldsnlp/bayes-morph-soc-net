@@ -34,7 +34,7 @@ except IndexError:
 CONNECTEDNESS = 0.05
 try:
     PRIOR_WEIGHT = sys.argv[3]
-    if PRIOR_WEIGHT == '':
+    if PRIOR_WEIGHT in ['', 'None', 'none']:
         PRIOR_WEIGHT = None
 except IndexError:
     PRIOR_WEIGHT = None
