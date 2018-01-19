@@ -1,3 +1,0 @@
-id	typeFreq	A	B	C	D	E	F
-1	506	b	d	f	g	h	ii
-2	495	a	c	e	g	bb	i

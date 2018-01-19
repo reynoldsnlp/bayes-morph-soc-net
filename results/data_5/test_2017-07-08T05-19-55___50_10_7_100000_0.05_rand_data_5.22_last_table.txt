@@ -1,5 +1,0 @@
-id	typeFreq	A	B	C	D	E	F
-1	573	a	b	c	d	e	f
-2	424	ppp	b	c	d	e	rr
-3	2	a	b	c	d	e	rr
-4	2	ppp	b	c	d	e	f

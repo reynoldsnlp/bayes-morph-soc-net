@@ -1,4 +1,0 @@
-	MPS_A	MPS_B	MPS_C	MPS_D	MPS_E
-949	a	f	i	l	o
-276	b	d	g	j	m
-130	c	f	h	k	n

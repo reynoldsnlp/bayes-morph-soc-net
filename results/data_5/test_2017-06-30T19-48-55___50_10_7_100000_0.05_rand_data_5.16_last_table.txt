@@ -1,5 +1,0 @@
-id	typeFreq	A	B	C	D	E	F
-1	470	m	o	r	t	u	w
-2	211	n	p	q	s	v	x
-3	194	b	d	f	h	j	l
-4	126	a	c	e	h	j	l

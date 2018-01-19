@@ -1,8 +1,0 @@
-	A	B	C	D	E	F	G
-387	aa	bb	cc	k	l	f	g
-193	a	dd	ee	ff	l	m	g
-129	a	b	gg	hh	ii	m	n
-96	h	b	c	jj	kk	ll	n
-77	h	i	c	d	mm	nn	oo
-64	rr	i	j	d	e	pp	qq
-55	tt	uu	j	k	e	f	ss

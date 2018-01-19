@@ -1,4 +1,0 @@
-id	typeFreq	A	B	C	D	E	F
-1	499	k	l	o	mm	i	j
-2	346	a	b	c	d	m	uu
-3	156	n	q	e	f	g	h
