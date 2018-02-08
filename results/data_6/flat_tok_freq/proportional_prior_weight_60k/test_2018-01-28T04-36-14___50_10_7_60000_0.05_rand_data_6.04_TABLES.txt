@@ -1,0 +1,6765 @@
+===============================================================================
+===============================================================================
+Generation 0
+===============================================================================
+===============================================================================
+=======================================
+Gen: 0,    Agent: 0
+DELETED
+=======================================
+Gen: 0,    Agent: 1
+DELETED
+=======================================
+Gen: 0,    Agent: 2
+DELETED
+=======================================
+Gen: 0,    Agent: 3
+DELETED
+=======================================
+Gen: 0,    Agent: 4
+DELETED
+=======================================
+Gen: 0,    Agent: 5
+DELETED
+=======================================
+Gen: 0,    Agent: 6
+DELETED
+=======================================
+Gen: 0,    Agent: 7
+DELETED
+=======================================
+Gen: 0,    Agent: 8
+DELETED
+=======================================
+Gen: 0,    Agent: 9
+DELETED
+=======================================
+Gen: 0,    Agent: 10
+DELETED
+=======================================
+Gen: 0,    Agent: 11
+DELETED
+=======================================
+Gen: 0,    Agent: 12
+DELETED
+=======================================
+Gen: 0,    Agent: 13
+DELETED
+=======================================
+Gen: 0,    Agent: 14
+DELETED
+=======================================
+Gen: 0,    Agent: 15
+DELETED
+=======================================
+Gen: 0,    Agent: 16
+DELETED
+=======================================
+Gen: 0,    Agent: 17
+DELETED
+=======================================
+Gen: 0,    Agent: 18
+DELETED
+=======================================
+Gen: 0,    Agent: 19
+DELETED
+=======================================
+Gen: 0,    Agent: 20
+DELETED
+=======================================
+Gen: 0,    Agent: 21
+DELETED
+=======================================
+Gen: 0,    Agent: 22
+DELETED
+=======================================
+Gen: 0,    Agent: 23
+DELETED
+=======================================
+Gen: 0,    Agent: 24
+DELETED
+=======================================
+Gen: 0,    Agent: 25
+DELETED
+=======================================
+Gen: 0,    Agent: 26
+DELETED
+=======================================
+Gen: 0,    Agent: 27
+DELETED
+=======================================
+Gen: 0,    Agent: 28
+DELETED
+=======================================
+Gen: 0,    Agent: 29
+DELETED
+=======================================
+Gen: 0,    Agent: 30
+DELETED
+=======================================
+Gen: 0,    Agent: 31
+DELETED
+=======================================
+Gen: 0,    Agent: 32
+DELETED
+=======================================
+Gen: 0,    Agent: 33
+DELETED
+=======================================
+Gen: 0,    Agent: 34
+DELETED
+=======================================
+Gen: 0,    Agent: 35
+DELETED
+=======================================
+Gen: 0,    Agent: 36
+DELETED
+=======================================
+Gen: 0,    Agent: 37
+DELETED
+=======================================
+Gen: 0,    Agent: 38
+DELETED
+=======================================
+Gen: 0,    Agent: 39
+DELETED
+=======================================
+Gen: 0,    Agent: 40
+DELETED
+=======================================
+Gen: 0,    Agent: 41
+DELETED
+=======================================
+Gen: 0,    Agent: 42
+DELETED
+=======================================
+Gen: 0,    Agent: 43
+DELETED
+=======================================
+Gen: 0,    Agent: 44
+DELETED
+=======================================
+Gen: 0,    Agent: 45
+DELETED
+=======================================
+Gen: 0,    Agent: 46
+DELETED
+=======================================
+Gen: 0,    Agent: 47
+DELETED
+=======================================
+Gen: 0,    Agent: 48
+DELETED
+=======================================
+Gen: 0,    Agent: 49
+DELETED
+===============================================================================
+===============================================================================
+Generation 1
+===============================================================================
+===============================================================================
+=======================================
+Gen: 1,    Agent: 50
+id	typeFreq	A	B	C	D	E	F
+1	302	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	43	d	i	o	u	z	ff
+7	41	d	j	o	u	aa	ff
+8	37	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	28	c	i	n	t	z	ff
+11	24	b	h	m	s	y	jj
+12	14	d	j	o	u	aa	gg
+13	13	b	g	r	s	dd	jj
+14	12	b	h	m	s	y	ee
+15	6	e	k	p	v	aa	gg
+16	4	e	j	p	v	bb	gg
+17	4	e	k	p	v	bb	gg
+18	3	e	j	p	v	aa	gg
+19	1	d	i	o	t	z	ff
+20	1	d	j	p	u	aa	gg
+21	1	a	g	r	x	dd	jj
+22	1	f	l	q	x	cc	hh
+23	1	a	l	r	w	cc	ii
+24	1	b	g	r	x	dd	jj
+25	1	c	i	n	t	z	ee
+=======================================
+Gen: 1,    Agent: 51
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	67	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	26	c	i	n	t	z	ff
+11	24	b	h	m	s	y	jj
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	12	b	h	m	s	y	ee
+15	7	e	j	p	v	aa	gg
+16	4	e	k	p	v	aa	gg
+17	4	e	j	p	v	bb	gg
+18	3	c	i	n	t	z	ee
+19	2	e	k	p	v	bb	gg
+20	1	e	l	q	v	bb	hh
+=======================================
+Gen: 1,    Agent: 52
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	67	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	41	d	j	o	u	aa	ff
+8	35	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	23	c	i	n	t	z	ff
+11	22	b	h	m	s	y	jj
+12	14	b	g	r	s	dd	jj
+13	13	b	h	m	s	y	ee
+14	12	d	j	o	u	aa	gg
+15	9	e	k	p	v	bb	gg
+16	6	e	j	p	v	bb	gg
+17	6	c	i	n	t	z	ee
+18	2	d	j	p	u	aa	gg
+19	2	e	k	p	v	aa	gg
+20	2	f	l	q	x	cc	hh
+21	1	d	i	o	u	aa	ff
+22	1	e	k	p	v	bb	hh
+23	1	f	l	q	w	cc	ii
+24	1	b	g	m	s	y	jj
+=======================================
+Gen: 1,    Agent: 53
+id	typeFreq	A	B	C	D	E	F
+1	302	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	67	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	43	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	15	c	i	n	t	z	ff
+12	14	b	g	r	s	dd	jj
+13	14	c	i	n	t	z	ee
+14	11	d	j	o	u	aa	gg
+15	10	b	h	m	s	y	ee
+16	9	e	j	p	v	aa	gg
+17	6	e	j	p	v	bb	gg
+18	3	d	j	p	u	aa	gg
+19	2	e	k	p	v	aa	gg
+20	2	b	h	m	t	y	ee
+21	1	a	l	r	x	cc	jj
+22	1	d	i	o	t	z	ff
+=======================================
+Gen: 1,    Agent: 54
+id	typeFreq	A	B	C	D	E	F
+1	302	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	139	e	k	q	v	bb	hh
+4	67	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	23	b	h	m	s	y	jj
+11	16	c	i	n	t	z	ff
+12	14	b	g	r	s	dd	jj
+13	13	d	j	o	u	aa	gg
+14	13	b	h	m	s	y	ee
+15	13	c	i	n	t	z	ee
+16	11	e	j	p	v	bb	gg
+17	6	e	k	p	v	bb	hh
+18	5	e	j	p	v	aa	gg
+19	1	d	j	p	u	aa	gg
+20	1	e	k	p	v	aa	gg
+21	1	a	l	r	w	cc	ii
+=======================================
+Gen: 1,    Agent: 55
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	57	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	28	c	i	n	t	z	ff
+11	24	b	h	m	s	y	jj
+12	14	b	g	r	s	dd	jj
+13	12	b	h	m	s	y	ee
+14	11	d	j	o	u	aa	gg
+15	11	e	j	p	v	aa	gg
+16	8	a	g	r	x	dd	jj
+17	4	e	j	p	v	bb	gg
+18	3	d	j	p	u	aa	gg
+19	2	e	k	p	v	aa	gg
+20	1	a	l	r	x	dd	jj
+21	1	a	l	r	x	dd	ii
+22	1	c	i	n	t	z	ee
+=======================================
+Gen: 1,    Agent: 56
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	128	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	65	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	17	e	k	p	v	bb	hh
+12	15	c	i	n	t	z	ee
+13	14	b	g	r	s	dd	jj
+14	14	c	i	n	t	z	ff
+15	13	d	j	o	u	aa	gg
+16	13	e	j	p	v	aa	gg
+17	12	b	h	m	s	y	ee
+18	2	e	k	p	v	aa	gg
+19	2	e	j	p	v	bb	gg
+20	1	d	j	p	u	aa	gg
+21	1	a	g	m	x	dd	ii
+22	1	a	g	r	x	dd	jj
+=======================================
+Gen: 1,    Agent: 57
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	37	f	l	q	w	cc	hh
+9	32	c	h	n	t	y	ee
+10	23	b	h	m	s	y	jj
+11	16	c	i	n	t	z	ff
+12	14	e	j	p	v	aa	gg
+13	14	b	g	r	s	dd	jj
+14	13	d	j	o	u	aa	gg
+15	13	c	i	n	t	z	ee
+16	12	b	h	m	s	y	ee
+17	2	e	k	p	v	aa	gg
+18	1	d	j	p	u	aa	gg
+19	1	e	j	p	v	bb	gg
+20	1	a	g	r	x	dd	jj
+21	1	f	l	q	w	cc	ii
+22	1	b	h	m	s	dd	jj
+23	1	c	i	n	t	y	ee
+=======================================
+Gen: 1,    Agent: 58
+id	typeFreq	A	B	C	D	E	F
+1	302	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	141	e	k	q	v	bb	hh
+4	67	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	23	c	i	n	t	z	ff
+12	14	e	j	p	v	aa	gg
+13	14	b	g	r	s	dd	jj
+14	13	d	j	o	u	aa	gg
+15	12	b	h	m	s	y	ee
+16	6	c	i	n	t	z	ee
+17	4	e	k	p	v	bb	hh
+18	2	e	k	p	v	aa	gg
+19	1	d	j	p	u	aa	gg
+20	1	e	j	p	v	bb	gg
+21	1	a	l	q	x	cc	ii
+=======================================
+Gen: 1,    Agent: 59
+id	typeFreq	A	B	C	D	E	F
+1	302	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	22	c	i	n	t	z	ee
+12	14	d	j	o	u	aa	gg
+13	13	b	g	r	s	dd	jj
+14	12	b	h	m	s	y	ee
+15	9	e	j	p	v	aa	gg
+16	8	e	j	p	v	bb	gg
+17	7	c	i	n	t	z	ff
+18	1	a	g	r	x	dd	jj
+19	1	e	k	q	w	bb	hh
+20	1	a	l	q	x	cc	ii
+21	1	a	g	r	s	dd	jj
+=======================================
+Gen: 1,    Agent: 60
+id	typeFreq	A	B	C	D	E	F
+1	302	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	60	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	37	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	20	c	i	n	t	z	ee
+12	14	b	g	r	s	dd	jj
+13	12	b	h	m	s	y	ee
+14	11	d	j	o	u	aa	gg
+15	8	e	j	p	v	aa	gg
+16	8	c	i	n	t	z	ff
+17	7	e	j	p	v	bb	gg
+18	7	a	g	r	x	dd	jj
+19	3	d	j	p	u	aa	gg
+20	2	e	k	p	v	aa	gg
+21	1	a	l	r	x	cc	jj
+22	1	f	k	q	v	bb	hh
+23	1	a	l	q	w	cc	hh
+24	1	c	i	o	t	z	ee
+=======================================
+Gen: 1,    Agent: 61
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	67	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	18	c	i	n	t	z	ee
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	11	b	h	m	s	y	ee
+15	11	c	i	n	t	z	ff
+16	10	e	j	p	v	aa	gg
+17	5	e	j	p	v	bb	gg
+18	2	e	k	p	v	aa	gg
+19	1	b	h	m	t	y	ee
+=======================================
+Gen: 1,    Agent: 62
+id	typeFreq	A	B	C	D	E	F
+1	301	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	143	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	27	c	i	n	t	z	ff
+11	24	b	h	m	s	y	jj
+12	14	b	g	r	s	dd	jj
+13	13	d	j	o	u	aa	gg
+14	12	b	h	m	s	y	ee
+15	6	e	j	p	v	bb	gg
+16	6	e	j	p	v	aa	gg
+17	3	e	k	p	v	bb	gg
+18	2	e	k	p	v	aa	gg
+19	2	e	k	p	v	bb	hh
+20	2	c	i	n	t	z	ee
+21	1	d	j	p	u	aa	gg
+22	1	a	g	r	x	cc	ii
+23	1	a	l	r	w	cc	ii
+24	1	a	l	r	x	cc	hh
+=======================================
+Gen: 1,    Agent: 63
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	29	c	i	n	t	z	ee
+11	24	b	h	m	s	y	jj
+12	15	e	j	p	v	aa	gg
+13	14	b	g	r	s	dd	jj
+14	12	b	h	m	s	y	ee
+15	10	d	j	o	u	aa	gg
+16	4	d	j	p	u	aa	gg
+17	2	e	j	p	v	bb	gg
+18	1	e	k	p	v	bb	hh
+19	1	a	g	r	x	dd	jj
+=======================================
+Gen: 1,    Agent: 64
+id	typeFreq	A	B	C	D	E	F
+1	301	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	63	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	22	c	i	n	t	z	ee
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	12	b	h	m	s	y	ee
+15	11	e	j	p	v	bb	gg
+16	7	c	i	n	t	z	ff
+17	5	e	j	p	v	aa	gg
+18	4	a	g	r	x	dd	jj
+19	1	a	l	r	x	cc	jj
+20	1	e	k	p	v	aa	gg
+21	1	f	l	r	x	cc	ii
+=======================================
+Gen: 1,    Agent: 65
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	143	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	65	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	23	c	i	n	t	z	ee
+12	14	b	g	r	s	dd	jj
+13	12	b	h	m	s	y	ee
+14	11	e	j	p	v	aa	gg
+15	9	d	j	o	u	aa	gg
+16	6	c	i	n	t	z	ff
+17	5	d	j	p	u	aa	gg
+18	5	e	k	p	v	aa	gg
+19	2	e	k	p	v	bb	hh
+20	1	e	k	p	v	bb	gg
+21	1	a	l	r	x	dd	ii
+22	1	a	g	m	x	dd	ii
+=======================================
+Gen: 1,    Agent: 66
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	140	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	37	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	21	c	i	n	t	z	ee
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	12	e	j	p	v	aa	gg
+15	12	b	h	m	s	y	ee
+16	8	c	i	n	t	z	ff
+17	5	e	j	p	v	bb	gg
+18	4	e	k	p	v	bb	hh
+19	1	a	g	r	x	dd	jj
+20	1	e	l	q	v	bb	hh
+21	1	f	l	q	x	cc	hh
+=======================================
+Gen: 1,    Agent: 67
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	67	a	g	r	x	dd	ii
+5	64	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	34	f	l	q	w	cc	hh
+9	32	c	h	n	t	y	ee
+10	29	c	i	n	t	z	ff
+11	24	b	h	m	s	y	jj
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	12	b	h	m	s	y	ee
+15	10	e	j	p	v	bb	gg
+16	3	e	k	p	v	bb	gg
+17	3	e	j	p	v	aa	gg
+18	2	a	l	q	w	cc	hh
+19	2	f	l	q	x	cc	hh
+20	1	c	i	o	t	z	ee
+21	1	e	k	p	v	aa	gg
+22	1	c	i	n	t	y	ee
+=======================================
+Gen: 1,    Agent: 68
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	155	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	65	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	29	c	i	n	t	z	ee
+11	24	b	h	m	s	y	jj
+12	13	b	g	r	s	dd	jj
+13	12	b	h	m	s	y	ee
+14	10	d	j	o	u	aa	gg
+15	9	e	k	p	v	aa	gg
+16	6	e	j	p	v	aa	gg
+17	4	d	j	p	u	aa	gg
+18	1	e	k	p	v	bb	gg
+19	1	e	j	p	v	bb	gg
+20	1	a	g	m	x	dd	ii
+21	1	a	g	r	x	dd	jj
+=======================================
+Gen: 1,    Agent: 69
+id	typeFreq	A	B	C	D	E	F
+1	302	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	39	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	17	d	j	o	u	aa	gg
+12	17	c	i	n	t	z	ff
+13	16	e	j	p	v	aa	gg
+14	14	b	g	r	s	dd	jj
+15	12	b	h	m	s	y	ee
+16	12	c	i	n	t	z	ee
+17	1	e	j	p	v	bb	gg
+18	1	a	l	r	x	dd	ii
+19	1	a	l	r	w	cc	ii
+=======================================
+Gen: 1,    Agent: 70
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	62	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	21	c	i	n	t	z	ff
+12	16	e	j	p	v	aa	gg
+13	14	b	g	r	s	dd	jj
+14	13	d	j	o	u	aa	gg
+15	12	b	h	m	s	y	ee
+16	7	c	i	n	t	z	ee
+17	3	a	g	r	x	dd	jj
+18	1	d	j	p	u	aa	gg
+19	1	e	j	p	v	bb	gg
+20	1	e	k	p	v	bb	hh
+21	1	a	l	r	x	dd	ii
+22	1	a	g	m	x	dd	ii
+23	1	c	i	o	t	z	ee
+=======================================
+Gen: 1,    Agent: 71
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	65	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	17	c	i	n	t	z	ee
+12	14	b	g	r	s	dd	jj
+13	13	d	j	o	u	aa	gg
+14	12	b	h	m	s	y	ee
+15	12	c	i	n	t	z	ff
+16	7	e	j	p	v	aa	gg
+17	5	e	j	p	v	bb	gg
+18	5	e	k	p	v	aa	gg
+19	1	d	j	p	u	aa	gg
+20	1	a	g	r	x	dd	jj
+21	1	a	l	r	x	dd	ii
+=======================================
+Gen: 1,    Agent: 72
+id	typeFreq	A	B	C	D	E	F
+1	301	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	65	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	18	c	i	n	t	z	ff
+12	14	b	g	r	s	dd	jj
+13	12	b	h	m	s	y	ee
+14	11	c	i	n	t	z	ee
+15	9	d	j	o	u	aa	gg
+16	7	e	j	p	v	bb	gg
+17	5	d	j	p	u	aa	gg
+18	5	e	k	p	v	bb	gg
+19	3	e	j	p	v	aa	gg
+20	2	e	k	p	v	aa	gg
+21	1	a	g	r	x	dd	jj
+22	1	a	g	m	x	dd	ii
+23	1	a	l	r	x	cc	hh
+24	1	f	l	r	x	cc	ii
+=======================================
+Gen: 1,    Agent: 73
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	153	b	g	m	s	dd	jj
+3	141	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	65	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	23	b	h	m	s	y	jj
+11	18	c	i	n	t	z	ff
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	12	b	h	m	s	y	ee
+15	11	c	i	n	t	z	ee
+16	8	e	j	p	v	aa	gg
+17	7	e	k	p	v	aa	gg
+18	4	e	k	p	v	bb	hh
+19	2	e	j	p	v	bb	gg
+20	1	a	g	r	x	dd	jj
+21	1	a	g	m	x	dd	ii
+22	1	b	g	m	s	y	jj
+23	1	b	h	m	s	dd	jj
+=======================================
+Gen: 1,    Agent: 74
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	64	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	36	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	23	b	h	m	s	y	jj
+11	23	c	i	n	t	z	ee
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	13	b	h	m	s	y	ee
+15	12	e	j	p	v	aa	gg
+16	6	c	i	n	t	z	ff
+17	4	e	k	p	v	aa	gg
+18	2	a	g	r	x	dd	jj
+19	2	f	l	q	w	cc	ii
+20	1	e	j	p	v	bb	gg
+21	1	a	l	r	x	dd	ii
+=======================================
+Gen: 1,    Agent: 75
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	65	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	37	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	17	c	i	n	t	z	ee
+12	14	e	j	p	v	aa	gg
+13	14	b	g	r	s	dd	jj
+14	12	d	j	o	u	aa	gg
+15	12	b	h	m	s	y	ee
+16	12	c	i	n	t	z	ff
+17	2	d	j	p	u	aa	gg
+18	2	e	j	p	v	bb	gg
+19	2	a	l	r	x	dd	ii
+20	1	e	k	p	v	bb	gg
+21	1	a	l	q	w	cc	hh
+=======================================
+Gen: 1,    Agent: 76
+id	typeFreq	A	B	C	D	E	F
+1	301	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	65	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	25	c	i	n	t	z	ee
+11	23	b	h	m	s	y	jj
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	13	b	h	m	s	y	ee
+15	9	e	j	p	v	aa	gg
+16	5	e	j	p	v	bb	gg
+17	4	c	i	n	t	z	ff
+18	3	e	k	p	v	aa	gg
+19	1	e	k	p	v	bb	hh
+20	1	a	g	r	x	dd	jj
+21	1	a	g	r	x	cc	ii
+22	1	a	l	r	x	cc	hh
+23	1	a	l	r	w	cc	ii
+=======================================
+Gen: 1,    Agent: 77
+id	typeFreq	A	B	C	D	E	F
+1	302	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	66	c	i	o	t	z	ff
+5	66	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	37	f	l	q	w	cc	hh
+9	32	c	h	n	t	y	ee
+10	27	c	i	n	t	z	ff
+11	24	b	h	m	s	y	jj
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	12	b	h	m	s	y	ee
+15	10	e	j	p	v	aa	gg
+16	6	e	j	p	v	bb	gg
+17	1	e	k	p	v	aa	gg
+18	1	a	g	r	x	cc	ii
+19	1	f	l	q	x	cc	hh
+20	1	a	l	r	x	cc	hh
+21	1	c	i	n	t	y	ee
+22	1	c	i	n	t	z	ee
+=======================================
+Gen: 1,    Agent: 78
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	64	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	32	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	16	c	i	n	t	z	ee
+12	14	b	g	r	s	dd	jj
+13	13	c	i	n	t	z	ff
+14	12	d	j	o	u	aa	gg
+15	12	b	h	m	s	y	ee
+16	9	e	j	p	v	aa	gg
+17	5	e	j	p	v	bb	gg
+18	3	e	k	p	v	aa	gg
+19	2	d	j	p	u	aa	gg
+20	2	a	g	r	x	dd	jj
+21	1	a	l	r	x	dd	ii
+22	1	c	i	n	t	y	ee
+=======================================
+Gen: 1,    Agent: 79
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	35	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	22	c	i	n	t	z	ff
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	12	b	h	m	s	y	ee
+15	7	e	k	p	v	aa	gg
+16	7	e	j	p	v	aa	gg
+17	7	c	i	n	t	z	ee
+18	2	e	j	p	v	bb	gg
+19	2	f	l	q	w	cc	ii
+20	1	e	k	p	v	bb	gg
+21	1	e	k	p	v	bb	hh
+22	1	a	l	r	x	dd	ii
+23	1	f	l	q	x	cc	hh
+=======================================
+Gen: 1,    Agent: 80
+id	typeFreq	A	B	C	D	E	F
+1	301	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	143	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	63	a	g	r	x	dd	ii
+6	42	d	i	o	u	z	ff
+7	41	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	17	c	i	n	t	z	ff
+12	14	b	g	r	s	dd	jj
+13	12	b	h	m	s	y	ee
+14	12	c	i	n	t	z	ee
+15	11	d	j	o	u	aa	gg
+16	7	e	j	p	v	bb	gg
+17	5	e	k	p	v	aa	gg
+18	4	e	j	p	v	aa	gg
+19	3	d	j	p	u	aa	gg
+20	2	e	k	p	v	bb	hh
+21	2	a	g	r	x	dd	jj
+22	1	a	l	r	x	cc	jj
+23	1	d	i	o	t	z	ff
+24	1	c	i	o	u	z	ff
+25	1	d	i	o	u	aa	ff
+26	1	e	k	p	v	bb	gg
+27	1	a	g	m	x	dd	ii
+28	1	a	l	r	x	dd	ii
+29	1	a	l	r	x	cc	hh
+=======================================
+Gen: 1,    Agent: 81
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	155	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	67	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	36	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	25	c	i	n	t	z	ee
+11	23	b	h	m	s	y	jj
+12	15	e	j	p	v	bb	gg
+13	13	b	g	r	s	dd	jj
+14	12	b	h	m	s	y	ee
+15	11	d	j	o	u	aa	gg
+16	4	c	i	n	t	z	ff
+17	3	d	j	p	u	aa	gg
+18	2	e	j	p	v	aa	gg
+19	1	f	l	q	w	cc	ii
+20	1	a	l	q	w	cc	hh
+21	1	b	g	m	s	y	jj
+=======================================
+Gen: 1,    Agent: 82
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	44	d	i	o	u	z	ff
+6	42	d	j	o	u	aa	ff
+7	36	a	g	r	x	dd	ii
+8	36	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	30	a	g	r	x	dd	jj
+11	29	c	i	n	t	z	ee
+12	24	b	h	m	s	y	jj
+13	13	b	g	r	s	dd	jj
+14	12	d	j	o	u	aa	gg
+15	12	b	h	m	s	y	ee
+16	7	e	j	p	v	bb	gg
+17	6	e	j	p	v	aa	gg
+18	4	e	k	p	v	bb	gg
+19	2	d	j	p	u	aa	gg
+20	1	e	k	p	v	bb	hh
+21	1	a	g	r	x	cc	ii
+22	1	a	l	q	w	cc	hh
+23	1	f	l	q	w	cc	ii
+24	1	b	g	r	x	dd	jj
+=======================================
+Gen: 1,    Agent: 83
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	64	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	23	c	i	n	t	z	ee
+12	14	b	g	r	s	dd	jj
+13	13	d	j	o	u	aa	gg
+14	12	b	h	m	s	y	ee
+15	10	e	j	p	v	aa	gg
+16	6	c	i	n	t	z	ff
+17	3	e	k	p	v	aa	gg
+18	2	e	k	p	v	bb	gg
+19	2	e	j	p	v	bb	gg
+20	2	a	g	r	x	dd	jj
+21	1	d	j	p	u	aa	gg
+22	1	a	l	r	x	dd	ii
+=======================================
+Gen: 1,    Agent: 84
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	27	c	i	n	t	z	ff
+11	24	b	h	m	s	y	jj
+12	13	d	j	o	u	aa	gg
+13	13	b	g	r	s	dd	jj
+14	12	b	h	m	s	y	ee
+15	9	e	j	p	v	bb	gg
+16	8	e	j	p	v	aa	gg
+17	2	c	i	n	t	z	ee
+18	1	d	j	p	u	aa	gg
+19	1	e	k	p	v	bb	hh
+20	1	a	g	r	x	cc	ii
+21	1	b	g	r	x	dd	jj
+=======================================
+Gen: 1,    Agent: 85
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	37	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	28	c	i	n	t	z	ff
+11	23	b	h	m	s	y	jj
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	13	b	h	m	s	y	ee
+15	9	e	j	p	v	aa	gg
+16	6	e	k	p	v	aa	gg
+17	1	e	j	p	v	bb	gg
+18	1	e	k	p	v	bb	gg
+19	1	a	g	m	x	dd	ii
+20	1	f	l	q	w	cc	ii
+21	1	c	i	n	t	z	ee
+=======================================
+Gen: 1,    Agent: 86
+id	typeFreq	A	B	C	D	E	F
+1	300	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	26	c	i	n	t	z	ff
+11	24	b	h	m	s	y	jj
+12	14	b	g	r	s	dd	jj
+13	12	b	h	m	s	y	ee
+14	10	d	j	o	u	aa	gg
+15	10	e	k	p	v	aa	gg
+16	4	d	j	p	u	aa	gg
+17	3	e	j	p	v	bb	gg
+18	3	e	j	p	v	aa	gg
+19	3	a	l	r	x	cc	hh
+20	3	c	i	n	t	z	ee
+21	1	e	k	p	v	bb	gg
+22	1	e	k	p	v	bb	hh
+23	1	a	l	r	x	dd	ii
+=======================================
+Gen: 1,    Agent: 87
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	24	c	i	n	t	z	ee
+12	13	b	g	r	s	dd	jj
+13	12	e	j	p	v	aa	gg
+14	12	b	h	m	s	y	ee
+15	10	d	j	o	u	aa	gg
+16	5	e	j	p	v	bb	gg
+17	5	c	i	n	t	z	ff
+18	4	d	j	p	u	aa	gg
+19	1	e	k	p	v	bb	hh
+20	1	a	g	r	x	cc	ii
+21	1	a	g	r	s	dd	jj
+=======================================
+Gen: 1,    Agent: 88
+id	typeFreq	A	B	C	D	E	F
+1	302	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	65	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	41	d	j	o	u	aa	ff
+8	36	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	23	b	h	m	s	y	jj
+11	22	c	i	n	t	z	ee
+12	14	e	j	p	v	aa	gg
+13	13	d	j	o	u	aa	gg
+14	13	b	g	r	s	dd	jj
+15	12	b	h	m	s	y	ee
+16	7	c	i	n	t	z	ff
+17	2	e	k	p	v	aa	gg
+18	1	d	i	o	u	aa	ff
+19	1	d	j	p	u	aa	gg
+20	1	e	k	p	v	bb	gg
+21	1	a	g	r	x	dd	jj
+22	1	a	g	r	x	cc	ii
+23	1	f	l	q	w	cc	ii
+24	1	f	l	q	x	cc	hh
+25	1	f	l	r	x	cc	ii
+26	1	a	g	r	s	dd	jj
+27	1	b	h	m	s	dd	jj
+=======================================
+Gen: 1,    Agent: 89
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	66	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	43	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	28	c	i	n	t	z	ee
+11	24	b	h	m	s	y	jj
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	12	b	h	m	s	y	ee
+15	10	e	k	p	v	aa	gg
+16	6	e	j	p	v	aa	gg
+17	1	d	i	o	t	z	ff
+18	1	e	j	p	v	bb	gg
+19	1	a	l	r	x	dd	ii
+20	1	c	i	n	t	z	ff
+=======================================
+Gen: 1,    Agent: 90
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	65	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	19	c	i	n	t	z	ff
+12	14	b	g	r	s	dd	jj
+13	13	d	j	o	u	aa	gg
+14	12	b	h	m	s	y	ee
+15	10	c	i	n	t	z	ee
+16	9	e	j	p	v	aa	gg
+17	5	e	k	p	v	aa	gg
+18	3	e	j	p	v	bb	gg
+19	1	d	j	p	u	aa	gg
+20	1	e	k	p	v	bb	hh
+21	1	a	g	m	x	dd	ii
+22	1	a	g	r	x	dd	jj
+=======================================
+Gen: 1,    Agent: 91
+id	typeFreq	A	B	C	D	E	F
+1	302	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	64	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	41	d	j	o	u	aa	ff
+8	36	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	20	c	i	n	t	z	ee
+12	14	b	g	r	s	dd	jj
+13	12	b	h	m	s	y	ee
+14	10	d	j	o	u	aa	gg
+15	9	c	i	n	t	z	ff
+16	8	e	k	p	v	aa	gg
+17	4	d	j	p	u	aa	gg
+18	4	e	j	p	v	bb	gg
+19	4	e	j	p	v	aa	gg
+20	2	a	g	m	x	dd	ii
+21	1	d	j	o	u	z	ff
+22	1	e	k	p	v	bb	gg
+23	1	a	g	r	x	cc	ii
+24	1	a	l	q	w	cc	hh
+25	1	f	l	q	w	cc	ii
+26	1	a	l	r	x	cc	hh
+=======================================
+Gen: 1,    Agent: 92
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	67	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	41	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	24	b	h	m	s	y	jj
+11	15	d	j	o	u	aa	gg
+12	15	c	i	n	t	z	ff
+13	14	c	i	n	t	z	ee
+14	13	b	g	r	s	dd	jj
+15	12	b	h	m	s	y	ee
+16	10	e	j	p	v	aa	gg
+17	7	e	k	p	v	aa	gg
+18	1	b	g	r	x	dd	jj
+=======================================
+Gen: 1,    Agent: 93
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	67	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	43	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	37	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	23	b	h	m	s	y	jj
+11	15	c	i	n	t	z	ff
+12	14	b	g	r	s	dd	jj
+13	14	c	i	n	t	z	ee
+14	13	d	j	o	u	aa	gg
+15	12	b	h	m	s	y	ee
+16	8	e	j	p	v	aa	gg
+17	7	e	j	p	v	bb	gg
+18	1	d	i	o	t	z	ff
+19	1	d	j	p	u	aa	gg
+20	1	e	k	p	v	bb	gg
+21	1	e	k	p	v	aa	gg
+22	1	e	l	q	v	bb	hh
+23	1	f	l	q	x	cc	hh
+24	1	b	h	m	s	dd	jj
+=======================================
+Gen: 1,    Agent: 94
+id	typeFreq	A	B	C	D	E	F
+1	302	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	65	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	41	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	23	b	h	m	s	y	jj
+11	22	c	i	n	t	z	ff
+12	14	b	g	r	s	dd	jj
+13	12	d	j	o	u	aa	gg
+14	12	b	h	m	s	y	ee
+15	8	e	j	p	v	aa	gg
+16	7	c	i	n	t	z	ee
+17	5	e	j	p	v	bb	gg
+18	4	e	k	p	v	aa	gg
+19	3	d	j	p	u	aa	gg
+20	1	a	g	m	x	dd	ii
+21	1	a	l	r	x	dd	ii
+22	1	a	l	r	x	cc	hh
+23	1	b	g	m	s	y	jj
+=======================================
+Gen: 1,    Agent: 95
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	144	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	64	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	36	f	l	q	w	cc	hh
+9	32	c	h	n	t	y	ee
+10	27	c	i	n	t	z	ff
+11	22	b	h	m	s	y	jj
+12	14	b	g	r	s	dd	jj
+13	13	b	h	m	s	y	ee
+14	12	d	j	o	u	aa	gg
+15	10	e	j	p	v	bb	gg
+16	5	e	j	p	v	aa	gg
+17	2	d	j	p	u	aa	gg
+18	2	c	i	n	t	z	ee
+19	1	e	k	p	v	aa	gg
+20	1	e	k	p	v	bb	gg
+21	1	e	k	p	v	bb	hh
+22	1	a	g	r	x	cc	ii
+23	1	a	l	r	x	dd	ii
+24	1	a	g	r	x	dd	jj
+25	1	f	l	q	w	cc	ii
+26	1	f	l	q	x	cc	hh
+27	1	b	h	m	s	dd	jj
+28	1	c	h	n	t	z	ee
+=======================================
+Gen: 1,    Agent: 96
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	64	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	29	c	i	n	t	z	ee
+11	24	b	h	m	s	y	jj
+12	14	d	j	o	u	aa	gg
+13	13	b	g	r	s	dd	jj
+14	12	e	j	p	v	aa	gg
+15	12	b	h	m	s	y	ee
+16	3	e	j	p	v	bb	gg
+17	2	e	k	p	v	aa	gg
+18	2	a	g	r	x	cc	ii
+19	1	a	g	m	x	dd	ii
+20	1	b	g	r	x	dd	jj
+=======================================
+Gen: 1,    Agent: 97
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	154	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	67	a	g	r	x	dd	ii
+5	65	c	i	o	t	z	ff
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	29	c	i	n	t	z	ee
+11	24	b	h	m	s	y	jj
+12	14	d	j	o	u	aa	gg
+13	14	b	g	r	s	dd	jj
+14	12	e	j	p	v	bb	gg
+15	12	b	h	m	s	y	ee
+16	3	e	j	p	v	aa	gg
+17	2	e	k	p	v	bb	gg
+=======================================
+Gen: 1,    Agent: 98
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	155	b	g	m	s	dd	jj
+3	143	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	58	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	37	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	29	c	i	n	t	z	ee
+11	24	b	h	m	s	y	jj
+12	13	d	j	o	u	aa	gg
+13	13	e	j	p	v	aa	gg
+14	13	b	g	r	s	dd	jj
+15	12	b	h	m	s	y	ee
+16	7	a	g	r	x	dd	jj
+17	3	e	j	p	v	bb	gg
+18	2	e	k	p	v	bb	hh
+19	1	d	j	p	u	aa	gg
+20	1	e	k	p	v	aa	gg
+21	1	a	g	r	x	cc	ii
+22	1	a	g	m	x	dd	ii
+23	1	a	l	q	w	cc	hh
+=======================================
+Gen: 1,    Agent: 99
+id	typeFreq	A	B	C	D	E	F
+1	303	a	l	r	x	cc	ii
+2	155	b	g	m	s	dd	jj
+3	145	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	63	a	g	r	x	dd	ii
+6	44	d	i	o	u	z	ff
+7	42	d	j	o	u	aa	ff
+8	38	f	l	q	w	cc	hh
+9	33	c	h	n	t	y	ee
+10	27	c	i	n	t	z	ee
+11	24	b	h	m	s	y	jj
+12	13	e	j	p	v	aa	gg
+13	12	b	h	m	s	y	ee
+14	11	d	j	o	u	aa	gg
+15	11	b	g	r	s	dd	jj
+16	4	e	k	p	v	aa	gg
+17	3	d	j	p	u	aa	gg
+18	2	a	g	r	x	dd	jj
+19	2	a	g	r	s	dd	jj
+20	2	c	i	n	t	z	ff
+21	1	a	g	r	x	cc	ii
+22	1	a	g	m	x	dd	ii
+===============================================================================
+===============================================================================
+Generation 2
+===============================================================================
+===============================================================================
+=======================================
+Gen: 2,    Agent: 100
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	198	b	g	m	s	dd	jj
+3	153	e	k	q	v	bb	hh
+4	91	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	38	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	3	b	h	m	s	dd	jj
+10	3	b	g	m	s	y	jj
+11	3	c	i	n	t	z	ff
+12	2	e	j	o	v	aa	gg
+13	2	e	j	p	v	aa	gg
+14	2	e	k	q	v	aa	hh
+15	2	e	j	q	v	bb	hh
+16	1	d	i	o	u	aa	ff
+17	1	e	j	q	v	bb	gg
+=======================================
+Gen: 2,    Agent: 101
+id	typeFreq	A	B	C	D	E	F
+1	369	a	l	r	x	cc	ii
+2	202	b	g	m	s	dd	jj
+3	154	e	k	q	v	bb	hh
+4	88	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	38	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	6	c	i	n	t	z	ff
+10	3	e	j	p	v	aa	gg
+11	2	e	k	q	v	aa	hh
+12	2	e	k	p	v	bb	gg
+13	1	e	j	q	v	bb	hh
+14	1	a	l	r	x	dd	ii
+15	1	b	h	m	s	y	jj
+16	1	b	h	m	s	dd	jj
+=======================================
+Gen: 2,    Agent: 102
+id	typeFreq	A	B	C	D	E	F
+1	369	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	152	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	18	a	l	q	x	cc	hh
+9	12	f	l	q	x	cc	hh
+10	9	b	h	m	s	y	jj
+11	4	a	l	q	w	cc	hh
+12	3	e	k	q	v	aa	hh
+13	3	f	l	q	w	cc	hh
+14	3	b	h	m	s	dd	jj
+15	2	e	j	p	v	aa	gg
+16	2	e	k	q	v	bb	gg
+17	1	d	j	o	u	z	ff
+18	1	e	j	q	v	bb	hh
+19	1	e	j	q	v	aa	gg
+20	1	e	j	o	v	bb	hh
+21	1	a	l	r	s	cc	ii
+22	1	a	l	r	x	cc	hh
+=======================================
+Gen: 2,    Agent: 103
+id	typeFreq	A	B	C	D	E	F
+1	369	a	l	r	x	cc	ii
+2	203	b	g	m	s	dd	jj
+3	148	e	k	q	v	bb	hh
+4	83	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	11	c	i	n	t	z	ff
+10	5	e	k	q	v	aa	hh
+11	3	f	l	q	x	cc	hh
+12	2	e	k	p	v	aa	hh
+13	2	a	l	q	w	cc	hh
+14	1	e	j	o	v	aa	gg
+15	1	e	j	p	v	bb	hh
+16	1	e	j	q	v	aa	gg
+17	1	e	k	q	v	aa	gg
+18	1	e	j	p	v	aa	gg
+19	1	e	j	q	v	aa	hh
+20	1	e	k	q	v	bb	gg
+21	1	a	g	r	x	dd	ii
+22	1	b	h	m	s	dd	jj
+=======================================
+Gen: 2,    Agent: 104
+id	typeFreq	A	B	C	D	E	F
+1	369	a	l	r	x	cc	ii
+2	197	b	g	m	s	dd	jj
+3	151	e	k	q	v	bb	hh
+4	90	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	38	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	4	b	h	m	s	y	jj
+10	4	c	i	n	t	z	ff
+11	3	e	j	q	v	bb	hh
+12	2	e	j	p	v	aa	gg
+13	2	e	k	p	v	bb	hh
+14	2	e	k	q	v	aa	hh
+15	2	b	h	m	s	dd	jj
+16	1	e	j	q	v	bb	gg
+17	1	e	j	q	v	aa	gg
+18	1	a	g	r	x	cc	ii
+19	1	b	g	m	s	y	jj
+=======================================
+Gen: 2,    Agent: 105
+id	typeFreq	A	B	C	D	E	F
+1	369	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	148	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	37	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	10	b	h	m	s	y	jj
+10	9	e	j	q	v	bb	hh
+11	2	e	j	q	v	bb	gg
+12	2	b	g	m	s	y	jj
+13	1	e	j	o	v	aa	gg
+14	1	e	j	p	v	aa	gg
+15	1	e	j	q	v	aa	hh
+16	1	a	g	r	x	cc	ii
+17	1	a	l	q	x	cc	hh
+18	1	c	i	n	t	z	ff
+=======================================
+Gen: 2,    Agent: 106
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	92	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	26	f	l	q	x	cc	hh
+9	8	f	l	q	w	cc	hh
+10	8	b	h	m	s	dd	jj
+11	4	a	l	q	x	cc	hh
+12	3	b	h	m	s	y	jj
+13	2	c	i	n	t	z	ff
+14	1	d	i	o	t	z	ff
+15	1	d	j	o	u	z	ff
+16	1	e	k	o	v	bb	hh
+17	1	b	g	m	s	y	jj
+=======================================
+Gen: 2,    Agent: 107
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	147	e	k	q	v	bb	hh
+4	92	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	a	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	12	b	h	m	s	y	jj
+10	6	e	j	p	v	aa	gg
+11	4	f	l	q	w	cc	hh
+12	3	e	j	q	v	aa	gg
+13	2	e	j	p	v	aa	hh
+14	2	e	j	q	v	aa	hh
+15	2	c	i	n	t	z	ff
+16	1	e	j	q	v	bb	hh
+17	1	e	j	q	v	bb	gg
+18	1	a	l	r	x	cc	hh
+=======================================
+Gen: 2,    Agent: 108
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	193	b	g	m	s	dd	jj
+3	154	e	k	q	v	bb	hh
+4	88	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	38	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	7	b	g	m	s	y	jj
+10	6	c	i	n	t	z	ff
+11	4	e	k	q	v	aa	hh
+12	4	b	h	m	s	y	jj
+13	2	e	j	q	v	bb	hh
+14	1	e	j	o	v	aa	gg
+15	1	e	j	q	v	aa	hh
+=======================================
+Gen: 2,    Agent: 109
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	193	b	g	m	s	dd	jj
+3	147	e	k	q	v	bb	hh
+4	93	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	32	c	h	n	t	y	ee
+8	24	f	l	q	w	cc	hh
+9	12	f	l	q	x	cc	hh
+10	10	b	h	m	s	dd	jj
+11	7	e	j	p	v	aa	gg
+12	5	e	j	q	v	bb	hh
+13	2	e	j	q	v	aa	hh
+14	2	a	l	q	x	cc	hh
+15	1	d	i	o	u	aa	ff
+16	1	d	j	o	u	z	ff
+17	1	e	j	q	v	bb	gg
+18	1	b	h	m	s	y	jj
+19	1	c	h	n	t	z	ee
+20	1	c	i	n	t	z	ff
+=======================================
+Gen: 2,    Agent: 110
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	198	b	g	m	s	dd	jj
+3	149	e	k	q	v	bb	hh
+4	92	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	38	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	6	b	g	m	s	y	jj
+10	4	e	j	p	v	aa	gg
+11	3	e	j	q	v	bb	hh
+12	2	e	k	q	v	aa	hh
+13	2	e	j	q	v	aa	hh
+14	2	c	i	n	t	z	ff
+15	1	e	j	p	v	bb	gg
+16	1	e	j	q	v	aa	gg
+=======================================
+Gen: 2,    Agent: 111
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	160	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	22	a	l	q	w	cc	hh
+9	13	a	l	q	x	cc	hh
+10	6	b	h	m	s	y	jj
+11	6	b	h	m	s	dd	jj
+12	2	f	l	q	w	cc	hh
+13	1	e	j	q	v	bb	hh
+14	1	e	k	p	v	aa	hh
+15	1	f	l	q	x	cc	hh
+=======================================
+Gen: 2,    Agent: 112
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	201	b	g	m	s	dd	jj
+3	156	e	k	q	v	bb	hh
+4	90	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	28	f	l	q	w	cc	hh
+9	6	e	j	q	v	bb	hh
+10	6	f	l	q	x	cc	hh
+11	4	a	l	q	x	cc	hh
+12	4	c	i	n	t	z	ff
+13	2	b	g	m	s	y	jj
+14	1	d	i	o	u	aa	ff
+15	1	b	h	m	s	dd	jj
+=======================================
+Gen: 2,    Agent: 113
+id	typeFreq	A	B	C	D	E	F
+1	369	a	l	r	x	cc	ii
+2	194	b	g	m	s	dd	jj
+3	155	e	k	q	v	bb	hh
+4	92	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	30	f	l	q	w	cc	hh
+9	7	f	l	q	x	cc	hh
+10	6	b	g	m	s	y	jj
+11	2	e	k	q	v	aa	hh
+12	2	e	j	q	v	bb	hh
+13	2	b	h	m	s	dd	jj
+14	2	b	h	m	s	y	jj
+15	2	c	i	n	t	z	ff
+16	1	c	i	o	u	z	ff
+17	1	e	k	q	v	bb	gg
+18	1	e	j	o	v	aa	gg
+19	1	e	j	p	v	aa	gg
+20	1	b	l	r	x	cc	ii
+21	1	a	l	q	x	cc	hh
+=======================================
+Gen: 2,    Agent: 114
+id	typeFreq	A	B	C	D	E	F
+1	369	a	l	r	x	cc	ii
+2	194	b	g	m	s	dd	jj
+3	154	e	k	q	v	bb	hh
+4	88	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	36	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	6	b	h	m	s	y	jj
+10	6	c	i	n	t	z	ff
+11	3	b	g	m	s	y	jj
+12	2	e	j	q	v	bb	hh
+13	2	e	j	o	v	aa	gg
+14	1	e	k	q	v	aa	hh
+15	1	e	j	q	v	aa	gg
+16	1	e	j	p	v	aa	gg
+17	1	e	j	p	v	aa	hh
+18	1	a	l	r	s	cc	ii
+19	1	a	l	q	x	cc	hh
+20	1	f	l	q	x	cc	hh
+21	1	b	h	m	s	dd	jj
+=======================================
+Gen: 2,    Agent: 115
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	193	b	g	m	s	dd	jj
+3	151	e	k	q	v	bb	hh
+4	92	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	38	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	8	b	g	m	s	y	jj
+10	4	e	j	p	v	aa	gg
+11	3	e	j	q	v	bb	hh
+12	2	e	j	q	v	bb	gg
+13	2	b	h	m	s	y	jj
+14	2	c	i	n	t	z	ff
+15	1	e	j	p	v	bb	hh
+16	1	e	k	q	v	aa	hh
+17	1	b	h	m	s	dd	jj
+=======================================
+Gen: 2,    Agent: 116
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	195	b	g	m	s	dd	jj
+3	153	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	35	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	6	b	h	m	s	dd	jj
+10	3	e	j	q	v	aa	hh
+11	3	b	h	m	s	y	jj
+12	2	e	j	q	v	bb	hh
+13	2	a	l	q	w	cc	hh
+14	1	e	j	o	v	bb	gg
+15	1	e	j	p	v	bb	hh
+16	1	e	j	q	v	bb	gg
+17	1	e	j	o	v	aa	gg
+18	1	a	l	q	x	cc	hh
+=======================================
+Gen: 2,    Agent: 117
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	158	e	k	q	v	bb	hh
+4	90	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	29	f	l	q	x	cc	hh
+9	12	b	g	m	s	y	jj
+10	7	f	l	q	w	cc	hh
+11	4	c	i	n	t	z	ff
+12	2	e	k	q	v	aa	hh
+13	2	a	l	q	x	cc	hh
+14	1	d	j	o	u	z	ff
+15	1	e	j	q	v	bb	hh
+16	1	e	k	o	v	aa	hh
+=======================================
+Gen: 2,    Agent: 118
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	193	b	g	m	s	dd	jj
+3	157	e	k	q	v	bb	hh
+4	93	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	32	c	h	n	t	y	ee
+8	24	a	l	q	w	cc	hh
+9	12	f	l	q	w	cc	hh
+10	5	b	h	m	s	y	jj
+11	4	b	g	m	s	y	jj
+12	2	e	k	q	v	aa	hh
+13	2	a	l	q	x	cc	hh
+14	2	b	h	m	s	dd	jj
+15	1	c	i	o	u	z	ff
+16	1	e	j	q	v	aa	hh
+17	1	e	j	q	v	bb	hh
+18	1	e	j	o	v	aa	gg
+19	1	c	h	n	t	z	ee
+20	1	c	i	n	t	z	ff
+=======================================
+Gen: 2,    Agent: 119
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	199	b	g	m	s	dd	jj
+3	154	e	k	q	v	bb	hh
+4	89	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	34	f	l	q	w	cc	hh
+8	32	c	h	n	t	y	ee
+9	6	e	j	q	v	bb	hh
+10	5	c	i	n	t	z	ff
+11	3	a	l	q	w	cc	hh
+12	2	b	h	m	s	dd	jj
+13	2	b	g	m	s	y	jj
+14	1	d	j	o	u	z	ff
+15	1	e	j	q	v	aa	hh
+16	1	e	j	o	v	bb	hh
+17	1	a	l	q	x	cc	hh
+18	1	b	h	m	s	y	jj
+19	1	c	h	n	t	z	ee
+=======================================
+Gen: 2,    Agent: 120
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	147	e	k	q	v	bb	hh
+4	86	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	18	f	l	q	w	cc	hh
+9	15	a	l	q	w	cc	hh
+10	9	e	j	p	v	aa	gg
+11	8	c	i	n	t	z	ff
+12	2	e	j	q	v	aa	hh
+13	2	f	l	q	x	cc	hh
+14	2	a	l	q	x	cc	hh
+15	1	e	k	o	v	bb	hh
+16	1	e	j	o	v	aa	gg
+17	1	e	j	q	v	bb	hh
+18	1	e	j	p	v	bb	gg
+19	1	a	l	r	x	cc	hh
+=======================================
+Gen: 2,    Agent: 121
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	197	b	g	m	s	dd	jj
+3	148	e	k	q	v	bb	hh
+4	91	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	35	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	6	b	g	m	s	y	jj
+10	4	e	j	q	v	aa	hh
+11	3	e	j	q	v	bb	hh
+12	3	c	i	n	t	z	ff
+13	2	e	k	q	v	aa	hh
+14	2	a	l	q	x	cc	hh
+15	1	e	j	o	v	aa	gg
+16	1	e	j	q	v	bb	gg
+17	1	e	j	p	v	aa	gg
+18	1	e	k	p	v	aa	hh
+19	1	e	j	p	v	bb	hh
+20	1	a	l	q	w	cc	hh
+21	1	b	h	m	s	y	jj
+=======================================
+Gen: 2,    Agent: 122
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	195	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	82	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	32	f	l	q	w	cc	hh
+9	12	c	i	n	t	z	ff
+10	9	b	g	m	s	y	jj
+11	4	a	l	q	w	cc	hh
+12	1	d	i	o	u	aa	ff
+13	1	a	l	q	x	cc	hh
+14	1	a	l	q	x	cc	ii
+=======================================
+Gen: 2,    Agent: 123
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	146	e	k	q	v	bb	hh
+4	72	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	35	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	20	c	i	n	t	z	ff
+10	5	e	j	p	v	aa	gg
+11	3	e	j	q	v	aa	hh
+12	3	e	j	o	v	aa	gg
+13	2	e	j	q	v	bb	hh
+14	2	c	i	n	t	z	ee
+15	1	e	j	p	v	bb	gg
+16	1	e	j	q	v	aa	gg
+17	1	e	j	p	v	bb	hh
+18	1	a	l	q	w	cc	hh
+19	1	e	l	q	x	cc	hh
+20	1	a	l	q	x	cc	hh
+=======================================
+Gen: 2,    Agent: 124
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	153	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	21	f	l	q	w	cc	hh
+9	15	f	l	q	x	cc	hh
+10	10	b	h	m	s	y	jj
+11	4	e	k	q	v	aa	hh
+12	2	e	j	q	v	bb	hh
+13	2	e	j	p	v	aa	gg
+14	2	a	l	q	x	cc	hh
+15	2	b	g	m	s	y	jj
+16	1	e	j	q	v	aa	gg
+=======================================
+Gen: 2,    Agent: 125
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	197	b	g	m	s	dd	jj
+3	156	e	k	q	v	bb	hh
+4	91	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	35	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	3	b	g	m	s	y	jj
+10	3	b	h	m	s	y	jj
+11	3	c	i	n	t	z	ff
+12	2	e	j	q	v	bb	hh
+13	2	a	l	q	x	cc	hh
+14	1	d	i	o	u	aa	ff
+15	1	e	j	p	v	aa	gg
+16	1	e	k	q	v	aa	gg
+17	1	e	j	o	v	aa	gg
+18	1	e	k	q	v	aa	hh
+19	1	f	l	q	x	cc	hh
+20	1	b	h	m	s	dd	jj
+=======================================
+Gen: 2,    Agent: 126
+id	typeFreq	A	B	C	D	E	F
+1	369	a	l	r	x	cc	ii
+2	200	b	g	m	s	dd	jj
+3	154	e	k	q	v	bb	hh
+4	93	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	36	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	3	b	h	m	s	dd	jj
+10	2	e	j	q	v	bb	gg
+11	2	e	k	o	v	bb	hh
+12	1	d	i	o	u	aa	ff
+13	1	d	j	o	u	z	ff
+14	1	e	k	p	v	bb	hh
+15	1	e	j	o	v	aa	gg
+16	1	e	j	q	v	bb	hh
+17	1	e	j	p	v	aa	gg
+18	1	a	g	r	x	cc	ii
+19	1	a	l	q	x	cc	hh
+20	1	a	l	q	w	cc	hh
+21	1	b	g	m	s	y	jj
+22	1	c	i	n	t	z	ff
+=======================================
+Gen: 2,    Agent: 127
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	148	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	36	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	11	b	h	m	s	y	jj
+10	7	e	j	q	v	bb	hh
+11	4	e	j	p	v	aa	gg
+12	1	e	j	q	v	aa	hh
+13	1	e	k	q	v	aa	hh
+14	1	e	j	o	v	aa	gg
+15	1	a	l	q	w	cc	hh
+16	1	f	l	q	x	cc	hh
+17	1	b	h	m	s	dd	jj
+=======================================
+Gen: 2,    Agent: 128
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	198	b	g	m	s	dd	jj
+3	156	e	k	q	v	bb	hh
+4	84	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	36	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	10	c	i	n	t	z	ff
+10	3	b	g	m	s	y	jj
+11	3	b	h	m	s	dd	jj
+12	1	e	j	q	v	aa	hh
+13	1	e	k	q	v	aa	hh
+14	1	e	j	q	v	bb	hh
+15	1	e	j	p	v	aa	gg
+16	1	e	j	p	v	aa	hh
+17	1	e	j	q	v	bb	gg
+18	1	a	l	q	w	cc	hh
+19	1	f	l	q	x	cc	hh
+=======================================
+Gen: 2,    Agent: 129
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	157	e	k	q	v	bb	hh
+4	90	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	34	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	9	b	h	m	s	y	jj
+10	4	c	i	n	t	z	ff
+11	3	b	h	m	s	dd	jj
+12	2	f	l	q	x	cc	hh
+13	2	a	l	q	x	cc	hh
+14	1	d	i	o	u	aa	ff
+15	1	e	k	q	v	aa	gg
+16	1	e	j	q	v	bb	hh
+17	1	e	j	p	v	aa	gg
+18	1	e	j	o	v	aa	gg
+19	1	e	j	q	v	bb	gg
+=======================================
+Gen: 2,    Agent: 130
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	149	e	k	q	v	bb	hh
+4	84	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	35	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	10	c	i	n	t	z	ff
+10	6	b	h	m	s	y	jj
+11	4	e	j	q	v	bb	hh
+12	4	b	g	m	s	y	jj
+13	3	e	j	p	v	aa	gg
+14	3	e	j	q	v	aa	gg
+15	2	e	j	o	v	aa	gg
+16	2	b	h	m	s	dd	jj
+17	1	e	j	o	v	bb	hh
+18	1	f	l	q	x	cc	hh
+19	1	a	l	q	x	cc	hh
+20	1	a	l	q	w	cc	hh
+=======================================
+Gen: 2,    Agent: 131
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	195	b	g	m	s	dd	jj
+3	158	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	27	a	l	q	w	cc	hh
+9	9	a	l	q	x	cc	hh
+10	7	b	g	m	s	y	jj
+11	2	e	k	q	v	aa	hh
+12	2	f	l	q	w	cc	hh
+13	1	e	j	o	v	aa	gg
+14	1	e	j	q	v	bb	hh
+15	1	b	h	m	s	dd	jj
+16	1	b	h	m	s	y	jj
+=======================================
+Gen: 2,    Agent: 132
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	193	b	g	m	s	dd	jj
+3	156	e	k	q	v	bb	hh
+4	88	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	37	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	6	b	h	m	s	y	jj
+10	6	c	i	n	t	z	ff
+11	4	e	j	q	v	bb	hh
+12	3	b	h	m	s	dd	jj
+13	2	e	j	p	v	aa	gg
+14	2	b	g	m	s	y	jj
+15	1	f	l	q	x	cc	hh
+=======================================
+Gen: 2,    Agent: 133
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	193	b	g	m	s	dd	jj
+3	153	e	k	q	v	bb	hh
+4	92	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	32	f	l	q	w	cc	hh
+9	10	b	g	m	s	y	jj
+10	6	e	j	q	v	bb	hh
+11	3	a	l	q	x	cc	hh
+12	2	e	k	q	v	aa	hh
+13	2	a	l	q	w	cc	hh
+14	2	c	i	n	t	z	ff
+15	1	e	k	q	v	bb	gg
+16	1	f	l	q	x	cc	hh
+17	1	b	h	m	s	dd	jj
+=======================================
+Gen: 2,    Agent: 134
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	154	e	k	q	v	bb	hh
+4	65	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	36	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	29	c	i	n	t	z	ee
+10	3	e	k	q	v	aa	hh
+11	2	f	l	q	x	cc	hh
+12	1	e	j	p	v	aa	gg
+13	1	e	j	q	v	aa	hh
+14	1	e	k	q	v	bb	gg
+15	1	e	j	q	v	aa	gg
+16	1	e	j	q	v	bb	hh
+=======================================
+Gen: 2,    Agent: 135
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	197	b	g	m	s	dd	jj
+3	150	e	k	q	v	bb	hh
+4	92	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	5	a	l	q	w	cc	hh
+10	5	b	h	m	s	dd	jj
+11	3	e	k	q	v	aa	hh
+12	2	e	j	q	v	aa	hh
+13	2	e	j	q	v	bb	hh
+14	2	b	h	m	s	y	jj
+15	2	c	i	n	t	z	ff
+16	1	e	k	q	v	aa	gg
+17	1	e	j	p	v	bb	hh
+18	1	e	j	q	v	aa	gg
+19	1	e	j	q	v	bb	gg
+20	1	e	j	p	v	aa	gg
+=======================================
+Gen: 2,    Agent: 136
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	203	b	g	m	s	dd	jj
+3	146	e	k	q	v	bb	hh
+4	86	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	38	f	l	q	w	cc	hh
+8	32	c	h	n	t	y	ee
+9	8	c	i	n	t	z	ff
+10	5	e	j	q	v	aa	hh
+11	5	e	j	q	v	bb	hh
+12	4	e	j	p	v	aa	gg
+13	1	e	j	o	v	aa	gg
+14	1	e	j	q	v	aa	gg
+15	1	b	h	m	s	dd	jj
+16	1	c	h	n	t	z	ee
+=======================================
+Gen: 2,    Agent: 137
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	193	b	g	m	s	dd	jj
+3	150	e	k	q	v	bb	hh
+4	93	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	20	f	l	q	w	cc	hh
+9	17	f	l	q	x	cc	hh
+10	8	b	h	m	s	y	jj
+11	3	e	k	q	v	aa	hh
+12	3	e	j	q	v	bb	hh
+13	3	e	j	o	v	aa	gg
+14	2	b	g	m	s	y	jj
+15	1	d	j	o	u	z	ff
+16	1	e	k	q	v	aa	gg
+17	1	e	k	q	v	bb	gg
+18	1	e	j	q	v	aa	hh
+19	1	a	l	q	x	cc	hh
+20	1	b	h	m	s	dd	jj
+21	1	c	i	n	t	z	ff
+=======================================
+Gen: 2,    Agent: 138
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	203	b	g	m	s	dd	jj
+3	152	e	k	q	v	bb	hh
+4	83	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	37	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	11	c	i	n	t	z	ff
+10	4	e	k	q	v	aa	hh
+11	3	e	k	q	v	bb	gg
+12	2	e	j	o	v	aa	gg
+13	1	d	i	o	t	z	ff
+14	1	e	j	p	v	aa	gg
+15	1	f	l	q	x	cc	hh
+16	1	b	g	m	s	y	jj
+=======================================
+Gen: 2,    Agent: 139
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	193	b	g	m	s	dd	jj
+3	148	e	k	q	v	bb	hh
+4	92	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	36	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	6	b	h	m	s	y	jj
+10	5	e	j	q	v	aa	hh
+11	4	e	j	q	v	bb	hh
+12	3	b	g	m	s	y	jj
+13	2	e	k	q	v	aa	hh
+14	2	b	h	m	s	dd	jj
+15	2	c	i	n	t	z	ff
+16	1	c	i	o	u	z	ff
+17	1	e	k	q	v	bb	gg
+18	1	e	j	p	v	aa	gg
+19	1	e	j	q	v	bb	gg
+20	1	a	l	q	w	cc	hh
+21	1	a	l	q	x	cc	hh
+=======================================
+Gen: 2,    Agent: 140
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	152	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	32	f	l	q	w	cc	hh
+9	9	b	h	m	s	y	jj
+10	3	e	j	q	v	bb	hh
+11	3	e	k	q	v	aa	hh
+12	3	a	l	q	x	cc	hh
+13	3	a	l	q	w	cc	hh
+14	2	b	g	m	s	y	jj
+15	1	e	j	p	v	bb	gg
+16	1	e	j	q	v	aa	hh
+17	1	e	j	q	v	aa	gg
+18	1	e	j	p	v	aa	gg
+19	1	b	h	m	s	dd	jj
+=======================================
+Gen: 2,    Agent: 141
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	200	b	g	m	s	dd	jj
+3	155	e	k	q	v	bb	hh
+4	88	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	6	c	i	n	t	z	ff
+10	3	a	l	q	w	cc	hh
+11	3	b	h	m	s	dd	jj
+12	2	e	j	o	v	aa	gg
+13	2	e	k	q	v	aa	hh
+14	1	e	k	q	v	bb	gg
+15	1	e	j	p	v	bb	hh
+16	1	e	k	q	v	aa	gg
+17	1	f	l	q	x	cc	hh
+18	1	a	l	q	x	cc	hh
+19	1	b	g	m	s	y	jj
+=======================================
+Gen: 2,    Agent: 142
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	194	b	g	m	s	dd	jj
+3	158	e	k	q	v	bb	hh
+4	92	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	35	f	l	q	x	cc	hh
+8	32	c	h	n	t	y	ee
+9	6	b	h	m	s	dd	jj
+10	4	e	j	q	v	bb	hh
+11	3	a	l	q	x	cc	hh
+12	2	b	h	m	s	y	jj
+13	2	b	g	m	s	y	jj
+14	2	c	i	n	t	z	ff
+15	1	c	h	n	t	z	ee
+=======================================
+Gen: 2,    Agent: 143
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	199	b	g	m	s	dd	jj
+3	152	e	k	q	v	bb	hh
+4	87	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	36	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	7	c	i	n	t	z	ff
+10	3	b	g	m	s	y	jj
+11	2	e	j	q	v	bb	hh
+12	2	e	j	p	v	aa	gg
+13	2	e	j	q	v	aa	hh
+14	2	e	j	o	v	aa	gg
+15	2	b	h	m	s	dd	jj
+16	1	c	i	o	u	z	ff
+17	1	e	j	q	v	aa	gg
+18	1	e	j	q	v	bb	gg
+19	1	a	l	q	w	cc	hh
+20	1	a	l	q	x	cc	hh
+=======================================
+Gen: 2,    Agent: 144
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	197	b	g	m	s	dd	jj
+3	155	e	k	q	v	bb	hh
+4	88	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	36	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	6	c	i	n	t	z	ff
+10	3	e	k	q	v	aa	hh
+11	3	b	h	m	s	dd	jj
+12	2	e	j	p	v	aa	gg
+13	2	b	g	m	s	y	jj
+14	2	b	h	m	s	y	jj
+15	1	e	j	q	v	bb	hh
+16	1	e	k	q	v	bb	gg
+17	1	a	l	q	x	cc	hh
+18	1	a	l	q	w	cc	hh
+=======================================
+Gen: 2,    Agent: 145
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	148	e	k	q	v	bb	hh
+4	88	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	38	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	12	b	h	m	s	y	jj
+10	6	c	i	n	t	z	ff
+11	5	e	j	p	v	aa	gg
+12	3	e	j	q	v	bb	hh
+13	2	e	j	p	v	bb	hh
+14	1	e	j	p	v	aa	hh
+15	1	e	k	q	v	aa	hh
+16	1	e	k	p	v	aa	hh
+17	1	e	k	q	v	aa	gg
+=======================================
+Gen: 2,    Agent: 146
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	157	e	k	q	v	bb	hh
+4	93	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	32	f	l	q	w	cc	hh
+9	8	b	h	m	s	y	jj
+10	6	f	l	q	x	cc	hh
+11	4	b	h	m	s	dd	jj
+12	2	e	j	q	v	bb	hh
+13	1	d	i	o	u	aa	ff
+14	1	e	j	q	v	aa	hh
+15	1	e	j	p	v	bb	gg
+16	1	e	j	q	v	aa	gg
+17	1	c	i	n	t	z	ff
+=======================================
+Gen: 2,    Agent: 147
+id	typeFreq	A	B	C	D	E	F
+1	369	a	l	r	x	cc	ii
+2	196	b	g	m	s	dd	jj
+3	156	e	k	q	v	bb	hh
+4	84	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	34	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	10	c	i	n	t	z	ff
+10	4	b	h	m	s	y	jj
+11	3	a	l	q	x	cc	hh
+12	3	b	h	m	s	dd	jj
+13	2	e	j	q	v	bb	hh
+14	2	e	k	q	v	bb	gg
+15	1	e	j	o	v	bb	gg
+16	1	e	j	p	v	aa	gg
+17	1	a	l	r	x	dd	ii
+18	1	a	l	q	w	cc	hh
+19	1	b	g	m	s	y	jj
+=======================================
+Gen: 2,    Agent: 148
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	194	b	g	m	s	dd	jj
+3	146	e	k	q	v	bb	hh
+4	91	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	36	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	10	b	g	m	s	y	jj
+10	8	e	j	q	v	bb	hh
+11	5	e	j	p	v	aa	gg
+12	3	c	i	n	t	z	ff
+13	1	e	j	q	v	aa	hh
+14	1	e	j	p	v	aa	hh
+15	1	e	j	p	v	bb	hh
+16	1	a	l	q	x	cc	hh
+17	1	f	l	q	x	cc	hh
+=======================================
+Gen: 2,    Agent: 149
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	192	b	g	m	s	dd	jj
+3	158	e	k	q	v	bb	hh
+4	91	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	37	f	l	q	w	cc	hh
+8	33	c	h	n	t	y	ee
+9	9	b	g	m	s	y	jj
+10	3	b	h	m	s	y	jj
+11	3	c	i	n	t	z	ff
+12	1	c	i	o	u	z	ff
+13	1	e	j	q	v	aa	hh
+14	1	e	j	o	v	aa	hh
+15	1	e	j	p	v	aa	hh
+16	1	e	j	q	v	bb	hh
+17	1	f	l	q	x	cc	hh
+===============================================================================
+===============================================================================
+Generation 3
+===============================================================================
+===============================================================================
+=======================================
+Gen: 3,    Agent: 150
+id	typeFreq	A	B	C	D	E	F
+1	372	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	29	a	l	q	w	cc	hh
+9	5	a	l	q	x	cc	hh
+10	1	a	l	r	x	cc	hh
+11	1	a	l	r	w	cc	ii
+=======================================
+Gen: 3,    Agent: 151
+id	typeFreq	A	B	C	D	E	F
+1	371	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	26	a	l	q	x	cc	hh
+9	9	f	l	q	x	cc	hh
+10	1	d	j	o	u	z	ff
+11	1	e	j	q	v	bb	hh
+12	1	a	l	q	v	cc	hh
+13	1	a	l	r	x	cc	hh
+=======================================
+Gen: 3,    Agent: 152
+id	typeFreq	A	B	C	D	E	F
+1	372	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	157	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	42	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	32	a	l	q	x	cc	hh
+9	4	a	l	r	x	cc	hh
+10	3	d	i	o	t	z	ff
+11	2	e	j	q	v	bb	hh
+12	2	e	j	q	v	aa	hh
+13	1	d	j	o	u	z	ff
+14	1	e	k	q	v	aa	hh
+=======================================
+Gen: 3,    Agent: 153
+id	typeFreq	A	B	C	D	E	F
+1	371	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	160	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	35	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	2	e	j	q	v	bb	hh
+10	2	a	l	q	x	cc	ii
+=======================================
+Gen: 3,    Agent: 154
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	26	a	l	q	x	cc	hh
+9	11	f	l	q	x	cc	hh
+10	3	d	j	o	u	z	ff
+11	1	d	i	o	t	z	ff
+12	1	d	i	o	u	aa	ff
+13	1	a	l	q	x	cc	ii
+=======================================
+Gen: 3,    Agent: 155
+id	typeFreq	A	B	C	D	E	F
+1	371	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	160	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	2	a	l	q	x	cc	ii
+10	1	d	i	o	u	aa	ff
+11	1	e	k	q	v	aa	hh
+12	1	e	j	q	v	bb	hh
+13	1	a	l	q	w	cc	hh
+14	1	f	l	q	w	cc	hh
+=======================================
+Gen: 3,    Agent: 156
+id	typeFreq	A	B	C	D	E	F
+1	372	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	160	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	34	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	1	d	i	o	t	z	ff
+10	1	e	j	q	v	bb	hh
+11	1	e	j	q	v	aa	hh
+12	1	a	l	r	x	cc	hh
+13	1	a	l	q	v	cc	hh
+=======================================
+Gen: 3,    Agent: 157
+id	typeFreq	A	B	C	D	E	F
+1	371	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	2	a	l	q	w	cc	hh
+10	2	a	l	q	x	cc	ii
+11	1	e	j	q	v	bb	hh
+=======================================
+Gen: 3,    Agent: 158
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	53	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	35	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	2	a	l	q	w	cc	hh
+10	1	c	i	o	u	z	ff
+11	1	d	i	o	u	aa	ff
+12	1	e	k	q	v	aa	hh
+13	1	a	l	r	x	cc	hh
+=======================================
+Gen: 3,    Agent: 159
+id	typeFreq	A	B	C	D	E	F
+1	371	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	27	a	l	q	x	cc	hh
+9	7	a	l	q	x	cc	ii
+10	3	a	l	r	x	cc	hh
+11	1	c	i	o	u	z	ff
+12	1	d	i	o	u	aa	ff
+=======================================
+Gen: 3,    Agent: 160
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	156	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	22	a	l	q	w	cc	hh
+9	8	a	l	q	x	cc	hh
+10	5	f	l	q	w	cc	hh
+11	3	e	j	q	v	bb	hh
+12	2	e	j	q	v	aa	hh
+13	1	e	j	o	v	aa	ff
+14	1	a	l	q	w	cc	ii
+15	1	a	l	r	x	cc	hh
+16	1	f	l	q	x	cc	hh
+=======================================
+Gen: 3,    Agent: 161
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	42	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	25	f	l	q	x	cc	hh
+9	12	a	l	q	x	cc	hh
+10	2	c	i	o	u	z	ff
+11	1	d	j	o	u	z	ff
+12	1	e	j	q	v	bb	hh
+13	1	e	l	q	x	cc	hh
+=======================================
+Gen: 3,    Agent: 162
+id	typeFreq	A	B	C	D	E	F
+1	372	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	159	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	22	f	l	q	w	cc	hh
+9	7	a	l	q	w	cc	hh
+10	5	f	l	q	x	cc	hh
+11	2	e	j	q	v	bb	hh
+12	1	d	i	o	t	z	ff
+13	1	d	j	o	u	z	ff
+14	1	d	i	o	u	aa	ff
+15	1	e	k	q	v	aa	hh
+16	1	a	l	q	x	cc	hh
+17	1	a	l	q	x	cc	ii
+=======================================
+Gen: 3,    Agent: 163
+id	typeFreq	A	B	C	D	E	F
+1	375	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	25	a	l	q	x	cc	hh
+9	6	a	l	q	x	cc	ii
+10	2	a	l	r	x	cc	hh
+11	1	d	j	o	u	z	ff
+12	1	e	j	q	v	bb	hh
+=======================================
+Gen: 3,    Agent: 164
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	160	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	29	a	l	q	x	cc	hh
+9	5	a	l	r	x	cc	hh
+10	4	a	l	q	x	cc	ii
+11	1	d	j	o	u	z	ff
+12	1	e	k	q	v	aa	hh
+13	1	e	j	q	v	bb	hh
+=======================================
+Gen: 3,    Agent: 165
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	160	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	42	d	i	o	u	z	ff
+7	36	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	2	a	l	q	x	cc	ii
+10	1	d	i	o	t	z	ff
+11	1	c	i	o	u	z	ff
+12	1	e	j	q	v	bb	hh
+13	1	e	k	q	v	aa	hh
+=======================================
+Gen: 3,    Agent: 166
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	160	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	21	f	l	q	x	cc	hh
+9	16	a	l	q	x	cc	hh
+10	1	d	i	o	t	z	ff
+11	1	d	i	o	u	aa	ff
+12	1	e	k	q	v	aa	hh
+13	1	e	j	q	v	aa	hh
+14	1	a	l	r	x	cc	hh
+=======================================
+Gen: 3,    Agent: 167
+id	typeFreq	A	B	C	D	E	F
+1	378	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	27	a	l	q	x	cc	hh
+9	2	a	l	q	x	cc	ii
+10	1	a	l	r	x	cc	hh
+=======================================
+Gen: 3,    Agent: 168
+id	typeFreq	A	B	C	D	E	F
+1	374	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	53	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	27	a	l	q	x	cc	hh
+9	5	f	l	q	x	cc	hh
+10	2	a	l	r	x	cc	hh
+11	1	c	i	o	u	z	ff
+12	1	d	j	o	u	z	ff
+=======================================
+Gen: 3,    Agent: 169
+id	typeFreq	A	B	C	D	E	F
+1	373	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	26	a	l	q	x	cc	hh
+9	8	f	l	q	x	cc	hh
+10	1	e	j	q	v	bb	hh
+11	1	a	l	q	x	cc	ii
+=======================================
+Gen: 3,    Agent: 170
+id	typeFreq	A	B	C	D	E	F
+1	371	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	42	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	29	a	l	q	x	cc	hh
+9	5	a	l	r	x	cc	hh
+10	3	a	l	q	x	cc	ii
+11	2	c	i	o	u	z	ff
+12	2	d	j	o	u	z	ff
+=======================================
+Gen: 3,    Agent: 171
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	32	a	l	q	x	cc	hh
+9	4	a	l	q	x	cc	ii
+10	1	c	i	o	u	z	ff
+11	1	a	l	r	x	cc	hh
+12	1	f	l	q	x	cc	hh
+=======================================
+Gen: 3,    Agent: 172
+id	typeFreq	A	B	C	D	E	F
+1	371	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	31	a	l	q	x	cc	hh
+9	3	a	l	r	x	cc	hh
+10	2	f	l	q	x	cc	hh
+11	1	d	i	o	u	aa	ff
+12	1	d	j	o	u	z	ff
+13	1	a	l	q	x	cc	ii
+=======================================
+Gen: 3,    Agent: 173
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	26	a	l	q	x	cc	hh
+9	9	f	l	q	x	cc	hh
+10	2	a	l	r	x	cc	hh
+11	1	c	i	o	u	z	ff
+12	1	e	k	q	v	aa	hh
+13	1	a	l	q	x	cc	ii
+=======================================
+Gen: 3,    Agent: 174
+id	typeFreq	A	B	C	D	E	F
+1	374	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	22	a	l	q	x	cc	hh
+9	11	f	l	q	x	cc	hh
+10	1	c	i	o	u	z	ff
+11	1	a	l	q	x	cc	ii
+=======================================
+Gen: 3,    Agent: 175
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	36	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	1	e	j	q	v	bb	hh
+10	1	a	l	r	x	cc	hh
+11	1	a	l	q	x	cc	ii
+=======================================
+Gen: 3,    Agent: 176
+id	typeFreq	A	B	C	D	E	F
+1	372	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	31	a	l	q	x	cc	hh
+9	3	a	l	q	x	cc	ii
+10	2	a	l	r	x	cc	hh
+=======================================
+Gen: 3,    Agent: 177
+id	typeFreq	A	B	C	D	E	F
+1	374	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	27	a	l	q	x	cc	hh
+9	6	f	l	q	x	cc	hh
+10	2	d	j	o	u	z	ff
+11	1	a	l	q	x	cc	ii
+=======================================
+Gen: 3,    Agent: 178
+id	typeFreq	A	B	C	D	E	F
+1	373	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	1	d	i	o	u	aa	ff
+10	1	e	k	q	v	aa	hh
+11	1	a	l	q	x	cc	ii
+12	1	a	l	r	x	cc	hh
+=======================================
+Gen: 3,    Agent: 179
+id	typeFreq	A	B	C	D	E	F
+1	371	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	30	a	l	q	x	cc	hh
+9	6	f	l	q	x	cc	hh
+10	1	d	i	o	t	z	ff
+11	1	e	j	q	v	bb	hh
+12	1	a	l	q	x	cc	ii
+=======================================
+Gen: 3,    Agent: 180
+id	typeFreq	A	B	C	D	E	F
+1	374	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	30	a	l	q	x	cc	hh
+9	2	a	l	q	x	cc	ii
+10	2	a	l	r	x	cc	hh
+=======================================
+Gen: 3,    Agent: 181
+id	typeFreq	A	B	C	D	E	F
+1	371	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	19	f	l	q	x	cc	hh
+9	13	a	l	q	x	cc	hh
+10	3	a	l	q	x	cc	ii
+11	1	f	l	q	x	cc	ii
+12	1	a	l	q	v	cc	hh
+=======================================
+Gen: 3,    Agent: 182
+id	typeFreq	A	B	C	D	E	F
+1	372	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	160	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	27	a	l	q	x	cc	hh
+9	6	a	l	q	w	cc	hh
+10	2	d	j	o	u	z	ff
+11	1	e	k	q	v	aa	hh
+12	1	e	j	q	v	aa	hh
+13	1	e	l	q	w	cc	hh
+14	1	a	l	r	x	cc	hh
+15	1	a	l	q	x	cc	ii
+=======================================
+Gen: 3,    Agent: 183
+id	typeFreq	A	B	C	D	E	F
+1	375	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	47	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	31	a	l	q	x	cc	hh
+9	2	a	l	r	x	cc	hh
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 3,    Agent: 184
+id	typeFreq	A	B	C	D	E	F
+1	372	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	35	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	1	d	i	o	t	z	ff
+10	1	a	l	q	w	cc	hh
+=======================================
+Gen: 3,    Agent: 185
+id	typeFreq	A	B	C	D	E	F
+1	377	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	25	a	l	q	x	cc	hh
+9	3	a	l	q	x	cc	ii
+10	3	a	l	r	x	cc	hh
+11	2	d	j	o	u	z	ff
+=======================================
+Gen: 3,    Agent: 186
+id	typeFreq	A	B	C	D	E	F
+1	374	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	157	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	22	f	l	q	x	cc	hh
+9	12	a	l	q	x	cc	hh
+10	4	e	j	q	v	bb	hh
+11	1	d	j	o	u	z	ff
+12	1	d	i	o	u	aa	ff
+13	1	e	j	q	v	aa	hh
+=======================================
+Gen: 3,    Agent: 187
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	35	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	2	a	l	q	x	cc	ii
+10	1	e	j	q	v	bb	hh
+11	1	a	l	r	x	cc	hh
+=======================================
+Gen: 3,    Agent: 188
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	31	a	l	q	w	cc	hh
+9	7	a	l	q	x	cc	hh
+10	1	e	j	q	v	bb	hh
+=======================================
+Gen: 3,    Agent: 189
+id	typeFreq	A	B	C	D	E	F
+1	372	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	26	a	l	q	x	cc	hh
+9	10	a	l	q	w	cc	hh
+10	1	d	j	o	u	z	ff
+11	1	e	j	q	v	bb	hh
+=======================================
+Gen: 3,    Agent: 190
+id	typeFreq	A	B	C	D	E	F
+1	375	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	28	a	l	q	x	cc	hh
+9	3	a	l	q	x	cc	ii
+10	2	a	l	r	x	cc	hh
+11	1	d	j	o	u	z	ff
+=======================================
+Gen: 3,    Agent: 191
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	26	a	l	q	x	cc	hh
+9	12	a	l	q	w	cc	hh
+10	1	c	i	o	u	z	ff
+11	1	e	k	q	v	aa	hh
+=======================================
+Gen: 3,    Agent: 192
+id	typeFreq	A	B	C	D	E	F
+1	372	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	25	a	l	q	x	cc	hh
+9	10	a	l	q	w	cc	hh
+10	1	d	j	o	u	z	ff
+11	1	e	j	q	v	bb	hh
+12	1	a	l	q	x	cc	ii
+=======================================
+Gen: 3,    Agent: 193
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	158	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	30	a	l	q	x	cc	hh
+9	6	a	l	q	x	cc	ii
+10	3	e	j	q	v	bb	hh
+11	2	a	l	r	x	cc	hh
+12	1	e	j	q	v	aa	hh
+=======================================
+Gen: 3,    Agent: 194
+id	typeFreq	A	B	C	D	E	F
+1	373	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	26	a	l	q	x	cc	hh
+9	6	a	l	q	w	cc	hh
+10	3	a	l	q	x	cc	ii
+11	1	c	i	o	u	z	ff
+=======================================
+Gen: 3,    Agent: 195
+id	typeFreq	A	B	C	D	E	F
+1	372	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	42	d	i	o	u	z	ff
+7	34	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	1	d	i	o	t	z	ff
+10	1	c	i	o	u	z	ff
+11	1	e	k	q	v	aa	hh
+12	1	a	l	q	w	cc	hh
+13	1	a	l	r	x	cc	hh
+=======================================
+Gen: 3,    Agent: 196
+id	typeFreq	A	B	C	D	E	F
+1	375	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	159	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	30	a	l	q	x	cc	hh
+9	2	e	j	q	v	bb	hh
+10	1	d	j	o	u	z	ff
+11	1	e	j	q	v	aa	hh
+12	1	a	l	q	v	cc	hh
+13	1	a	l	q	x	cc	ii
+14	1	a	l	r	x	cc	hh
+=======================================
+Gen: 3,    Agent: 197
+id	typeFreq	A	B	C	D	E	F
+1	370	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	36	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	1	d	i	o	t	z	ff
+10	1	c	i	o	u	z	ff
+11	1	a	l	q	x	cc	ii
+12	1	a	l	r	x	cc	hh
+=======================================
+Gen: 3,    Agent: 198
+id	typeFreq	A	B	C	D	E	F
+1	372	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	161	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	28	a	l	q	x	cc	hh
+9	5	a	l	r	x	cc	hh
+10	3	a	l	q	x	cc	ii
+11	2	c	i	o	u	z	ff
+12	1	e	j	q	v	bb	hh
+=======================================
+Gen: 3,    Agent: 199
+id	typeFreq	A	B	C	D	E	F
+1	371	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	160	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	35	a	l	q	x	cc	hh
+8	33	c	h	n	t	y	ee
+9	1	e	j	q	v	bb	hh
+10	1	e	k	q	v	aa	hh
+11	1	a	l	q	x	cc	ii
+12	1	a	l	r	x	cc	hh
+===============================================================================
+===============================================================================
+Generation 4
+===============================================================================
+===============================================================================
+=======================================
+Gen: 4,    Agent: 200
+id	typeFreq	A	B	C	D	E	F
+1	407	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	40	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	c	i	o	u	z	ff
+9	1	d	i	o	t	z	ff
+10	1	d	i	o	u	aa	ff
+11	1	a	l	r	x	cc	hh
+=======================================
+Gen: 4,    Agent: 201
+id	typeFreq	A	B	C	D	E	F
+1	407	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	a	l	q	x	cc	ii
+=======================================
+Gen: 4,    Agent: 202
+id	typeFreq	A	B	C	D	E	F
+1	393	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	13	a	l	q	x	cc	ii
+9	2	d	i	o	u	aa	ff
+10	2	a	l	q	x	cc	hh
+=======================================
+Gen: 4,    Agent: 203
+id	typeFreq	A	B	C	D	E	F
+1	397	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	53	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	5	a	l	q	x	cc	hh
+9	3	a	l	q	x	cc	ii
+10	3	a	l	r	x	cc	hh
+11	1	d	j	o	u	z	ff
+12	1	d	i	o	u	aa	ff
+=======================================
+Gen: 4,    Agent: 204
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	d	j	o	u	z	ff
+9	1	d	i	o	u	aa	ff
+=======================================
+Gen: 4,    Agent: 205
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	42	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	u	aa	ff
+9	2	d	i	o	t	z	ff
+=======================================
+Gen: 4,    Agent: 206
+id	typeFreq	A	B	C	D	E	F
+1	403	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	a	l	q	x	cc	hh
+9	2	d	j	o	u	z	ff
+10	1	d	i	o	t	z	ff
+11	1	d	i	o	u	aa	ff
+12	1	a	l	q	x	cc	ii
+=======================================
+Gen: 4,    Agent: 207
+id	typeFreq	A	B	C	D	E	F
+1	397	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	9	a	l	q	x	cc	ii
+9	1	d	i	o	u	aa	ff
+10	1	d	j	o	u	z	ff
+11	1	a	l	r	x	cc	hh
+12	1	a	l	q	x	cc	hh
+=======================================
+Gen: 4,    Agent: 208
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	53	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	d	i	o	t	z	ff
+=======================================
+Gen: 4,    Agent: 209
+id	typeFreq	A	B	C	D	E	F
+1	402	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	49	d	i	o	u	z	ff
+6	49	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	5	a	l	q	x	cc	hh
+9	2	d	i	o	u	aa	ff
+10	1	a	l	q	x	cc	ii
+=======================================
+Gen: 4,    Agent: 210
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+=======================================
+Gen: 4,    Agent: 211
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	c	i	o	u	z	ff
+9	1	d	i	o	u	aa	ff
+=======================================
+Gen: 4,    Agent: 212
+id	typeFreq	A	B	C	D	E	F
+1	407	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	51	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	u	aa	ff
+9	1	c	i	o	u	z	ff
+10	1	a	l	q	x	cc	hh
+=======================================
+Gen: 4,    Agent: 213
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	t	z	ff
+=======================================
+Gen: 4,    Agent: 214
+id	typeFreq	A	B	C	D	E	F
+1	406	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	47	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	u	aa	ff
+9	2	d	j	o	u	z	ff
+10	1	a	l	q	x	cc	hh
+11	1	a	l	q	x	cc	ii
+=======================================
+Gen: 4,    Agent: 215
+id	typeFreq	A	B	C	D	E	F
+1	404	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	51	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	a	l	q	x	cc	hh
+9	3	d	i	o	t	z	ff
+10	2	d	i	o	u	aa	ff
+11	1	d	j	o	u	z	ff
+=======================================
+Gen: 4,    Agent: 216
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	d	j	o	u	z	ff
+9	1	d	i	o	u	aa	ff
+=======================================
+Gen: 4,    Agent: 217
+id	typeFreq	A	B	C	D	E	F
+1	406	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	51	d	j	o	u	aa	ff
+6	41	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	3	d	i	o	u	aa	ff
+9	2	c	i	o	u	z	ff
+10	2	d	j	o	u	z	ff
+11	2	a	l	q	x	cc	hh
+=======================================
+Gen: 4,    Agent: 218
+id	typeFreq	A	B	C	D	E	F
+1	403	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	3	a	l	q	x	cc	hh
+9	2	a	l	q	x	cc	ii
+10	1	c	i	o	u	z	ff
+=======================================
+Gen: 4,    Agent: 219
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	c	i	o	u	z	ff
+9	1	d	j	o	u	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 4,    Agent: 220
+id	typeFreq	A	B	C	D	E	F
+1	407	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	47	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	u	aa	ff
+9	1	a	l	q	x	cc	ii
+=======================================
+Gen: 4,    Agent: 221
+id	typeFreq	A	B	C	D	E	F
+1	386	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	13	a	l	q	x	cc	hh
+9	6	a	l	q	x	cc	ii
+10	3	a	l	r	x	cc	hh
+11	2	c	i	o	u	z	ff
+=======================================
+Gen: 4,    Agent: 222
+id	typeFreq	A	B	C	D	E	F
+1	407	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	u	aa	ff
+9	1	c	i	o	u	z	ff
+10	1	a	l	q	x	cc	ii
+=======================================
+Gen: 4,    Agent: 223
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	53	d	j	o	u	aa	ff
+6	42	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	t	z	ff
+9	1	c	i	o	u	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 4,    Agent: 224
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+=======================================
+Gen: 4,    Agent: 225
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	t	z	ff
+9	2	d	i	o	u	aa	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 4,    Agent: 226
+id	typeFreq	A	B	C	D	E	F
+1	406	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	53	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	c	i	o	u	z	ff
+9	2	d	i	o	u	aa	ff
+10	1	a	l	q	x	cc	hh
+11	1	a	l	q	x	cc	ii
+=======================================
+Gen: 4,    Agent: 227
+id	typeFreq	A	B	C	D	E	F
+1	407	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	51	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	u	aa	ff
+9	1	d	j	o	u	z	ff
+10	1	a	l	q	x	cc	hh
+=======================================
+Gen: 4,    Agent: 228
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	53	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	d	i	o	t	z	ff
+9	1	d	j	o	u	z	ff
+=======================================
+Gen: 4,    Agent: 229
+id	typeFreq	A	B	C	D	E	F
+1	407	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	53	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	a	l	q	x	cc	ii
+=======================================
+Gen: 4,    Agent: 230
+id	typeFreq	A	B	C	D	E	F
+1	407	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	53	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	3	d	i	o	u	aa	ff
+9	1	a	l	q	x	cc	hh
+=======================================
+Gen: 4,    Agent: 231
+id	typeFreq	A	B	C	D	E	F
+1	407	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	51	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	t	z	ff
+9	2	d	j	o	u	z	ff
+10	1	a	l	q	x	cc	hh
+=======================================
+Gen: 4,    Agent: 232
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	47	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	u	aa	ff
+9	1	d	i	o	t	z	ff
+10	1	c	i	o	u	z	ff
+=======================================
+Gen: 4,    Agent: 233
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	c	i	o	u	z	ff
+9	1	d	j	o	u	z	ff
+=======================================
+Gen: 4,    Agent: 234
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	42	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	t	z	ff
+9	2	d	i	o	u	aa	ff
+=======================================
+Gen: 4,    Agent: 235
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	d	i	o	u	aa	ff
+=======================================
+Gen: 4,    Agent: 236
+id	typeFreq	A	B	C	D	E	F
+1	401	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	50	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	u	aa	ff
+9	3	a	l	q	x	cc	hh
+10	2	a	l	r	x	cc	hh
+11	2	a	l	q	x	cc	ii
+=======================================
+Gen: 4,    Agent: 237
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	42	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	c	i	o	u	z	ff
+9	1	d	i	o	t	z	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 4,    Agent: 238
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	53	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	d	i	o	t	z	ff
+=======================================
+Gen: 4,    Agent: 239
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	48	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	u	aa	ff
+9	2	d	i	o	t	z	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 4,    Agent: 240
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	d	i	o	u	aa	ff
+=======================================
+Gen: 4,    Agent: 241
+id	typeFreq	A	B	C	D	E	F
+1	403	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	51	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	a	l	q	x	cc	ii
+9	2	d	j	o	u	z	ff
+10	2	d	i	o	u	aa	ff
+11	1	a	k	r	x	cc	ii
+=======================================
+Gen: 4,    Agent: 242
+id	typeFreq	A	B	C	D	E	F
+1	403	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	53	d	j	o	u	aa	ff
+6	41	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	3	c	i	o	u	z	ff
+9	2	a	l	q	x	cc	ii
+10	2	a	l	q	x	cc	hh
+11	1	d	j	o	u	z	ff
+12	1	d	i	o	u	aa	ff
+13	1	a	l	r	x	cc	hh
+=======================================
+Gen: 4,    Agent: 243
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	48	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	3	d	i	o	u	aa	ff
+9	2	d	j	o	u	z	ff
+10	1	c	i	o	u	z	ff
+=======================================
+Gen: 4,    Agent: 244
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	u	aa	ff
+9	1	d	i	o	t	z	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 4,    Agent: 245
+id	typeFreq	A	B	C	D	E	F
+1	407	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	d	i	o	t	z	ff
+9	1	d	j	o	u	z	ff
+10	1	a	l	q	x	cc	ii
+=======================================
+Gen: 4,    Agent: 246
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	d	i	o	t	z	ff
+9	1	c	i	o	u	z	ff
+=======================================
+Gen: 4,    Agent: 247
+id	typeFreq	A	B	C	D	E	F
+1	400	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	55	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	5	a	l	q	x	cc	hh
+9	2	a	l	r	x	cc	hh
+10	1	c	i	o	u	z	ff
+11	1	d	i	o	u	aa	ff
+12	1	a	l	q	x	cc	ii
+=======================================
+Gen: 4,    Agent: 248
+id	typeFreq	A	B	C	D	E	F
+1	407	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	u	aa	ff
+9	1	a	l	q	x	cc	ii
+=======================================
+Gen: 4,    Agent: 249
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	54	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	c	i	o	u	z	ff
+9	1	d	i	o	u	aa	ff
+===============================================================================
+===============================================================================
+Generation 5
+===============================================================================
+===============================================================================
+=======================================
+Gen: 5,    Agent: 250
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	3	d	j	o	u	z	ff
+9	2	d	i	o	t	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 251
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	j	o	u	z	ff
+9	1	c	i	o	u	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 252
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	50	d	i	o	u	z	ff
+6	35	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	12	d	i	o	u	aa	ff
+9	1	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 253
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	47	d	i	o	u	z	ff
+6	45	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	5	d	i	o	t	z	ff
+9	3	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 254
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	40	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	3	d	j	o	u	z	ff
+9	2	c	i	o	u	z	ff
+10	2	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 255
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	47	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	u	aa	ff
+9	1	c	i	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 256
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	51	d	i	o	u	z	ff
+6	43	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	3	d	i	o	u	aa	ff
+9	3	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 257
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	48	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	3	c	i	o	u	z	ff
+9	2	d	j	o	u	z	ff
+10	1	d	i	o	t	z	ff
+11	1	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 258
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	45	d	i	o	u	z	ff
+6	42	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	5	d	j	o	u	z	ff
+9	5	d	i	o	u	aa	ff
+10	2	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 259
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	47	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	u	aa	ff
+9	1	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 260
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	49	d	i	o	u	z	ff
+6	49	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	1	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 261
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	d	i	o	t	z	ff
+9	1	d	j	o	u	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 262
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	47	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	t	z	ff
+9	2	d	j	o	u	z	ff
+10	2	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 263
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	51	d	i	o	u	z	ff
+6	41	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	j	o	u	z	ff
+9	2	d	i	o	u	aa	ff
+10	1	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 264
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	51	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	j	o	u	z	ff
+9	1	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 265
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	48	d	i	o	u	z	ff
+6	47	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	3	d	i	o	u	aa	ff
+9	1	d	i	o	t	z	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 266
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	47	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	3	d	j	o	u	z	ff
+9	3	d	i	o	u	aa	ff
+10	1	c	i	o	u	z	ff
+11	1	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 267
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	50	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	u	aa	ff
+9	1	d	i	o	t	z	ff
+10	1	c	i	o	u	z	ff
+11	1	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 268
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	50	d	i	o	u	z	ff
+6	45	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	t	z	ff
+9	2	d	j	o	u	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 269
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	48	d	i	o	u	z	ff
+6	47	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	t	z	ff
+9	2	d	i	o	u	aa	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 270
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	45	d	i	o	u	z	ff
+6	45	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	u	aa	ff
+9	3	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 271
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	t	z	ff
+9	2	c	i	o	u	z	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 272
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	49	d	i	o	u	z	ff
+6	47	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	2	d	j	o	u	z	ff
+9	1	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 273
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	47	d	i	o	u	z	ff
+6	46	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	t	z	ff
+9	3	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 274
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	49	d	i	o	u	z	ff
+6	47	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	t	z	ff
+9	2	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 275
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	46	d	i	o	u	z	ff
+6	46	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	6	d	j	o	u	z	ff
+9	1	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 276
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	46	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	u	aa	ff
+9	3	d	j	o	u	z	ff
+10	1	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 277
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	52	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	3	d	j	o	u	z	ff
+9	1	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 278
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	47	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	7	d	j	o	u	z	ff
+9	1	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 279
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	48	d	i	o	u	z	ff
+6	43	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	5	d	j	o	u	z	ff
+9	2	c	i	o	u	z	ff
+10	1	d	i	o	t	z	ff
+11	1	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 280
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	47	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	d	j	o	u	z	ff
+9	3	c	i	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 281
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	48	d	j	o	u	aa	ff
+6	47	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	t	z	ff
+9	1	d	i	o	u	aa	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 282
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	j	o	u	z	ff
+9	2	d	i	o	u	aa	ff
+10	1	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 283
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	51	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	j	o	u	z	ff
+9	1	c	i	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 284
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	48	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	1	c	i	o	u	z	ff
+9	1	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 285
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	50	d	j	o	u	aa	ff
+6	44	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	3	d	i	o	u	aa	ff
+9	2	c	i	o	u	z	ff
+10	1	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 286
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	46	d	j	o	u	aa	ff
+6	39	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	7	d	j	o	u	z	ff
+9	2	c	i	o	u	z	ff
+10	2	d	i	o	u	aa	ff
+11	1	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 287
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	46	d	i	o	u	z	ff
+6	45	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	j	o	u	z	ff
+9	3	d	i	o	u	aa	ff
+10	1	c	i	o	u	z	ff
+11	1	d	i	o	t	z	ff
+=======================================
+Gen: 5,    Agent: 288
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	48	d	j	o	u	aa	ff
+6	47	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	u	aa	ff
+9	1	d	i	o	t	z	ff
+10	1	c	i	o	u	z	ff
+11	1	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 289
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	46	d	i	o	u	z	ff
+6	46	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	5	d	j	o	u	z	ff
+9	2	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 290
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	50	d	j	o	u	aa	ff
+6	46	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	t	z	ff
+9	2	d	j	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 291
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	j	o	u	z	ff
+9	2	d	i	o	u	aa	ff
+10	1	c	i	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 292
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	49	d	i	o	u	z	ff
+6	45	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	3	d	j	o	u	z	ff
+9	1	c	i	o	u	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 293
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	46	d	j	o	u	aa	ff
+6	43	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	d	j	o	u	z	ff
+9	3	d	i	o	u	aa	ff
+10	1	c	i	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 294
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	47	d	i	o	u	z	ff
+6	46	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	3	d	j	o	u	z	ff
+9	2	d	i	o	t	z	ff
+10	2	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 295
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	46	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	6	d	j	o	u	z	ff
+9	1	d	i	o	t	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 296
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	46	d	i	o	u	z	ff
+6	41	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	8	d	i	o	u	aa	ff
+9	2	d	j	o	u	z	ff
+10	1	c	i	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 297
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	45	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	3	d	j	o	u	z	ff
+9	1	d	i	o	t	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 5,    Agent: 298
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	49	d	j	o	u	aa	ff
+6	38	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	5	d	i	o	t	z	ff
+9	4	d	j	o	u	z	ff
+10	2	d	i	o	u	aa	ff
+11	1	c	i	o	u	z	ff
+=======================================
+Gen: 5,    Agent: 299
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	47	d	i	o	u	z	ff
+6	46	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	j	o	u	z	ff
+9	2	d	i	o	u	aa	ff
+10	1	d	i	o	t	z	ff
+===============================================================================
+===============================================================================
+Generation 6
+===============================================================================
+===============================================================================
+=======================================
+Gen: 6,    Agent: 300
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	61	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	21	d	j	o	u	aa	ff
+8	17	d	j	o	u	z	ff
+9	1	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 301
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	55	d	i	o	u	z	ff
+6	37	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	u	aa	ff
+9	2	c	i	o	u	z	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 302
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	51	d	i	o	u	z	ff
+6	40	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	3	d	j	o	u	z	ff
+9	1	c	i	o	u	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 303
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	53	d	i	o	u	z	ff
+6	39	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	j	o	u	z	ff
+9	2	d	i	o	t	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 304
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	50	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	23	d	j	o	u	z	ff
+8	21	d	j	o	u	aa	ff
+9	3	d	i	o	t	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 305
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	99	c	i	o	t	z	ff
+5	46	d	i	o	u	z	ff
+6	35	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	12	d	j	o	u	z	ff
+9	1	c	i	o	u	z	ff
+10	1	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 306
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	57	d	i	o	u	z	ff
+6	34	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	7	d	j	o	u	z	ff
+9	1	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 307
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	63	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	24	d	j	o	u	aa	ff
+8	8	d	j	o	u	z	ff
+9	3	d	i	o	u	aa	ff
+10	1	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 308
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	53	d	i	o	u	z	ff
+6	36	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	6	d	j	o	u	z	ff
+9	2	d	i	o	u	aa	ff
+10	1	c	i	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 309
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	52	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	31	d	j	o	u	aa	ff
+8	9	d	j	o	u	z	ff
+9	4	d	i	o	t	z	ff
+10	2	d	i	o	u	aa	ff
+11	1	c	i	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 310
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	46	d	i	o	u	z	ff
+6	44	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	3	d	i	o	t	z	ff
+9	2	d	j	o	u	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 311
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	56	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	26	d	j	o	u	aa	ff
+8	6	d	i	o	u	aa	ff
+9	5	d	i	o	t	z	ff
+10	2	c	i	o	u	z	ff
+11	2	d	j	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 312
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	50	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	28	d	j	o	u	aa	ff
+8	17	d	i	o	u	aa	ff
+9	3	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 313
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	51	d	i	o	u	z	ff
+6	40	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	j	o	u	z	ff
+9	2	c	i	o	u	z	ff
+10	1	d	i	o	t	z	ff
+11	1	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 314
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	47	d	i	o	u	z	ff
+6	39	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	t	z	ff
+9	4	d	j	o	u	z	ff
+10	2	c	i	o	u	z	ff
+11	1	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 315
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	58	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	27	d	j	o	u	z	ff
+8	13	d	j	o	u	aa	ff
+9	1	c	i	o	u	z	ff
+10	1	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 316
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	100	c	i	o	t	z	ff
+5	48	d	i	o	u	z	ff
+6	38	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	j	o	u	z	ff
+9	2	d	i	o	t	z	ff
+10	2	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 317
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	49	d	i	o	u	z	ff
+6	40	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	5	d	i	o	u	aa	ff
+9	2	d	j	o	u	z	ff
+10	1	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 318
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	52	d	i	o	u	z	ff
+6	33	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	5	d	j	o	u	z	ff
+9	3	d	i	o	u	aa	ff
+10	2	c	i	o	u	z	ff
+11	1	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 319
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	48	d	i	o	u	z	ff
+6	41	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	5	d	j	o	u	z	ff
+9	3	c	i	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 320
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	57	d	i	o	u	z	ff
+6	38	d	j	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	2	d	i	o	t	z	ff
+9	1	d	j	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 321
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	62	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	26	d	j	o	u	aa	ff
+8	5	d	j	o	u	z	ff
+9	3	d	i	o	t	z	ff
+10	3	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 322
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	51	d	i	o	u	z	ff
+6	39	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	5	d	i	o	u	aa	ff
+9	2	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 323
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	56	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	21	d	j	o	u	z	ff
+8	14	d	j	o	u	aa	ff
+9	6	d	i	o	t	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 324
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	55	d	i	o	u	z	ff
+6	39	d	j	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	5	d	j	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 325
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	40	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	24	d	j	o	u	aa	ff
+8	16	d	j	o	u	z	ff
+9	15	d	i	o	t	z	ff
+10	1	c	i	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 326
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	99	c	i	o	t	z	ff
+5	66	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	17	d	j	o	u	aa	ff
+8	11	d	i	o	u	aa	ff
+9	1	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 327
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	55	d	i	o	u	z	ff
+6	39	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	2	d	j	o	u	z	ff
+9	1	c	i	o	u	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 328
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	51	d	i	o	u	z	ff
+6	35	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	7	d	j	o	u	z	ff
+9	5	d	i	o	t	z	ff
+10	1	c	i	o	u	z	ff
+11	1	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 329
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	52	d	i	o	u	z	ff
+6	39	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	j	o	u	z	ff
+9	1	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 330
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	54	d	i	o	u	z	ff
+6	41	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	3	d	i	o	u	aa	ff
+9	1	d	j	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 331
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	48	d	i	o	u	z	ff
+6	40	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	6	d	i	o	t	z	ff
+9	3	d	i	o	u	aa	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 332
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	55	d	i	o	u	z	ff
+6	38	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	j	o	u	z	ff
+9	2	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 333
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	57	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	21	d	j	o	u	aa	ff
+8	9	d	j	o	u	z	ff
+9	7	d	i	o	u	aa	ff
+10	3	c	i	o	u	z	ff
+11	1	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 334
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	44	d	j	o	u	aa	ff
+6	42	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	8	d	i	o	t	z	ff
+9	1	c	i	o	u	z	ff
+10	1	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 335
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	57	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	23	d	j	o	u	aa	ff
+8	17	d	j	o	u	z	ff
+9	2	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 336
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	102	c	i	o	t	z	ff
+5	43	d	j	o	u	aa	ff
+6	41	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	4	c	i	o	u	z	ff
+9	4	d	j	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 337
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	56	d	i	o	u	z	ff
+6	36	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	6	d	i	o	u	aa	ff
+9	1	d	i	o	t	z	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 338
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	48	d	i	o	u	z	ff
+6	44	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	3	d	i	o	t	z	ff
+9	3	c	i	o	u	z	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 339
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	54	d	i	o	u	z	ff
+6	41	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	2	d	j	o	u	z	ff
+9	2	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 340
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	i	o	u	z	ff
+6	42	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	3	d	i	o	u	aa	ff
+9	2	d	i	o	t	z	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 341
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	59	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	30	d	j	o	u	aa	ff
+8	8	d	j	o	u	z	ff
+9	1	d	i	o	t	z	ff
+10	1	c	i	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 342
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	52	d	i	o	u	z	ff
+6	43	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	3	d	j	o	u	z	ff
+9	1	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 343
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	55	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	21	d	j	o	u	z	ff
+8	14	d	j	o	u	aa	ff
+9	5	d	i	o	t	z	ff
+10	4	d	i	o	u	aa	ff
+=======================================
+Gen: 6,    Agent: 344
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	48	d	i	o	u	z	ff
+6	43	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	3	d	i	o	t	z	ff
+9	2	d	j	o	u	z	ff
+10	1	c	i	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 345
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	52	d	i	o	u	z	ff
+6	43	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	3	d	j	o	u	z	ff
+9	2	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 346
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	60	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	30	d	i	o	u	aa	ff
+8	9	d	j	o	u	aa	ff
+9	1	c	i	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 347
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	51	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	30	d	j	o	u	aa	ff
+8	15	d	i	o	u	aa	ff
+9	1	d	i	o	t	z	ff
+10	1	d	j	o	u	z	ff
+=======================================
+Gen: 6,    Agent: 348
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	66	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	24	d	j	o	u	aa	ff
+8	5	d	i	o	u	aa	ff
+9	3	d	j	o	u	z	ff
+10	1	d	i	o	t	z	ff
+=======================================
+Gen: 6,    Agent: 349
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	54	d	i	o	u	z	ff
+6	39	d	j	o	u	aa	ff
+7	33	c	h	n	t	y	ee
+8	4	d	i	o	u	aa	ff
+===============================================================================
+===============================================================================
+Generation 7
+===============================================================================
+===============================================================================
+=======================================
+Gen: 7,    Agent: 350
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	101	c	i	o	t	z	ff
+5	68	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	25	d	j	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 351
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	82	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	9	d	i	o	u	aa	ff
+8	6	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 352
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	99	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 353
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	90	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+8	4	d	j	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 354
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 355
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+8	2	c	i	o	u	z	ff
+9	1	d	j	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 356
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 357
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	79	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	17	d	i	o	u	aa	ff
+8	4	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 358
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	43	d	i	o	t	z	ff
+6	36	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+8	19	d	i	o	u	aa	ff
+=======================================
+Gen: 7,    Agent: 359
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 360
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	6	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 361
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	106	c	i	o	t	z	ff
+5	50	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	25	d	j	o	u	z	ff
+8	9	d	j	o	u	aa	ff
+9	4	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 362
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	101	c	i	o	t	z	ff
+5	51	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	25	d	j	o	u	aa	ff
+8	8	d	i	o	t	z	ff
+9	5	d	j	o	u	z	ff
+10	3	d	i	o	u	aa	ff
+11	1	c	i	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 363
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	101	c	i	o	t	z	ff
+5	88	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+8	2	c	i	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 364
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	1	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 365
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 366
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+8	1	d	j	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 367
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	99	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 368
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 369
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	70	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	23	d	j	o	u	z	ff
+8	5	d	i	o	t	z	ff
+9	1	d	j	o	u	aa	ff
+=======================================
+Gen: 7,    Agent: 370
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	96	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+=======================================
+Gen: 7,    Agent: 371
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	110	c	i	o	t	z	ff
+5	36	d	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	26	d	i	o	u	z	ff
+8	22	d	j	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 372
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 373
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	88	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	7	d	j	o	u	z	ff
+8	4	d	i	o	t	z	ff
+9	1	c	i	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 374
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 375
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	83	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	11	d	j	o	u	z	ff
+8	5	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 376
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	j	o	u	z	ff
+8	2	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 377
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	62	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	18	d	j	o	u	aa	ff
+8	11	d	j	o	u	z	ff
+9	5	d	i	o	t	z	ff
+10	3	d	i	o	u	aa	ff
+=======================================
+Gen: 7,    Agent: 378
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	92	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	2	c	i	o	u	z	ff
+8	1	d	i	o	t	z	ff
+9	1	d	i	o	u	aa	ff
+=======================================
+Gen: 7,    Agent: 379
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	91	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	6	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 380
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	107	c	i	o	t	z	ff
+5	58	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	18	d	j	o	u	z	ff
+8	5	d	j	o	u	aa	ff
+9	3	c	i	o	u	z	ff
+10	2	d	i	o	u	aa	ff
+11	1	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 381
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 382
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	92	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+9	1	d	j	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 383
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	c	i	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 384
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	87	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	c	i	o	u	z	ff
+8	4	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 385
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 386
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	94	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 387
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	82	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	9	d	i	o	u	aa	ff
+8	2	d	i	o	t	z	ff
+9	2	d	j	o	u	z	ff
+10	1	d	j	o	u	aa	ff
+=======================================
+Gen: 7,    Agent: 388
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	86	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	10	d	j	o	u	z	ff
+8	2	c	i	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 389
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	99	c	i	o	t	z	ff
+5	91	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	2	c	i	o	u	z	ff
+8	2	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 390
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	77	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	7	d	j	o	u	z	ff
+8	6	d	i	o	t	z	ff
+9	5	d	i	o	u	aa	ff
+10	3	d	j	o	u	aa	ff
+11	1	c	i	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 391
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	6	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 392
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	96	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+=======================================
+Gen: 7,    Agent: 393
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	96	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	1	c	i	o	u	z	ff
+8	1	d	j	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 394
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	7	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 395
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+8	1	d	j	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 396
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	96	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	1	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 397
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	76	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	12	d	i	o	t	z	ff
+8	8	d	j	o	u	z	ff
+=======================================
+Gen: 7,    Agent: 398
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	96	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	d	i	o	t	z	ff
+=======================================
+Gen: 7,    Agent: 399
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	58	d	i	o	u	z	ff
+6	38	d	i	o	t	z	ff
+7	33	c	h	n	t	y	ee
+===============================================================================
+===============================================================================
+Generation 8
+===============================================================================
+===============================================================================
+=======================================
+Gen: 8,    Agent: 400
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	103	c	i	o	t	z	ff
+5	89	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 401
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 402
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	99	c	i	o	t	z	ff
+5	91	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 403
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 404
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	c	i	o	u	z	ff
+8	1	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 405
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	92	c	i	o	t	z	ff
+5	86	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	16	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 406
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 407
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	96	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	1	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 408
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	99	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 409
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	92	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	7	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 410
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	117	c	i	o	t	z	ff
+5	52	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	22	c	i	o	u	z	ff
+8	3	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 411
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	99	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+=======================================
+Gen: 8,    Agent: 412
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	96	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 413
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 414
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	96	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+=======================================
+Gen: 8,    Agent: 415
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	7	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 416
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	101	c	i	o	t	z	ff
+5	91	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	1	c	i	o	u	z	ff
+8	1	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 417
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	92	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 418
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	143	c	i	o	t	z	ff
+5	35	d	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	16	d	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 419
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 420
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 421
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	90	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+8	2	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 422
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	111	c	i	o	t	z	ff
+5	69	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	11	c	i	o	u	z	ff
+8	3	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 423
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 424
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	87	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	9	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 425
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	104	c	i	o	t	z	ff
+5	81	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	8	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 426
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	99	d	i	o	u	z	ff
+5	93	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 427
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	94	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+8	2	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 428
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	94	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 429
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	99	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 430
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+8	2	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 431
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 432
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 433
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	1	c	i	o	u	z	ff
+8	1	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 434
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	1	c	i	o	u	z	ff
+8	1	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 435
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	105	c	i	o	t	z	ff
+5	83	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	c	i	o	u	z	ff
+8	1	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 436
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	48	d	i	o	t	z	ff
+6	48	d	i	o	u	z	ff
+7	33	c	h	n	t	y	ee
+=======================================
+Gen: 8,    Agent: 437
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 438
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	99	c	i	o	t	z	ff
+5	92	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 439
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	105	c	i	o	t	z	ff
+5	81	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+8	3	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 440
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 441
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 442
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	c	i	o	u	z	ff
+8	1	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 443
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 444
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	94	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 445
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 446
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	96	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	c	i	o	u	z	ff
+=======================================
+Gen: 8,    Agent: 447
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	103	c	i	o	t	z	ff
+5	82	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	6	c	i	o	u	z	ff
+8	3	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 448
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+=======================================
+Gen: 8,    Agent: 449
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	105	c	i	o	t	z	ff
+5	80	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+8	4	c	i	o	u	z	ff
+===============================================================================
+===============================================================================
+Generation 9
+===============================================================================
+===============================================================================
+=======================================
+Gen: 9,    Agent: 450
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	96	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+=======================================
+Gen: 9,    Agent: 451
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 452
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	105	c	i	o	t	z	ff
+5	81	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	c	i	o	u	z	ff
+8	4	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 453
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	c	i	o	u	z	ff
+8	1	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 454
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	116	c	i	o	t	z	ff
+5	57	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	16	d	i	o	t	z	ff
+8	5	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 455
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	90	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	8	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 456
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	100	c	i	o	t	z	ff
+5	90	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 457
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 458
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 459
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	106	c	i	o	t	z	ff
+5	71	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	10	d	i	o	t	z	ff
+8	7	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 460
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	110	c	i	o	t	z	ff
+5	70	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	9	d	i	o	t	z	ff
+8	5	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 461
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 462
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	1	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 463
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 464
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 465
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	108	c	i	o	t	z	ff
+5	67	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	10	c	i	o	u	z	ff
+8	9	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 466
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	96	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 467
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	100	c	i	o	t	z	ff
+5	90	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 468
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	103	c	i	o	t	z	ff
+5	87	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 469
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 470
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	c	i	o	t	z	ff
+5	91	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 471
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	106	c	i	o	t	z	ff
+5	69	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	13	d	i	o	t	z	ff
+8	6	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 472
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	102	c	i	o	t	z	ff
+5	86	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 473
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 474
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	88	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	11	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 475
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	102	c	i	o	t	z	ff
+5	84	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	8	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 476
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	100	c	i	o	t	z	ff
+5	86	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	7	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 477
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	96	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+=======================================
+Gen: 9,    Agent: 478
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	94	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+8	2	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 479
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	3	c	i	o	u	z	ff
+8	1	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 480
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	100	c	i	o	t	z	ff
+5	91	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 481
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	81	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	18	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 482
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	90	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	9	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 483
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	104	c	i	o	t	z	ff
+5	81	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+8	4	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 484
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	109	c	i	o	t	z	ff
+5	59	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	21	d	i	o	t	z	ff
+8	5	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 485
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 486
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	95	c	i	o	t	z	ff
+5	95	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 487
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 488
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	4	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 489
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	d	i	o	u	z	ff
+5	94	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	3	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 490
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	98	d	i	o	u	z	ff
+5	96	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+=======================================
+Gen: 9,    Agent: 491
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	d	i	o	u	z	ff
+5	95	c	i	o	t	z	ff
+6	33	c	h	n	t	y	ee
+7	2	d	i	o	t	z	ff
+8	1	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 492
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	87	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	11	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 493
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	96	c	i	o	t	z	ff
+5	93	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 494
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	116	c	i	o	t	z	ff
+5	56	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	19	d	i	o	t	z	ff
+8	3	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 495
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	104	c	i	o	t	z	ff
+5	80	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	c	i	o	u	z	ff
+8	5	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 496
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	111	c	i	o	t	z	ff
+5	76	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	5	c	i	o	u	z	ff
+8	2	d	i	o	t	z	ff
+=======================================
+Gen: 9,    Agent: 497
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	97	c	i	o	t	z	ff
+5	97	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+=======================================
+Gen: 9,    Agent: 498
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	162	e	k	q	v	bb	hh
+4	111	c	i	o	t	z	ff
+5	55	d	i	o	u	z	ff
+6	33	c	h	n	t	y	ee
+7	22	d	i	o	t	z	ff
+8	6	c	i	o	u	z	ff
+=======================================
+Gen: 9,    Agent: 499
+id	typeFreq	A	B	C	D	E	F
+1	408	a	l	r	x	cc	ii
+2	204	b	g	m	s	dd	jj
+3	169	c	i	o	t	z	ff
+4	162	e	k	q	v	bb	hh
+5	33	c	h	n	t	y	ee
+6	25	d	i	o	t	z	ff
