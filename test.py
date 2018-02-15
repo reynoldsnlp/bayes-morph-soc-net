@@ -1,6 +1,6 @@
 """Test out bmsn.
 
-$ python3 test.py <morph_table> <production_size> <prior_weight>
+$ python3 test.py <morph_table> <production_size> <prior_weight> <lexeme_dist_shape>
 """
 
 
@@ -225,7 +225,8 @@ if __name__ == '__main__':
                    filemode='w', level=lg.DEBUG,
                    format='%(asctime)s %(name)s %(levelname)s: %(message)s')
     # lg.getLogger().addHandler(lg.StreamHandler())  # echoes log to stderr
-    model = bmsn.MorphLearnModel(gen_size=GEN_SIZE,
+    model = bmsn.MorphLearnModel(out_filename=OUT_FILENAME,
+                                 gen_size=GEN_SIZE,
                                  gen_count=GEN_COUNT,
                                  morph_filename=MORPH_FILENAME,
                                  h_space_increment=H_SPACE_INC,
@@ -240,6 +241,7 @@ if __name__ == '__main__':
         lg.info('Generation {} out of {}...'.format(i, GEN_COUNT))
         model.step()
 
+    bmsn.metalog(model)
     draw_boxplots(model)
     rt.write_tables(model, 'results/' + OUT_FILENAME)
 

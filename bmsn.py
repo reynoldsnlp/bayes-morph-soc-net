@@ -253,6 +253,30 @@ def gen_hyp_space(list_of_items, increment_divisor=None):
         yield dict([(list_of_items[i], perm[i]) for i in range(_LEN)])
 
 
+def metalog(model, explicit_filename=None):
+    """Add row to models_meta.tsv with this model's parameters.
+    
+    explicit_filename -- Only used if the model does NOT have out_filename
+                         attribute.
+    """
+    meta_attrs = ['out_filename', 'gen_size', 'gen_count', 'morph_filename',
+                  'nw_func', 'nw_kwargs', 'connectedness', 'discrete',
+                  'whole_lex', 'h_space_incr', 'lexeme_count', 'zipf_max',
+                  'prod_size', 'rand_tf', 'lexeme_dist_shape', 'prior_weight']
+    adict = {}
+    for a in meta_attrs:
+        try:
+            adict[a] = getattr(model, a)
+        except AttributeError:
+            adict[a] = float('nan')
+    if str(adict['out_filename']) == 'nan' and explicit_filename is not None:
+        adict['out_filename'] = explicit_filename
+    # simplify morph_filename
+    # adict['morph_filename'] = adict['morph_filename'].split('/')[-1].lstrip('data_').rstrip('.txt')
+    with open('models_meta.tsv', 'a') as meta:
+        print(*[adict[k] for k in meta_attrs], sep='\t', file=meta)
+
+
 class MorphAgent(mesa.Agent):
     """An agent to teach/learn a morphological grammar."""
 
@@ -588,11 +612,12 @@ class MorphAgent(mesa.Agent):
 class MorphLearnModel(mesa.Model):
     """A multi-generation model with some number of agents."""
 
-    def __init__(self, *, gen_size=50, gen_count=10, morph_filename=None,
-                 nw_func=None, nw_kwargs={}, connectedness=0.05, discrete=True,
-                 whole_lex=True, h_space_increment=None, lexeme_count=1000,
-                 zipf_max=100, prod_size=100, rand_tf=False,
-                 lexeme_dist_shape='flat', prior_weight=None):
+    def __init__(self, *, out_filename=None, gen_size=50, gen_count=10,
+                 morph_filename=None, nw_func=None, nw_kwargs={},
+                 connectedness=0.05, discrete=True, whole_lex=True,
+                 h_space_increment=None, lexeme_count=1000, zipf_max=100,
+                 prod_size=100, rand_tf=False, lexeme_dist_shape='flat',
+                 prior_weight=None):
         """Initialize model object.
 
         Arguments:
@@ -625,6 +650,8 @@ class MorphLearnModel(mesa.Model):
         self.min_float = -sys.float_info.max  # smallest possible float
         lg.info('    min_float: {}'.format(self.min_float))
         self.step_timesteps = [time.time()]
+        lg.info('    out_filename: {}'.format(out_filename))
+        self.out_filename = out_filename
         lg.info('    gen_size: {}'.format(gen_size))
         self.gen_size = gen_size
         lg.info('    gen_count: {}'.format(gen_count))
@@ -633,6 +660,7 @@ class MorphLearnModel(mesa.Model):
         self.gen_members = [[i + (j * gen_size) for i in range(gen_size)]
                             for j in range(gen_count)]
         lg.info('    connectedness: {}'.format(connectedness))
+        self.connectedness = connectedness
         c = ceil(gen_size * connectedness)
         self.network = ([[]] * gen_size +
                         [random.sample(gen, c)

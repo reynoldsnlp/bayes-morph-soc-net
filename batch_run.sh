@@ -2,7 +2,7 @@
 
 while [ 1 ]
 do
-	for dist in flat zipf
+	for dist in zipf flat
 	do
 		for weight in proportion_of_lex none
 		do
