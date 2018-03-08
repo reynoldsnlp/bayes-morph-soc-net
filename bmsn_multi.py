@@ -473,6 +473,8 @@ class MorphAgent(mesa.Agent):
                                          f'{self.unique_id}.tmp',
                                          index_col=0)
         lg.info('    ...done!')
+        lg.info(f'        morph_table for {self.unique_id}:')
+        lg.info(f'        {self.morph_table}')
         self.speak()
 
     def prior(self, MNBs, t_ms, g_ms, g_e, h_dist):
