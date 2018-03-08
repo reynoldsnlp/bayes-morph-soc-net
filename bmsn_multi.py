@@ -462,14 +462,15 @@ class MorphAgent(mesa.Agent):
                 self.table_dict[e_list] += 1
             except KeyError:
                 self.table_dict[e_list] = 1
-        with open(self.model.table_filename + '.tmp', 'w') as temp_file:
+        with open(self.model.table_filename + f'{self.unique_id}.tmp', 'w') as temp_file:  # noqa: E501
             header = '\t'.join([''] + [m for m in self.model.seed_MSPSs])
             print(header, file=temp_file)
             for e_list, type_freq in sorted(self.table_dict.items(),
                                             key=lambda x: x[1],
                                             reverse=True):
                 print(type_freq, *e_list, sep='\t', file=temp_file)
-        self.morph_table = pd.read_table(self.model.table_filename + '.tmp',
+        self.morph_table = pd.read_table(self.model.table_filename +
+                                         f'{self.unique_id}.tmp',
                                          index_col=0)
         lg.info('    ...done!')
         self.speak()
@@ -704,13 +705,10 @@ class MorphLearnModel(mesa.Model):
         lg.info('    out_func: {}'.format(self.out_func))
         self.whole_lex = whole_lex
         lg.info('    whole_lex: {}'.format(self.whole_lex))
-        self.schedule = MultiScheduler(self, j=4)
+        self.schedule = MultiScheduler(self)
         self.morph_filename = morph_filename
         lg.info('    morph_filename: {}'.format(self.morph_filename))
-        self.table_filename = ('results/morph_table_' +
-                               str(self.step_timesteps[0]) +
-                               '_' +
-                               morph_filename.split('/')[1].split('.')[0])
+        self.table_filename = 'tmp/morph_table_' + out_filename + '_'
         lg.info('    table_filename: {}'.format(self.table_filename))
         self.parse_seed_morph(morph_filename)
 
