@@ -1097,3 +1097,10 @@ test_2018-03-20T09-40-21___50_10_7_60000_0.05_rand_data_6.01	50	10	artificial-da
 test_2018-03-20T09-43-51___50_10_7_60000_0.05_rand_data_6.01	50	10	artificial-data/data_6.01.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	flat	None
 test_2018-03-20T09-44-04___50_10_7_60000_0.05_rand_data_6.01	50	10	artificial-data/data_6.01.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	flat	None
 test_2018-03-20T09-43-57___50_10_7_60000_0.05_rand_data_6.01	50	10	artificial-data/data_6.01.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	flat	None
+test_2018-03-20T10-39-53___50_10_7_60000_0.05_rand_data_6.04	50	10	artificial-data/data_6.04.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	zipf	None
+test_2018-03-20T10-39-57___50_10_7_60000_0.05_rand_data_6.04	50	10	artificial-data/data_6.04.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	zipf	None
+test_2018-03-20T10-39-49___50_10_7_60000_0.05_rand_data_6.04	50	10	artificial-data/data_6.04.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	zipf	None
+test_2018-03-20T10-40-05___50_10_7_60000_0.05_rand_data_6.04	50	10	artificial-data/data_6.04.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	zipf	None
+test_2018-03-20T10-40-09___50_10_7_60000_0.05_rand_data_6.04	50	10	artificial-data/data_6.04.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	zipf	None
+test_2018-03-20T10-40-01___50_10_7_60000_0.05_rand_data_6.04	50	10	artificial-data/data_6.04.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	zipf	None
+test_2018-03-20T10-39-44___50_10_7_60000_0.05_rand_data_6.04	50	10	artificial-data/data_6.04.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	zipf	None
