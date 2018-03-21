@@ -2,3 +2,4 @@
 *.pickle
 *.tmp
 __pycache__
+nohup.out
