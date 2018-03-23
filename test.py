@@ -18,7 +18,7 @@ import rewrite_tables as rt
 
 # TODO(RJR) implement argparse
 OUT_FILENAME_BASE = 'test'
-TIMESTAMP = dt.datetime.now().isoformat().replace(':', '-').split('.')[0]
+TIMESTAMP = dt.datetime.now().isoformat().replace(':', '-').replace('.', '-')
 GEN_SIZE = 50
 GEN_COUNT = 10
 H_SPACE_INC = 7
