@@ -9,4 +9,11 @@ do
 		echo "generating ${table} ..."
 		paste ${HOME}/repos/bayes-morph-soc-net/artificial-data/id_column_24.txt <(paste <(printf "typeFreq,$(grep lexeme_type_freq_list ${each} | cut -d [ -f 2 | sed 's/]//g' | sed 's/ //g')" | tr , \\n) ${HOME}/repos/bayes-morph-soc-net/artificial-data/data_${input}.txt | cut -f 1,3-) > ${table}
 	done
+	gz_pattern="*${input}.log.gz"
+	for each in $(ls ${gz_pattern})
+	do
+		table=$(echo $each | sed 's/\.log.gz/_input_table.txt/g')
+		echo "generating ${table} ..."
+		paste ${HOME}/repos/bayes-morph-soc-net/artificial-data/id_column_24.txt <(paste <(printf "typeFreq,$(zgrep lexeme_type_freq_list ${each} | cut -d [ -f 2 | sed 's/]//g' | sed 's/ //g')" | tr , \\n) ${HOME}/repos/bayes-morph-soc-net/artificial-data/data_${input}.txt | cut -f 1,3-) > ${table}
+	done
 done
