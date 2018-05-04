@@ -1274,3 +1274,5 @@ test_2018-04-27T12-27-06-781952___50_10_7_60000_0.05_rand_data_6.07	50	10	artifi
 test_2018-04-27T12-26-50-328777___50_10_7_60000_0.05_rand_data_6.07	50	10	artificial-data/data_6.07.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	zipf	proportion_of_lex
 test_2018-04-27T12-25-39-091059___50_10_7_60000_0.05_rand_data_6.07	50	10	artificial-data/data_6.07.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	zipf	proportion_of_lex
 test_2018-04-27T12-25-37-365007___50_10_7_60000_0.05_rand_data_6.07	50	10	artificial-data/data_6.07.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	zipf	proportion_of_lex
+test_2018-05-01T14-38-13-937319___50_10_7_60000_0.05_rand_data_6.07	50	10	artificial-data/data_6.07.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	flat	proportion_of_lex
+test_2018-05-01T14-38-23-861400___50_10_7_60000_0.05_rand_data_6.09	50	10	artificial-data/data_6.09.txt	nan	nan	0.05	True	True	7	1000	100	60000	True	flat	proportion_of_lex
