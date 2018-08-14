@@ -20,7 +20,7 @@ import mesa.datacollection
 import mesa.time
 import numpy as np
 import pandas as pd
-from scipy.stats import entropy as KL_div  # KL_div(real_dist, estim_dist)
+# from scipy.stats import entropy as KL_div  # KL_div(real_dist, estim_dist)
 
 import entropy as malouf
 
@@ -473,17 +473,17 @@ class MorphAgent(mesa.Agent):
                                          index_col=0)
         lg.info('    ...done!')
 
-    def prior(self, MNBs, t_ms, g_ms, g_e, h_dist):
-        """Compute prior probability."""
-        # NB! KL_div is not symmetric! Order matters
-        # First seq should be the "real" distribution
-        # Second seq should be the "sample" distribution
-        return KL_div(h_dist, [MNBs[(t_ms, g_ms, g_e)][i]
-                               for i in sorted(MNBs[(t_ms, g_ms, g_e)])])
-
-    def likelihood(self, lex, t_ms, g_ms, g_e, h_dist):
-        """Compute the likelihood: p(D | h)."""
-        return KL_div(h_dist, self.ddist[(lex, t_ms, g_ms, g_e)])
+#     def prior(self, MNBs, t_ms, g_ms, g_e, h_dist):
+#         """Compute prior probability."""
+#         # NB! KL_div is not symmetric! Order matters
+#         # First seq should be the "real" distribution
+#         # Second seq should be the "sample" distribution
+#         return KL_div(h_dist, [MNBs[(t_ms, g_ms, g_e)][i]
+#                                for i in sorted(MNBs[(t_ms, g_ms, g_e)])])
+# 
+#     def likelihood(self, lex, t_ms, g_ms, g_e, h_dist):
+#         """Compute the likelihood: p(D | h)."""
+#         return KL_div(h_dist, self.ddist[(lex, t_ms, g_ms, g_e)])
 
     def learn(self):
         """Determine hypothesis/hypotheses with highest posterior prob."""

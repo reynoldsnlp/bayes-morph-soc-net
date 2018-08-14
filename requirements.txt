@@ -1,0 +1,5 @@
+Mesa==0.8.2
+matplotlib==2.1.0
+networkx==2.0
+numpy==1.14.2
+pandas==0.22.0
