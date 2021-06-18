@@ -1,5 +1,9 @@
 # Hand-made artificial morphologies
 
+> NB! In later research with randomly generated inputs, see each run's
+> `*_input_table.txt` file for the artificial grammar and type frequencies of
+> that run.
+
 These datasets were created to explore how to generate homogeneous datasets
 that vary in degree of implicative structure. They are relatively
 small (5 classes and 5 morphosyntactic property sets) but vary in implicative
